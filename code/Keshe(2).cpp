@@ -4,7 +4,7 @@
 
 using namespace std;
 
-enum ERROR{NOERROR, ERRORN0};
+enum ERROR{NOERROR, ERROR0};
 enum cat { f, c, t, d,v,vn,vf };
 //f(函数)，c(常量)，t(类型)，d(域名)，v, vn, vf(变量，换名形参，赋值形参)；
 
@@ -45,7 +45,7 @@ vector<string> KT = {"program","integer",
 "real","char","array","record","end","function",
 "var","while","begin","if","then","do","return","not","and","or", "none"};
 //界符表
-vector<string> PT = {"=","+","-","*","/","<","<=",">",">=","==",":",";"};
+vector<string> PT = {"=","+","-","*","/","<","<=",">",">=","==",":",";","(",")",".",",","[","]"};
 //常数表
 vector<double> CT ;
 //字符串表
@@ -56,25 +56,27 @@ vector<char> cT ;
 vector<symbol> SYNBL;
 
 vector<pair<string, int>> Token;
-vector<int> line;
 //string Token= "";
 bool fuhao(char c) {
     string ops = "+-*/><=(),;{}().:[]";
     return ops.find(c) != string::npos;
 }
-struct error_position
+typedef struct error_position
 {
     int line;
     string word;
     ERROR error;
-};
+}error_position;
+
+error_position error_p= {-1, "-1", NOERROR};
+
 
 int main() {
     string input= "";
     string words;
     while(getline(cin, words)){//将输入的内容读取到words中
         if(words!= "end."){
-            input+= words+" ";
+            input+= words+"\n";
         }else{
             input+= "end.";
             break;
@@ -93,6 +95,9 @@ int main() {
     // vector<pair<string, vector<int>>> ST;
 
     vector<string> iT;//标识符表
+    vector<int> line;
+    int Line= 1;
+    //line.push_back(Line);
     int i = 0;
     //cout<<input[166];
     //cout<<"Token :";
@@ -107,6 +112,7 @@ int main() {
             }
             //对于关键字表KT进行扫描识别
             if(token== "program"||token== "integer"|| token== "real"|| token== "char"||token== "array"|| token=="record"||token== "end"||token== "function"||token== "case"||token== "var"||token== "while"||token== "begin"||token== "if"||token== "then"||token== "do"||token== "return"||token== "not"||token== "and"||token== "or"){
+                line.push_back(Line);
                 if(token== "program"){
                     Token.push_back({"KT", {0}});
                 }else if(token== "integer"){
@@ -152,6 +158,7 @@ int main() {
             //关键字符已检测完，那么接下来的就是标识符表了，首先进行检测防止标识符存储重复。
             for(int e=0; e<SYNBL.size(); e++){
                 if(token== SYNBL[e].NAME){
+                    line.push_back(Line);
                     Token.push_back({"SYNBL", {e}});
                     //Token+= "(SYNBL "+ to_string(e+1)+")";
                     //cout << "(SYNBL "<< e+1 << ")";
@@ -161,6 +168,7 @@ int main() {
             }
             if(judge== 0){//若没有重复，那么录入新的标识符，并记上新的序号
                 SYNBL.push_back({token});
+                line.push_back(Line);
                 Token.push_back({"SYNBL", {static_cast<int>(SYNBL.size()-1)}});
                 //string new_synbl= "(SYNBL " +to_string(SYNBL.size())+ ")";
                 //Token+= new_synbl;
@@ -180,6 +188,7 @@ int main() {
             for(int e=0; e<ST.size(); e++){//检测是否有重复
                 if(s== ST[e]){
                     Token.push_back({"ST", {e}});
+                    line.push_back(Line);
                     //Token+= "(ST "+to_string(e+1)+")";
                     //cout << "(ST " << e+1 << ")";
                     judge= 1;
@@ -188,6 +197,7 @@ int main() {
             }
             if(judge== 0){
                 ST.push_back(s);
+                line.push_back(Line);
                 Token.push_back({"ST", {static_cast<int>(ST.size()-1)}});
                 //Token+= "(ST "+to_string(ST.size())+")";
                 // cout << "(ST " << ST.size() << ")";
@@ -201,6 +211,7 @@ int main() {
             for(int e=0; e<cT.size(); e++){//检测是否有重复
                 if(s== cT[e]){
                     Token.push_back({"cT", {e}});
+                    line.push_back(Line);
                     //Token+= "(cT "+to_string(e+1)+")";
                     //cout << "(cT " << e+1 << ")";
                     judge= 1;
@@ -209,6 +220,7 @@ int main() {
             }
             if(judge== 0){
                 cT.push_back(s);
+                line.push_back(Line);
                 Token.push_back({"cT", {static_cast<int>(cT.size()-1)}});
                 //Token+= "(cT "+to_string(cT.size())+")";
                 // cout << "(cT " << cT.size() << ")";
@@ -226,8 +238,9 @@ int main() {
                     num+= input[i];
                     i++;
                     if(!isdigit(input[i])){
-                        cout<<"错误类型：数字格式错误"<<endl;
-                        return ERRORN0;//数字格式错误，‘.’后必跟数字
+                        error_p= {Line, num+input[i], ERROR0};
+                        //cout<<"错误类型：数字格式错误"<<endl;
+                        return ERROR0;//数字格式错误，‘.’后必跟数字
                     }
                     while (i < input.size() && isdigit(input[i])) {//防止越界以及多位常数
                         num += input[i];
@@ -242,16 +255,18 @@ int main() {
                         i++;
                     }
                     if(!isdigit(input[i])){
-                        cout<<"错误类型：数字格式错误";
-                        return ERRORN0;//数字格式错误，'e'后必跟数字
+                        error_p= {Line, num+input[i], ERROR0};
+                        //cout<<"错误类型：数字格式错误";
+                        return ERROR0;//数字格式错误，'e'后必跟数字
                     }
                     while (i < input.size() && isdigit(input[i])) {//防止越界以及多位常数
                         num += input[i];
                         i++;
                     }
                 }else{
-                    cout<<"错误类型：数字格式错误";
-                    return ERRORN0;//数字格式错误，包含了非法字符或标识符非法
+                    error_p= {Line, num+input[i], ERROR0};
+                    //cout<<"错误类型：数字格式错误";
+                    return ERROR0;//数字格式错误，包含了非法字符或标识符非法
                 }
                 
                 
@@ -262,6 +277,7 @@ int main() {
                 if(stod(num)== CT[e]){
                     //cout << "(CT " << e+1 << ")";
                     Token.push_back({"CT", {e}});
+                    line.push_back(Line);
                     //Token+= "(CT "+to_string(e+1)+")";
                     judge= 1;
                     break;
@@ -269,6 +285,7 @@ int main() {
             }
             if(judge== 0){
                 CT.push_back(stod(num));
+                line.push_back(Line);
                 Token.push_back({"CT", {static_cast<int>(CT.size()-1)}});
                 //Token+= "(CT "+to_string(CT.size())+")";
                 //cout << "(CT " << CT.size() << ")";
@@ -279,18 +296,21 @@ int main() {
                 string current= "";
                 current += input[i];//验证可能有两个符号在一起
                 current += input[i+1];
-                if (current == ">+" ) {
+                if (current == ">=" ) {
                     Token.push_back({"PT", {8}});
+                    line.push_back(Line);
                     //Token+= "(P 9)";
                     i += 2;
                     continue;
                 }else if (current == "==" ) {
                     Token.push_back({"PT", {9}});
+                    line.push_back(Line);
                     //Token+= "(P 10)";
                     i += 2;
                     continue;
                 }else if (current == "<=" ) {
                     Token.push_back({"PT", {6}});
+                    line.push_back(Line);
                     //Token+= "(P 7)";
                     i += 2;
                     continue;
@@ -305,24 +325,28 @@ int main() {
                 
             }
             switch(input[i]) {
-                case '=': Token.push_back({"PT", {0}}); break;
-                case '+': Token.push_back({"PT", {1}}); break;
-                case '-': Token.push_back({"PT", {2}}); break;
-                case '*': Token.push_back({"PT", {3}}); break;
-                case '/': Token.push_back({"PT", {4}}); break;
-                case '<': Token.push_back({"PT", {5}}); break;
-                case '>': Token.push_back({"PT", {7}}); break;
-                case ':': Token.push_back({"PT", {10}}); break;
-                case ';': Token.push_back({"PT", {11}}); break;
-                case '(': Token.push_back({"PT", {12}}); break;
-                case ')': Token.push_back({"PT", {13}}); break;
-                case '.': Token.push_back({"PT", {14}}); break;
-                case ',': Token.push_back({"PT", {15}}); break;
-                case '[': Token.push_back({"PT", {16}}); break;
-                case ']': Token.push_back({"PT", {17}}); break;
+                case '=': Token.push_back({"PT", {0}});line.push_back(Line); break;
+                case '+': Token.push_back({"PT", {1}});line.push_back(Line); break;
+                case '-': Token.push_back({"PT", {2}});line.push_back(Line); break;
+                case '*': Token.push_back({"PT", {3}});line.push_back(Line); break;
+                case '/': Token.push_back({"PT", {4}});line.push_back(Line); break;
+                case '<': Token.push_back({"PT", {5}});line.push_back(Line); break;
+                case '>': Token.push_back({"PT", {7}});line.push_back(Line); break;
+                case ':': Token.push_back({"PT", {10}});line.push_back(Line); break;
+                case ';': Token.push_back({"PT", {11}});line.push_back(Line); break;
+                case '(': Token.push_back({"PT", {12}});line.push_back(Line); break;
+                case ')': Token.push_back({"PT", {13}});line.push_back(Line); break;
+                case '.': Token.push_back({"PT", {14}});line.push_back(Line); break;
+                case ',': Token.push_back({"PT", {15}});line.push_back(Line); break;
+                case '[': Token.push_back({"PT", {16}});line.push_back(Line); break;
+                case ']': Token.push_back({"PT", {17}});line.push_back(Line); break;
             }
             i++;
         }else if(input[i]== '\n'|| input[i]== ' '){
+            if(input[i]== '\n'){
+                Line++;
+                //line.push_back(Line);
+            }
             i++;
             continue;
         }else {
@@ -331,15 +355,21 @@ int main() {
             }
             cout<<"错误类型：非法符号";
             //cout<<i<<" 4";
-            return ERRORN0;  //非法符号，例如@，￥等等
+            string s(1, input[i]);//将字符转化为字符串存储
+            error_p= {Line, s, ERROR0};
+            return ERROR0;  //非法符号，例如@，￥等等
             
             
         }
     }
-    // for(int i= 0; i<Token.size(); i++){
-    //     cout<<Token[i].first<<" "<<Token[i].second<<" ";
+    for(int i= 0; i<Token.size(); i++){
+        cout<<Token[i].first<<" "<<Token[i].second<<" ";
         
-    // }
+    }
+    cout<<endl;
+    for(int i: line){
+        cout<<i<<" ";
+    }
     //cout<<Token;
     // cout << "\nI :";
     // for (int i= 0; i<SYNBL.size(); i++){
