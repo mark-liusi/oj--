@@ -38,13 +38,13 @@ void merge(vector<int> &a, int &cnt, int left, int right)
 
     int i= 0, j= 0;
     for(int k = left; k < right; k++) {
-    if (L[i] <= R[j]) {
-        a[k] = L[i++];
-    } else {
-        a[k] = R[j++];
-        cnt += n1 - i;
+        if (L[i] <= R[j]) {
+            a[k] = L[i++];
+        } else {
+            a[k] = R[j++];
+            cnt += mid- i+ 1;
+        }
     }
-}
 }
 void merge_sort(vector<int> &a, int left, int right, int &cnt)
 {

@@ -16,7 +16,7 @@ int main()
     for(int i= 0; i<number; i++){
         cout<< a[i]<<" ";
     }
-    cout<<endl<<count;
+    // cout<<endl<<count;
     
     return 0;
 }
