@@ -12,6 +12,9 @@ int main()
         a[i].second= 0;
         b[i]= a[i];
     }
+    for(int i= 0; i<number; i++){
+        a[i].second= i;
+    }
     int sum= 0;
     for(int i= 0; i<number; i++){
         int min= a[i].first;
@@ -29,9 +32,6 @@ int main()
         a[i].first= min;
     }
     for(int i= 0; i<number; i++){
-        a[i].second= i;
-    }
-    for(int i= 0; i<number; i++){
         for(int j= 0; j<number; j++){
             if(b[j].first== a[i].first){
                 b[j].second= a[i].second;
@@ -39,18 +39,6 @@ int main()
             }
         }
     }
-    for(int i= 0; i<number; i++){
-        if(i!= b[i].second){
-            sum+= b[i].first+b[b[i].second].first;
-            pair<int, int> temp= b[b[i].second];
-            b[b[i].second]= b[i];
-            b[i]= temp;
-            i--;
-        }
-    }
-    // for(int i= 0; i<number; i++){
-    //     cout<<b[i].first<<" ";
-    // }
-    cout<<sum;
-    return 0;
+
+    
 }
