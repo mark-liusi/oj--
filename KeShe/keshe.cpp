@@ -22,7 +22,7 @@ vector<vector<string>> read(string filename)
     }
     return content;
 }
-pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>> &dp, vector<vector<int>> &maze, int curx, int cury){
+pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>> &dp, vector<vector<int>> &maze, int curx, int cury, pair<int, int> end){
     int dx[4]= {-1, 0, 1, 0};
     int dy[4]= {0, -1, 0, 1};
 
@@ -43,13 +43,21 @@ pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>
     if(count== 0){//无路可走
         int cx= next[0][0], cy= next[0][1];
         maze[cx][cy]= 0;
-        return {"noway", dp[cx][cy]};
+        if(content[cx][cy]== "E"){
+            return {"wayout", dp[cx][cy]};
+        }else{
+            return {"noway", dp[cx][cy]};
+        }
     }else if(count> 0){
         int max= 0;
+        int way= 0;
         for(int i= 0; i<count; i++){
             int cx= next[i][0], cy= next[i][1];
-            pair<string, int> current= judge(content, dp, maze, cx, cy);
+            pair<string, int> current= judge(content, dp, maze, cx, cy, end);
             final.first= current.first;
+            if(current.first== "wayout"){
+                way= 1;
+            }
             if(current.second<= 0){//遇到陷阱
                 if(current.first== "noway"){//在陷阱这条路上没有出路，所以避免金币数减少
                     
@@ -63,6 +71,9 @@ pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>
             
         }
         dp[curx][cury]+= max;
+        if(way== 1){
+            final.first= "wayout";
+        }
         final.second= dp[curx][cury];
     }
     return final;
@@ -74,7 +85,8 @@ int main()
     //cout<<Value["T"];
     string filename= "maz.csv";
     vector<vector<string>> content= read(filename);
-    pair<int, int> start= {0, 0};\
+    pair<int, int> start= {0, 0};
+    pair<int, int> end= {0, 0};
     vector<vector<int>> maze(content.size(), vector<int>(content[0].size(), 0));
     vector<vector<int>> dp(content.size(), vector<int>(content[0].size(), 0));
     for(int i= 0; i<content.size(); i++){
@@ -94,16 +106,16 @@ int main()
             }else if(content[i][j]== "L"|| content[i][j]=="B"||content[i][j]==" "){
                 dp[i][j]= 0;
                 maze[i][j]= -1;
+            }else if(content[i][j]== "E"){
+                end.first= i, end.second= j;
             }
-            cout<<content[i][j]<<" ";
+            //cout<<content[i][j]<<" ";
         }
-        cout<<endl;
+        //cout<<endl;
     }
 
 
-    for(int i= start.first; i<content[i].size(); i++){
-
-    }
+    cout<<judge(content, dp, maze, start.first, start.second, end).first;
     //cout<<start.first<<" "<<start.second;
     return 0;
 }
