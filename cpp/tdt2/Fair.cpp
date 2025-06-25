@@ -3,62 +3,26 @@ using namespace std;
 typedef struct Fair
 {
     double first;
-    int number;
+    long double number;
 }Fair;
 void change(vector<Fair> &a){
     for(int i= 0; i<a.size(); i++){
-        a[i].number= log10(a[i].first);
-        a[i].first/= pow(10, a[i].number);
+        a[i].number= log2(a[i].first);
     }
 }
 void judge(vector<Fair> &a){
-    int counta= 0;
+    long long counta= 0;
     for(int i=  1; i<a.size(); i++){
-        if((a[i].number>a[i-1].number)){
+        if(a[i].number>= a[i-1].number){
             continue;
-        }else if(a[i].number== a[i-1].number){
-            if(a[i].first>= a[i-1].first){
-                continue;
-            }else{
-                if(a[i].number== 0){
-                    while(a[i].first<a[i-1].first){
-                        a[i].first*= a[i].first;
-                        counta++;
-                    }
-                    if(a[i].first>= 10){
-                        a[i].number= log10(a[i].first);
-                        a[i].first/= pow(10, a[i].number);
-                    }
-                }else{
-                    a[i].number*= 2;
-                    a[i].first*= a[i].first;
-                    counta++;
-                }
-            }
         }else{
-            if(a[i].number== 0){
-                while (a[i].first<10)
-                {
-                    a[i].first*= a[i].first;
-                    counta++;
-                }
-                a[i].number= log10(a[i].first);
-                a[i].first/= pow(10, a[i].number);
-            }
-            
-            while(a[i].number<a[i-1].number){
-                
+            while(a[i].number< a[i-1].number){
                 a[i].number*= 2;
-                a[i].first*= a[i].first;
                 counta++;
+                
             }
-            if(a[i].number== a[i].number){
-                if(a[i].first<a[i-1].first){
-                    a[i].number*= 2;
-                    a[i].first*= a[i].first;
-                    counta++;
-                }
-            }
+
+
         }
     }
     cout<<counta<<endl;
