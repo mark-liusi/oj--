@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+vector<pair<int, int>> road;
 vector<vector<string>> read(string filename)
 {
     vector<vector<string>> content;
@@ -23,10 +24,13 @@ vector<vector<string>> read(string filename)
     return content;
 }
 pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>> &dp, vector<vector<int>> &maze, int curx, int cury, pair<int, int> end){
+    if(curx==end.first&& cury== end.second){
+        return {"wayout", dp[curx][cury]};
+    }
     int dx[4]= {-1, 0, 1, 0};
     int dy[4]= {0, -1, 0, 1};
 
-    pair<string, int> final;//这个函数运行到最终的状态
+    pair<string, int> final= {"noway", dp[curx][cury]};//这个函数运行到最终的状态
 
     int count= 0;
     vector<vector<int>> next;
@@ -35,52 +39,47 @@ pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>
         if(x>= 0&& x<dp.size()&& y>= 0&& y<dp[0].size()&& content[x][y]!= "#"&& maze[x][y]== -1){
             count++;
             next.push_back({x, y});
-            maze[x][y]= 0;
         }
     }
 
-    
+    int max= 0;
+    int way= 0;
     if(count== 0){//无路可走
-        int cx= next[0][0], cy= next[0][1];
-        maze[cx][cy]= 0;
-        if(content[cx][cy]== "E"){
-            return {"wayout", dp[cx][cy]};
-        }else{
-            return {"noway", dp[cx][cy]};
-        }
+        return{"noway", dp[curx][cury]};
     }else if(count> 0){
-        int max= 0;
-        int way= 0;
         for(int i= 0; i<count; i++){
             int cx= next[i][0], cy= next[i][1];
+            maze[cx][cy]= 0;
             pair<string, int> current= judge(content, dp, maze, cx, cy, end);
-            final.first= current.first;
+            maze[cx][cy]= -1;
+            int zou= 0;//该不该走
+            //final.first= current.first;
             if(current.first== "wayout"){
                 way= 1;
+                zou= 1;
             }
-            if(current.second<= 0){//遇到陷阱
-                if(current.first== "noway"){//在陷阱这条路上没有出路，所以避免金币数减少
-                    
-                }else{
-                    dp[cx][cy]+= current.second;//出路在包含陷阱这条路上，只能从这里走
-                }
-            }else{
+            if(current.first== "noway"&& current.second> 0){//遇到陷阱
+                zou= 1;
+            }
+            if(zou== 1){
+                road.push_back({cx, cy});
                 max+= dp[cx][cy];
             }
-
             
         }
-        dp[curx][cury]+= max;
-        if(way== 1){
-            final.first= "wayout";
-        }
-        final.second= dp[curx][cury];
+        //dp[curx][cury]+= max;
+        
     }
+    dp[curx][cury]+= max;
+    if(way== 1){
+        final.first= "wayout";
+    }
+    final.second= dp[curx][cury];
     return final;
 }
 int main()
 {
-    map<string,int> Value = {{"S",0},{"",0},{"G",5},{"T",-3},{"L",0},{"B",0}};
+    map<string,int> Value = {{"S",0},{" ",0},{"G",5},{"T",-3},{"L",0},{"B",0}, {"E", 0}};
 
     //cout<<Value["T"];
     string filename= "maz.csv";
@@ -107,6 +106,8 @@ int main()
                 dp[i][j]= 0;
                 maze[i][j]= -1;
             }else if(content[i][j]== "E"){
+                dp[i][j]= 0;
+                maze[i][j]= -1;
                 end.first= i, end.second= j;
             }
             //cout<<content[i][j]<<" ";
@@ -115,7 +116,11 @@ int main()
     }
 
 
-    cout<<judge(content, dp, maze, start.first, start.second, end).first;
+    pair<string, int> result= judge(content, dp, maze, start.first, start.second, end);
+    cout<<result.first<<" "<<result.second<<endl;
+    for(pair<int, int> i: road){
+        cout<<"("<<i.first<<","<<i.second<<")";
+    }
     //cout<<start.first<<" "<<start.second;
     return 0;
 }
