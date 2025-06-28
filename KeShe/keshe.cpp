@@ -23,7 +23,7 @@ vector<vector<string>> read(string filename)
     }
     return content;
 }
-pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>> &dp, vector<vector<int>> &maze, int curx, int cury, pair<int, int> end){
+pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>> &dp, vector<vector<int>> &maze, int curx, int cury, pair<int, int> end, vector<pair<int, int>> &path){
     if(curx==end.first&& cury== end.second){
         return {"wayout", dp[curx][cury]};
     }
@@ -36,7 +36,11 @@ pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>
     vector<vector<int>> next;
     for(int i=0; i<4; i++){
         int x= curx+dx[i], y= cury+dy[i];
-        if(x>= 0&& x<dp.size()&& y>= 0&& y<dp[0].size()&& content[x][y]!= "#"&& maze[x][y]== -1){
+        if(x>= 0&& x<dp.size()&& y>= 0&& y<dp[0].size()){
+            string temp= content[x][y];
+            if(temp== "#"|| maze[x][y]!= -1){
+                continue;
+            }
             count++;
             next.push_back({x, y});
         }
@@ -44,13 +48,16 @@ pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>
 
     int max= 0;
     int way= 0;
+    vector<pair<int, int>> outpath;//走出去的主路
+    vector<pair<int, int>> goldpath;//走不出去，但是收益为正的路
     if(count== 0){//无路可走
         return{"noway", dp[curx][cury]};
     }else if(count> 0){
         for(int i= 0; i<count; i++){
             int cx= next[i][0], cy= next[i][1];
             maze[cx][cy]= 0;
-            pair<string, int> current= judge(content, dp, maze, cx, cy, end);
+            vector<pair<int, int>> temppath;
+            pair<string, int> current= judge(content, dp, maze, cx, cy, end, temppath);
             maze[cx][cy]= -1;
             int zou= 0;//该不该走
             //final.first= current.first;
@@ -62,8 +69,15 @@ pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>
                 zou= 1;
             }
             if(zou== 1){
-                road.push_back({cx, cy});
+                //road.push_back({cx, cy});
                 max+= dp[cx][cy];
+                if (current.first == "wayout" && outpath.empty()) {
+                    outpath = temppath;
+                }else {
+                    goldpath.push_back({curx, cury});
+                    goldpath.insert(goldpath.end(), temppath.begin(), temppath.end());
+                    goldpath.push_back({curx, cury});
+                }
             }
             
         }
@@ -71,6 +85,10 @@ pair<string, int> judge(const vector<vector<string>> content, vector<vector<int>
         
     }
     dp[curx][cury]+= max;
+    path.push_back({curx, cury});
+    path.insert(path.end(), goldpath.begin(), goldpath.end());
+    path.insert(path.end(), outpath.begin(), outpath.end());
+
     if(way== 1){
         final.first= "wayout";
     }
@@ -115,11 +133,21 @@ int main()
         //cout<<endl;
     }
 
-
-    pair<string, int> result= judge(content, dp, maze, start.first, start.second, end);
+    vector<pair<int, int>> path;
+    pair<string, int> result= judge(content, dp, maze, start.first, start.second, end, path);
     cout<<result.first<<" "<<result.second<<endl;
-    for(pair<int, int> i: road){
-        cout<<"("<<i.first<<","<<i.second<<")";
+    // for (int i= 0; i<path.size(); i++) {
+    //     cout << "(" << path[i].first << "," << path[i].second << ")";
+    // }
+    vector<pair<int, int>> finalPath;
+    for (int i= 0; i< path.size(); i++) {
+        if (i== 0 || path[i]!= path[i - 1]) {
+            finalPath.push_back(path[i]);
+        }
+    }
+
+    for (auto p : finalPath) {
+        cout << "(" << p.first << "," << p.second << ")";
     }
     //cout<<start.first<<" "<<start.second;
     return 0;
