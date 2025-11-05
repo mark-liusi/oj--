@@ -105,6 +105,60 @@ class SteamDTClient:
         return all_prices
 
 
+
+def print_price_table(prices:dict, limit:int=20):
+    """
+    把 {name: price} 打印成表格，按价格从高到低排
+    limit: 最多显示多少条
+    """
+    print("\n=== 当前抓到的物品价格（按价格从高到低） ===")
+    # 排序
+    items = sorted(prices.items(), key=lambda x:x[1], reverse=True)
+    # 表头
+    print(f"{'序号':<4} {'物品名':<70} {'价格':>10}")
+    print("-"*90)
+    for idx,(name,price) in enumerate(items[:limit], start=1):
+        # 名字可能很长，截一下
+        short_name = name if len(name)<=70 else name[:67]+"..."
+        print(f"{idx:<4} {short_name:<70} {price:>10.2f}")
+    print("-"*90)
+    print(f"共 {len(prices)} 条，已显示前 {min(limit, len(prices))} 条。")
+
+
+def print_ev_results(ev_list:list):
+    """
+    把多条EV结果打印得整齐一点
+    ev_list 里的元素是这样一条：
+    {
+        'recipe': ...,
+        'input_cost': ...,
+        'output_ev': ...,
+        'profit': ...,
+        'ok': True/False,
+        'missing': [...]
+    }
+    """
+    print("\n=== 炼金EV计算结果 ===")
+    if not ev_list:
+        print("没有要计算的配方。")
+        return
+
+    for ev in ev_list:
+        name = ev["recipe"]
+        if not ev["ok"]:
+            print(f"[{name}] ❌ 缺价格: {', '.join(ev['missing'])}")
+            continue
+
+        safe_profit = ev["profit"] - 0.03*ev["input_cost"]  # 你可以改这个安全垫
+        print(f"[{name}]")
+        print(f"  材料成本: {ev['input_cost']:.2f}")
+        print(f"  输出期望: {ev['output_ev']:.2f}")
+        print(f"  毛利润  : {ev['profit']:.2f}")
+        print(f"  安全后  : {safe_profit:.2f}")
+        if safe_profit>0:
+            print("  👉 这炉当前可以考虑")
+        print()  # 空一行好看
+
 # ======================== 炼金那块示意 ========================
 
 # 你自己的炼金配方表，还跟之前一样
@@ -151,32 +205,21 @@ def calc_ev_for_recipe(recipe_name:str, recipe:dict, latest_prices:dict)->dict:
 
 def main():
     client = SteamDTClient()
-    # 1. 先拉几页，把现在能看到的大部分皮都收了
     prices = client.fetch_all_once(max_pages=5, page_size=50)
     print(f"[{datetime.datetime.now()}] 共抓到 {len(prices)} 条价格")
 
-    # 2. 打印几条看看格式
-    i = 0
-    for name, price in prices.items():
-        print(name, price)
-        i += 1
-        if i >= 5:
-            break
+    # ① 用表格方式打印前几条价格
+    print_price_table(prices, limit=20)
 
-    # 3. 用这批价格去算我们的炼金配方
-    print("\n=== 炼金EV ===")
-    for rname, r in RECIPES.items():
-        info = calc_ev_for_recipe(rname, r, prices)
-        if not info["ok"]:
-            print(f"{rname} 缺价格: {info['missing']}")
-            continue
+    # ② 计算所有配方的EV，先收集到列表里
+    ev_results = []
+    for rname, recipe in RECIPES.items():
+        ev_info = calc_ev_for_recipe(rname, recipe, prices)
+        ev_results.append(ev_info)
 
-        # 给一点手续费/滑点
-        safe_profit = info["profit"] - 0.03 * info["input_cost"]
-        print(f"{rname}: 成本={info['input_cost']:.2f}, 期望={info['output_ev']:.2f}, "
-              f"盈亏={info['profit']:.2f}, 扣安全垫后={safe_profit:.2f}")
-        if safe_profit > 0:
-            print("  >>> 现在能搞")
+    # ③ 再统一打印EV
+    print_ev_results(ev_results)
+
 
 if __name__ == "__main__":
     main()
