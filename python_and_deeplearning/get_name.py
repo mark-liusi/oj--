@@ -15,15 +15,7 @@ WIKI_CASE_CATEGORY = "Category:Counter-Strike:_Global_Offensive_Weapon_Cases"  #
 STEAMDT_BASE = "https://open.steamdt.com"
 
 RARITY_KEEP = ("Covert","Classified","Restricted","Gold")
-RARITY_MAP = {
-    "Consumer":"消费级",
-    "Industrial":"工业级",
-    "Mil-Spec":"军规级",
-    "Restricted":"受限级",
-    "Classified":"保密级",
-    "Covert":"隐秘级",
-    "Gold":"金色（罕见特殊）",
-}
+RARITY_MAP = {"Covert":"隐秘级","Classified":"保密级","Restricted":"受限级","Gold":"金色（罕见特殊）"}
 
 HEADERS = {"User-Agent":"Mozilla/5.0 (compatible; cs2-roster/3.0)"}
 
@@ -63,16 +55,12 @@ def parse_case_html(html: str) -> Tuple[List[Dict], List[str]]:
     soup = BeautifulSoup(html, "html.parser")
     items, errors = [], []
     
-    # CSS class → 稀有度（Fandom 用 Dota 风格类名）
+    # CSS class 到稀有度的映射
     rarity_class_map = {
-        'common': 'Consumer',
-        'uncommon': 'Industrial',
-        'rare': 'Mil-Spec',       # ← 之前误写成 Covert
-        'mythical': 'Restricted', # ← 之前误写成 Classified
-        'legendary': 'Classified',# ← 之前误写成 Gold
-        'ancient': 'Covert',      # ← 之前误写成 Restricted
-        'gold-rare': 'Gold',      # 罕见特殊（刀/手套）
-        'gold': 'Gold',
+        'rare': 'Covert',
+        'mythical': 'Classified',
+        'ancient': 'Restricted',
+        'legendary': 'Gold'
     }
     
     # 查找所有 gallery 项目
@@ -83,10 +71,7 @@ def parse_case_html(html: str) -> Tuple[List[Dict], List[str]]:
             continue
         
         # 获取稀有度
-        rarity_span = caption.find(
-            'span',
-            class_=lambda x: x and any(k in x for k in rarity_class_map.keys())
-        )
+        rarity_span = caption.find('span', class_=lambda x: x and any(r in x for r in rarity_class_map.keys()))
         if not rarity_span:
             continue
         
@@ -98,10 +83,7 @@ def parse_case_html(html: str) -> Tuple[List[Dict], List[str]]:
         # ✅ 关键修复：不要把稀有度文本并入物品名
         # 方案：取 caption 的纯文本序列，去掉第一个（稀有度），其余拼成名字
         parts = list(caption.stripped_strings)
-        rarity_keywords = ("covert","classified","restricted","mil-spec","mil spec",
-                          "consumer","industrial","gold","rare","mythical","ancient",
-                          "legendary","common","uncommon")
-        if parts and parts[0].strip().lower() in rarity_keywords:
+        if parts and parts[0].strip().lower() in ("covert","classified","restricted","gold","rare","mythical","ancient","legendary"):
             parts = parts[1:]
         item_text = " ".join(parts).strip()
         if not item_text:
@@ -142,7 +124,7 @@ def parse_case_html(html: str) -> Tuple[List[Dict], List[str]]:
                         w, f = _split_weapon_finish(name)
                         items.append(_mk_row(name, rarity_en, w, f))
 
-    # 遍历小节，定位"Covert / Classified / Restricted / Mil-Spec / Knives / Gloves"
+    # 遍历小节，定位“Covert / Classified / Restricted / Knives / Gloves”
     for i, h in enumerate(sections):
         title = h.get_text(" ", strip=True)
         ttl = title.lower()
@@ -154,10 +136,7 @@ def parse_case_html(html: str) -> Tuple[List[Dict], List[str]]:
             harvest_between(h, nxt, "Classified")
         elif "restricted" in ttl:
             harvest_between(h, nxt, "Restricted")
-        elif "mil-spec" in ttl or "mil spec" in ttl or "milspec" in ttl:
-            harvest_between(h, nxt, "Mil-Spec")
-        elif ("knives" in ttl or "gloves" in ttl or "rare special" in ttl
-              or "gold" in ttl or "extraordinary" in ttl):
+        elif "knives" in ttl or "gloves" in ttl or "rare special" in ttl or "gold" in ttl:
             # 视为金位
             harvest_between(h, nxt, "Gold")
     if not items:

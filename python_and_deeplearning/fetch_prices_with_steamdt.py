@@ -33,11 +33,14 @@ def HEADERS(api_key):
 WEARS = ["Factory New","Minimal Wear","Field-Tested","Well-Worn","Battle-Scarred"]
 
 def norm_base_name(weapon: str, finish: str) -> str:
-    weapon = (weapon or "").strip()
-    finish = (finish or "").strip()
+    # 处理 NaN 或其他非字符串类型
+    weapon = str(weapon) if pd.notna(weapon) else ""
+    finish = str(finish) if pd.notna(finish) else ""
+    weapon = weapon.strip()
+    finish = finish.strip()
     if weapon and finish:
         return f"{weapon} | {finish}"
-    return (weapon or "") or (finish or "")
+    return weapon or finish
 
 def build_candidates(row: pd.Series) -> List[str]:
     mh = row.get("steamdt_market_hash_name")
