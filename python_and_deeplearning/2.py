@@ -110,6 +110,11 @@ def parse_case_html(html: str) -> Tuple[List[Dict], List[str]]:
         # 转换为标准格式（武器 | 涂装）
         item_name = item_text.replace(' - ', ' | ')
         w, f = _split_weapon_finish(item_name)
+        
+        # ✅ 稳妥兜底：如果名字明显是刀/手套，强制修正为 Gold
+        if rarity_en != "Gold" and _looks_gold(item_name):
+            rarity_en = "Gold"
+        
         items.append(_mk_row(item_name, rarity_en, w, f))
     
     # 旧的基于标题的解析（保留作为备用）
@@ -156,9 +161,10 @@ def parse_case_html(html: str) -> Tuple[List[Dict], List[str]]:
             harvest_between(h, nxt, "Restricted")
         elif "mil-spec" in ttl or "mil spec" in ttl or "milspec" in ttl:
             harvest_between(h, nxt, "Mil-Spec")
-        elif ("knives" in ttl or "gloves" in ttl or "rare special" in ttl
-              or "gold" in ttl or "extraordinary" in ttl):
-            # 视为金位
+        elif ("rare special" in ttl or "knife" in ttl or "knives" in ttl
+              or "glove" in ttl or "gloves" in ttl or "gold" in ttl
+              or "extraordinary" in ttl):
+            # 刀/手套/"Rare Special/Extraordinary"章节都归并为 Gold
             harvest_between(h, nxt, "Gold")
     if not items:
         errors.append("no-items-detected")
@@ -177,8 +183,19 @@ _WEAPONS = {"AK-47","AUG","AWP","CZ75-Auto","Desert Eagle","Dual Berettas","FAMA
             "Galil AR","Glock-18","M249","M4A1-S","M4A4","MAC-10","MAG-7","MP5-SD","MP7","MP9","Negev",
             "Nova","P2000","P250","P90","PP-Bizon","R8 Revolver","SCAR-20","SG 553","SSG 08","Sawed-Off",
             "Tec-9","UMP-45","USP-S","XM1014","Zeus x27"}
+def _looks_gold(name: str) -> bool:
+    """判断物品名是否明显是刀/手套（Gold 稀有度）"""
+    if "★" in name or "Knife" in name:
+        return True
+    for kw in ("Gloves", "Hand Wraps", "Hydra Gloves", "Sport Gloves",
+               "Specialist Gloves", "Driver Gloves", "Bloodhound Gloves",
+               "Broken Fang Gloves", "Motorcycle Gloves"):
+        if kw in name:
+            return True
+    return False
+
 def _split_weapon_finish(name: str) -> Tuple[str,str]:
-    # “Weapon | Finish” 或 “Weapon Finish” 两种都尽量兼容
+    # "Weapon | Finish" 或 "Weapon Finish" 两种都尽量兼容
     if " | " in name:
         parts = name.split(" | ", 1)
         return parts[0], parts[1]
