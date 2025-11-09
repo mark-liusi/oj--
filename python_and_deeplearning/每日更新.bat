@@ -6,9 +6,10 @@ echo ===========================================================================
 echo.
 
 set PYTHON=E:\anaconda\envs\lsPython\python.exe
+set STEAMDT_API_KEY=ef24f95ea93b45a3b79c828687b85c4e
 
 echo [步骤 1/4] 爬取最新价格数据...
-%PYTHON% fetch_prices_with_steamdt.py --platform all --min-only
+%PYTHON% fetch_prices_with_steamdt.py --items-csv cs2_case_items_full.csv --out prices_all_min.csv --platform all --min-only
 if errorlevel 1 (
     echo ❌ 价格爬取失败！
     pause

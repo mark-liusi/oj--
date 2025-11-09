@@ -68,7 +68,7 @@ NEXT_TIER = {
     # "Gold": (None, None), # 终点
 }
 
-# 外观阈值（全球统一档）：FN, MW, FT, WW, BS
+# 外观阈值(全球统一档):FN, MW, FT, WW, BS
 EXTERIOR_THRESHOLDS = [
     ("FN", 0.00, 0.07),
     ("MW", 0.07, 0.15),
@@ -80,6 +80,15 @@ EXTERIOR_ALIASES = {
     "崭新出厂":"FN","略有磨损":"MW","久经沙场":"FT","破损不堪":"WW","战痕累累":"BS",
     "factory new":"FN","minimal wear":"MW","field-tested":"FT","well-worn":"WW","battle-scarred":"BS",
     "fn":"FN","mw":"MW","ft":"FT","ww":"WW","bs":"BS"
+}
+
+# 外观英文→中文映射(用于输出)
+EXTERIOR_CN = {
+    "FN": "崭新",
+    "MW": "略磨",
+    "FT": "久经",
+    "WW": "破损",
+    "BS": "战痕"
 }
 
 # ------------------------------
@@ -378,7 +387,7 @@ def main():
         )
         ev_list.append(ev if ev is not None else np.nan)
         
-        # 找出该物品最便宜的外观（作为推荐购买外观）
+        # 找出该物品最便宜的外观(作为推荐购买外观)
         best_ext = ""
         if prices_df is not None:
             item_prices = prices_df[prices_df["name"].str.casefold() == str(name).casefold()]
@@ -386,11 +395,14 @@ def main():
                 cheapest = item_prices.loc[item_prices["price"].idxmin()]
                 best_ext = cheapest["exterior"]
         
-        # 如果没有外观价格数据，使用主表的exterior字段
+        # 如果没有外观价格数据,使用主表的exterior字段
         if not best_ext and isinstance(row.get("exterior"), str):
             best_ext = row["exterior"]
         
-        best_exterior_list.append(best_ext)
+        # 转换为中文外观名称
+        best_ext_cn = EXTERIOR_CN.get(best_ext, best_ext)
+        
+        best_exterior_list.append(best_ext_cn)
     
     df["avg_out_next"] = ev_list  # 保持原变量名：期望产出价（候选均值）
     df["best_exterior"] = best_exterior_list  # 新增：推荐外观
