@@ -21,6 +21,106 @@ import numpy as np
 import pandas as pd
 
 
+# ---------- 格式化输出工具函数 ----------
+def get_display_width(s):
+    """计算字符串的显示宽度（中文字符算2个宽度）"""
+    width = 0
+    for c in str(s):
+        if ord(c) > 127:  # 非ASCII字符（包括中文）
+            width += 2
+        else:
+            width += 1
+    return width
+
+def pad_string(s, target_width, align='left'):
+    """填充字符串到指定显示宽度"""
+    s = str(s)
+    current_width = get_display_width(s)
+    padding = target_width - current_width
+    if padding <= 0:
+        return s
+    if align == 'left':
+        return s + ' ' * padding
+    elif align == 'right':
+        return ' ' * padding + s
+    else:  # center
+        left_pad = padding // 2
+        right_pad = padding - left_pad
+        return ' ' * left_pad + s + ' ' * right_pad
+
+def format_to_txt(df: pd.DataFrame, title: str, max_rows: int = 100) -> str:
+    """
+    将 DataFrame 格式化为对齐的文本表格
+    
+    Args:
+        df: 数据框
+        title: 标题
+        max_rows: 最多显示行数
+    
+    Returns:
+        格式化的文本字符串
+    """
+    df_display = df.head(max_rows)
+    
+    output = []
+    output.append("=" * 160)
+    output.append(title)
+    output.append("=" * 160)
+    output.append("")
+    
+    # 表头
+    header_parts = [
+        pad_string("排名", 6, 'left'),
+        pad_string("物品名称", 48, 'left'),
+        pad_string("外观", 8, 'left'),
+        pad_string("箱子系列", 36, 'left'),
+        pad_string("稀有度", 12, 'left'),
+        pad_string("目标", 12, 'left'),
+        pad_string("价格", 10, 'right'),
+        pad_string("期望产出", 12, 'right'),
+        pad_string("单件价值", 12, 'right'),
+        pad_string("期望利润", 12, 'right'),
+        pad_string("ROI", 10, 'right'),
+    ]
+    output.append(''.join(header_parts))
+    output.append("-" * 168)
+    
+    # 数据行
+    for idx, row in df_display.iterrows():
+        rank = df_display.index.get_loc(idx) + 1
+        name = str(row.get('name', ''))[:42]
+        exterior = str(row.get('best_exterior', ''))[:6] if pd.notna(row.get('best_exterior')) else ""
+        series = str(row.get('series', ''))[:32]
+        tier = str(row.get('tier', ''))
+        next_tier = str(row.get('next_tier', ''))
+        price = f"{row.get('price', 0):.2f}" if pd.notna(row.get('price')) else "N/A"
+        avg_out = f"{row.get('avg_out_next', 0):.2f}" if pd.notna(row.get('avg_out_next')) else "N/A"
+        value = f"{row.get('value_per_item', 0):.2f}" if pd.notna(row.get('value_per_item')) else "N/A"
+        margin = f"{row.get('margin', 0):.2f}" if pd.notna(row.get('margin')) else "N/A"
+        roi = f"{row.get('profit_ratio', 0):.2%}" if pd.notna(row.get('profit_ratio')) else "N/A"
+        
+        line_parts = [
+            pad_string(str(rank), 6, 'left'),
+            pad_string(name, 48, 'left'),
+            pad_string(exterior, 8, 'left'),
+            pad_string(series, 36, 'left'),
+            pad_string(tier, 12, 'left'),
+            pad_string(next_tier, 12, 'left'),
+            pad_string(price, 10, 'right'),
+            pad_string(avg_out, 12, 'right'),
+            pad_string(value, 12, 'right'),
+            pad_string(margin, 12, 'right'),
+            pad_string(roi, 10, 'right'),
+        ]
+        output.append(''.join(line_parts))
+    
+    output.append("=" * 168)
+    output.append(f"\n总计 {len(df)} 个物品（显示前 {len(df_display)} 个）")
+    output.append("\n说明：外观列显示推荐购买的磨损度（基于最低价格）")
+    
+    return '\n'.join(output)
+
+
 # ---------- 常量与映射 ----------
 # “输入档位 -> 下一档 + 需要数量K”
 NEXT_TIER = {
@@ -169,6 +269,9 @@ def compute_margins(df: pd.DataFrame,
     work["buy_cost"] = work["price"] * (1 + buy_fee)
     work["margin"] = work["value_per_item"] - work["buy_cost"]
 
+    # 新增：收益比率（期望利润 / 买入成本），避免除零
+    work["profit_ratio"] = np.where(work["buy_cost"] > 0, work["margin"] / work["buy_cost"], np.nan)
+
     # 排序（同 margin 下，再按 value_per_item 降序）
     work = work.sort_values(["margin", "value_per_item"], ascending=[False, False])
     return work
@@ -256,12 +359,64 @@ def main():
         filter_tier=filter_tier
     )
 
-    # 导出明细
+    # 对数值列保留小数位数
+    numeric_cols = ["price", "avg_out_next", "value_per_item", "buy_cost", "margin"]
+    for col in numeric_cols:
+        if col in work_sorted.columns:
+            work_sorted[col] = work_sorted[col].round(2)
+    # 收益比率保留4位小数
+    if "profit_ratio" in work_sorted.columns:
+        work_sorted["profit_ratio"] = work_sorted["profit_ratio"].round(4)
+
+    # 导出明细（包含所有物品，按 margin 降序）
     work_sorted.to_csv(args.out_details, index=False, encoding="utf-8-sig")
     print(f"✅ 已输出明细（按单件期望利润/ margin 降序）：{args.out_details}")
 
-    # 计算“最优一锅”（各档位各做 repeat 锅）
+    # 新增：多种排序榜单
+    winners = work_sorted[work_sorted["margin"] > 0].copy()
+    losers = work_sorted[work_sorted["margin"] < 0].copy()
+
+    # 1. 按绝对利润排序
+    winners_by_margin = winners.sort_values(["margin", "profit_ratio"], ascending=[False, False])
+    losers_by_margin = losers.sort_values(["margin", "profit_ratio"], ascending=[True, True])
+
+    winners_by_margin.to_csv("winners_by_margin.csv", index=False, encoding="utf-8-sig")
+    losers_by_margin.to_csv("losers_by_margin.csv", index=False, encoding="utf-8-sig")
+    print(f"✅ 已输出正收益榜-按绝对利润（{len(winners)} 个物品）：winners_by_margin.csv")
+    print(f"✅ 已输出负收益榜-按绝对亏损（{len(losers)} 个物品）：losers_by_margin.csv")
+    
+    # 生成格式化文本
+    with open("winners_by_margin.txt", "w", encoding="utf-8") as f:
+        f.write(format_to_txt(winners_by_margin, "正收益榜 - 按绝对利润降序", max_rows=100))
+    with open("losers_by_margin.txt", "w", encoding="utf-8") as f:
+        f.write(format_to_txt(losers_by_margin, "负收益榜 - 按绝对亏损升序（最亏在前）", max_rows=100))
+    print(f"✅ 已生成格式化文本：winners_by_margin.txt, losers_by_margin.txt")
+
+    # 2. 按收益比率排序（性价比榜单）
+    winners_by_roi = winners.sort_values(["profit_ratio", "margin"], ascending=[False, False])
+    losers_by_roi = losers.sort_values(["profit_ratio", "margin"], ascending=[True, True])
+
+    winners_by_roi.to_csv("winners_by_roi.csv", index=False, encoding="utf-8-sig")
+    losers_by_roi.to_csv("losers_by_roi.csv", index=False, encoding="utf-8-sig")
+    print(f"✅ 已输出正收益榜-按收益率ROI（{len(winners)} 个物品）：winners_by_roi.csv")
+    print(f"✅ 已输出负收益榜-按亏损率ROI（{len(losers)} 个物品）：losers_by_roi.csv")
+    
+    # 生成格式化文本
+    with open("winners_by_roi.txt", "w", encoding="utf-8") as f:
+        f.write(format_to_txt(winners_by_roi, "正收益榜 - 按ROI降序（性价比之王）", max_rows=100))
+    with open("losers_by_roi.txt", "w", encoding="utf-8") as f:
+        f.write(format_to_txt(losers_by_roi, "负收益榜 - 按ROI升序（最不划算）", max_rows=100))
+    print(f"✅ 已生成格式化文本：winners_by_roi.txt, losers_by_roi.txt")
+
+    # 计算"最优一锅"（各档位各做 repeat 锅）
     pots_df = best_pots_greedy(work_sorted, repeat=args.repeat)
+    
+    # 对数值列保留2位小数
+    numeric_cols_pots = ["expected_output_sum", "cost_sum", "profit_expectation"]
+    for col in numeric_cols_pots:
+        if col in pots_df.columns:
+            pots_df[col] = pots_df[col].round(2)
+    
     pots_df.to_csv(args.out_pots, index=False, encoding="utf-8-sig")
     print(f"✅ 已输出各档位‘最优一锅’摘要：{args.out_pots}")
 

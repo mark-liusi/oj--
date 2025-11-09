@@ -1,0 +1,75 @@
+================================================================================================================================================================
+科学版 Trade-Up 盈利 TOP 100 - 按 ROI 排序
+================================================================================================================================================================
+
+排名  物品名称                                        外观    箱子系列                            稀有度      目标              价格    期望产出    单件价值    期望利润       ROI
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1     AWP | Chromatic Aberration                      FN      Recoil Case                         Covert      Gold            587.38    12586.76     2139.75     1552.37   264.29%
+2     MP7 | Bloodsport                                FN      Clutch Case                         Covert      Gold            623.00    11582.41     1969.01     1346.01   216.05%
+3     UMP-45 | Grand Prix                             FT      Chroma 2 Case                       Restricted  Classified        9.78      359.83       30.59       20.81   212.74%
+4     AUG | Chameleon                                 FN      Operation Phoenix Weapon Case       Covert      Gold            567.50    10333.63     1756.72     1189.22   209.55%
+5     UMP-45 | Momentum                               FN      Danger Zone Case                    Classified  Covert           97.82     3100.00      263.50      165.68   169.37%
+6     CZ75-Auto | Victoria                            FN      CSGO Weapon Case 3                  Covert      Gold            659.00    10015.01     1702.55     1043.55   158.35%
+7     R8 Revolver | Skull Crusher                     FT      Prisma Case                         Classified  Covert           54.00     1601.25      136.11       82.11   152.05%
+8     USP-S | Printstream                             FN      Recoil Case                         Covert      Gold            866.90    12586.76     2139.75     1272.85   146.83%
+9     MP5-SD | Phosphor                               FN      Danger Zone Case                    Classified  Covert          108.00     3100.00      263.50      155.50   143.98%
+10    R8 Revolver | Fade                              FN      Revolver Case                       Covert      Gold            595.00     8520.01     1448.40      853.40   143.43%
+11    Desert Eagle | Mecha Industries                 FN      Danger Zone Case                    Classified  Covert          115.00     3100.00      263.50      148.50   129.13%
+12    P90 | Death by Kitty                            MW      ESports 2013 Case                   Covert      Gold            769.40    10293.43     1749.88      980.48   127.43%
+13    AWP | Asiimov                                   FT      Operation Phoenix Weapon Case       Covert      Gold            784.00    10175.89     1729.90      945.90   120.65%
+14    SSG 08 | Dragonfire                             FN      Glove Case                          Covert      Gold           4274.40    53260.39     9054.27     4779.87   111.83%
+15    MAC-10 | Sakkaku                                FT      Revolution Case                     Restricted  Classified        5.00      117.61       10.00        5.00    99.94%
+16    G3SG1 | Orange Crash                            FN      Chroma 3 Case                       Mil-Spec    Restricted        3.90       82.52        7.01        3.11    79.86%
+17    M249 | Spectre                                  FN      Chroma 3 Case                       Mil-Spec    Restricted        3.92       82.52        7.01        3.09    78.94%
+18    Dual Berettas | Ventilators                     FN      Chroma 3 Case                       Mil-Spec    Restricted        3.92       82.52        7.01        3.09    78.94%
+19    MP9 | Bioleak                                   FN      Chroma 3 Case                       Mil-Spec    Restricted        3.94       82.52        7.01        3.07    78.03%
+20    P2000 | Oceanic                                 FN      Chroma 3 Case                       Mil-Spec    Restricted        4.10       82.52        7.01        2.91    71.08%
+21    G3SG1 | Ventilator                              FN      Gamma 2 Case                        Mil-Spec    Restricted        3.83       73.42        6.24        2.41    62.94%
+22    XM1014 | Slipstream                             FN      Gamma 2 Case                        Mil-Spec    Restricted        3.87       73.42        6.24        2.37    61.25%
+23    Five-SeveN | Hyper Beast                        FN      Operation Hydra Case                Covert      Gold           5818.00    53260.39     9054.27     3236.27    55.63%
+24    FAMAS | Doomkitty                               MW      ESports 2013 Case                   Mil-Spec    Restricted       33.00      574.00       48.79       15.79    47.85%
+25    SSG 08 | Blood in the Water                     FN      CSGO Weapon Case 2                  Covert      Gold           1200.00    10115.61     1719.65      519.65    43.30%
+26    FAMAS | Macabre                                 BS      Operation Hydra Case                Mil-Spec    Restricted       26.99      441.06       37.49       10.50    38.90%
+27    Negev | Dazzle                                  MW      Gamma 2 Case                        Mil-Spec    Restricted        4.55       73.42        6.24        1.69    37.15%
+28    P90 | Grim                                      FN      Gamma 2 Case                        Mil-Spec    Restricted        4.62       73.42        6.24        1.62    35.08%
+29    Negev | dev_texture                             FN      Snakebite Case                      Restricted  Classified       18.30      287.25       24.42        6.12    33.42%
+30    M4A4 | Buzz Kill                                FN      Glove Case                          Covert      Gold           7099.99    53260.39     9054.27     1954.28    27.53%
+31    AK-47 | Head Shot                               FN      Revolution Case                     Covert      Gold            835.50     6235.19     1059.98      224.48    26.87%
+32    Negev | Man-o'-war                              MW      Chroma 2 Case                       Mil-Spec    Restricted        1.80       26.32        2.24        0.44    24.28%
+33    M4A4 | Temukau                                  FN      Revolution Case                     Covert      Gold            870.50     6235.19     1059.98      189.48    21.77%
+34    G3SG1 | Murky                                   FN      Operation Vanguard Weapon Case      Mil-Spec    Restricted       12.00      169.57       14.41        2.41    20.11%
+35    Desert Eagle | Corinthian                       WW      Revolver Case                       Mil-Spec    Restricted        4.90       67.47        5.74        0.84    17.05%
+36    SG 553 | Atlas                                  FN      Chroma 3 Case                       Mil-Spec    Restricted        6.00       82.52        7.01        1.01    16.91%
+37    SCAR-20 | Outbreak                              FN      Revolver Case                       Mil-Spec    Restricted        4.99       67.47        5.74        0.75    14.94%
+38    P2000 | Imperial                                FN      Revolver Case                       Mil-Spec    Restricted        5.00       67.47        5.74        0.74    14.71%
+39    P90 | Chopper                                   FN      Gamma Case                          Restricted  Classified       27.90      371.97       31.62        3.72    13.32%
+40    AWP | Oni Taiji                                 FN      Operation Hydra Case                Covert      Gold           7998.28    53260.39     9054.27     1055.99    13.20%
+41    P250 | Cyber Shell                              FN      Snakebite Case                      Restricted  Classified       21.74      287.25       24.42        2.68    12.31%
+42    AUG | Aristocrat                                FN      Gamma Case                          Restricted  Classified       28.20      371.97       31.62        3.42    12.12%
+43    SCAR-20 | Torn                                  FN      Shattered Web Case                  Mil-Spec    Restricted       11.80      154.13       13.10        1.30    11.03%
+44    Nova | Windblown                                FN      Snakebite Case                      Mil-Spec    Restricted        3.46       45.07        3.83        0.37    10.72%
+45    AWP | Worm God                                  FN      Chroma 2 Case                       Restricted  Classified       28.60      359.83       30.59        1.99     6.94%
+46    CZ75-Auto | Pole Position                       FN      Chroma 2 Case                       Restricted  Classified       28.89      359.83       30.59        1.70     5.87%
+47    MAG-7 | Memento                                 FN      ESports 2013 Case                   Mil-Spec    Restricted       46.16      574.00       48.79        2.63     5.70%
+48    M4A4 | Neo-Noir                                 FN      Clutch Case                         Covert      Gold           1880.00    11582.41     1969.01       89.01     4.73%
+49    P250 | Wingshot                                 FN      Shadow Case                         Restricted  Classified       60.00      736.83       62.63        2.63     4.38%
+50    UMP-45 | Gold Bismuth                           FN      Operation Broken Fang Case          Restricted  Classified      115.00     1410.63      119.90        4.90     4.26%
+51    UMP-45 | Oscillator                             FN      Snakebite Case                      Mil-Spec    Restricted        3.68       45.07        3.83        0.15     4.10%
+52    UMP-45 | Exposure                               FN      Spectrum 2 Case                     Restricted  Classified       21.50      260.50       22.14        0.64     2.99%
+53    Five-SeveN | Scumbria                           FN      Gamma 2 Case                        Mil-Spec    Restricted        6.06       73.42        6.24        0.18     2.98%
+54    MP7 | Special Delivery                          FN      Shadow Case                         Restricted  Classified       61.00      736.83       62.63        1.63     2.67%
+55    Dual Berettas | Dezastre                        FN      Operation Broken Fang Case          Restricted  Classified      117.00     1410.63      119.90        2.90     2.48%
+56    XM1014 | Zombie Offensive                       FN      Dreams & Nightmares Case            Restricted  Classified       11.13      134.17       11.40        0.27     2.46%
+57    MP9 | Dart                                      FN      Operation Vanguard Weapon Case      Mil-Spec    Restricted       14.09      169.57       14.41        0.32     2.30%
+58    UMP-45 | Moonrise                               FN      Prisma Case                         Restricted  Classified       16.59      199.25       16.94        0.35     2.09%
+59    SSG 08 | Parallax                               FN      Operation Broken Fang Case          Restricted  Classified      117.70     1410.63      119.90        2.20     1.87%
+60    CZ75-Auto | Tacticat                            FN      Spectrum 2 Case                     Restricted  Classified       21.87      260.50       22.14        0.27     1.25%
+61    MP9 | Goo                                       FN      Spectrum 2 Case                     Restricted  Classified       21.93      260.50       22.14        0.21     0.97%
+62    XM1014 | Teclu Burner                           FN      Revolver Case                       Restricted  Classified       41.76      495.83       42.15        0.39     0.92%
+63    AWP | Phobos                                    FN      Gamma Case                          Restricted  Classified       31.39      371.97       31.62        0.23     0.72%
+64    SG 553 | Tiger Moth                             FN      Revolver Case                       Restricted  Classified       41.90      495.83       42.15        0.25     0.59%
+========================================================================================================================================================================
+
+总计 64 个物品（显示前 64 个）
+
+说明：外观列显示推荐购买的磨损度（基于最低价格）
