@@ -1,0 +1,1199 @@
+name,float_min,float_max,source
+AK-47 | Elite Build,0.0,1.0,csgo_api_github
+MP7 | Armor Core,0.0,0.5,csgo_api_github
+Desert Eagle | Bronze Deco,0.0,0.46,csgo_api_github
+P250 | Valence,0.0,0.8,csgo_api_github
+Negev | Man-o'-war,0.1,0.2,csgo_api_github
+Sawed-Off | Origami,0.0,0.55,csgo_api_github
+AWP | Worm God,0.0,0.45,csgo_api_github
+MAG-7 | Heat,0.0,1.0,csgo_api_github
+CZ75-Auto | Pole Position,0.0,0.7,csgo_api_github
+UMP-45 | Grand Prix,0.25,0.35,csgo_api_github
+Five-SeveN | Monkey Business,0.1,0.9,csgo_api_github
+Galil AR | Eco,0.1,0.85,csgo_api_github
+FAMAS | Djinn,0.0,1.0,csgo_api_github
+M4A1-S | Hyper Beast,0.0,1.0,csgo_api_github
+MAC-10 | Neon Rider,0.0,0.45,csgo_api_github
+★ Bayonet | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Bayonet | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Bayonet | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Bayonet | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Bayonet | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Bayonet | Doppler (Ruby),0.06,0.8,default_estimate
+★ Bayonet | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Bayonet | Damascus Steel,0.0,0.5,csgo_api_github
+★ Bayonet | Marble Fade,0.0,0.08,csgo_api_github
+★ Bayonet | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Bayonet | Rust Coat,0.4,1.0,csgo_api_github
+★ Bayonet | Ultraviolet,0.06,0.8,csgo_api_github
+★ Flip Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Flip Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Flip Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Flip Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Flip Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Flip Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Flip Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Flip Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Flip Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Flip Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Flip Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Flip Knife | Ultraviolet,0.06,0.8,csgo_api_github
+★ Gut Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Gut Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Gut Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Gut Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Gut Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Gut Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Gut Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Gut Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Gut Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Gut Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Gut Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Gut Knife | Ultraviolet,0.06,0.8,csgo_api_github
+★ Karambit | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Karambit | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Karambit | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Karambit | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Karambit | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Karambit | Doppler (Ruby),0.06,0.8,default_estimate
+★ Karambit | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Karambit | Damascus Steel,0.0,0.5,csgo_api_github
+★ Karambit | Marble Fade,0.0,0.08,csgo_api_github
+★ Karambit | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Karambit | Rust Coat,0.4,1.0,csgo_api_github
+★ Karambit | Ultraviolet,0.06,0.8,csgo_api_github
+★ M9 Bayonet | Doppler (Phase 1),0.06,0.8,default_estimate
+★ M9 Bayonet | Doppler (Phase 2),0.06,0.8,default_estimate
+★ M9 Bayonet | Doppler (Phase 3),0.06,0.8,default_estimate
+★ M9 Bayonet | Doppler (Phase 4),0.06,0.8,default_estimate
+★ M9 Bayonet | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ M9 Bayonet | Doppler (Ruby),0.06,0.8,default_estimate
+★ M9 Bayonet | Doppler (Sapphire),0.06,0.8,default_estimate
+★ M9 Bayonet | Damascus Steel,0.0,0.5,csgo_api_github
+★ M9 Bayonet | Marble Fade,0.0,0.08,csgo_api_github
+★ M9 Bayonet | Tiger Tooth,0.0,0.08,csgo_api_github
+★ M9 Bayonet | Rust Coat,0.4,1.0,csgo_api_github
+★ M9 Bayonet | Ultraviolet,0.06,0.8,csgo_api_github
+Dual Berettas | Ventilators,0.0,0.45,csgo_api_github
+G3SG1 | Orange Crash,0.0,0.52,csgo_api_github
+M249 | Spectre,0.0,0.5,csgo_api_github
+MP9 | Bioleak,0.0,0.5,csgo_api_github
+P2000 | Oceanic,0.0,0.6,csgo_api_github
+SG 553 | Atlas,0.0,0.81,csgo_api_github
+Sawed-Off | Fubar,0.4,1.0,csgo_api_github
+Galil AR | Firefight,0.0,1.0,csgo_api_github
+CZ75-Auto | Red Astor,0.0,1.0,csgo_api_github
+XM1014 | Black Tie,0.0,0.75,csgo_api_github
+SSG 08 | Ghost Crusader,0.0,1.0,csgo_api_github
+Tec-9 | Re-Entry,0.0,0.43,csgo_api_github
+UMP-45 | Primal Saber,0.0,0.77,csgo_api_github
+P250 | Asiimov,0.1,1.0,csgo_api_github
+AUG | Fleet Flock,0.0,1.0,csgo_api_github
+M4A1-S | Chantico's Fire,0.0,0.99,csgo_api_github
+PP-Bizon | Judgement of Anubis,0.0,0.5,csgo_api_github
+Glock-18 | Catacombs,0.0,0.5,csgo_api_github
+M249 | System Lock,0.0,0.8,csgo_api_github
+MP9 | Deadly Poison,0.0,1.0,csgo_api_github
+SCAR-20 | Grotto,0.0,0.5,csgo_api_github
+XM1014 | Quicksilver,0.0,0.5,csgo_api_github
+Dual Berettas | Urban Shock,0.0,0.47,csgo_api_github
+Desert Eagle | Naga,0.0,1.0,csgo_api_github
+MAC-10 | Malachite,0.0,0.5,csgo_api_github
+Sawed-Off | Serenity,0.0,0.5,csgo_api_github
+AK-47 | Cartel,0.0,0.75,csgo_api_github
+M4A4 | 龍王 (Dragon King),0.0,0.75,csgo_api_github
+P250 | Muertos,0.0,0.6,csgo_api_github
+AWP | Man-o'-war,0.1,0.2,csgo_api_github
+Galil AR | Chatterbox,0.35,0.85,csgo_api_github
+M4A4 | Neo-Noir,0.0,0.9,csgo_api_github
+MP7 | Bloodsport,0.0,0.65,csgo_api_github
+AWP | Mortis,0.0,0.64,csgo_api_github
+USP-S | Cortex,0.0,1.0,csgo_api_github
+AUG | Stymphalian,0.0,0.63,csgo_api_github
+Glock-18 | Moonrise,0.0,0.65,csgo_api_github
+UMP-45 | Arctic Wolf,0.0,0.8,csgo_api_github
+MAG-7 | SWAG-7,0.0,0.92,csgo_api_github
+Negev | Lionfish,0.0,0.55,csgo_api_github
+Nova | Wild Six,0.0,0.8,csgo_api_github
+R8 Revolver | Grip,0.0,1.0,csgo_api_github
+P2000 | Urban Hazard,0.0,1.0,csgo_api_github
+MP9 | Black Sand,0.0,1.0,csgo_api_github
+Five-SeveN | Flame Test,0.0,0.65,csgo_api_github
+SG 553 | Aloha,0.0,0.55,csgo_api_github
+PP-Bizon | Night Riot,0.0,0.8,csgo_api_github
+XM1014 | Oxide Blaze,0.0,0.7,csgo_api_github
+★ Hydra Gloves | Emerald,0.06,0.8,csgo_api_github
+★ Hydra Gloves | Case Hardened,0.06,0.8,csgo_api_github
+★ Hydra Gloves | Rattler,0.06,0.8,csgo_api_github
+★ Hydra Gloves | Mangrove,0.06,0.8,csgo_api_github
+★ Driver Gloves | Racing Green,0.06,0.8,csgo_api_github
+★ Driver Gloves | Overtake,0.06,0.8,csgo_api_github
+★ Driver Gloves | King Snake,0.06,0.8,csgo_api_github
+★ Driver Gloves | Imperial Plaid,0.06,0.8,csgo_api_github
+★ Hand Wraps | Duct Tape,0.06,0.8,csgo_api_github
+★ Hand Wraps | Cobalt Skulls,0.06,0.8,csgo_api_github
+★ Hand Wraps | Overprint,0.06,0.8,csgo_api_github
+★ Hand Wraps | Arboreal,0.06,0.8,csgo_api_github
+★ Moto Gloves | Transport,0.06,0.8,csgo_api_github
+★ Moto Gloves | Polygon,0.06,0.8,csgo_api_github
+★ Moto Gloves | POW!,0.06,0.8,csgo_api_github
+★ Moto Gloves | Turtle,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Fade,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Buckshot,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Crimson Web,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Mogul,0.06,0.8,csgo_api_github
+★ Sport Gloves | Bronze Morph,0.06,0.8,csgo_api_github
+★ Sport Gloves | Amphibious,0.06,0.8,csgo_api_github
+★ Sport Gloves | Vice,0.06,0.8,csgo_api_github
+★ Sport Gloves | Omega,0.06,0.8,csgo_api_github
+SCAR-20 | Assault,0.0,0.62,csgo_api_github
+Tec-9 | Flash Out,0.0,0.7,csgo_api_github
+MAG-7 | Popdog,0.0,0.8,csgo_api_github
+MAC-10 | Classic Crate,0.0,1.0,csgo_api_github
+Dual Berettas | Elite 1.6,0.0,0.7,csgo_api_github
+FAMAS | Decommissioned,0.0,1.0,csgo_api_github
+Glock-18 | Sacrifice,0.0,1.0,csgo_api_github
+M249 | Aztec,0.0,0.75,csgo_api_github
+Five-SeveN | Buddy,0.0,0.55,csgo_api_github
+P250 | Inferno,0.0,0.68,csgo_api_github
+UMP-45 | Plastique,0.0,0.8,csgo_api_github
+MP5-SD | Agent,0.0,1.0,csgo_api_github
+P90 | Nostalgia,0.0,0.57,csgo_api_github
+AUG | Death by Puppy,0.0,0.4,csgo_api_github
+MP9 | Hydra,0.0,1.0,csgo_api_github
+FAMAS | Commemoration,0.0,0.5,csgo_api_github
+AWP | Wildfire,0.01,0.7,csgo_api_github
+★ Classic Knife,,,csgo_api_github
+★ Classic Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Classic Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Classic Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Classic Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Classic Knife | Fade,0.0,0.08,csgo_api_github
+★ Classic Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Classic Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Classic Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Classic Knife | Scorched,0.06,0.8,csgo_api_github
+★ Classic Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Classic Knife | Stained,0.0,1.0,csgo_api_github
+★ Classic Knife | Urban Masked,0.06,0.8,csgo_api_github
+MP7 | Skulls,0.1,0.26,csgo_api_github
+SG 553 | Ultraviolet,0.06,0.8,csgo_api_github
+AUG | Wings,0.0,0.14,csgo_api_github
+M4A1-S | Dark Water,0.1,0.26,csgo_api_github
+USP-S | Dark Water,0.1,0.26,csgo_api_github
+Glock-18 | Dragon Tattoo,0.0,0.08,csgo_api_github
+Desert Eagle | Hypnotic,0.0,0.08,csgo_api_github
+AK-47 | Case Hardened,0.0,1.0,csgo_api_github
+AWP | Lightning Strike,0.0,0.08,csgo_api_github
+★ Bayonet,,,csgo_api_github
+★ Bayonet | Blue Steel,0.0,1.0,csgo_api_github
+★ Bayonet | Boreal Forest,0.06,0.8,csgo_api_github
+★ Bayonet | Case Hardened,0.0,1.0,csgo_api_github
+★ Bayonet | Crimson Web,0.06,0.8,csgo_api_github
+★ Bayonet | Fade,0.0,0.08,csgo_api_github
+★ Bayonet | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Bayonet | Night,0.06,0.8,csgo_api_github
+★ Bayonet | Safari Mesh,0.06,0.8,csgo_api_github
+★ Bayonet | Scorched,0.06,0.8,csgo_api_github
+★ Bayonet | Slaughter,0.01,0.26,csgo_api_github
+★ Bayonet | Stained,0.0,1.0,csgo_api_github
+★ Bayonet | Urban Masked,0.06,0.8,csgo_api_github
+★ Flip Knife,,,csgo_api_github
+★ Flip Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Flip Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Flip Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Flip Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Flip Knife | Fade,0.0,0.08,csgo_api_github
+★ Flip Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Flip Knife | Night,0.06,0.8,csgo_api_github
+★ Flip Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Flip Knife | Scorched,0.06,0.8,csgo_api_github
+★ Flip Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Flip Knife | Stained,0.0,1.0,csgo_api_github
+★ Flip Knife | Urban Masked,0.06,0.8,csgo_api_github
+★ Gut Knife,,,csgo_api_github
+★ Gut Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Gut Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Gut Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Gut Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Gut Knife | Fade,0.0,0.08,csgo_api_github
+★ Gut Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Gut Knife | Night,0.06,0.8,csgo_api_github
+★ Gut Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Gut Knife | Scorched,0.06,0.8,csgo_api_github
+★ Gut Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Gut Knife | Stained,0.0,1.0,csgo_api_github
+★ Gut Knife | Urban Masked,0.06,0.8,csgo_api_github
+★ Karambit,,,csgo_api_github
+★ Karambit | Blue Steel,0.0,1.0,csgo_api_github
+★ Karambit | Boreal Forest,0.06,0.8,csgo_api_github
+★ Karambit | Case Hardened,0.0,1.0,csgo_api_github
+★ Karambit | Crimson Web,0.06,0.8,csgo_api_github
+★ Karambit | Fade,0.0,0.08,csgo_api_github
+★ Karambit | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Karambit | Night,0.06,0.8,csgo_api_github
+★ Karambit | Safari Mesh,0.06,0.8,csgo_api_github
+★ Karambit | Scorched,0.06,0.8,csgo_api_github
+★ Karambit | Slaughter,0.01,0.26,csgo_api_github
+★ Karambit | Stained,0.0,1.0,csgo_api_github
+★ Karambit | Urban Masked,0.06,0.8,csgo_api_github
+★ M9 Bayonet,,,csgo_api_github
+★ M9 Bayonet | Blue Steel,0.0,1.0,csgo_api_github
+★ M9 Bayonet | Boreal Forest,0.06,0.8,csgo_api_github
+★ M9 Bayonet | Case Hardened,0.0,1.0,csgo_api_github
+★ M9 Bayonet | Crimson Web,0.06,0.8,csgo_api_github
+★ M9 Bayonet | Fade,0.0,0.08,csgo_api_github
+★ M9 Bayonet | Forest DDPAT,0.06,0.8,csgo_api_github
+★ M9 Bayonet | Night,0.06,0.8,csgo_api_github
+★ M9 Bayonet | Safari Mesh,0.06,0.8,csgo_api_github
+★ M9 Bayonet | Scorched,0.06,0.8,csgo_api_github
+★ M9 Bayonet | Slaughter,0.01,0.26,csgo_api_github
+★ M9 Bayonet | Stained,0.0,1.0,csgo_api_github
+★ M9 Bayonet | Urban Masked,0.06,0.8,csgo_api_github
+Tec-9 | Blue Titanium,0.0,0.04,csgo_api_github
+M4A1-S | Blood Tiger,0.0,0.3,csgo_api_github
+FAMAS | Hexane,0.0,0.4,csgo_api_github
+P250 | Hive,0.0,0.3,csgo_api_github
+SCAR-20 | Crimson Web,0.06,0.8,csgo_api_github
+Five-SeveN | Case Hardened,0.0,1.0,csgo_api_github
+MP9 | Hypnotic,0.0,0.08,csgo_api_github
+Nova | Graphite,0.0,0.12,csgo_api_github
+Dual Berettas | Hemoglobin,0.0,0.2,csgo_api_github
+P90 | Cold Blooded,0.0,0.08,csgo_api_github
+USP-S | Serum,0.0,0.25,csgo_api_github
+SSG 08 | Blood in the Water,0.06,0.2,csgo_api_github
+CZ75-Auto | Crimson Web,0.06,0.8,csgo_api_github
+P2000 | Red FragCam,0.0,0.7,csgo_api_github
+Dual Berettas | Panther,0.0,0.58,csgo_api_github
+USP-S | Stainless,0.0,0.8,csgo_api_github
+Glock-18 | Blue Fissure,0.06,0.58,csgo_api_github
+CZ75-Auto | Tread Plate,0.0,0.2,csgo_api_github
+Tec-9 | Titanium Bit,0.0,0.2,csgo_api_github
+Desert Eagle | Heirloom,0.0,0.8,csgo_api_github
+Five-SeveN | Copper Galaxy,0.0,0.2,csgo_api_github
+CZ75-Auto | The Fuschia Is Now,0.0,0.4,csgo_api_github
+P250 | Undertow,0.0,0.2,csgo_api_github
+CZ75-Auto | Victoria,0.0,0.75,csgo_api_github
+MP9 | Modest Threat,0.0,0.75,csgo_api_github
+Glock-18 | Oxide Blaze,0.0,0.85,csgo_api_github
+Nova | Wood Fired,0.0,0.75,csgo_api_github
+M4A4 | Magnesium,0.0,1.0,csgo_api_github
+Sawed-Off | Black Sand,0.0,0.9,csgo_api_github
+SG 553 | Danger Close,0.02,0.8,csgo_api_github
+Tec-9 | Fubar,0.14,1.0,csgo_api_github
+G3SG1 | Scavenger,0.0,0.65,csgo_api_github
+Galil AR | Signal,0.0,0.5,csgo_api_github
+MAC-10 | Pipe Down,0.0,0.9,csgo_api_github
+P250 | Nevermore,0.0,0.4,csgo_api_github
+USP-S | Flashback,0.0,0.5,csgo_api_github
+UMP-45 | Momentum,0.0,0.5,csgo_api_github
+Desert Eagle | Mecha Industries,0.0,0.6,csgo_api_github
+MP5-SD | Phosphor,0.0,0.8,csgo_api_github
+AK-47 | Asiimov,0.05,0.7,csgo_api_github
+AWP | Neo-Noir,0.0,0.5,csgo_api_github
+★ Talon Knife,,,csgo_api_github
+★ Talon Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Talon Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Talon Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Talon Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Talon Knife | Fade,0.0,0.08,csgo_api_github
+★ Talon Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Talon Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Talon Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Talon Knife | Scorched,0.06,0.8,csgo_api_github
+★ Talon Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Talon Knife | Stained,0.0,1.0,csgo_api_github
+★ Talon Knife | Urban Masked,0.06,0.8,csgo_api_github
+★ Navaja Knife,,,csgo_api_github
+★ Navaja Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Navaja Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Navaja Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Navaja Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Navaja Knife | Fade,0.0,0.08,csgo_api_github
+★ Navaja Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Navaja Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Navaja Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Navaja Knife | Scorched,0.06,0.8,csgo_api_github
+★ Navaja Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Navaja Knife | Stained,0.0,1.0,csgo_api_github
+★ Navaja Knife | Urban Masked,0.06,0.8,csgo_api_github
+★ Stiletto Knife,,,csgo_api_github
+★ Stiletto Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Stiletto Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Stiletto Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Stiletto Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Stiletto Knife | Fade,0.0,0.08,csgo_api_github
+★ Stiletto Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Stiletto Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Stiletto Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Stiletto Knife | Scorched,0.06,0.8,csgo_api_github
+★ Stiletto Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Stiletto Knife | Stained,0.0,1.0,csgo_api_github
+★ Stiletto Knife | Urban Masked,0.06,0.8,csgo_api_github
+★ Ursus Knife,,,csgo_api_github
+★ Ursus Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Ursus Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Ursus Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Ursus Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Ursus Knife | Fade,0.0,0.08,csgo_api_github
+★ Ursus Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Ursus Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Ursus Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Ursus Knife | Scorched,0.06,0.8,csgo_api_github
+★ Ursus Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Ursus Knife | Stained,0.0,1.0,csgo_api_github
+★ Ursus Knife | Urban Masked,0.06,0.8,csgo_api_github
+MP5-SD | Necro Jr.,0.0,1.0,csgo_api_github
+MAC-10 | Ensnared,0.0,0.9,csgo_api_github
+Sawed-Off | Spirit Board,0.0,1.0,csgo_api_github
+P2000 | Lifted Spirits,0.0,1.0,csgo_api_github
+MAG-7 | Foresight,0.0,0.7,csgo_api_github
+SCAR-20 | Poultrygeist,0.0,0.57,csgo_api_github
+Five-SeveN | Scrawl,0.0,1.0,csgo_api_github
+USP-S | Ticket to Hell,0.0,0.76,csgo_api_github
+M4A1-S | Night Terror,0.0,0.7,csgo_api_github
+G3SG1 | Dream Glade,0.0,1.0,csgo_api_github
+PP-Bizon | Space Cat,0.0,0.67,csgo_api_github
+XM1014 | Zombie Offensive,0.0,0.5,csgo_api_github
+FAMAS | Rapid Eye Movement,0.0,1.0,csgo_api_github
+Dual Berettas | Melondrama,0.0,1.0,csgo_api_github
+MP7 | Abyssal Apparition,0.0,1.0,csgo_api_github
+AK-47 | Nightwish,0.0,1.0,csgo_api_github
+MP9 | Starlight Protector,0.0,0.8,csgo_api_github
+★ Butterfly Knife | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Butterfly Knife | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Butterfly Knife | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Butterfly Knife | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Butterfly Knife | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Butterfly Knife | Freehand,0.0,0.48,csgo_api_github
+★ Butterfly Knife | Lore,0.0,1.0,csgo_api_github
+★ Butterfly Knife | Autotronic,0.0,0.85,csgo_api_github
+★ Butterfly Knife | Bright Water,0.0,0.5,csgo_api_github
+★ Butterfly Knife | Black Laminate,0.0,1.0,csgo_api_github
+★ Huntsman Knife | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Huntsman Knife | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Huntsman Knife | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Huntsman Knife | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Huntsman Knife | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Huntsman Knife | Freehand,0.0,0.48,csgo_api_github
+★ Huntsman Knife | Lore,0.0,0.65,csgo_api_github
+★ Huntsman Knife | Autotronic,0.0,0.85,csgo_api_github
+★ Huntsman Knife | Bright Water,0.0,0.5,csgo_api_github
+★ Huntsman Knife | Black Laminate,0.0,1.0,csgo_api_github
+★ Falchion Knife | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Falchion Knife | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Falchion Knife | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Falchion Knife | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Falchion Knife | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Falchion Knife | Freehand,0.0,0.48,csgo_api_github
+★ Falchion Knife | Lore,0.0,0.65,csgo_api_github
+★ Falchion Knife | Autotronic,0.0,0.85,csgo_api_github
+★ Falchion Knife | Bright Water,0.0,0.5,csgo_api_github
+★ Falchion Knife | Black Laminate,0.0,1.0,csgo_api_github
+★ Shadow Daggers | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Shadow Daggers | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Shadow Daggers | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Shadow Daggers | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Shadow Daggers | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Shadow Daggers | Freehand,0.0,0.48,csgo_api_github
+★ Shadow Daggers | Lore,0.0,1.0,csgo_api_github
+★ Shadow Daggers | Autotronic,0.0,0.85,csgo_api_github
+★ Shadow Daggers | Bright Water,0.0,0.5,csgo_api_github
+★ Shadow Daggers | Black Laminate,0.0,1.0,csgo_api_github
+★ Bowie Knife | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Bowie Knife | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Bowie Knife | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Bowie Knife | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Bowie Knife | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Bowie Knife | Freehand,0.0,0.48,csgo_api_github
+★ Bowie Knife | Lore,0.0,1.0,csgo_api_github
+★ Bowie Knife | Autotronic,0.0,0.85,csgo_api_github
+★ Bowie Knife | Bright Water,0.0,0.5,csgo_api_github
+★ Bowie Knife | Black Laminate,0.0,1.0,csgo_api_github
+M4A4 | Faded Zebra,0.06,0.8,csgo_api_github
+FAMAS | Doomkitty,0.08,0.22,csgo_api_github
+MAG-7 | Memento,0.02,0.18,csgo_api_github
+Sawed-Off | Orange DDPAT,0.06,0.8,csgo_api_github
+P250 | Splash,0.06,0.18,csgo_api_github
+Galil AR | Orange DDPAT,0.06,0.8,csgo_api_github
+AK-47 | Red Laminate,0.06,0.8,csgo_api_github
+AWP | BOOM,0.06,0.28,csgo_api_github
+P90 | Death by Kitty,0.08,0.32,csgo_api_github
+Galil AR | Blue Titanium,0.0,0.04,csgo_api_github
+Five-SeveN | Nightshade,0.0,0.5,csgo_api_github
+PP-Bizon | Water Sigil,0.0,0.5,csgo_api_github
+Nova | Ghost Camo,0.0,0.4,csgo_api_github
+G3SG1 | Azure Zebra,0.0,0.28,csgo_api_github
+P250 | Steel Disruption,0.0,0.2,csgo_api_github
+AK-47 | Blue Laminate,0.02,0.4,csgo_api_github
+P90 | Blind Spot,0.0,0.5,csgo_api_github
+FAMAS | Afterimage,0.02,0.4,csgo_api_github
+AWP | Electric Hive,0.0,0.4,csgo_api_github
+Desert Eagle | Cobalt Disruption,0.0,0.2,csgo_api_github
+M4A4 | X-Ray,0.0,0.3,csgo_api_github
+SSG 08 | Dark Water,0.1,0.26,csgo_api_github
+MAC-10 | Ultraviolet,0.06,0.8,csgo_api_github
+USP-S | Blood Tiger,0.0,0.3,csgo_api_github
+CZ75-Auto | Hexane,0.0,0.4,csgo_api_github
+Negev | Bratatat,0.0,1.0,csgo_api_github
+XM1014 | Red Python,0.08,0.5,csgo_api_github
+PP-Bizon | Blue Streak,0.06,0.8,csgo_api_github
+P90 | Virus,0.06,0.8,csgo_api_github
+MP7 | Ocean Foam,0.0,0.08,csgo_api_github
+Glock-18 | Steel Disruption,0.0,0.2,csgo_api_github
+Desert Eagle | Crimson Web,0.06,0.8,csgo_api_github
+AUG | Bengal Tiger,0.06,0.8,csgo_api_github
+Nova | Bloomstick,0.06,0.8,csgo_api_github
+AWP | Corticera,0.06,0.3,csgo_api_github
+P2000 | Corticera,0.06,0.3,csgo_api_github
+M4A4 | Bullet Rain,0.02,0.46,csgo_api_github
+AK-47 | Jaguar,0.0,1.0,csgo_api_github
+Galil AR | Rocket Pop,0.0,1.0,csgo_api_github
+Glock-18 | Bunsen Burner,0.0,0.8,csgo_api_github
+Nova | Ranger,0.0,1.0,csgo_api_github
+P90 | Elite Build,0.0,1.0,csgo_api_github
+UMP-45 | Riot,0.0,0.7,csgo_api_github
+USP-S | Torque,0.0,0.46,csgo_api_github
+FAMAS | Neural Net,0.0,0.6,csgo_api_github
+M4A4 | Evil Daimyo,0.0,0.52,csgo_api_github
+MP9 | Ruby Poison Dart,0.0,0.5,csgo_api_github
+Negev | Loudmouth,0.14,0.65,csgo_api_github
+P2000 | Handgun,0.0,1.0,csgo_api_github
+CZ75-Auto | Yellow Jacket,0.0,1.0,csgo_api_github
+MP7 | Nemesis,0.0,0.32,csgo_api_github
+SG 553 | Cyrex,0.0,1.0,csgo_api_github
+AK-47 | Aquamarine Revenge,0.0,1.0,csgo_api_github
+AWP | Hyper Beast,0.0,1.0,csgo_api_github
+★ Falchion Knife,,,csgo_api_github
+★ Falchion Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Falchion Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Falchion Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Falchion Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Falchion Knife | Fade,0.0,0.08,csgo_api_github
+★ Falchion Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Falchion Knife | Night,0.06,0.8,csgo_api_github
+★ Falchion Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Falchion Knife | Scorched,0.06,0.8,csgo_api_github
+★ Falchion Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Falchion Knife | Stained,0.0,1.0,csgo_api_github
+★ Falchion Knife | Urban Masked,0.06,0.8,csgo_api_github
+Desert Eagle | Printstream,0.0,0.8,csgo_api_github
+AK-47 | Legion of Anubis,0.0,0.7,csgo_api_github
+XM1014 | Entombed,0.0,0.5,csgo_api_github
+Glock-18 | Vogue,0.0,0.75,csgo_api_github
+M4A4 | Tooth Fairy,0.0,0.73,csgo_api_github
+MAG-7 | Monster Call,0.0,1.0,csgo_api_github
+MAC-10 | Allure,0.0,1.0,csgo_api_github
+MP5-SD | Kitbash,0.0,0.8,csgo_api_github
+Galil AR | Connexion,0.0,0.8,csgo_api_github
+Tec-9 | Brother,0.0,1.0,csgo_api_github
+SSG 08 | Mainframe 001,0.0,1.0,csgo_api_github
+P250 | Cassette,0.0,0.6,csgo_api_github
+P2000 | Gnarled,0.0,1.0,csgo_api_github
+P90 | Freight,0.0,1.0,csgo_api_github
+SG 553 | Ol' Rusty,0.0,0.7,csgo_api_github
+Negev | Ultralight,0.0,0.79,csgo_api_github
+PP-Bizon | Runic,0.0,1.0,csgo_api_github
+★ Nomad Knife,,,csgo_api_github
+★ Nomad Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Nomad Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Nomad Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Nomad Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Nomad Knife | Fade,0.0,0.08,csgo_api_github
+★ Nomad Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Nomad Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Nomad Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Nomad Knife | Scorched,0.06,0.8,csgo_api_github
+★ Nomad Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Nomad Knife | Stained,0.0,1.0,csgo_api_github
+★ Nomad Knife | Urban Masked,0.06,0.8,csgo_api_github
+★ Skeleton Knife,,,csgo_api_github
+★ Skeleton Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Skeleton Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Skeleton Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Skeleton Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Skeleton Knife | Fade,0.0,0.08,csgo_api_github
+★ Skeleton Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Skeleton Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Skeleton Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Skeleton Knife | Scorched,0.06,0.8,csgo_api_github
+★ Skeleton Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Skeleton Knife | Stained,0.0,1.0,csgo_api_github
+★ Skeleton Knife | Urban Masked,0.06,0.8,csgo_api_github
+★ Paracord Knife,,,csgo_api_github
+★ Paracord Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Paracord Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Paracord Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Paracord Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Paracord Knife | Fade,0.0,0.08,csgo_api_github
+★ Paracord Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Paracord Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Paracord Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Paracord Knife | Scorched,0.06,0.8,csgo_api_github
+★ Paracord Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Paracord Knife | Stained,0.0,1.0,csgo_api_github
+★ Paracord Knife | Urban Masked,0.06,0.8,csgo_api_github
+★ Survival Knife,,,csgo_api_github
+★ Survival Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Survival Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Survival Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Survival Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Survival Knife | Fade,0.0,0.08,csgo_api_github
+★ Survival Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Survival Knife | Night Stripe,0.06,0.8,csgo_api_github
+★ Survival Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Survival Knife | Scorched,0.06,0.8,csgo_api_github
+★ Survival Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Survival Knife | Stained,0.0,1.0,csgo_api_github
+★ Survival Knife | Urban Masked,0.06,0.8,csgo_api_github
+XM1014 | Slipstream,0.0,0.5,csgo_api_github
+UMP-45 | Briefing,0.0,1.0,csgo_api_github
+P90 | Grim,0.0,0.8,csgo_api_github
+Negev | Dazzle,0.1,0.65,csgo_api_github
+G3SG1 | Ventilator,0.0,0.45,csgo_api_github
+Five-SeveN | Scumbria,0.0,1.0,csgo_api_github
+CZ75-Auto | Imprint,0.0,1.0,csgo_api_github
+SG 553 | Triarch,0.0,1.0,csgo_api_github
+SCAR-20 | Powercore,0.0,1.0,csgo_api_github
+MAG-7 | Petroglyph,0.0,0.44,csgo_api_github
+Glock-18 | Weasel,0.0,1.0,csgo_api_github
+Desert Eagle | Directive,0.06,1.0,csgo_api_github
+Tec-9 | Fuel Injector,0.0,1.0,csgo_api_github
+MP9 | Airlock,0.0,1.0,csgo_api_github
+AUG | Syd Mead,0.0,0.8,csgo_api_github
+AK-47 | Neon Revolution,0.0,0.8,csgo_api_github
+FAMAS | Roll Cage,0.0,1.0,csgo_api_github
+★ Bayonet | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Bayonet | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Bayonet | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Bayonet | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Bayonet | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Bayonet | Freehand,0.0,0.48,csgo_api_github
+★ Bayonet | Lore,0.0,0.65,csgo_api_github
+★ Bayonet | Autotronic,0.0,0.85,csgo_api_github
+★ Bayonet | Bright Water,0.0,0.5,csgo_api_github
+★ Bayonet | Black Laminate,0.0,1.0,csgo_api_github
+★ Flip Knife | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Flip Knife | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Flip Knife | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Flip Knife | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Flip Knife | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Flip Knife | Freehand,0.0,0.48,csgo_api_github
+★ Flip Knife | Lore,0.0,0.65,csgo_api_github
+★ Flip Knife | Autotronic,0.0,0.85,csgo_api_github
+★ Flip Knife | Bright Water,0.0,0.5,csgo_api_github
+★ Flip Knife | Black Laminate,0.0,1.0,csgo_api_github
+★ Gut Knife | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Gut Knife | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Gut Knife | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Gut Knife | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Gut Knife | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Gut Knife | Freehand,0.0,0.48,csgo_api_github
+★ Gut Knife | Lore,0.0,0.65,csgo_api_github
+★ Gut Knife | Autotronic,0.0,0.85,csgo_api_github
+★ Gut Knife | Bright Water,0.0,0.5,csgo_api_github
+★ Gut Knife | Black Laminate,0.0,1.0,csgo_api_github
+★ Karambit | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ Karambit | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ Karambit | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ Karambit | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ Karambit | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ Karambit | Freehand,0.0,0.48,csgo_api_github
+★ Karambit | Lore,0.0,0.65,csgo_api_github
+★ Karambit | Autotronic,0.0,0.85,csgo_api_github
+★ Karambit | Bright Water,0.0,0.5,csgo_api_github
+★ Karambit | Black Laminate,0.0,1.0,csgo_api_github
+★ M9 Bayonet | Gamma Doppler (Phase 1),0.06,0.8,default_estimate
+★ M9 Bayonet | Gamma Doppler (Phase 2),0.06,0.8,default_estimate
+★ M9 Bayonet | Gamma Doppler (Phase 3),0.06,0.8,default_estimate
+★ M9 Bayonet | Gamma Doppler (Phase 4),0.06,0.8,default_estimate
+★ M9 Bayonet | Gamma Doppler (Emerald),0.06,0.8,default_estimate
+★ M9 Bayonet | Freehand,0.0,0.48,csgo_api_github
+★ M9 Bayonet | Lore,0.0,0.65,csgo_api_github
+★ M9 Bayonet | Autotronic,0.0,0.85,csgo_api_github
+★ M9 Bayonet | Bright Water,0.0,0.5,csgo_api_github
+★ M9 Bayonet | Black Laminate,0.0,1.0,csgo_api_github
+Five-SeveN | Violent Daimyo,0.0,0.7,csgo_api_github
+MAC-10 | Carnivore,0.0,1.0,csgo_api_github
+Nova | Exo,0.0,0.5,csgo_api_github
+P250 | Iron Clad,0.05,0.8,csgo_api_github
+PP-Bizon | Harvester,0.0,1.0,csgo_api_github
+SG 553 | Aerial,0.0,0.6,csgo_api_github
+Tec-9 | Ice Cap,0.0,0.5,csgo_api_github
+AUG | Aristocrat,0.0,0.66,csgo_api_github
+AWP | Phobos,0.0,0.4,csgo_api_github
+P90 | Chopper,0.0,0.6,csgo_api_github
+R8 Revolver | Reboot,0.0,1.0,csgo_api_github
+Sawed-Off | Limelight,0.0,1.0,csgo_api_github
+M4A4 | Desolate Space,0.0,1.0,csgo_api_github
+P2000 | Imperial Dragon,0.0,0.63,csgo_api_github
+SCAR-20 | Bloodsport,0.0,0.45,csgo_api_github
+Glock-18 | Wasteland Rebel,0.0,0.54,csgo_api_github
+M4A1-S | Mecha Industries,0.0,0.8,csgo_api_github
+P2000 | Turf,0.0,1.0,csgo_api_github
+MAG-7 | Sonar,0.0,0.45,csgo_api_github
+MP9 | Sand Scale,0.0,0.45,csgo_api_github
+Galil AR | Black Sand,0.0,1.0,csgo_api_github
+MP7 | Cirrus,0.0,0.75,csgo_api_github
+Glock-18 | Ironwork,0.0,1.0,csgo_api_github
+CZ75-Auto | Polymer,0.0,0.5,csgo_api_github
+USP-S | Cyrex,0.0,0.55,csgo_api_github
+Nova | Gila,0.0,0.3,csgo_api_github
+M4A1-S | Flashback,0.0,1.0,csgo_api_github
+G3SG1 | Stinger,0.0,0.7,csgo_api_github
+Dual Berettas | Royal Consorts,0.0,1.0,csgo_api_github
+Sawed-Off | Wasteland Princess,0.0,0.7,csgo_api_github
+P90 | Shallow Grave,0.0,0.75,csgo_api_github
+FAMAS | Mecha Industries,0.0,0.5,csgo_api_github
+M4A4 | Buzz Kill,0.0,0.7,csgo_api_github
+SSG 08 | Dragonfire,0.0,0.5,csgo_api_github
+★ Bloodhound Gloves | Snakebite,0.06,0.8,csgo_api_github
+★ Bloodhound Gloves | Bronzed,0.06,0.8,csgo_api_github
+★ Bloodhound Gloves | Guerrilla,0.06,0.8,csgo_api_github
+★ Bloodhound Gloves | Charred,0.06,0.8,csgo_api_github
+★ Driver Gloves | Crimson Weave,0.06,0.8,csgo_api_github
+★ Driver Gloves | Lunar Weave,0.06,0.8,csgo_api_github
+★ Driver Gloves | Diamondback,0.06,0.8,csgo_api_github
+★ Driver Gloves | Convoy,0.06,0.8,csgo_api_github
+★ Hand Wraps | Slaughter,0.06,0.8,csgo_api_github
+★ Hand Wraps | Badlands,0.06,0.8,csgo_api_github
+★ Hand Wraps | Spruce DDPAT,0.06,0.8,csgo_api_github
+★ Hand Wraps | Leather,0.06,0.8,csgo_api_github
+★ Moto Gloves | Spearmint,0.06,0.8,csgo_api_github
+★ Moto Gloves | Cool Mint,0.06,0.8,csgo_api_github
+★ Moto Gloves | Boom!,0.06,0.8,csgo_api_github
+★ Moto Gloves | Eclipse,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Crimson Kimono,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Emerald Web,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Foundation,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Sport Gloves | Superconductor,0.06,0.8,csgo_api_github
+★ Sport Gloves | Hedge Maze,0.06,0.8,csgo_api_github
+★ Sport Gloves | Pandora's Box,0.06,0.8,csgo_api_github
+★ Sport Gloves | Arid,0.06,0.8,csgo_api_github
+AUG | Amber Slipstream,0.0,0.55,csgo_api_github
+Dual Berettas | Shred,0.0,0.5,csgo_api_github
+Glock-18 | Warhawk,0.0,1.0,csgo_api_github
+MP9 | Capillary,0.0,0.7,csgo_api_github
+P90 | Traction,0.0,1.0,csgo_api_github
+R8 Revolver | Survivalist,0.0,0.7,csgo_api_github
+Tec-9 | Snek-9,0.0,1.0,csgo_api_github
+CZ75-Auto | Eco,0.0,1.0,csgo_api_github
+G3SG1 | High Seas,0.0,0.7,csgo_api_github
+Nova | Toy Soldier,0.0,1.0,csgo_api_github
+AWP | PAW,0.0,0.5,csgo_api_github
+MP7 | Powercore,0.0,0.8,csgo_api_github
+M4A1-S | Nightmare,0.0,1.0,csgo_api_github
+Sawed-Off | Devourer,0.0,0.8,csgo_api_github
+FAMAS | Eye of Athena,0.0,0.7,csgo_api_github
+AK-47 | Neon Rider,0.0,0.8,csgo_api_github
+Desert Eagle | Code Red,0.0,1.0,csgo_api_github
+Tec-9 | Isaac,0.0,1.0,csgo_api_github
+SSG 08 | Slashed,0.15,0.8,csgo_api_github
+Galil AR | Kami,0.0,0.6,csgo_api_github
+CZ75-Auto | Twist *,0.0,1.0,manual_precise
+P90 | Module *,0.0,0.35,manual_precise
+P2000 | Pulse *,0.0,0.6,manual_precise
+AUG | Torque,0.0,0.5,csgo_api_github
+PP-Bizon | Antique,0.0,0.5,csgo_api_github
+XM1014 | Heaven Guard,0.03,0.5,csgo_api_github
+MAC-10 | Tatter *,0.0,0.5,manual_precise
+M4A1-S | Atomic Alloy,0.0,0.9,csgo_api_github
+SCAR-20 | Cyrex,0.0,0.5,csgo_api_github
+USP-S | Caiman *,0.0,0.4,manual_precise
+AK-47 | Vulcan,0.0,0.9,csgo_api_github
+M4A4 | Desert-Strike *,0.0,0.7,manual_precise
+★ Huntsman Knife,,,csgo_api_github
+★ Huntsman Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Huntsman Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Huntsman Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Huntsman Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Huntsman Knife | Fade,0.0,0.08,csgo_api_github
+★ Huntsman Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Huntsman Knife | Night,0.06,0.8,csgo_api_github
+★ Huntsman Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Huntsman Knife | Scorched,0.06,0.8,csgo_api_github
+★ Huntsman Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Huntsman Knife | Stained,0.0,1.0,csgo_api_github
+★ Huntsman Knife | Urban Masked,0.06,0.8,csgo_api_github
+Dual Berettas | Retribution (Contribution by Sic.),0.0,0.45,manual_precise
+P90 | Desert Warfare,0.0,0.5,csgo_api_github
+CZ75-Auto | Poison Dart (Contribution by Sic.),0.0,0.7,manual_precise
+MAC-10 | Curse (Contribution by Sic.),0.0,0.5,manual_precise
+USP-S | Orion (Contribution by Sic.),0.0,0.5,manual_precise
+M4A4 | Howl (Stolen version uploaded by Auzii & Sic.),0.0,0.4,manual_precise
+Nova | Tempest,0.06,0.22,csgo_api_github
+Dual Berettas | Black Limba,0.06,0.8,csgo_api_github
+UMP-45 | Bone Pile,0.06,0.34,csgo_api_github
+SG 553 | Wave Spray,0.06,0.8,csgo_api_github
+Galil AR | Shattered,0.06,0.8,csgo_api_github
+G3SG1 | Demeter,0.06,0.8,csgo_api_github
+M4A1-S | Bright Water,0.1,0.22,csgo_api_github
+M4A4 | Zirka,0.06,0.42,csgo_api_github
+MAC-10 | Graven,0.06,0.8,csgo_api_github
+USP-S | Overgrowth,0.06,0.8,csgo_api_github
+P90 | Emerald Dragon,0.06,0.52,csgo_api_github
+P2000 | Ocean Foam,0.0,0.12,csgo_api_github
+AWP | Graphite,0.0,0.12,csgo_api_github
+Desert Eagle | Golden Koi,0.0,0.12,csgo_api_github
+AK-47 | Fire Serpent,0.06,0.76,csgo_api_github
+MP7 | Urban Hazard,0.0,0.5,csgo_api_github
+Negev | Desert-Strike,0.0,0.5,csgo_api_github
+P2000 | Ivory,0.0,1.0,csgo_api_github
+SSG 08 | Abyss,0.0,1.0,csgo_api_github
+UMP-45 | Labyrinth,0.0,0.4,csgo_api_github
+PP-Bizon | Osiris,0.0,0.5,csgo_api_github
+CZ75-Auto | Tigris,0.0,1.0,csgo_api_github
+Nova | Koi,0.0,0.3,csgo_api_github
+P250 | Supernova,0.0,0.4,csgo_api_github
+Desert Eagle | Conspiracy,0.0,0.3,csgo_api_github
+Five-SeveN | Fowl Play,0.0,1.0,csgo_api_github
+Glock-18 | Water Elemental,0.0,0.7,csgo_api_github
+P90 | Asiimov,0.0,0.92,csgo_api_github
+M4A1-S | Cyrex,0.0,0.5,csgo_api_github
+★ Butterfly Knife,,,csgo_api_github
+★ Butterfly Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Butterfly Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Butterfly Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Butterfly Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Butterfly Knife | Fade,0.0,0.08,csgo_api_github
+★ Butterfly Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Butterfly Knife | Night,0.06,0.8,csgo_api_github
+★ Butterfly Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Butterfly Knife | Scorched,0.06,0.8,csgo_api_github
+★ Butterfly Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Butterfly Knife | Stained,0.0,1.0,csgo_api_github
+★ Butterfly Knife | Urban Masked,0.06,0.8,csgo_api_github
+M4A1-S | Printstream,0.0,0.8,csgo_api_github
+Glock-18 | Neo-Noir,0.0,1.0,csgo_api_github
+M4A4 | Cyber Security,0.0,0.98,csgo_api_github
+USP-S | Monster Mashup,0.0,0.7,csgo_api_github
+Five-SeveN | Fairy Tale,0.02,0.9,csgo_api_github
+AWP | Exoskeleton,0.0,1.0,csgo_api_github
+UMP-45 | Gold Bismuth,0.0,0.7,csgo_api_github
+Dual Berettas | Dezastre,0.0,1.0,csgo_api_github
+SSG 08 | Parallax,0.0,1.0,csgo_api_github
+Nova | Clear Polymer,0.0,1.0,csgo_api_github
+MP5-SD | Condition Zero,0.0,1.0,csgo_api_github
+M249 | Deep Relief,0.0,1.0,csgo_api_github
+P250 | Contaminant,0.0,0.7,csgo_api_github
+Galil AR | Vandal,0.0,1.0,csgo_api_github
+G3SG1 | Digital Mesh,0.0,0.8,csgo_api_github
+P90 | Cocoa Rampage,0.0,0.6,csgo_api_github
+CZ75-Auto | Vendetta,0.0,1.0,csgo_api_github
+★ Broken Fang Gloves | Jade,0.06,0.8,csgo_api_github
+★ Broken Fang Gloves | Yellow Banded,0.06,0.8,default_estimate
+★ Broken Fang Gloves | Needle Point,0.06,0.8,csgo_api_github
+★ Broken Fang Gloves | Unhinged,0.06,0.8,csgo_api_github
+★ Driver Gloves | Snow Leopard,0.06,0.8,csgo_api_github
+★ Driver Gloves | Black Tie,0.06,0.8,csgo_api_github
+★ Driver Gloves | Rezan the Red,0.06,0.8,csgo_api_github
+★ Driver Gloves | Queen Jaguar,0.06,0.8,csgo_api_github
+★ Hand Wraps | CAUTION!,0.06,0.8,csgo_api_github
+★ Hand Wraps | Constrictor,0.06,0.8,csgo_api_github
+★ Hand Wraps | Giraffe,0.06,0.8,csgo_api_github
+★ Hand Wraps | Desert Shamagh,0.06,0.8,csgo_api_github
+★ Moto Gloves | Smoke Out,0.06,0.8,csgo_api_github
+★ Moto Gloves | Blood Pressure,0.06,0.8,csgo_api_github
+★ Moto Gloves | Finish Line,0.06,0.8,csgo_api_github
+★ Moto Gloves | 3rd Commando Company,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Marble Fade,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Field Agent,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Tiger Strike,0.06,0.8,csgo_api_github
+★ Specialist Gloves | Lt. Commander,0.06,0.8,csgo_api_github
+★ Sport Gloves | Slingshot,0.06,0.8,csgo_api_github
+★ Sport Gloves | Nocts,0.06,0.8,csgo_api_github
+★ Sport Gloves | Scarlet Shamagh,0.06,0.8,csgo_api_github
+★ Sport Gloves | Big Game,0.06,0.8,csgo_api_github
+USP-S | Blueprint,0.0,0.86,csgo_api_github
+FAMAS | Macabre,0.0,0.6,csgo_api_github
+M4A1-S | Briefing,0.0,0.8,csgo_api_github
+MAC-10 | Aloha,0.0,0.65,csgo_api_github
+MAG-7 | Hard Water,0.0,0.45,csgo_api_github
+Tec-9 | Cut Out,0.0,1.0,csgo_api_github
+UMP-45 | Metal Flowers,0.0,0.7,csgo_api_github
+AK-47 | Orbit Mk01,0.0,0.55,csgo_api_github
+P2000 | Woodsman,0.0,0.8,csgo_api_github
+P250 | Red Rock,0.0,1.0,csgo_api_github
+P90 | Death Grip,0.0,1.0,csgo_api_github
+SSG 08 | Death's Head,0.0,0.51,csgo_api_github
+Dual Berettas | Cobra Strike,0.0,0.6,csgo_api_github
+Galil AR | Sugar Rush,0.0,0.55,csgo_api_github
+M4A4 | Hellfire,0.0,0.5,csgo_api_github
+Five-SeveN | Hyper Beast,0.0,1.0,csgo_api_github
+AWP | Oni Taiji,0.0,0.5,csgo_api_github
+UMP-45 | Corporal,0.05,0.75,csgo_api_github
+Negev | Terrain,0.0,0.45,csgo_api_github
+Tec-9 | Sandstorm,0.1,0.7,csgo_api_github
+MAG-7 | Heaven Guard,0.0,0.4,csgo_api_github
+MAC-10 | Heat,0.0,1.0,csgo_api_github
+SG 553 | Pulse,0.1,0.6,csgo_api_github
+FAMAS | Sergeant,0.1,1.0,csgo_api_github
+USP-S | Guardian,0.0,0.38,csgo_api_github
+AK-47 | Redline,0.1,0.7,csgo_api_github
+P90 | Trigon,0.08,0.75,csgo_api_github
+Nova | Antique,0.0,0.3,csgo_api_github
+AWP | Asiimov,0.18,1.0,csgo_api_github
+AUG | Chameleon,0.0,0.5,csgo_api_github
+AUG | Plague,0.0,0.76,csgo_api_github
+Dual Berettas | Tread,0.0,1.0,csgo_api_github
+G3SG1 | Keeping Tabs,0.0,0.7,csgo_api_github
+MP7 | Guerrilla,0.0,1.0,csgo_api_github
+PP-Bizon | Lumen,0.0,0.77,csgo_api_github
+USP-S | Black Lotus,0.0,0.9,csgo_api_github
+XM1014 | Watchdog,0.0,1.0,csgo_api_github
+MAG-7 | BI83 Spectrum,0.0,0.6,csgo_api_github
+FAMAS | ZX Spectron,0.0,1.0,csgo_api_github
+Five-SeveN | Boost Protocol,0.0,0.41,csgo_api_github
+MP9 | Mount Fuji,0.0,0.55,csgo_api_github
+M4A4 | Spider Lily,0.0,1.0,csgo_api_github
+MAC-10 | Toybox,0.0,1.0,csgo_api_github
+Glock-18 | Snack Attack,0.0,1.0,csgo_api_github
+SSG 08 | Turbo Peek,0.0,0.6,csgo_api_github
+AK-47 | Leet Museo,0.0,0.65,csgo_api_github
+Desert Eagle | Ocean Drive,0.0,1.0,csgo_api_github
+G3SG1 | Murky,0.0,0.25,csgo_api_github
+MAG-7 | Firestarter,0.06,0.49,csgo_api_github
+MP9 | Dart,0.0,0.46,csgo_api_github
+Five-SeveN | Urban Hazard,0.0,0.25,csgo_api_github
+UMP-45 | Delusion,0.06,0.35,csgo_api_github
+Glock-18 | Grinder,0.02,0.25,csgo_api_github
+M4A1-S | Basilisk,0.0,0.68,csgo_api_github
+M4A4 | Griffin,0.0,0.8,csgo_api_github
+Sawed-Off | Highwayman,0.0,1.0,csgo_api_github
+P250 | Cartel,0.0,0.75,csgo_api_github
+SCAR-20 | Cardiac,0.0,1.0,csgo_api_github
+XM1014 | Tranquility,0.0,0.5,csgo_api_github
+AK-47 | Wasteland Rebel,0.05,0.7,csgo_api_github
+P2000 | Fire Elemental,0.0,0.6,csgo_api_github
+PP-Bizon | Photic Zone,0.0,1.0,csgo_api_github
+Dual Berettas | Cartel,0.0,1.0,csgo_api_github
+MAC-10 | Lapis Gator,0.0,0.5,csgo_api_github
+SSG 08 | Necropos,0.0,1.0,csgo_api_github
+Tec-9 | Jambiya,0.0,1.0,csgo_api_github
+USP-S | Lead Conduit,0.0,1.0,csgo_api_github
+FAMAS | Valence,0.0,0.8,csgo_api_github
+Five-seveN | Triumvirate,0.0,0.61,csgo_api_github
+Glock-18 | Royal Legion,0.0,1.0,csgo_api_github
+MAG-7 | Praetorian,0.0,0.45,csgo_api_github
+MP7 | Impire,0.0,0.4,csgo_api_github
+AWP | Elite Build,0.0,1.0,csgo_api_github
+Desert Eagle | Kumicho Dragon,0.0,0.76,csgo_api_github
+Nova | Hyper Beast,0.0,0.6,csgo_api_github
+M4A4 | The Battlestar,0.0,0.64,csgo_api_github
+AK-47 | Fuel Injector,0.0,1.0,csgo_api_github
+★ Bowie Knife,,,csgo_api_github
+★ Bowie Knife | Blue Steel,0.0,1.0,csgo_api_github
+★ Bowie Knife | Boreal Forest,0.06,0.8,csgo_api_github
+★ Bowie Knife | Case Hardened,0.0,1.0,csgo_api_github
+★ Bowie Knife | Crimson Web,0.06,0.8,csgo_api_github
+★ Bowie Knife | Fade,0.0,0.08,csgo_api_github
+★ Bowie Knife | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Bowie Knife | Night,0.06,0.8,csgo_api_github
+★ Bowie Knife | Safari Mesh,0.06,0.8,csgo_api_github
+★ Bowie Knife | Scorched,0.06,0.8,csgo_api_github
+★ Bowie Knife | Slaughter,0.01,0.26,csgo_api_github
+★ Bowie Knife | Stained,0.0,1.0,csgo_api_github
+★ Bowie Knife | Urban Masked,0.06,0.8,csgo_api_github
+R8 Revolver | Bone Forged,0.0,0.6,csgo_api_github
+Negev | Prototype,0.0,0.7,csgo_api_github
+CZ75-Auto | Distressed,0.0,1.0,csgo_api_github
+AUG | Tom Cat,0.0,0.8,csgo_api_github
+MP5-SD | Desert Strike,0.0,1.0,csgo_api_github
+Desert Eagle | Blue Ply,0.0,1.0,csgo_api_github
+AWP | Capillary,0.05,0.7,csgo_api_github
+Sawed-Off | Apocalypto,0.0,1.0,csgo_api_github
+P2000 | Acid Etched,0.0,1.0,csgo_api_github
+SCAR-20 | Enforcer,0.0,1.0,csgo_api_github
+SG 553 | Darkwing,0.0,1.0,csgo_api_github
+SSG 08 | Fever Dream,0.0,0.72,csgo_api_github
+MAC-10 | Disco Tech,0.0,1.0,csgo_api_github
+MAG-7 | Justice,0.0,1.0,csgo_api_github
+AK-47 | Phantom Disruptor,0.0,0.65,csgo_api_github
+Glock-18 | Bullet Queen,0.0,1.0,csgo_api_github
+M4A1-S | Player Two,0.0,0.84,csgo_api_github
+★ Talon Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Talon Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Talon Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Talon Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Talon Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Talon Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Talon Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Talon Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Talon Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Talon Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Talon Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Talon Knife | Ultraviolet,0.06,0.8,csgo_api_github
+★ Navaja Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Navaja Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Navaja Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Navaja Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Navaja Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Navaja Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Navaja Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Navaja Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Navaja Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Navaja Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Navaja Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Navaja Knife | Ultraviolet,0.06,0.8,csgo_api_github
+★ Stiletto Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Stiletto Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Stiletto Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Stiletto Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Stiletto Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Stiletto Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Stiletto Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Stiletto Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Stiletto Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Stiletto Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Stiletto Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Stiletto Knife | Ultraviolet,0.06,0.8,csgo_api_github
+★ Ursus Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Ursus Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Ursus Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Ursus Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Ursus Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Ursus Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Ursus Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Ursus Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Ursus Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Ursus Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Ursus Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Ursus Knife | Ultraviolet,0.06,0.8,csgo_api_github
+FAMAS | Crypsis,0.0,0.55,csgo_api_github
+AK-47 | Uncharted,0.0,0.75,csgo_api_github
+MAC-10 | Whitefish,0.0,1.0,csgo_api_github
+Galil AR | Akoben,0.0,0.75,csgo_api_github
+MP7 | Mischief,0.1,1.0,csgo_api_github
+P250 | Verdigris,0.0,0.7,csgo_api_github
+P90 | Off World,0.0,0.75,csgo_api_github
+AWP | Atheris,0.0,1.0,csgo_api_github
+Tec-9 | Bamboozle,0.0,0.8,csgo_api_github
+Desert Eagle | Light Rail,0.0,0.9,csgo_api_github
+MP5-SD | Gauss,0.0,1.0,csgo_api_github
+UMP-45 | Moonrise,0.0,0.4,csgo_api_github
+R8 Revolver | Skull Crusher,0.25,0.8,csgo_api_github
+AUG | Momentum,0.05,1.0,csgo_api_github
+XM1014 | Incinegator,0.14,0.65,csgo_api_github
+Five-SeveN | Angry Mob,0.0,0.7,csgo_api_github
+M4A4 | The Emperor,0.0,0.8,csgo_api_github
+FAMAS | Meow 36,0.0,1.0,csgo_api_github
+Galil AR | Destroyer,0.0,0.7,csgo_api_github
+M4A4 | Poly Mag,0.0,1.0,csgo_api_github
+MAC-10 | Monkeyflage,0.0,1.0,csgo_api_github
+Negev | Drop Me,0.0,1.0,csgo_api_github
+UMP-45 | Roadblock,0.0,1.0,csgo_api_github
+Glock-18 | Winterized,0.0,1.0,csgo_api_github
+R8 Revolver | Crazy 8,0.0,1.0,csgo_api_github
+M249 | Downtown,0.0,0.65,csgo_api_github
+SG 553 | Dragon Tech,0.0,0.7,csgo_api_github
+P90 | Vent Rush,0.0,0.7,csgo_api_github
+Dual Berettas | Flora Carnivora,0.0,1.0,csgo_api_github
+AK-47 | Ice Coaled,0.0,0.77,csgo_api_github
+P250 | Visions,0.0,0.7,csgo_api_github
+Sawed-Off | Kiss♥Love,0.0,1.0,csgo_api_github
+USP-S | Printstream,0.0,0.85,csgo_api_github
+AWP | Chromatic Aberration,0.0,0.7,csgo_api_github
+MP9 | Featherweight,0.0,1.0,csgo_api_github
+MAG-7 | Insomnia,0.0,1.0,csgo_api_github
+SCAR-20 | Fragments,0.0,0.78,csgo_api_github
+P250 | Re.built,0.0,0.9,csgo_api_github
+MP5-SD | Liquidation,0.0,1.0,csgo_api_github
+SG 553 | Cyberforce,0.0,0.9,csgo_api_github
+Tec-9 | Rebel,0.0,1.0,csgo_api_github
+M4A1-S | Emphorosaur-S,0.0,0.8,csgo_api_github
+Glock-18 | Umbral Rabbit,0.0,0.75,csgo_api_github
+MAC-10 | Sakkaku,0.21,0.79,csgo_api_github
+R8 Revolver | Banana Cannon,0.0,1.0,csgo_api_github
+P90 | Neoqueen,0.0,0.6,csgo_api_github
+AWP | Duality,0.0,0.8,csgo_api_github
+UMP-45 | Wild Child,0.0,1.0,csgo_api_github
+P2000 | Wicked Sick,0.0,1.0,csgo_api_github
+AK-47 | Head Shot,0.0,1.0,csgo_api_github
+M4A4 | Temukau,0.0,0.8,csgo_api_github
+R8 Revolver | Crimson Web,0.06,0.8,csgo_api_github
+AUG | Ricochet,0.0,0.8,csgo_api_github
+Desert Eagle | Corinthian,0.0,0.44,csgo_api_github
+P2000 | Imperial,0.0,0.2,csgo_api_github
+Sawed-Off | Yorick,0.0,1.0,csgo_api_github
+SCAR-20 | Outbreak,0.0,0.5,csgo_api_github
+PP-Bizon | Fuel Rod,0.0,1.0,csgo_api_github
+Five-SeveN | Retrobution,0.0,1.0,csgo_api_github
+Negev | Power Loader,0.0,1.0,csgo_api_github
+SG 553 | Tiger Moth,0.0,1.0,csgo_api_github
+Tec-9 | Avalanche,0.0,1.0,csgo_api_github
+XM1014 | Teclu Burner,0.0,0.65,csgo_api_github
+AK-47 | Point Disarray,0.0,0.67,csgo_api_github
+G3SG1 | The Executioner,0.14,0.85,csgo_api_github
+P90 | Shapewood,0.0,1.0,csgo_api_github
+M4A4 | Royal Paladin,0.0,0.8,csgo_api_github
+R8 Revolver | Fade,0.0,0.4,csgo_api_github
+Dual Berettas | Dualing Dragons,0.0,1.0,csgo_api_github
+FAMAS | Survivor Z,0.0,0.6,csgo_api_github
+Glock-18 | Wraiths,0.0,0.8,csgo_api_github
+MAC-10 | Rangeen,0.0,0.5,csgo_api_github
+MAG-7 | Cobalt Core,0.0,0.5,csgo_api_github
+SCAR-20 | Green Marine,0.0,0.8,csgo_api_github
+XM1014 | Scumbria,0.0,1.0,csgo_api_github
+Galil AR | Stone Cold,0.0,0.9,csgo_api_github
+M249 | Nebula Crusader,0.0,1.0,csgo_api_github
+MP7 | Special Delivery,0.0,0.62,csgo_api_github
+P250 | Wingshot,0.0,0.9,csgo_api_github
+AK-47 | Frontside Misty,0.02,0.87,csgo_api_github
+G3SG1 | Flux,0.0,0.9,csgo_api_github
+SSG 08 | Big Iron,0.0,0.64,csgo_api_github
+M4A1-S | Golden Coil,0.0,1.0,csgo_api_github
+USP-S | Kill Confirmed,0.0,1.0,csgo_api_github
+★ Shadow Daggers,,,csgo_api_github
+★ Shadow Daggers | Blue Steel,0.0,1.0,csgo_api_github
+★ Shadow Daggers | Boreal Forest,0.06,0.8,csgo_api_github
+★ Shadow Daggers | Case Hardened,0.0,1.0,csgo_api_github
+★ Shadow Daggers | Crimson Web,0.06,0.8,csgo_api_github
+★ Shadow Daggers | Fade,0.0,0.08,csgo_api_github
+★ Shadow Daggers | Forest DDPAT,0.06,0.8,csgo_api_github
+★ Shadow Daggers | Night,0.06,0.8,csgo_api_github
+★ Shadow Daggers | Safari Mesh,0.06,0.8,csgo_api_github
+★ Shadow Daggers | Scorched,0.06,0.8,csgo_api_github
+★ Shadow Daggers | Slaughter,0.01,0.26,csgo_api_github
+★ Shadow Daggers | Stained,0.0,1.0,csgo_api_github
+★ Shadow Daggers | Urban Masked,0.06,0.8,csgo_api_github
+G3SG1 | Black Sand,0.0,0.8,csgo_api_github
+SCAR-20 | Torn,0.0,0.45,csgo_api_github
+Nova | Plume,0.0,0.8,csgo_api_github
+M249 | Warbird,0.05,0.65,csgo_api_github
+R8 Revolver | Memento,0.0,0.8,csgo_api_github
+MP5-SD | Acid Wash,0.0,0.68,csgo_api_github
+Dual Berettas | Balance,0.0,1.0,csgo_api_github
+PP-Bizon | Embargo,0.0,1.0,csgo_api_github
+MP7 | Neon Ply,0.0,1.0,csgo_api_github
+P2000 | Obsidian,0.0,1.0,csgo_api_github
+AUG | Arctic Wolf,0.0,0.7,csgo_api_github
+AK-47 | Rat Rod,0.0,1.0,csgo_api_github
+Tec-9 | Decimator,0.0,0.75,csgo_api_github
+SSG 08 | Bloodshot,0.14,0.6,csgo_api_github
+SG 553 | Colony IV,0.0,1.0,csgo_api_github
+MAC-10 | Stalker,0.0,1.0,csgo_api_github
+AWP | Containment Breach,0.0,1.0,csgo_api_github
+Nova | Windblown,0.0,0.5,csgo_api_github
+Glock-18 | Clear Polymer,0.0,1.0,csgo_api_github
+CZ75-Auto | Circaetus,0.0,0.9,csgo_api_github
+M249 | O.S.I.P.R,0.0,0.7,manual_precise
+UMP-45 | Oscillator,0.0,0.5,csgo_api_github
+SG 553 | Heavy Metal,0.0,1.0,csgo_api_github
+P250 | Cyber Shell,0.0,0.85,csgo_api_github
+MAC-10 | Button Masher,0.0,1.0,csgo_api_github
+Negev | dev_texture,0.0,0.65,csgo_api_github
+Desert Eagle | Trigger Discipline,0.0,0.97,csgo_api_github
+AK-47 | Slate,0.0,1.0,csgo_api_github
+Galil AR | Chromatic Aberration,0.0,1.0,csgo_api_github
+MP9 | Food Chain,0.0,1.0,csgo_api_github
+XM1014 | XOXO,0.0,0.9,csgo_api_github
+USP-S | The Traitor,0.0,1.0,csgo_api_github
+M4A4 | In Living Color,0.0,0.79,csgo_api_github
+Sawed-Off | Morris,0.0,1.0,csgo_api_github
+AUG | Triqua,0.0,1.0,csgo_api_github
+Tec-9 | Cracked Opal,0.0,1.0,csgo_api_github
+MAC-10 | Oceanic,0.0,0.6,csgo_api_github
+Glock-18 | Off World,0.0,1.0,csgo_api_github
+G3SG1 | Hunter,0.0,1.0,csgo_api_github
+SCAR-20 | Jungle Slipstream,0.0,0.5,csgo_api_github
+XM1014 | Ziggy,0.0,0.72,csgo_api_github
+SG 553 | Phantom,0.0,0.6,csgo_api_github
+UMP-45 | Exposure,0.0,0.55,csgo_api_github
+MP9 | Goo,0.0,0.6,csgo_api_github
+CZ75-Auto | Tacticat,0.0,0.7,csgo_api_github
+PP-Bizon | High Roller,0.0,1.0,csgo_api_github
+R8 Revolver | Llama Cannon,0.03,0.7,csgo_api_github
+M4A1-S | Leaded Glass,0.0,0.7,csgo_api_github
+P250 | See Ya Later,0.0,0.7,csgo_api_github
+AK-47 | The Empress,0.0,1.0,csgo_api_github
+★ Butterfly Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Butterfly Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Butterfly Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Butterfly Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Butterfly Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Butterfly Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Butterfly Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Butterfly Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Butterfly Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Butterfly Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Butterfly Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Butterfly Knife | Ultraviolet,0.06,0.8,csgo_api_github
+★ Huntsman Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Huntsman Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Huntsman Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Huntsman Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Huntsman Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Huntsman Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Huntsman Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Huntsman Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Huntsman Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Huntsman Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Huntsman Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Huntsman Knife | Ultraviolet,0.06,0.8,csgo_api_github
+★ Falchion Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Falchion Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Falchion Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Falchion Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Falchion Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Falchion Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Falchion Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Falchion Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Falchion Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Falchion Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Falchion Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Falchion Knife | Ultraviolet,0.06,0.8,csgo_api_github
+★ Shadow Daggers | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Shadow Daggers | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Shadow Daggers | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Shadow Daggers | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Shadow Daggers | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Shadow Daggers | Doppler (Ruby),0.06,0.8,default_estimate
+★ Shadow Daggers | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Shadow Daggers | Damascus Steel,0.0,0.5,csgo_api_github
+★ Shadow Daggers | Marble Fade,0.0,0.08,csgo_api_github
+★ Shadow Daggers | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Shadow Daggers | Rust Coat,0.4,1.0,csgo_api_github
+★ Shadow Daggers | Ultraviolet,0.06,0.8,csgo_api_github
+★ Bowie Knife | Doppler (Phase 1),0.06,0.8,default_estimate
+★ Bowie Knife | Doppler (Phase 2),0.06,0.8,default_estimate
+★ Bowie Knife | Doppler (Phase 3),0.06,0.8,default_estimate
+★ Bowie Knife | Doppler (Phase 4),0.06,0.8,default_estimate
+★ Bowie Knife | Doppler (Black Pearl),0.06,0.8,default_estimate
+★ Bowie Knife | Doppler (Ruby),0.06,0.8,default_estimate
+★ Bowie Knife | Doppler (Sapphire),0.06,0.8,default_estimate
+★ Bowie Knife | Damascus Steel,0.0,0.5,csgo_api_github
+★ Bowie Knife | Marble Fade,0.0,0.08,csgo_api_github
+★ Bowie Knife | Tiger Tooth,0.0,0.08,csgo_api_github
+★ Bowie Knife | Rust Coat,0.4,1.0,csgo_api_github
+★ Bowie Knife | Ultraviolet,0.06,0.8,csgo_api_github
+PP-Bizon | Jungle Slipstream,0.0,0.5,csgo_api_github
+SCAR-20 | Blueprint,0.0,0.75,csgo_api_github
+Desert Eagle | Oxide Blaze,0.0,0.5,csgo_api_github
+Five-SeveN | Capillary,0.0,0.7,csgo_api_github
+MP7 | Akoben,0.0,0.7,csgo_api_github
+P250 | Ripple,0.0,0.5,csgo_api_github
+Sawed-Off | Zander,0.05,1.0,csgo_api_github
+Galil AR | Crimson Tsunami,0.0,0.55,csgo_api_github
+M249 | Emerald Poison Dart,0.0,0.45,csgo_api_github
+MAC-10 | Last Dive,0.0,0.52,csgo_api_github
+UMP-45 | Scaffold,0.0,1.0,csgo_api_github
+XM1014 | Seasons,0.0,0.5,csgo_api_github
+AWP | Fever Dream,0.0,0.55,csgo_api_github
+CZ75-Auto | Xiangliu,0.0,0.56,csgo_api_github
+M4A1-S | Decimator,0.0,0.85,csgo_api_github
+AK-47 | Bloodsport,0.0,0.45,csgo_api_github
+USP-S | Neo-Noir,0.0,0.7,csgo_api_github
+PP-Bizon | Cobalt Halftone,0.05,0.45,csgo_api_github
+M249 | Magma,0.0,0.7,csgo_api_github
+Five-SeveN | Kami,0.0,0.3,csgo_api_github
+Galil AR | Sandstorm,0.1,0.6,csgo_api_github
+Nova | Rising Skull,0.0,0.5,csgo_api_github
+MP9 | Rose Iron,0.0,0.3,csgo_api_github
+Dual Berettas | Marina,0.05,0.5,csgo_api_github
+FAMAS | Pulse,0.0,0.4,csgo_api_github
+AWP | Redline,0.1,0.4,csgo_api_github
+P250 | Mehndi,0.0,1.0,csgo_api_github
+M4A1-S | Guardian,0.0,0.5,csgo_api_github
+Sawed-Off | The Kraken,0.0,0.4,csgo_api_github
+M4A4 | Asiimov,0.18,1.0,csgo_api_github

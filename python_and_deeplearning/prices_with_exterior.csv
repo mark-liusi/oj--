@@ -1,2380 +1,396 @@
-﻿name,series,tier,price,exterior,platform
-AK-47 | Elite Build,Chroma 2 Case,Mil-Spec,60.9,FN,BUFF
-MP7 | Armor Core,Chroma 2 Case,Mil-Spec,3.79,FN,C5
-Desert Eagle | Bronze Deco,Chroma 2 Case,Mil-Spec,4.45,FN,BUFF
-P250 | Valence,Chroma 2 Case,Mil-Spec,8.49,FN,YOUPIN
-Negev | Man-o'-war,Chroma 2 Case,Mil-Spec,1.76,MW,BUFF
-Sawed-Off | Origami,Chroma 2 Case,Mil-Spec,2.96,FN,BUFF
-AWP | Worm God,Chroma 2 Case,Restricted,28.0,FN,C5
-MAG-7 | Heat,Chroma 2 Case,Restricted,40.3,FN,YOUPIN
-CZ75-Auto | Pole Position,Chroma 2 Case,Restricted,28.0,FN,YOUPIN
-UMP-45 | Grand Prix,Chroma 2 Case,Restricted,9.97,FT,C5
-Five-SeveN | Monkey Business,Chroma 2 Case,Classified,280.5,MW,YOUPIN
-Galil AR | Eco,Chroma 2 Case,Classified,504.99,MW,C5
-FAMAS | Djinn,Chroma 2 Case,Classified,280.0,FN,YOUPIN
-M4A1-S | Hyper Beast,Chroma 2 Case,Covert,4070.0,FN,BUFF
-MAC-10 | Neon Rider,Chroma 2 Case,Covert,814.5,FN,BUFF
-★ Bayonet | Doppler,Chroma 2 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 2 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 2 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 2 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 2 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 2 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 2 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Damascus Steel,Chroma 2 Case,Gold,1493.5,FN,YOUPIN
-★ Bayonet | Marble Fade,Chroma 2 Case,Gold,2749.0,FN,YOUPIN
-★ Bayonet | Tiger Tooth,Chroma 2 Case,Gold,2098.0,FN,BUFF
-★ Bayonet | Rust Coat,Chroma 2 Case,Gold,1099.0,WW,BUFF
-★ Bayonet | Ultraviolet,Chroma 2 Case,Gold,4100.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 2 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 2 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 2 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 2 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 2 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 2 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 2 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Damascus Steel,Chroma 2 Case,Gold,900.0,FN,YOUPIN
-★ Flip Knife | Marble Fade,Chroma 2 Case,Gold,1719.5,FN,YOUPIN
-★ Flip Knife | Tiger Tooth,Chroma 2 Case,Gold,1429.0,FN,C5
-★ Flip Knife | Rust Coat,Chroma 2 Case,Gold,721.0,WW,BUFF
-★ Flip Knife | Ultraviolet,Chroma 2 Case,Gold,2400.0,FN,BUFF
-★ Gut Knife | Doppler,Chroma 2 Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma 2 Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma 2 Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma 2 Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma 2 Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma 2 Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma 2 Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Damascus Steel,Chroma 2 Case,Gold,506.99,FN,YOUPIN
-★ Gut Knife | Marble Fade,Chroma 2 Case,Gold,789.0,FN,YOUPIN
-★ Gut Knife | Tiger Tooth,Chroma 2 Case,Gold,715.0,FN,C5
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-,Chroma 2 Case,Gold,,,all
-★ M9 Bayonet | Doppler,Chroma 2 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 2 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 2 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 2 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 2 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 2 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 2 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Damascus Steel,Chroma 2 Case,Gold,3600.0,FN,YOUPIN
-★ M9 Bayonet | Marble Fade,Chroma 2 Case,Gold,6088.5,FN,C5
-★ M9 Bayonet | Tiger Tooth,Chroma 2 Case,Gold,5334.5,FN,C5
-★ M9 Bayonet | Rust Coat,Chroma 2 Case,Gold,2498.5,WW,YOUPIN
-★ M9 Bayonet | Ultraviolet,Chroma 2 Case,Gold,9999.0,FN,BUFF
-Dual Berettas | Ventilators,Chroma 3 Case,Mil-Spec,3.93,FN,BUFF
-G3SG1 | Orange Crash,Chroma 3 Case,Mil-Spec,3.88,FN,BUFF
-M249 | Spectre,Chroma 3 Case,Mil-Spec,3.74,FN,BUFF
-MP9 | Bioleak,Chroma 3 Case,Mil-Spec,3.94,FN,C5
-P2000 | Oceanic,Chroma 3 Case,Mil-Spec,4.18,FN,BUFF
-SG 553 | Atlas,Chroma 3 Case,Mil-Spec,5.68,FN,BUFF
-Sawed-Off | Fubar,Chroma 3 Case,Mil-Spec,9.52,WW,YOUPIN
-Galil AR | Firefight,Chroma 3 Case,Restricted,38.99,FN,YOUPIN
-,Chroma 3 Case,Restricted,,,all
-XM1014 | Black Tie,Chroma 3 Case,Restricted,23.8,FN,BUFF
-SSG 08 | Ghost Crusader,Chroma 3 Case,Restricted,217.49,FN,BUFF
-Tec-9 | Re-Entry,Chroma 3 Case,Restricted,20.59,FN,BUFF
-UMP-45 | Primal Saber,Chroma 3 Case,Classified,209.0,FN,YOUPIN
-P250 | Asiimov,Chroma 3 Case,Classified,299.81,MW,C5
-AUG | Fleet Flock,Chroma 3 Case,Classified,248.88,FN,YOUPIN
-M4A1-S | Chantico's Fire,Chroma 3 Case,Covert,3669.5,FN,YOUPIN
-PP-Bizon | Judgement of Anubis,Chroma 3 Case,Covert,828.0,FN,BUFF
-★ Bayonet | Doppler,Chroma 3 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 3 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 3 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 3 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 3 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 3 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma 3 Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Damascus Steel,Chroma 3 Case,Gold,1493.5,FN,YOUPIN
-★ Bayonet | Marble Fade,Chroma 3 Case,Gold,2749.0,FN,YOUPIN
-★ Bayonet | Tiger Tooth,Chroma 3 Case,Gold,2098.0,FN,BUFF
-★ Bayonet | Rust Coat,Chroma 3 Case,Gold,1099.0,WW,BUFF
-★ Bayonet | Ultraviolet,Chroma 3 Case,Gold,4100.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 3 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 3 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 3 Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Doppler,Chroma 3 Case,Gold,2140.0,FN,YOUPIN
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-,Chroma 3 Case,Gold,,,all
-★ Gut Knife | Doppler,Chroma 3 Case,Gold,1200.0,MW,YOUPIN
-★ Gut Knife | Damascus Steel,Chroma 3 Case,Gold,506.99,FN,YOUPIN
-★ Gut Knife | Marble Fade,Chroma 3 Case,Gold,789.0,FN,YOUPIN
-★ Gut Knife | Tiger Tooth,Chroma 3 Case,Gold,715.0,FN,C5
-★ Gut Knife | Rust Coat,Chroma 3 Case,Gold,650.0,WW,BUFF
-★ Gut Knife | Ultraviolet,Chroma 3 Case,Gold,1775.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma 3 Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma 3 Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma 3 Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma 3 Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma 3 Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma 3 Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma 3 Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Damascus Steel,Chroma 3 Case,Gold,4750.0,FN,BUFF
-★ Karambit | Marble Fade,Chroma 3 Case,Gold,7887.0,FN,BUFF
-★ Karambit | Tiger Tooth,Chroma 3 Case,Gold,6888.0,FN,BUFF
-★ Karambit | Rust Coat,Chroma 3 Case,Gold,3388.0,WW,YOUPIN
-★ Karambit | Ultraviolet,Chroma 3 Case,Gold,13888.0,FN,BUFF
-★ M9 Bayonet | Doppler,Chroma 3 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 3 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 3 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 3 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 3 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 3 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma 3 Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Damascus Steel,Chroma 3 Case,Gold,3600.0,FN,YOUPIN
-★ M9 Bayonet | Marble Fade,Chroma 3 Case,Gold,6088.5,FN,C5
-★ M9 Bayonet | Tiger Tooth,Chroma 3 Case,Gold,5334.5,FN,C5
-★ M9 Bayonet | Rust Coat,Chroma 3 Case,Gold,2498.5,WW,YOUPIN
-★ M9 Bayonet | Ultraviolet,Chroma 3 Case,Gold,9999.0,FN,BUFF
-Glock-18 | Catacombs,Chroma Case,Mil-Spec,8.0,FN,BUFF
-M249 | System Lock,Chroma Case,Mil-Spec,6.98,FN,BUFF
-MP9 | Deadly Poison,Chroma Case,Mil-Spec,18.21,FN,YOUPIN
-SCAR-20 | Grotto,Chroma Case,Mil-Spec,6.01,FN,BUFF
-XM1014 | Quicksilver,Chroma Case,Mil-Spec,6.19,FN,BUFF
-Dual Berettas | Urban Shock,Chroma Case,Restricted,44.66,FN,BUFF
-Desert Eagle | Naga,Chroma Case,Restricted,130.0,FN,BUFF
-MAC-10 | Malachite,Chroma Case,Restricted,51.2,FN,BUFF
-Sawed-Off | Serenity,Chroma Case,Restricted,44.0,FN,YOUPIN
-AK-47 | Cartel,Chroma Case,Classified,660.0,FN,YOUPIN
-M4A4 | 龍王 (Dragon King),Chroma Case,Classified,644.5,FN,YOUPIN
-P250 | Muertos,Chroma Case,Classified,152.0,FN,C5
-AWP | Man-o'-war,Chroma Case,Covert,788.5,MW,BUFF
-Galil AR | Chatterbox,Chroma Case,Covert,1208.48,FT,YOUPIN
-★ Bayonet | Doppler,Chroma Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma Case,Gold,2850.0,FN,YOUPIN
-★ Bayonet | Doppler,Chroma Case,Gold,2850.0,FN,YOUPIN
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-,Chroma Case,Gold,,,all
-★ Flip Knife | Doppler,Chroma Case,Gold,2140.0,FN,YOUPIN
-★ Flip Knife | Damascus Steel,Chroma Case,Gold,900.0,FN,YOUPIN
-★ Flip Knife | Marble Fade,Chroma Case,Gold,1719.5,FN,YOUPIN
-★ Flip Knife | Tiger Tooth,Chroma Case,Gold,1429.0,FN,C5
-★ Flip Knife | Rust Coat,Chroma Case,Gold,721.0,WW,BUFF
-★ Flip Knife | Ultraviolet,Chroma Case,Gold,2400.0,FN,BUFF
-★ Gut Knife | Doppler,Chroma Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Doppler,Chroma Case,Gold,849.0,FN,YOUPIN
-★ Gut Knife | Damascus Steel,Chroma Case,Gold,506.99,FN,YOUPIN
-★ Gut Knife | Marble Fade,Chroma Case,Gold,789.0,FN,YOUPIN
-★ Gut Knife | Tiger Tooth,Chroma Case,Gold,715.0,FN,C5
-★ Gut Knife | Rust Coat,Chroma Case,Gold,650.0,WW,BUFF
-★ Gut Knife | Ultraviolet,Chroma Case,Gold,1775.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Doppler,Chroma Case,Gold,10488.0,FN,YOUPIN
-★ Karambit | Damascus Steel,Chroma Case,Gold,4750.0,FN,BUFF
-★ Karambit | Marble Fade,Chroma Case,Gold,7887.0,FN,BUFF
-★ Karambit | Tiger Tooth,Chroma Case,Gold,6888.0,FN,BUFF
-★ Karambit | Rust Coat,Chroma Case,Gold,3388.0,WW,YOUPIN
-★ Karambit | Ultraviolet,Chroma Case,Gold,13888.0,FN,BUFF
-★ M9 Bayonet | Doppler,Chroma Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Doppler,Chroma Case,Gold,7767.0,FN,YOUPIN
-★ M9 Bayonet | Damascus Steel,Chroma Case,Gold,3600.0,FN,YOUPIN
-★ M9 Bayonet | Marble Fade,Chroma Case,Gold,6088.5,FN,C5
-★ M9 Bayonet | Tiger Tooth,Chroma Case,Gold,5335.0,FN,C5
-★ M9 Bayonet | Rust Coat,Chroma Case,Gold,2498.5,WW,YOUPIN
-★ M9 Bayonet | Ultraviolet,Chroma Case,Gold,9999.0,FN,BUFF
-M4A4 | Neo-Noir,Clutch Case,Covert,1829.6,FN,C5
-MP7 | Bloodsport,Clutch Case,Covert,602.45,FN,C5
-AWP | Mortis,Clutch Case,Classified,115.98,FN,BUFF
-USP-S | Cortex,Clutch Case,Classified,174.0,FN,BUFF
-AUG | Stymphalian,Clutch Case,Classified,120.0,FN,BUFF
-Glock-18 | Moonrise,Clutch Case,Restricted,21.63,FN,C5
-,Clutch Case,Restricted,,,all
-,Clutch Case,Restricted,,,all
-,Clutch Case,Restricted,,,all
-,Clutch Case,Restricted,,,all
-,Clutch Case,Mil-Spec,,,all
-,Clutch Case,Mil-Spec,,,all
-,Clutch Case,Mil-Spec,,,all
-,Clutch Case,Mil-Spec,,,all
-,Clutch Case,Mil-Spec,,,all
-,Clutch Case,Mil-Spec,,,all
-,Clutch Case,Mil-Spec,,,all
-,Clutch Case,Gold,,,all
-,Clutch Case,Gold,,,all
-,Clutch Case,Gold,,,all
-★ Hydra Gloves | Mangrove,Clutch Case,Gold,1949.5,FN,YOUPIN
-★ Driver Gloves | Racing Green,Clutch Case,Gold,2948.5,FN,BUFF
-★ Driver Gloves | Overtake,Clutch Case,Gold,3850.0,FN,YOUPIN
-★ Driver Gloves | King Snake,Clutch Case,Gold,27600.0,FN,YOUPIN
-★ Driver Gloves | Imperial Plaid,Clutch Case,Gold,9199.0,FN,BUFF
-★ Hand Wraps | Duct Tape,Clutch Case,Gold,2999.5,FN,BUFF
-★ Hand Wraps | Cobalt Skulls,Clutch Case,Gold,11999.5,FN,BUFF
-★ Hand Wraps | Overprint,Clutch Case,Gold,4238.0,FN,YOUPIN
-★ Hand Wraps | Arboreal,Clutch Case,Gold,2186.5,FN,YOUPIN
-★ Moto Gloves | Transport,Clutch Case,Gold,3399.5,FN,BUFF
-★ Moto Gloves | Polygon,Clutch Case,Gold,4999.0,FN,YOUPIN
-★ Moto Gloves | POW!,Clutch Case,Gold,6990.0,FN,BUFF
-★ Moto Gloves | Turtle,Clutch Case,Gold,5399.0,FN,YOUPIN
-★ Specialist Gloves | Fade,Clutch Case,Gold,18566.0,FN,YOUPIN
-★ Specialist Gloves | Buckshot,Clutch Case,Gold,2850.0,FN,YOUPIN
-★ Specialist Gloves | Crimson Web,Clutch Case,Gold,12000.0,FN,BUFF
-★ Specialist Gloves | Mogul,Clutch Case,Gold,5553.5,FN,BUFF
-★ Sport Gloves | Bronze Morph,Clutch Case,Gold,6394.0,FN,YOUPIN
-★ Sport Gloves | Amphibious,Clutch Case,Gold,30599.0,FN,YOUPIN
-★ Sport Gloves | Vice,Clutch Case,Gold,76000.0,FN,BUFF
-★ Sport Gloves | Omega,Clutch Case,Gold,17600.0,FN,YOUPIN
-SCAR-20 | Assault,CS20 Case,Mil-Spec,3.35,FN,BUFF
-Tec-9 | Flash Out,CS20 Case,Mil-Spec,3.95,FN,BUFF
-MAG-7 | Popdog,CS20 Case,Mil-Spec,4.35,FN,BUFF
-MAC-10 | Classic Crate,CS20 Case,Mil-Spec,5.47,FN,BUFF
-Dual Berettas | Elite 1.6,CS20 Case,Mil-Spec,3.91,FN,C5
-FAMAS | Decommissioned,CS20 Case,Mil-Spec,6.82,FN,YOUPIN
-Glock-18 | Sacrifice,CS20 Case,Mil-Spec,18.1,FN,YOUPIN
-M249 | Aztec,CS20 Case,Restricted,18.88,FN,YOUPIN
-Five-SeveN | Buddy,CS20 Case,Restricted,17.0,FN,BUFF
-P250 | Inferno,CS20 Case,Restricted,17.9,FN,BUFF
-UMP-45 | Plastique,CS20 Case,Restricted,16.78,FN,BUFF
-MP5-SD | Agent,CS20 Case,Restricted,25.9,FN,BUFF
-P90 | Nostalgia,CS20 Case,Classified,101.5,FN,BUFF
-AUG | Death by Puppy,CS20 Case,Classified,103.0,FN,YOUPIN
-MP9 | Hydra,CS20 Case,Classified,273.5,FN,YOUPIN
-FAMAS | Commemoration,CS20 Case,Covert,308.5,FN,BUFF
-AWP | Wildfire,CS20 Case,Covert,1274.0,FN,C5
-,CS20 Case,Gold,,,all
-★ Classic Knife | Blue Steel,CS20 Case,Gold,1228.5,FN,YOUPIN
-★ Classic Knife | Boreal Forest,CS20 Case,Gold,2300.0,FN,YOUPIN
-★ Classic Knife | Case Hardened,CS20 Case,Gold,2298.5,FN,BUFF
-★ Classic Knife | Crimson Web,CS20 Case,Gold,7755.0,FN,BUFF
-★ Classic Knife | Fade,CS20 Case,Gold,2049.0,FN,YOUPIN
-★ Classic Knife | Forest DDPAT,CS20 Case,Gold,1899.0,FN,BUFF
-★ Classic Knife | Night Stripe,CS20 Case,Gold,3199.5,FN,YOUPIN
-★ Classic Knife | Safari Mesh,CS20 Case,Gold,999.0,FN,BUFF
-★ Classic Knife | Scorched,CS20 Case,Gold,9999.0,FN,BUFF
-★ Classic Knife | Slaughter,CS20 Case,Gold,1400.0,FN,YOUPIN
-★ Classic Knife | Stained,CS20 Case,Gold,1035.0,FN,YOUPIN
-★ Classic Knife | Urban Masked,CS20 Case,Gold,2395.0,FN,BUFF
-MP7 | Skulls,CSGO Weapon Case,Mil-Spec,130.0,MW,YOUPIN
-SG 553 | Ultraviolet,CSGO Weapon Case,Mil-Spec,357.9,FN,C5
-AUG | Wings,CSGO Weapon Case,Mil-Spec,128.22,FN,C5
-M4A1-S | Dark Water,CSGO Weapon Case,Restricted,738.5,MW,YOUPIN
-USP-S | Dark Water,CSGO Weapon Case,Restricted,700.0,MW,YOUPIN
-Glock-18 | Dragon Tattoo,CSGO Weapon Case,Restricted,841.05,FN,C5
-,CSGO Weapon Case,Classified,,,all
-,CSGO Weapon Case,Classified,,,all
-,CSGO Weapon Case,Covert,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-,CSGO Weapon Case,Gold,,,all
-★ Bayonet | Stained,CSGO Weapon Case,Gold,1173.0,MW,YOUPIN
-★ Bayonet | Urban Masked,CSGO Weapon Case,Gold,1166.0,MW,BUFF
-,CSGO Weapon Case,Gold,,,all
-★ Flip Knife | Blue Steel,CSGO Weapon Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,CSGO Weapon Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,CSGO Weapon Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,CSGO Weapon Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,CSGO Weapon Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,CSGO Weapon Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,CSGO Weapon Case,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,CSGO Weapon Case,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,CSGO Weapon Case,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,CSGO Weapon Case,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,CSGO Weapon Case,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,CSGO Weapon Case,Gold,749.5,MW,BUFF
-,CSGO Weapon Case,Gold,,,all
-★ Gut Knife | Blue Steel,CSGO Weapon Case,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,CSGO Weapon Case,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,CSGO Weapon Case,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,CSGO Weapon Case,Gold,5700.08,FN,HALOSKINS
-★ Gut Knife | Fade,CSGO Weapon Case,Gold,955.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,CSGO Weapon Case,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,CSGO Weapon Case,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,CSGO Weapon Case,Gold,2799.5,FN,BUFF
-★ Gut Knife | Scorched,CSGO Weapon Case,Gold,2786.12,FN,STEAM
-★ Gut Knife | Slaughter,CSGO Weapon Case,Gold,977.5,FN,YOUPIN
-★ Gut Knife | Stained,CSGO Weapon Case,Gold,999.0,FN,YOUPIN
-★ Gut Knife | Urban Masked,CSGO Weapon Case,Gold,999.0,FN,BUFF
-,CSGO Weapon Case,Gold,,,all
-★ Karambit | Blue Steel,CSGO Weapon Case,Gold,8966.0,FN,YOUPIN
-★ Karambit | Boreal Forest,CSGO Weapon Case,Gold,7124.38,FN,STEAM
-★ Karambit | Case Hardened,CSGO Weapon Case,Gold,13888.0,FN,YOUPIN
-★ Karambit | Crimson Web,CSGO Weapon Case,Gold,48888.0,FN,YOUPIN
-★ Karambit | Fade,CSGO Weapon Case,Gold,16300.0,FN,YOUPIN
-★ Karambit | Forest DDPAT,CSGO Weapon Case,Gold,8000.0,FN,C5
-★ Karambit | Night,CSGO Weapon Case,Gold,13333.0,FN,YOUPIN
-★ Karambit | Safari Mesh,CSGO Weapon Case,Gold,4000.0,FN,YOUPIN
-★ Karambit | Scorched,CSGO Weapon Case,Gold,7500.0,FN,YOUPIN
-★ Karambit | Slaughter,CSGO Weapon Case,Gold,8200.0,FN,YOUPIN
-★ Karambit | Stained,CSGO Weapon Case,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,CSGO Weapon Case,Gold,6834.96,FN,STEAM
-,CSGO Weapon Case,Gold,,,all
-★ M9 Bayonet | Blue Steel,CSGO Weapon Case,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,CSGO Weapon Case,Gold,6999.0,FN,BUFF
-★ M9 Bayonet | Case Hardened,CSGO Weapon Case,Gold,8500.0,FN,BUFF
-★ M9 Bayonet | Crimson Web,CSGO Weapon Case,Gold,34999.0,FN,BUFF
-★ M9 Bayonet | Fade,CSGO Weapon Case,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,CSGO Weapon Case,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,CSGO Weapon Case,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,CSGO Weapon Case,Gold,1989.5,MW,YOUPIN
-★ M9 Bayonet | Scorched,CSGO Weapon Case,Gold,6500.0,FN,YOUPIN
-★ M9 Bayonet | Slaughter,CSGO Weapon Case,Gold,6748.0,FN,YOUPIN
-★ M9 Bayonet | Stained,CSGO Weapon Case,Gold,3650.0,FN,YOUPIN
-★ M9 Bayonet | Urban Masked,CSGO Weapon Case,Gold,2390.0,MW,BUFF
-Tec-9 | Blue Titanium,CSGO Weapon Case 2,Mil-Spec,20.99,FN,YOUPIN
-M4A1-S | Blood Tiger,CSGO Weapon Case 2,Mil-Spec,69.69,FN,BUFF
-FAMAS | Hexane,CSGO Weapon Case 2,Mil-Spec,22.01,FN,C5
-P250 | Hive,CSGO Weapon Case 2,Mil-Spec,20.9,FN,YOUPIN
-,CSGO Weapon Case 2,Mil-Spec,,,all
-,CSGO Weapon Case 2,Restricted,,,all
-,CSGO Weapon Case 2,Restricted,,,all
-,CSGO Weapon Case 2,Restricted,,,all
-,CSGO Weapon Case 2,Restricted,,,all
-,CSGO Weapon Case 2,Classified,,,all
-,CSGO Weapon Case 2,Classified,,,all
-,CSGO Weapon Case 2,Covert,,,all
-,CSGO Weapon Case 2,Gold,,,all
-,CSGO Weapon Case 2,Gold,,,all
-,CSGO Weapon Case 2,Gold,,,all
-,CSGO Weapon Case 2,Gold,,,all
-,CSGO Weapon Case 2,Gold,,,all
-,CSGO Weapon Case 2,Gold,,,all
-★ Bayonet | Forest DDPAT,CSGO Weapon Case 2,Gold,798.0,FT,YOUPIN
-★ Bayonet | Night,CSGO Weapon Case 2,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,CSGO Weapon Case 2,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,CSGO Weapon Case 2,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,CSGO Weapon Case 2,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,CSGO Weapon Case 2,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,CSGO Weapon Case 2,Gold,1166.0,MW,BUFF
-,CSGO Weapon Case 2,Gold,,,all
-★ Flip Knife | Blue Steel,CSGO Weapon Case 2,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,CSGO Weapon Case 2,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,CSGO Weapon Case 2,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,CSGO Weapon Case 2,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,CSGO Weapon Case 2,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,CSGO Weapon Case 2,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,CSGO Weapon Case 2,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,CSGO Weapon Case 2,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,CSGO Weapon Case 2,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,CSGO Weapon Case 2,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,CSGO Weapon Case 2,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,CSGO Weapon Case 2,Gold,749.5,MW,BUFF
-,CSGO Weapon Case 2,Gold,,,all
-★ Gut Knife | Blue Steel,CSGO Weapon Case 2,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,CSGO Weapon Case 2,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,CSGO Weapon Case 2,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,CSGO Weapon Case 2,Gold,5700.08,FN,HALOSKINS
-★ Gut Knife | Fade,CSGO Weapon Case 2,Gold,955.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,CSGO Weapon Case 2,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,CSGO Weapon Case 2,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,CSGO Weapon Case 2,Gold,2799.5,FN,BUFF
-★ Gut Knife | Scorched,CSGO Weapon Case 2,Gold,2786.12,FN,STEAM
-★ Gut Knife | Slaughter,CSGO Weapon Case 2,Gold,977.5,FN,YOUPIN
-★ Gut Knife | Stained,CSGO Weapon Case 2,Gold,999.0,FN,YOUPIN
-★ Gut Knife | Urban Masked,CSGO Weapon Case 2,Gold,999.0,FN,BUFF
-,CSGO Weapon Case 2,Gold,,,all
-★ Karambit | Blue Steel,CSGO Weapon Case 2,Gold,8966.0,FN,YOUPIN
-★ Karambit | Boreal Forest,CSGO Weapon Case 2,Gold,7124.38,FN,STEAM
-★ Karambit | Case Hardened,CSGO Weapon Case 2,Gold,13888.0,FN,YOUPIN
-★ Karambit | Crimson Web,CSGO Weapon Case 2,Gold,48888.0,FN,YOUPIN
-★ Karambit | Fade,CSGO Weapon Case 2,Gold,16300.0,FN,YOUPIN
-★ Karambit | Forest DDPAT,CSGO Weapon Case 2,Gold,8000.0,FN,C5
-★ Karambit | Night,CSGO Weapon Case 2,Gold,13333.0,FN,YOUPIN
-★ Karambit | Safari Mesh,CSGO Weapon Case 2,Gold,4000.0,FN,YOUPIN
-★ Karambit | Scorched,CSGO Weapon Case 2,Gold,7500.0,FN,YOUPIN
-★ Karambit | Slaughter,CSGO Weapon Case 2,Gold,8200.0,FN,YOUPIN
-★ Karambit | Stained,CSGO Weapon Case 2,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,CSGO Weapon Case 2,Gold,6834.96,FN,STEAM
-,CSGO Weapon Case 2,Gold,,,all
-★ M9 Bayonet | Blue Steel,CSGO Weapon Case 2,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,CSGO Weapon Case 2,Gold,6999.0,FN,BUFF
-★ M9 Bayonet | Case Hardened,CSGO Weapon Case 2,Gold,8500.0,FN,BUFF
-★ M9 Bayonet | Crimson Web,CSGO Weapon Case 2,Gold,34999.0,FN,BUFF
-★ M9 Bayonet | Fade,CSGO Weapon Case 2,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,CSGO Weapon Case 2,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,CSGO Weapon Case 2,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,CSGO Weapon Case 2,Gold,1989.5,MW,YOUPIN
-★ M9 Bayonet | Scorched,CSGO Weapon Case 2,Gold,6500.0,FN,YOUPIN
-★ M9 Bayonet | Slaughter,CSGO Weapon Case 2,Gold,6748.0,FN,YOUPIN
-,CSGO Weapon Case 2,Gold,,,all
-,CSGO Weapon Case 2,Gold,,,all
-,CSGO Weapon Case 3,Mil-Spec,,,all
-,CSGO Weapon Case 3,Mil-Spec,,,all
-,CSGO Weapon Case 3,Mil-Spec,,,all
-,CSGO Weapon Case 3,Mil-Spec,,,all
-,CSGO Weapon Case 3,Mil-Spec,,,all
-,CSGO Weapon Case 3,Restricted,,,all
-,CSGO Weapon Case 3,Restricted,,,all
-Desert Eagle | Heirloom,CSGO Weapon Case 3,Restricted,510.0,FN,YOUPIN
-Five-SeveN | Copper Galaxy,CSGO Weapon Case 3,Restricted,88.0,FN,C5
-CZ75-Auto | The Fuschia Is Now,CSGO Weapon Case 3,Classified,247.96,FN,YOUPIN
-P250 | Undertow,CSGO Weapon Case 3,Classified,259.0,FN,YOUPIN
-CZ75-Auto | Victoria,CSGO Weapon Case 3,Covert,590.0,FN,BUFF
-,CSGO Weapon Case 3,Gold,,,all
-★ Bayonet | Blue Steel,CSGO Weapon Case 3,Gold,3200.0,FN,YOUPIN
-★ Bayonet | Boreal Forest,CSGO Weapon Case 3,Gold,4701.63,FN,STEAM
-★ Bayonet | Case Hardened,CSGO Weapon Case 3,Gold,4888.88,FN,BUFF
-★ Bayonet | Crimson Web,CSGO Weapon Case 3,Gold,15000.0,FN,YOUPIN
-★ Bayonet | Fade,CSGO Weapon Case 3,Gold,2863.0,FN,YOUPIN
-★ Bayonet | Forest DDPAT,CSGO Weapon Case 3,Gold,4000.0,FN,BUFF
-★ Bayonet | Night,CSGO Weapon Case 3,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,CSGO Weapon Case 3,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,CSGO Weapon Case 3,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,CSGO Weapon Case 3,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,CSGO Weapon Case 3,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,CSGO Weapon Case 3,Gold,1166.0,MW,BUFF
-,CSGO Weapon Case 3,Gold,,,all
-★ Flip Knife | Blue Steel,CSGO Weapon Case 3,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,CSGO Weapon Case 3,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,CSGO Weapon Case 3,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,CSGO Weapon Case 3,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,CSGO Weapon Case 3,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,CSGO Weapon Case 3,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,CSGO Weapon Case 3,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,CSGO Weapon Case 3,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,CSGO Weapon Case 3,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,CSGO Weapon Case 3,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,CSGO Weapon Case 3,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,CSGO Weapon Case 3,Gold,749.5,MW,BUFF
-,CSGO Weapon Case 3,Gold,,,all
-★ Gut Knife | Blue Steel,CSGO Weapon Case 3,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,CSGO Weapon Case 3,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,CSGO Weapon Case 3,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,CSGO Weapon Case 3,Gold,5700.08,FN,HALOSKINS
-★ Gut Knife | Fade,CSGO Weapon Case 3,Gold,955.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,CSGO Weapon Case 3,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,CSGO Weapon Case 3,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,CSGO Weapon Case 3,Gold,2799.5,FN,BUFF
-★ Gut Knife | Scorched,CSGO Weapon Case 3,Gold,2786.12,FN,STEAM
-★ Gut Knife | Slaughter,CSGO Weapon Case 3,Gold,977.5,FN,YOUPIN
-★ Gut Knife | Stained,CSGO Weapon Case 3,Gold,999.0,FN,YOUPIN
-★ Gut Knife | Urban Masked,CSGO Weapon Case 3,Gold,999.0,FN,BUFF
-,CSGO Weapon Case 3,Gold,,,all
-★ Karambit | Blue Steel,CSGO Weapon Case 3,Gold,8966.0,FN,YOUPIN
-★ Karambit | Boreal Forest,CSGO Weapon Case 3,Gold,7124.38,FN,STEAM
-★ Karambit | Case Hardened,CSGO Weapon Case 3,Gold,13888.0,FN,YOUPIN
-★ Karambit | Crimson Web,CSGO Weapon Case 3,Gold,48888.0,FN,YOUPIN
-★ Karambit | Fade,CSGO Weapon Case 3,Gold,16300.0,FN,YOUPIN
-★ Karambit | Forest DDPAT,CSGO Weapon Case 3,Gold,8000.0,FN,C5
-★ Karambit | Night,CSGO Weapon Case 3,Gold,13333.0,FN,YOUPIN
-★ Karambit | Safari Mesh,CSGO Weapon Case 3,Gold,4000.0,FN,YOUPIN
-★ Karambit | Scorched,CSGO Weapon Case 3,Gold,7500.0,FN,YOUPIN
-★ Karambit | Slaughter,CSGO Weapon Case 3,Gold,8199.0,FN,YOUPIN
-★ Karambit | Stained,CSGO Weapon Case 3,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,CSGO Weapon Case 3,Gold,6834.96,FN,STEAM
-,CSGO Weapon Case 3,Gold,,,all
-★ M9 Bayonet | Blue Steel,CSGO Weapon Case 3,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,CSGO Weapon Case 3,Gold,6999.0,FN,BUFF
-,CSGO Weapon Case 3,Gold,,,all
-,CSGO Weapon Case 3,Gold,,,all
-,CSGO Weapon Case 3,Gold,,,all
-,CSGO Weapon Case 3,Gold,,,all
-,CSGO Weapon Case 3,Gold,,,all
-,CSGO Weapon Case 3,Gold,,,all
-,CSGO Weapon Case 3,Gold,,,all
-,CSGO Weapon Case 3,Gold,,,all
-★ M9 Bayonet | Stained,CSGO Weapon Case 3,Gold,3650.0,FN,YOUPIN
-★ M9 Bayonet | Urban Masked,CSGO Weapon Case 3,Gold,2390.0,MW,BUFF
-MP9 | Modest Threat,Danger Zone Case,Mil-Spec,2.91,FN,BUFF
-Glock-18 | Oxide Blaze,Danger Zone Case,Mil-Spec,6.14,FN,C5
-Nova | Wood Fired,Danger Zone Case,Mil-Spec,3.87,FN,YOUPIN
-M4A4 | Magnesium,Danger Zone Case,Mil-Spec,29.87,FN,BUFF
-Sawed-Off | Black Sand,Danger Zone Case,Mil-Spec,4.76,FN,BUFF
-SG 553 | Danger Close,Danger Zone Case,Mil-Spec,3.94,FN,BUFF
-Tec-9 | Fubar,Danger Zone Case,Mil-Spec,14.0,MW,YOUPIN
-G3SG1 | Scavenger,Danger Zone Case,Restricted,15.8,FN,BUFF
-Galil AR | Signal,Danger Zone Case,Restricted,15.5,FN,BUFF
-MAC-10 | Pipe Down,Danger Zone Case,Restricted,28.0,FN,YOUPIN
-P250 | Nevermore,Danger Zone Case,Restricted,16.08,FN,BUFF
-USP-S | Flashback,Danger Zone Case,Restricted,13.96,FN,BUFF
-UMP-45 | Momentum,Danger Zone Case,Classified,97.64,FN,YOUPIN
-Desert Eagle | Mecha Industries,Danger Zone Case,Classified,118.0,FN,BUFF
-MP5-SD | Phosphor,Danger Zone Case,Classified,98.99,FN,YOUPIN
-AK-47 | Asiimov,Danger Zone Case,Covert,2999.5,FN,YOUPIN
-AWP | Neo-Noir,Danger Zone Case,Covert,395.0,FN,BUFF
-,Danger Zone Case,Gold,,,all
-★ Talon Knife | Blue Steel,Danger Zone Case,Gold,4201.0,FN,BUFF
-★ Talon Knife | Boreal Forest,Danger Zone Case,Gold,3486.5,FN,YOUPIN
-★ Talon Knife | Case Hardened,Danger Zone Case,Gold,7200.0,FN,YOUPIN
-★ Talon Knife | Crimson Web,Danger Zone Case,Gold,15000.0,FN,YOUPIN
-★ Talon Knife | Fade,Danger Zone Case,Gold,6398.5,FN,YOUPIN
-★ Talon Knife | Forest DDPAT,Danger Zone Case,Gold,3500.0,FN,BUFF
-★ Talon Knife | Night Stripe,Danger Zone Case,Gold,4550.0,FN,YOUPIN
-★ Talon Knife | Safari Mesh,Danger Zone Case,Gold,3000.0,FN,BUFF
-★ Talon Knife | Scorched,Danger Zone Case,Gold,2400.0,FN,BUFF
-★ Talon Knife | Slaughter,Danger Zone Case,Gold,4800.0,FN,YOUPIN
-★ Talon Knife | Stained,Danger Zone Case,Gold,2780.0,FN,YOUPIN
-★ Talon Knife | Urban Masked,Danger Zone Case,Gold,4887.5,FN,YOUPIN
-,Danger Zone Case,Gold,,,all
-★ Navaja Knife | Blue Steel,Danger Zone Case,Gold,855.0,FN,C5
-★ Navaja Knife | Boreal Forest,Danger Zone Case,Gold,1415.0,FN,C5
-★ Navaja Knife | Case Hardened,Danger Zone Case,Gold,1100.0,FN,BUFF
-★ Navaja Knife | Crimson Web,Danger Zone Case,Gold,3600.0,FN,BUFF
-★ Navaja Knife | Fade,Danger Zone Case,Gold,750.0,FN,BUFF
-★ Navaja Knife | Forest DDPAT,Danger Zone Case,Gold,831.0,FN,BUFF
-★ Navaja Knife | Night Stripe,Danger Zone Case,Gold,2699.0,FN,BUFF
-★ Navaja Knife | Safari Mesh,Danger Zone Case,Gold,397.56,MW,YOUPIN
-★ Navaja Knife | Scorched,Danger Zone Case,Gold,1350.0,FN,BUFF
-★ Navaja Knife | Slaughter,Danger Zone Case,Gold,700.0,FN,BUFF
-★ Navaja Knife | Stained,Danger Zone Case,Gold,797.5,FN,BUFF
-★ Navaja Knife | Urban Masked,Danger Zone Case,Gold,1618.32,FN,STEAM
-,Danger Zone Case,Gold,,,all
-★ Stiletto Knife | Blue Steel,Danger Zone Case,Gold,2099.5,FN,YOUPIN
-★ Stiletto Knife | Boreal Forest,Danger Zone Case,Gold,2199.0,FN,BUFF
-★ Stiletto Knife | Case Hardened,Danger Zone Case,Gold,3900.0,FN,YOUPIN
-★ Stiletto Knife | Crimson Web,Danger Zone Case,Gold,9699.5,FN,BUFF
-★ Stiletto Knife | Fade,Danger Zone Case,Gold,3120.0,FN,YOUPIN
-★ Stiletto Knife | Forest DDPAT,Danger Zone Case,Gold,1882.5,FN,C5
-★ Stiletto Knife | Night Stripe,Danger Zone Case,Gold,2850.0,FN,BUFF
-★ Stiletto Knife | Safari Mesh,Danger Zone Case,Gold,1999.0,FN,YOUPIN
-★ Stiletto Knife | Scorched,Danger Zone Case,Gold,2000.0,FN,YOUPIN
-★ Stiletto Knife | Slaughter,Danger Zone Case,Gold,2700.0,FN,YOUPIN
-★ Stiletto Knife | Stained,Danger Zone Case,Gold,1467.88,FN,YOUPIN
-,Danger Zone Case,Gold,,,all
-,Danger Zone Case,Gold,,,all
-,Danger Zone Case,Gold,,,all
-,Danger Zone Case,Gold,,,all
-,Danger Zone Case,Gold,,,all
-,Danger Zone Case,Gold,,,all
-,Danger Zone Case,Gold,,,all
-,Danger Zone Case,Gold,,,all
-,Danger Zone Case,Gold,,,all
-★ Ursus Knife | Safari Mesh,Danger Zone Case,Gold,1100.0,FN,C5
-★ Ursus Knife | Scorched,Danger Zone Case,Gold,1400.0,FN,BUFF
-★ Ursus Knife | Slaughter,Danger Zone Case,Gold,1400.0,FN,YOUPIN
-★ Ursus Knife | Stained,Danger Zone Case,Gold,962.0,FN,YOUPIN
-★ Ursus Knife | Urban Masked,Danger Zone Case,Gold,1920.0,FN,YOUPIN
-MP5-SD | Necro Jr.,Dreams & Nightmares Case,Mil-Spec,4.87,FN,C5
-MAC-10 | Ensnared,Dreams & Nightmares Case,Mil-Spec,4.39,FN,YOUPIN
-Sawed-Off | Spirit Board,Dreams & Nightmares Case,Mil-Spec,4.49,FN,BUFF
-P2000 | Lifted Spirits,Dreams & Nightmares Case,Mil-Spec,4.5,FN,C5
-MAG-7 | Foresight,Dreams & Nightmares Case,Mil-Spec,2.55,FN,C5
-SCAR-20 | Poultrygeist,Dreams & Nightmares Case,Mil-Spec,2.5,FN,BUFF
-Five-SeveN | Scrawl,Dreams & Nightmares Case,Mil-Spec,5.2,FN,BUFF
-USP-S | Ticket to Hell,Dreams & Nightmares Case,Restricted,14.85,FN,YOUPIN
-M4A1-S | Night Terror,Dreams & Nightmares Case,Restricted,15.0,FN,YOUPIN
-G3SG1 | Dream Glade,Dreams & Nightmares Case,Restricted,24.5,FN,BUFF
-PP-Bizon | Space Cat,Dreams & Nightmares Case,Restricted,11.9,FN,BUFF
-XM1014 | Zombie Offensive,Dreams & Nightmares Case,Restricted,11.58,FN,BUFF
-FAMAS | Rapid Eye Movement,Dreams & Nightmares Case,Classified,127.5,FN,YOUPIN
-Dual Berettas | Melondrama,Dreams & Nightmares Case,Classified,119.9,FN,BUFF
-MP7 | Abyssal Apparition,Dreams & Nightmares Case,Classified,124.98,FN,BUFF
-AK-47 | Nightwish,Dreams & Nightmares Case,Covert,1120.0,FN,BUFF
-MP9 | Starlight Protector,Dreams & Nightmares Case,Covert,683.5,FN,YOUPIN
-★ Butterfly Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Freehand,Dreams & Nightmares Case,Gold,5078.0,FN,YOUPIN
-★ Butterfly Knife | Lore,Dreams & Nightmares Case,Gold,19888.0,FN,YOUPIN
-★ Butterfly Knife | Autotronic,Dreams & Nightmares Case,Gold,13200.0,FN,C5
-★ Butterfly Knife | Bright Water,Dreams & Nightmares Case,Gold,4767.5,FN,BUFF
-★ Butterfly Knife | Black Laminate,Dreams & Nightmares Case,Gold,6880.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Freehand,Dreams & Nightmares Case,Gold,642.0,FN,YOUPIN
-★ Huntsman Knife | Lore,Dreams & Nightmares Case,Gold,1190.0,FN,BUFF
-★ Huntsman Knife | Autotronic,Dreams & Nightmares Case,Gold,1450.0,FN,BUFF
-★ Huntsman Knife | Bright Water,Dreams & Nightmares Case,Gold,556.0,FN,YOUPIN
-★ Huntsman Knife | Black Laminate,Dreams & Nightmares Case,Gold,1235.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Dreams & Nightmares Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Freehand,Dreams & Nightmares Case,Gold,689.0,FN,YOUPIN
-★ Falchion Knife | Lore,Dreams & Nightmares Case,Gold,1150.0,FN,BUFF
-★ Falchion Knife | Autotronic,Dreams & Nightmares Case,Gold,1210.0,FN,YOUPIN
-★ Falchion Knife | Bright Water,Dreams & Nightmares Case,Gold,600.0,FN,YOUPIN
-★ Falchion Knife | Black Laminate,Dreams & Nightmares Case,Gold,846.0,FN,YOUPIN
-★ Shadow Daggers | Gamma Doppler,Dreams & Nightmares Case,Gold,745.0,FN,YOUPIN
-★ Shadow Daggers | Gamma Doppler,Dreams & Nightmares Case,Gold,745.0,FN,YOUPIN
-★ Shadow Daggers | Gamma Doppler,Dreams & Nightmares Case,Gold,745.0,FN,YOUPIN
-★ Shadow Daggers | Gamma Doppler,Dreams & Nightmares Case,Gold,745.0,FN,YOUPIN
-★ Shadow Daggers | Gamma Doppler,Dreams & Nightmares Case,Gold,745.0,FN,YOUPIN
-★ Shadow Daggers | Freehand,Dreams & Nightmares Case,Gold,450.0,FN,YOUPIN
-★ Shadow Daggers | Lore,Dreams & Nightmares Case,Gold,970.0,FN,YOUPIN
-★ Shadow Daggers | Autotronic,Dreams & Nightmares Case,Gold,721.5,FN,YOUPIN
-,Dreams & Nightmares Case,Gold,,,all
-,Dreams & Nightmares Case,Gold,,,all
-,Dreams & Nightmares Case,Gold,,,all
-,Dreams & Nightmares Case,Gold,,,all
-,Dreams & Nightmares Case,Gold,,,all
-,Dreams & Nightmares Case,Gold,,,all
-,Dreams & Nightmares Case,Gold,,,all
-,Dreams & Nightmares Case,Gold,,,all
-★ Bowie Knife | Lore,Dreams & Nightmares Case,Gold,663.0,FT,BUFF
-★ Bowie Knife | Autotronic,Dreams & Nightmares Case,Gold,1249.5,FN,YOUPIN
-★ Bowie Knife | Bright Water,Dreams & Nightmares Case,Gold,537.0,FN,YOUPIN
-★ Bowie Knife | Black Laminate,Dreams & Nightmares Case,Gold,827.0,FN,YOUPIN
-M4A4 | Faded Zebra,ESports 2013 Case,Mil-Spec,309.0,FN,YOUPIN
-FAMAS | Doomkitty,ESports 2013 Case,Mil-Spec,32.87,MW,YOUPIN
-MAG-7 | Memento,ESports 2013 Case,Mil-Spec,48.7,FN,C5
-Sawed-Off | Orange DDPAT,ESports 2013 Case,Restricted,649.5,FN,YOUPIN
-P250 | Splash,ESports 2013 Case,Restricted,444.0,FN,BUFF
-Galil AR | Orange DDPAT,ESports 2013 Case,Restricted,589.93,FN,BUFF
-AK-47 | Red Laminate,ESports 2013 Case,Classified,3000.0,FN,BUFF
-AWP | BOOM,ESports 2013 Case,Classified,4599.0,FN,BUFF
-P90 | Death by Kitty,ESports 2013 Case,Covert,730.0,MW,YOUPIN
-,ESports 2013 Case,Gold,,,all
-★ Bayonet | Blue Steel,ESports 2013 Case,Gold,3200.0,FN,YOUPIN
-★ Bayonet | Boreal Forest,ESports 2013 Case,Gold,4701.63,FN,STEAM
-★ Bayonet | Case Hardened,ESports 2013 Case,Gold,4888.88,FN,BUFF
-★ Bayonet | Crimson Web,ESports 2013 Case,Gold,15000.0,FN,YOUPIN
-★ Bayonet | Fade,ESports 2013 Case,Gold,2863.0,FN,YOUPIN
-★ Bayonet | Forest DDPAT,ESports 2013 Case,Gold,4000.0,FN,BUFF
-★ Bayonet | Night,ESports 2013 Case,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,ESports 2013 Case,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,ESports 2013 Case,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,ESports 2013 Case,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,ESports 2013 Case,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,ESports 2013 Case,Gold,1166.0,MW,BUFF
-,ESports 2013 Case,Gold,,,all
-★ Flip Knife | Blue Steel,ESports 2013 Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,ESports 2013 Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,ESports 2013 Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,ESports 2013 Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,ESports 2013 Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,ESports 2013 Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,ESports 2013 Case,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,ESports 2013 Case,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,ESports 2013 Case,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,ESports 2013 Case,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,ESports 2013 Case,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,ESports 2013 Case,Gold,749.5,MW,BUFF
-,ESports 2013 Case,Gold,,,all
-★ Gut Knife | Blue Steel,ESports 2013 Case,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,ESports 2013 Case,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,ESports 2013 Case,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,ESports 2013 Case,Gold,5700.08,FN,HALOSKINS
-★ Gut Knife | Fade,ESports 2013 Case,Gold,955.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,ESports 2013 Case,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,ESports 2013 Case,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,ESports 2013 Case,Gold,2799.5,FN,BUFF
-★ Gut Knife | Scorched,ESports 2013 Case,Gold,2786.12,FN,STEAM
-★ Gut Knife | Slaughter,ESports 2013 Case,Gold,977.5,FN,YOUPIN
-★ Gut Knife | Stained,ESports 2013 Case,Gold,999.0,FN,YOUPIN
-★ Gut Knife | Urban Masked,ESports 2013 Case,Gold,999.0,FN,BUFF
-,ESports 2013 Case,Gold,,,all
-★ Karambit | Blue Steel,ESports 2013 Case,Gold,8966.0,FN,YOUPIN
-★ Karambit | Boreal Forest,ESports 2013 Case,Gold,7124.38,FN,STEAM
-★ Karambit | Case Hardened,ESports 2013 Case,Gold,13888.0,FN,YOUPIN
-★ Karambit | Crimson Web,ESports 2013 Case,Gold,48888.0,FN,YOUPIN
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-,ESports 2013 Case,Gold,,,all
-★ M9 Bayonet | Crimson Web,ESports 2013 Case,Gold,3190.0,BS,BUFF
-★ M9 Bayonet | Fade,ESports 2013 Case,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,ESports 2013 Case,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,ESports 2013 Case,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,ESports 2013 Case,Gold,1989.5,MW,YOUPIN
-★ M9 Bayonet | Scorched,ESports 2013 Case,Gold,6500.0,FN,YOUPIN
-★ M9 Bayonet | Slaughter,ESports 2013 Case,Gold,6748.0,FN,YOUPIN
-★ M9 Bayonet | Stained,ESports 2013 Case,Gold,3650.0,FN,YOUPIN
-★ M9 Bayonet | Urban Masked,ESports 2013 Case,Gold,2390.0,MW,BUFF
-Galil AR | Blue Titanium,ESports 2013 Winter Case,Mil-Spec,33.74,FN,BUFF
-Five-SeveN | Nightshade,ESports 2013 Winter Case,Mil-Spec,23.14,FN,C5
-PP-Bizon | Water Sigil,ESports 2013 Winter Case,Mil-Spec,21.9,FN,BUFF
-Nova | Ghost Camo,ESports 2013 Winter Case,Mil-Spec,19.32,FN,BUFF
-G3SG1 | Azure Zebra,ESports 2013 Winter Case,Mil-Spec,23.9,FN,BUFF
-P250 | Steel Disruption,ESports 2013 Winter Case,Mil-Spec,21.8,FN,BUFF
-AK-47 | Blue Laminate,ESports 2013 Winter Case,Restricted,184.58,FN,C5
-P90 | Blind Spot,ESports 2013 Winter Case,Restricted,88.8,FN,BUFF
-FAMAS | Afterimage,ESports 2013 Winter Case,Classified,343.98,FN,YOUPIN
-AWP | Electric Hive,ESports 2013 Winter Case,Classified,726.0,FN,YOUPIN
-Desert Eagle | Cobalt Disruption,ESports 2013 Winter Case,Classified,701.33,FN,C5
-M4A4 | X-Ray,ESports 2013 Winter Case,Covert,1919.0,FN,BUFF
-,ESports 2013 Winter Case,Gold,,,all
-★ Bayonet | Blue Steel,ESports 2013 Winter Case,Gold,3200.0,FN,YOUPIN
-★ Bayonet | Boreal Forest,ESports 2013 Winter Case,Gold,4701.63,FN,STEAM
-★ Bayonet | Case Hardened,ESports 2013 Winter Case,Gold,4888.88,FN,BUFF
-★ Bayonet | Crimson Web,ESports 2013 Winter Case,Gold,15000.0,FN,YOUPIN
-★ Bayonet | Fade,ESports 2013 Winter Case,Gold,2863.0,FN,YOUPIN
-★ Bayonet | Forest DDPAT,ESports 2013 Winter Case,Gold,4000.0,FN,BUFF
-★ Bayonet | Night,ESports 2013 Winter Case,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,ESports 2013 Winter Case,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,ESports 2013 Winter Case,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,ESports 2013 Winter Case,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,ESports 2013 Winter Case,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,ESports 2013 Winter Case,Gold,1166.0,MW,BUFF
-,ESports 2013 Winter Case,Gold,,,all
-★ Flip Knife | Blue Steel,ESports 2013 Winter Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,ESports 2013 Winter Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,ESports 2013 Winter Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,ESports 2013 Winter Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,ESports 2013 Winter Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,ESports 2013 Winter Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,ESports 2013 Winter Case,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,ESports 2013 Winter Case,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,ESports 2013 Winter Case,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,ESports 2013 Winter Case,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,ESports 2013 Winter Case,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,ESports 2013 Winter Case,Gold,749.5,MW,BUFF
-,ESports 2013 Winter Case,Gold,,,all
-★ Gut Knife | Blue Steel,ESports 2013 Winter Case,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,ESports 2013 Winter Case,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,ESports 2013 Winter Case,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,ESports 2013 Winter Case,Gold,5700.08,FN,HALOSKINS
-★ Gut Knife | Fade,ESports 2013 Winter Case,Gold,955.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,ESports 2013 Winter Case,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,ESports 2013 Winter Case,Gold,529.5,MW,BUFF
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-,ESports 2013 Winter Case,Gold,,,all
-★ Karambit | Slaughter,ESports 2013 Winter Case,Gold,8199.0,FN,YOUPIN
-★ Karambit | Stained,ESports 2013 Winter Case,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,ESports 2013 Winter Case,Gold,6834.96,FN,STEAM
-,ESports 2013 Winter Case,Gold,,,all
-★ M9 Bayonet | Blue Steel,ESports 2013 Winter Case,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,ESports 2013 Winter Case,Gold,6999.0,FN,BUFF
-★ M9 Bayonet | Case Hardened,ESports 2013 Winter Case,Gold,8500.0,FN,BUFF
-★ M9 Bayonet | Crimson Web,ESports 2013 Winter Case,Gold,34999.0,FN,BUFF
-★ M9 Bayonet | Fade,ESports 2013 Winter Case,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,ESports 2013 Winter Case,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,ESports 2013 Winter Case,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,ESports 2013 Winter Case,Gold,1989.5,MW,YOUPIN
-★ M9 Bayonet | Scorched,ESports 2013 Winter Case,Gold,6500.0,FN,YOUPIN
-★ M9 Bayonet | Slaughter,ESports 2013 Winter Case,Gold,6748.0,FN,YOUPIN
-★ M9 Bayonet | Stained,ESports 2013 Winter Case,Gold,3650.0,FN,YOUPIN
-★ M9 Bayonet | Urban Masked,ESports 2013 Winter Case,Gold,2390.0,MW,BUFF
-SSG 08 | Dark Water,ESports 2014 Summer Case,Mil-Spec,21.89,MW,BUFF
-MAC-10 | Ultraviolet,ESports 2014 Summer Case,Mil-Spec,294.5,FN,YOUPIN
-USP-S | Blood Tiger,ESports 2014 Summer Case,Mil-Spec,52.98,FN,C5
-CZ75-Auto | Hexane,ESports 2014 Summer Case,Mil-Spec,40.0,FN,YOUPIN
-Negev | Bratatat,ESports 2014 Summer Case,Mil-Spec,56.67,FN,BUFF
-XM1014 | Red Python,ESports 2014 Summer Case,Mil-Spec,19.7,MW,BUFF
-PP-Bizon | Blue Streak,ESports 2014 Summer Case,Restricted,111.0,FN,YOUPIN
-P90 | Virus,ESports 2014 Summer Case,Restricted,110.0,FN,BUFF
-MP7 | Ocean Foam,ESports 2014 Summer Case,Restricted,64.08,FN,YOUPIN
-Glock-18 | Steel Disruption,ESports 2014 Summer Case,Restricted,93.95,FN,BUFF
-Desert Eagle | Crimson Web,ESports 2014 Summer Case,Restricted,1296.0,FN,YOUPIN
-AUG | Bengal Tiger,ESports 2014 Summer Case,Classified,649.0,FN,BUFF
-Nova | Bloomstick,ESports 2014 Summer Case,Classified,598.0,FN,C5
-AWP | Corticera,ESports 2014 Summer Case,Classified,2009.0,FN,C5
-P2000 | Corticera,ESports 2014 Summer Case,Classified,560.0,FN,YOUPIN
-M4A4 | Bullet Rain,ESports 2014 Summer Case,Covert,3588.0,FN,BUFF
-AK-47 | Jaguar,ESports 2014 Summer Case,Covert,4200.0,FN,C5
-,ESports 2014 Summer Case,Gold,,,all
-★ Bayonet | Blue Steel,ESports 2014 Summer Case,Gold,3200.0,FN,YOUPIN
-★ Bayonet | Boreal Forest,ESports 2014 Summer Case,Gold,4701.63,FN,STEAM
-★ Bayonet | Case Hardened,ESports 2014 Summer Case,Gold,4888.88,FN,BUFF
-★ Bayonet | Crimson Web,ESports 2014 Summer Case,Gold,15000.0,FN,YOUPIN
-★ Bayonet | Fade,ESports 2014 Summer Case,Gold,2863.0,FN,YOUPIN
-★ Bayonet | Forest DDPAT,ESports 2014 Summer Case,Gold,4000.0,FN,BUFF
-★ Bayonet | Night,ESports 2014 Summer Case,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,ESports 2014 Summer Case,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,ESports 2014 Summer Case,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,ESports 2014 Summer Case,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,ESports 2014 Summer Case,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,ESports 2014 Summer Case,Gold,1166.0,MW,BUFF
-,ESports 2014 Summer Case,Gold,,,all
-★ Flip Knife | Blue Steel,ESports 2014 Summer Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,ESports 2014 Summer Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,ESports 2014 Summer Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,ESports 2014 Summer Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,ESports 2014 Summer Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,ESports 2014 Summer Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,ESports 2014 Summer Case,Gold,3859.5,FN,YOUPIN
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-,ESports 2014 Summer Case,Gold,,,all
-★ Gut Knife | Scorched,ESports 2014 Summer Case,Gold,637.1,BS,C5
-★ Gut Knife | Slaughter,ESports 2014 Summer Case,Gold,977.5,FN,YOUPIN
-★ Gut Knife | Stained,ESports 2014 Summer Case,Gold,999.0,FN,YOUPIN
-★ Gut Knife | Urban Masked,ESports 2014 Summer Case,Gold,999.0,FN,BUFF
-,ESports 2014 Summer Case,Gold,,,all
-★ Karambit | Blue Steel,ESports 2014 Summer Case,Gold,8966.0,FN,YOUPIN
-★ Karambit | Boreal Forest,ESports 2014 Summer Case,Gold,7124.38,FN,STEAM
-★ Karambit | Case Hardened,ESports 2014 Summer Case,Gold,13888.0,FN,YOUPIN
-★ Karambit | Crimson Web,ESports 2014 Summer Case,Gold,48888.0,FN,YOUPIN
-★ Karambit | Fade,ESports 2014 Summer Case,Gold,16300.0,FN,YOUPIN
-★ Karambit | Forest DDPAT,ESports 2014 Summer Case,Gold,8000.0,FN,C5
-★ Karambit | Night,ESports 2014 Summer Case,Gold,13333.0,FN,YOUPIN
-★ Karambit | Safari Mesh,ESports 2014 Summer Case,Gold,4000.0,FN,YOUPIN
-★ Karambit | Scorched,ESports 2014 Summer Case,Gold,7500.0,FN,YOUPIN
-★ Karambit | Slaughter,ESports 2014 Summer Case,Gold,8199.0,FN,YOUPIN
-★ Karambit | Stained,ESports 2014 Summer Case,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,ESports 2014 Summer Case,Gold,6834.96,FN,STEAM
-,ESports 2014 Summer Case,Gold,,,all
-★ M9 Bayonet | Blue Steel,ESports 2014 Summer Case,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,ESports 2014 Summer Case,Gold,6999.0,FN,BUFF
-★ M9 Bayonet | Case Hardened,ESports 2014 Summer Case,Gold,8500.0,FN,BUFF
-★ M9 Bayonet | Crimson Web,ESports 2014 Summer Case,Gold,34999.0,FN,BUFF
-★ M9 Bayonet | Fade,ESports 2014 Summer Case,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,ESports 2014 Summer Case,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,ESports 2014 Summer Case,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,ESports 2014 Summer Case,Gold,1989.5,MW,YOUPIN
-★ M9 Bayonet | Scorched,ESports 2014 Summer Case,Gold,6500.0,FN,YOUPIN
-★ M9 Bayonet | Slaughter,ESports 2014 Summer Case,Gold,6748.0,FN,YOUPIN
-★ M9 Bayonet | Stained,ESports 2014 Summer Case,Gold,3650.0,FN,YOUPIN
-★ M9 Bayonet | Urban Masked,ESports 2014 Summer Case,Gold,2390.0,MW,BUFF
-Galil AR | Rocket Pop,Falchion Case,Mil-Spec,60.5,FN,YOUPIN
-Glock-18 | Bunsen Burner,Falchion Case,Mil-Spec,18.9,FN,C5
-Nova | Ranger,Falchion Case,Mil-Spec,7.98,FN,C5
-P90 | Elite Build,Falchion Case,Mil-Spec,9.48,FN,BUFF
-UMP-45 | Riot,Falchion Case,Mil-Spec,5.7,FN,YOUPIN
-USP-S | Torque,Falchion Case,Mil-Spec,12.0,FN,YOUPIN
-FAMAS | Neural Net,Falchion Case,Restricted,23.26,FN,YOUPIN
-M4A4 | Evil Daimyo,Falchion Case,Restricted,70.1,FN,C5
-MP9 | Ruby Poison Dart,Falchion Case,Restricted,23.72,FN,YOUPIN
-Negev | Loudmouth,Falchion Case,Restricted,58.5,MW,YOUPIN
-P2000 | Handgun,Falchion Case,Restricted,50.99,FN,YOUPIN
-CZ75-Auto | Yellow Jacket,Falchion Case,Classified,191.0,FN,BUFF
-MP7 | Nemesis,Falchion Case,Classified,135.0,FN,YOUPIN
-SG 553 | Cyrex,Falchion Case,Classified,176.9,FN,BUFF
-AK-47 | Aquamarine Revenge,Falchion Case,Covert,1744.46,FN,C5
-AWP | Hyper Beast,Falchion Case,Covert,1268.9,FN,YOUPIN
-,Falchion Case,Gold,,,all
-★ Falchion Knife | Blue Steel,Falchion Case,Gold,1999.0,FN,BUFF
-★ Falchion Knife | Boreal Forest,Falchion Case,Gold,2843.69,FN,STEAM
-★ Falchion Knife | Case Hardened,Falchion Case,Gold,2799.0,FN,BUFF
-★ Falchion Knife | Crimson Web,Falchion Case,Gold,19999.0,FN,BUFF
-★ Falchion Knife | Fade,Falchion Case,Gold,1717.0,FN,YOUPIN
-★ Falchion Knife | Forest DDPAT,Falchion Case,Gold,2382.77,FN,STEAM
-★ Falchion Knife | Night,Falchion Case,Gold,2099.0,FN,BUFF
-★ Falchion Knife | Safari Mesh,Falchion Case,Gold,1175.0,FN,BUFF
-★ Falchion Knife | Scorched,Falchion Case,Gold,1000.0,FN,BUFF
-★ Falchion Knife | Slaughter,Falchion Case,Gold,1800.0,FN,YOUPIN
-★ Falchion Knife | Stained,Falchion Case,Gold,1099.0,FN,BUFF
-★ Falchion Knife | Urban Masked,Falchion Case,Gold,1666.0,FN,BUFF
-,Fracture Case,Covert,,,all
-,Fracture Case,Covert,,,all
-,Fracture Case,Classified,,,all
-,Fracture Case,Classified,,,all
-,Fracture Case,Classified,,,all
-,Fracture Case,Restricted,,,all
-,Fracture Case,Restricted,,,all
-,Fracture Case,Restricted,,,all
-,Fracture Case,Restricted,,,all
-,Fracture Case,Restricted,,,all
-,Fracture Case,Mil-Spec,,,all
-,Fracture Case,Mil-Spec,,,all
-,Fracture Case,Mil-Spec,,,all
-P90 | Freight,Fracture Case,Mil-Spec,0.46,FT,BUFF
-SG 553 | Ol' Rusty,Fracture Case,Mil-Spec,2.42,FN,C5
-Negev | Ultralight,Fracture Case,Mil-Spec,2.59,FN,BUFF
-PP-Bizon | Runic,Fracture Case,Mil-Spec,4.95,FN,BUFF
-,Fracture Case,Gold,,,all
-★ Nomad Knife | Blue Steel,Fracture Case,Gold,1885.0,FN,YOUPIN
-★ Nomad Knife | Boreal Forest,Fracture Case,Gold,1650.0,FN,BUFF
-★ Nomad Knife | Case Hardened,Fracture Case,Gold,2400.0,FN,YOUPIN
-★ Nomad Knife | Crimson Web,Fracture Case,Gold,7898.5,FN,BUFF
-★ Nomad Knife | Fade,Fracture Case,Gold,2819.5,FN,YOUPIN
-★ Nomad Knife | Forest DDPAT,Fracture Case,Gold,1400.0,FN,BUFF
-★ Nomad Knife | Night Stripe,Fracture Case,Gold,1780.0,FN,BUFF
-★ Nomad Knife | Safari Mesh,Fracture Case,Gold,1175.0,FN,BUFF
-★ Nomad Knife | Scorched,Fracture Case,Gold,1587.0,FN,YOUPIN
-★ Nomad Knife | Slaughter,Fracture Case,Gold,1799.5,FN,BUFF
-★ Nomad Knife | Stained,Fracture Case,Gold,1349.0,FN,YOUPIN
-★ Nomad Knife | Urban Masked,Fracture Case,Gold,2299.5,FN,YOUPIN
-,Fracture Case,Gold,,,all
-★ Skeleton Knife | Blue Steel,Fracture Case,Gold,2699.5,FN,BUFF
-★ Skeleton Knife | Boreal Forest,Fracture Case,Gold,1980.0,FN,YOUPIN
-★ Skeleton Knife | Case Hardened,Fracture Case,Gold,4687.0,FN,YOUPIN
-★ Skeleton Knife | Crimson Web,Fracture Case,Gold,16000.0,FN,BUFF
-★ Skeleton Knife | Fade,Fracture Case,Gold,4699.5,FN,BUFF
-★ Skeleton Knife | Forest DDPAT,Fracture Case,Gold,2100.0,FN,C5
-★ Skeleton Knife | Night Stripe,Fracture Case,Gold,3153.0,FN,BUFF
-★ Skeleton Knife | Safari Mesh,Fracture Case,Gold,1288.0,FN,BUFF
-★ Skeleton Knife | Scorched,Fracture Case,Gold,2979.5,FN,BUFF
-★ Skeleton Knife | Slaughter,Fracture Case,Gold,3218.0,FN,YOUPIN
-★ Skeleton Knife | Stained,Fracture Case,Gold,2099.5,FN,YOUPIN
-★ Skeleton Knife | Urban Masked,Fracture Case,Gold,2900.0,FN,YOUPIN
-,Fracture Case,Gold,,,all
-★ Paracord Knife | Blue Steel,Fracture Case,Gold,1369.5,FN,BUFF
-★ Paracord Knife | Boreal Forest,Fracture Case,Gold,1607.35,FN,STEAM
-★ Paracord Knife | Case Hardened,Fracture Case,Gold,1868.5,FN,BUFF
-★ Paracord Knife | Crimson Web,Fracture Case,Gold,10000.0,FN,BUFF
-★ Paracord Knife | Fade,Fracture Case,Gold,1205.0,FN,YOUPIN
-★ Paracord Knife | Forest DDPAT,Fracture Case,Gold,890.63,FN,STEAM
-★ Paracord Knife | Night Stripe,Fracture Case,Gold,2200.0,FN,YOUPIN
-★ Paracord Knife | Safari Mesh,Fracture Case,Gold,1050.0,FN,BUFF
-★ Paracord Knife | Scorched,Fracture Case,Gold,990.0,FN,BUFF
-★ Paracord Knife | Slaughter,Fracture Case,Gold,1050.0,FN,YOUPIN
-★ Paracord Knife | Stained,Fracture Case,Gold,900.0,FN,BUFF
-★ Paracord Knife | Urban Masked,Fracture Case,Gold,1088.0,FN,BUFF
-,Fracture Case,Gold,,,all
-★ Survival Knife | Blue Steel,Fracture Case,Gold,999.0,FN,BUFF
-★ Survival Knife | Boreal Forest,Fracture Case,Gold,888.0,FN,BUFF
-★ Survival Knife | Case Hardened,Fracture Case,Gold,1686.0,FN,BUFF
-★ Survival Knife | Crimson Web,Fracture Case,Gold,5145.0,FN,BUFF
-★ Survival Knife | Fade,Fracture Case,Gold,1099.5,FN,BUFF
-★ Survival Knife | Forest DDPAT,Fracture Case,Gold,1079.0,FN,BUFF
-★ Survival Knife | Night Stripe,Fracture Case,Gold,1283.43,FN,C5
-★ Survival Knife | Safari Mesh,Fracture Case,Gold,999.99,FN,YOUPIN
-★ Survival Knife | Scorched,Fracture Case,Gold,1100.0,FN,BUFF
-★ Survival Knife | Slaughter,Fracture Case,Gold,999.0,FN,YOUPIN
-★ Survival Knife | Stained,Fracture Case,Gold,880.0,FN,C5
-★ Survival Knife | Urban Masked,Fracture Case,Gold,1477.0,FN,C5
-XM1014 | Slipstream,Gamma 2 Case,Mil-Spec,3.87,FN,BUFF
-UMP-45 | Briefing,Gamma 2 Case,Mil-Spec,6.3,FN,BUFF
-P90 | Grim,Gamma 2 Case,Mil-Spec,4.37,FN,BUFF
-Negev | Dazzle,Gamma 2 Case,Mil-Spec,4.61,MW,YOUPIN
-G3SG1 | Ventilator,Gamma 2 Case,Mil-Spec,3.81,FN,C5
-Five-SeveN | Scumbria,Gamma 2 Case,Mil-Spec,5.69,FN,BUFF
-CZ75-Auto | Imprint,Gamma 2 Case,Mil-Spec,6.96,FN,BUFF
-,Gamma 2 Case,Restricted,,,all
-,Gamma 2 Case,Restricted,,,all
-,Gamma 2 Case,Restricted,,,all
-,Gamma 2 Case,Restricted,,,all
-,Gamma 2 Case,Restricted,,,all
-,Gamma 2 Case,Classified,,,all
-,Gamma 2 Case,Classified,,,all
-,Gamma 2 Case,Classified,,,all
-,Gamma 2 Case,Covert,,,all
-,Gamma 2 Case,Covert,,,all
-,Gamma 2 Case,Gold,,,all
-,Gamma 2 Case,Gold,,,all
-,Gamma 2 Case,Gold,,,all
-★ Bayonet | Gamma Doppler,Gamma 2 Case,Gold,3899.5,FN,YOUPIN
-★ Bayonet | Gamma Doppler,Gamma 2 Case,Gold,3899.5,FN,YOUPIN
-★ Bayonet | Freehand,Gamma 2 Case,Gold,1380.0,FN,YOUPIN
-★ Bayonet | Lore,Gamma 2 Case,Gold,3400.0,FN,BUFF
-★ Bayonet | Autotronic,Gamma 2 Case,Gold,4288.0,FN,C5
-★ Bayonet | Bright Water,Gamma 2 Case,Gold,1349.5,FN,YOUPIN
-★ Bayonet | Black Laminate,Gamma 2 Case,Gold,2100.0,FN,BUFF
-★ Flip Knife | Gamma Doppler,Gamma 2 Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma 2 Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma 2 Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma 2 Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma 2 Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Freehand,Gamma 2 Case,Gold,880.0,FN,YOUPIN
-★ Flip Knife | Lore,Gamma 2 Case,Gold,2070.0,FN,BUFF
-★ Flip Knife | Autotronic,Gamma 2 Case,Gold,1998.5,FN,YOUPIN
-★ Flip Knife | Bright Water,Gamma 2 Case,Gold,900.0,FN,YOUPIN
-★ Flip Knife | Black Laminate,Gamma 2 Case,Gold,1400.0,FN,BUFF
-★ Gut Knife | Gamma Doppler,Gamma 2 Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Gamma Doppler,Gamma 2 Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Gamma Doppler,Gamma 2 Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Gamma Doppler,Gamma 2 Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Gamma Doppler,Gamma 2 Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Freehand,Gamma 2 Case,Gold,548.5,FN,YOUPIN
-★ Gut Knife | Lore,Gamma 2 Case,Gold,1100.0,FN,YOUPIN
-★ Gut Knife | Autotronic,Gamma 2 Case,Gold,1699.0,FN,YOUPIN
-★ Gut Knife | Bright Water,Gamma 2 Case,Gold,490.0,FN,YOUPIN
-★ Gut Knife | Black Laminate,Gamma 2 Case,Gold,850.0,FN,BUFF
-★ Karambit | Gamma Doppler,Gamma 2 Case,Gold,21645.0,FN,C5
-★ Karambit | Gamma Doppler,Gamma 2 Case,Gold,21645.0,FN,C5
-★ Karambit | Gamma Doppler,Gamma 2 Case,Gold,21645.0,FN,C5
-★ Karambit | Gamma Doppler,Gamma 2 Case,Gold,21645.0,FN,C5
-★ Karambit | Gamma Doppler,Gamma 2 Case,Gold,21645.0,FN,C5
-★ Karambit | Freehand,Gamma 2 Case,Gold,4088.0,FN,C5
-★ Karambit | Lore,Gamma 2 Case,Gold,10500.0,FN,YOUPIN
-★ Karambit | Autotronic,Gamma 2 Case,Gold,13598.5,FN,YOUPIN
-★ Karambit | Bright Water,Gamma 2 Case,Gold,3850.0,FN,YOUPIN
-★ Karambit | Black Laminate,Gamma 2 Case,Gold,7600.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma 2 Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma 2 Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma 2 Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma 2 Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma 2 Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Freehand,Gamma 2 Case,Gold,3076.0,FN,YOUPIN
-★ M9 Bayonet | Lore,Gamma 2 Case,Gold,10887.0,FN,C5
-★ M9 Bayonet | Autotronic,Gamma 2 Case,Gold,11455.0,FN,YOUPIN
-★ M9 Bayonet | Bright Water,Gamma 2 Case,Gold,3000.0,FN,YOUPIN
-★ M9 Bayonet | Black Laminate,Gamma 2 Case,Gold,5069.0,FN,YOUPIN
-Five-SeveN | Violent Daimyo,Gamma Case,Mil-Spec,9.11,FN,YOUPIN
-MAC-10 | Carnivore,Gamma Case,Mil-Spec,7.83,FN,YOUPIN
-Nova | Exo,Gamma Case,Mil-Spec,4.03,FN,BUFF
-P250 | Iron Clad,Gamma Case,Mil-Spec,38.68,FN,STEAM
-PP-Bizon | Harvester,Gamma Case,Mil-Spec,21.38,FN,HALOSKINS
-SG 553 | Aerial,Gamma Case,Mil-Spec,3.98,FN,BUFF
-Tec-9 | Ice Cap,Gamma Case,Mil-Spec,5.52,FN,BUFF
-AUG | Aristocrat,Gamma Case,Restricted,29.0,FN,YOUPIN
-AWP | Phobos,Gamma Case,Restricted,30.4,FN,BUFF
-P90 | Chopper,Gamma Case,Restricted,26.0,FN,BUFF
-R8 Revolver | Reboot,Gamma Case,Restricted,39.8,FN,BUFF
-Sawed-Off | Limelight,Gamma Case,Restricted,40.0,FN,YOUPIN
-M4A4 | Desolate Space,Gamma Case,Classified,709.5,FN,BUFF
-,Gamma Case,Classified,,,all
-,Gamma Case,Classified,,,all
-,Gamma Case,Covert,,,all
-,Gamma Case,Covert,,,all
-,Gamma Case,Gold,,,all
-,Gamma Case,Gold,,,all
-,Gamma Case,Gold,,,all
-,Gamma Case,Gold,,,all
-,Gamma Case,Gold,,,all
-,Gamma Case,Gold,,,all
-,Gamma Case,Gold,,,all
-,Gamma Case,Gold,,,all
-,Gamma Case,Gold,,,all
-★ Bayonet | Black Laminate,Gamma Case,Gold,1216.99,MW,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Gamma Doppler,Gamma Case,Gold,3038.0,FN,YOUPIN
-★ Flip Knife | Freehand,Gamma Case,Gold,880.0,FN,YOUPIN
-★ Flip Knife | Lore,Gamma Case,Gold,2070.0,FN,BUFF
-★ Flip Knife | Autotronic,Gamma Case,Gold,1998.5,FN,YOUPIN
-★ Flip Knife | Bright Water,Gamma Case,Gold,900.0,FN,YOUPIN
-★ Flip Knife | Black Laminate,Gamma Case,Gold,1400.0,FN,BUFF
-★ Gut Knife | Gamma Doppler,Gamma Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Gamma Doppler,Gamma Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Gamma Doppler,Gamma Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Gamma Doppler,Gamma Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Gamma Doppler,Gamma Case,Gold,1098.5,FN,YOUPIN
-★ Gut Knife | Freehand,Gamma Case,Gold,548.5,FN,YOUPIN
-★ Gut Knife | Lore,Gamma Case,Gold,1100.0,FN,YOUPIN
-★ Gut Knife | Autotronic,Gamma Case,Gold,1699.0,FN,YOUPIN
-★ Gut Knife | Bright Water,Gamma Case,Gold,490.0,FN,YOUPIN
-★ Gut Knife | Black Laminate,Gamma Case,Gold,850.0,FN,BUFF
-★ Karambit | Gamma Doppler,Gamma Case,Gold,21645.0,FN,C5
-★ Karambit | Gamma Doppler,Gamma Case,Gold,21645.0,FN,C5
-★ Karambit | Gamma Doppler,Gamma Case,Gold,21645.0,FN,C5
-★ Karambit | Gamma Doppler,Gamma Case,Gold,21645.0,FN,C5
-★ Karambit | Gamma Doppler,Gamma Case,Gold,21645.0,FN,C5
-★ Karambit | Freehand,Gamma Case,Gold,4088.0,FN,C5
-★ Karambit | Lore,Gamma Case,Gold,10500.0,FN,YOUPIN
-★ Karambit | Autotronic,Gamma Case,Gold,13598.5,FN,YOUPIN
-★ Karambit | Bright Water,Gamma Case,Gold,3850.0,FN,YOUPIN
-★ Karambit | Black Laminate,Gamma Case,Gold,7600.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Gamma Doppler,Gamma Case,Gold,12388.0,FN,YOUPIN
-★ M9 Bayonet | Freehand,Gamma Case,Gold,3076.0,FN,YOUPIN
-★ M9 Bayonet | Lore,Gamma Case,Gold,10887.0,FN,C5
-★ M9 Bayonet | Autotronic,Gamma Case,Gold,11455.0,FN,YOUPIN
-★ M9 Bayonet | Bright Water,Gamma Case,Gold,3000.0,FN,YOUPIN
-★ M9 Bayonet | Black Laminate,Gamma Case,Gold,5069.0,FN,YOUPIN
-P2000 | Turf,Glove Case,Mil-Spec,15.7,FN,BUFF
-MAG-7 | Sonar,Glove Case,Mil-Spec,10.3,FN,YOUPIN
-MP9 | Sand Scale,Glove Case,Mil-Spec,9.97,FN,BUFF
-Galil AR | Black Sand,Glove Case,Mil-Spec,4.21,FN,HALOSKINS
-MP7 | Cirrus,Glove Case,Mil-Spec,11.5,FN,BUFF
-Glock-18 | Ironwork,Glove Case,Mil-Spec,29.7,FN,YOUPIN
-CZ75-Auto | Polymer,Glove Case,Mil-Spec,10.52,FN,YOUPIN
-USP-S | Cyrex,Glove Case,Restricted,69.9,FN,BUFF
-Nova | Gila,Glove Case,Restricted,63.63,FN,C5
-M4A1-S | Flashback,Glove Case,Restricted,166.0,FN,C5
-G3SG1 | Stinger,Glove Case,Restricted,69.66,FN,C5
-Dual Berettas | Royal Consorts,Glove Case,Restricted,70.98,FN,BUFF
-Sawed-Off | Wasteland Princess,Glove Case,Classified,639.5,FN,BUFF
-P90 | Shallow Grave,Glove Case,Classified,631.5,FN,BUFF
-FAMAS | Mecha Industries,Glove Case,Classified,627.0,FN,YOUPIN
-M4A4 | Buzz Kill,Glove Case,Covert,7099.49,FN,C5
-SSG 08 | Dragonfire,Glove Case,Covert,4318.0,FN,C5
-★ Bloodhound Gloves | Snakebite,Glove Case,Gold,4300.0,FN,BUFF
-★ Bloodhound Gloves | Bronzed,Glove Case,Gold,10967.27,FN,C5
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-,Glove Case,Gold,,,all
-★ Moto Gloves | Eclipse,Glove Case,Gold,4299.0,MW,YOUPIN
-★ Specialist Gloves | Crimson Kimono,Glove Case,Gold,130000.0,FN,YOUPIN
-★ Specialist Gloves | Emerald Web,Glove Case,Gold,88888.0,FN,BUFF
-★ Specialist Gloves | Foundation,Glove Case,Gold,24800.0,FN,BUFF
-★ Specialist Gloves | Forest DDPAT,Glove Case,Gold,8888.0,FN,YOUPIN
-★ Sport Gloves | Superconductor,Glove Case,Gold,125000.0,FN,YOUPIN
-★ Sport Gloves | Hedge Maze,Glove Case,Gold,250000.0,FN,C5
-★ Sport Gloves | Pandora's Box,Glove Case,Gold,330000.0,FN,YOUPIN
-★ Sport Gloves | Arid,Glove Case,Gold,48888.0,FN,YOUPIN
-AUG | Amber Slipstream,Horizon Case,Mil-Spec,3.95,FN,YOUPIN
-Dual Berettas | Shred,Horizon Case,Mil-Spec,4.11,FN,BUFF
-Glock-18 | Warhawk,Horizon Case,Mil-Spec,17.19,FN,BUFF
-MP9 | Capillary,Horizon Case,Mil-Spec,6.0,FN,C5
-P90 | Traction,Horizon Case,Mil-Spec,8.79,FN,BUFF
-R8 Revolver | Survivalist,Horizon Case,Mil-Spec,5.0,FN,BUFF
-Tec-9 | Snek-9,Horizon Case,Mil-Spec,9.9,FN,BUFF
-CZ75-Auto | Eco,Horizon Case,Restricted,38.89,FN,YOUPIN
-G3SG1 | High Seas,Horizon Case,Restricted,32.6,FN,BUFF
-Nova | Toy Soldier,Horizon Case,Restricted,35.0,FN,YOUPIN
-AWP | PAW,Horizon Case,Restricted,34.9,FN,BUFF
-MP7 | Powercore,Horizon Case,Restricted,35.58,FN,BUFF
-M4A1-S | Nightmare,Horizon Case,Classified,548.0,FN,YOUPIN
-Sawed-Off | Devourer,Horizon Case,Classified,172.5,FN,YOUPIN
-FAMAS | Eye of Athena,Horizon Case,Classified,174.5,FN,YOUPIN
-AK-47 | Neon Rider,Horizon Case,Covert,1930.0,FN,C5
-Desert Eagle | Code Red,Horizon Case,Covert,1313.5,FN,C5
-,Horizon Case,Gold,,,all
-★ Talon Knife | Blue Steel,Horizon Case,Gold,4201.0,FN,BUFF
-★ Talon Knife | Boreal Forest,Horizon Case,Gold,3486.5,FN,YOUPIN
-★ Talon Knife | Case Hardened,Horizon Case,Gold,7200.0,FN,YOUPIN
-★ Talon Knife | Crimson Web,Horizon Case,Gold,15000.0,FN,YOUPIN
-★ Talon Knife | Fade,Horizon Case,Gold,6398.5,FN,YOUPIN
-★ Talon Knife | Forest DDPAT,Horizon Case,Gold,3500.0,FN,BUFF
-★ Talon Knife | Night Stripe,Horizon Case,Gold,4550.0,FN,YOUPIN
-★ Talon Knife | Safari Mesh,Horizon Case,Gold,3000.0,FN,BUFF
-★ Talon Knife | Scorched,Horizon Case,Gold,2400.0,FN,BUFF
-★ Talon Knife | Slaughter,Horizon Case,Gold,4800.0,FN,YOUPIN
-★ Talon Knife | Stained,Horizon Case,Gold,2780.0,FN,YOUPIN
-★ Talon Knife | Urban Masked,Horizon Case,Gold,4887.5,FN,YOUPIN
-,Horizon Case,Gold,,,all
-★ Navaja Knife | Blue Steel,Horizon Case,Gold,855.0,FN,C5
-★ Navaja Knife | Boreal Forest,Horizon Case,Gold,1415.0,FN,C5
-★ Navaja Knife | Case Hardened,Horizon Case,Gold,1100.0,FN,BUFF
-★ Navaja Knife | Crimson Web,Horizon Case,Gold,3600.0,FN,BUFF
-★ Navaja Knife | Fade,Horizon Case,Gold,750.0,FN,BUFF
-★ Navaja Knife | Forest DDPAT,Horizon Case,Gold,831.0,FN,BUFF
-★ Navaja Knife | Night Stripe,Horizon Case,Gold,2699.0,FN,BUFF
-★ Navaja Knife | Safari Mesh,Horizon Case,Gold,397.56,MW,YOUPIN
-★ Navaja Knife | Scorched,Horizon Case,Gold,1350.0,FN,BUFF
-★ Navaja Knife | Slaughter,Horizon Case,Gold,700.0,FN,BUFF
-★ Navaja Knife | Stained,Horizon Case,Gold,797.5,FN,BUFF
-★ Navaja Knife | Urban Masked,Horizon Case,Gold,1618.32,FN,STEAM
-,Horizon Case,Gold,,,all
-★ Stiletto Knife | Blue Steel,Horizon Case,Gold,2099.5,FN,YOUPIN
-★ Stiletto Knife | Boreal Forest,Horizon Case,Gold,2199.0,FN,BUFF
-★ Stiletto Knife | Case Hardened,Horizon Case,Gold,3900.0,FN,YOUPIN
-★ Stiletto Knife | Crimson Web,Horizon Case,Gold,9699.5,FN,BUFF
-★ Stiletto Knife | Fade,Horizon Case,Gold,3120.0,FN,YOUPIN
-★ Stiletto Knife | Forest DDPAT,Horizon Case,Gold,1882.5,FN,C5
-★ Stiletto Knife | Night Stripe,Horizon Case,Gold,2850.0,FN,BUFF
-★ Stiletto Knife | Safari Mesh,Horizon Case,Gold,1999.0,FN,YOUPIN
-★ Stiletto Knife | Scorched,Horizon Case,Gold,2000.0,FN,YOUPIN
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-,Horizon Case,Gold,,,all
-★ Ursus Knife | Stained,Horizon Case,Gold,962.0,FN,YOUPIN
-★ Ursus Knife | Urban Masked,Horizon Case,Gold,1920.0,FN,YOUPIN
-Tec-9 | Isaac,Huntsman Weapon Case,Mil-Spec,102.5,FN,YOUPIN
-SSG 08 | Slashed,Huntsman Weapon Case,Mil-Spec,9.44,FT,BUFF
-Galil AR | Kami,Huntsman Weapon Case,Mil-Spec,25.9,FN,C5
-,Huntsman Weapon Case,Mil-Spec,,,all
-,Huntsman Weapon Case,Mil-Spec,,,all
-,Huntsman Weapon Case,Mil-Spec,,,all
-AUG | Torque,Huntsman Weapon Case,Restricted,84.91,FN,C5
-PP-Bizon | Antique,Huntsman Weapon Case,Restricted,84.1,FN,YOUPIN
-XM1014 | Heaven Guard,Huntsman Weapon Case,Restricted,95.9,FN,YOUPIN
-,Huntsman Weapon Case,Restricted,,,all
-M4A1-S | Atomic Alloy,Huntsman Weapon Case,Classified,1575.0,FN,YOUPIN
-SCAR-20 | Cyrex,Huntsman Weapon Case,Classified,438.0,FN,BUFF
-,Huntsman Weapon Case,Classified,,,all
-AK-47 | Vulcan,Huntsman Weapon Case,Covert,5970.0,FN,YOUPIN
-,Huntsman Weapon Case,Covert,,,all
-,Huntsman Weapon Case,Gold,,,all
-★ Huntsman Knife | Blue Steel,Huntsman Weapon Case,Gold,2200.0,FN,BUFF
-★ Huntsman Knife | Boreal Forest,Huntsman Weapon Case,Gold,2000.0,FN,BUFF
-★ Huntsman Knife | Case Hardened,Huntsman Weapon Case,Gold,3569.0,FN,BUFF
-★ Huntsman Knife | Crimson Web,Huntsman Weapon Case,Gold,5555.0,FN,YOUPIN
-★ Huntsman Knife | Fade,Huntsman Weapon Case,Gold,1900.0,FN,YOUPIN
-★ Huntsman Knife | Forest DDPAT,Huntsman Weapon Case,Gold,2137.53,FN,STEAM
-★ Huntsman Knife | Night,Huntsman Weapon Case,Gold,12738.32,FN,STEAM
-★ Huntsman Knife | Safari Mesh,Huntsman Weapon Case,Gold,999.0,FN,BUFF
-★ Huntsman Knife | Scorched,Huntsman Weapon Case,Gold,3296.99,FN,STEAM
-,Huntsman Weapon Case,Gold,,,all
-,Huntsman Weapon Case,Gold,,,all
-,Huntsman Weapon Case,Gold,,,all
-,Huntsman Weapon Case,Mil-Spec,,,all
-,Huntsman Weapon Case,Mil-Spec,,,all
-,Huntsman Weapon Case,Mil-Spec,,,all
-,Huntsman Weapon Case,Restricted,,,all
-,Huntsman Weapon Case,Classified,,,all
-,Huntsman Weapon Case,Covert,,,all
-,Operation Bravo Case,Mil-Spec,,,all
-,Operation Bravo Case,Mil-Spec,,,all
-,Operation Bravo Case,Mil-Spec,,,all
-,Operation Bravo Case,Mil-Spec,,,all
-,Operation Bravo Case,Mil-Spec,,,all
-,Operation Bravo Case,Mil-Spec,,,all
-M4A1-S | Bright Water,Operation Bravo Case,Restricted,269.8,MW,C5
-M4A4 | Zirka,Operation Bravo Case,Restricted,569.9,FN,C5
-MAC-10 | Graven,Operation Bravo Case,Restricted,449.4,FN,YOUPIN
-USP-S | Overgrowth,Operation Bravo Case,Restricted,639.5,FN,YOUPIN
-P90 | Emerald Dragon,Operation Bravo Case,Classified,3173.51,FN,STEAM
-P2000 | Ocean Foam,Operation Bravo Case,Classified,1014.0,FN,YOUPIN
-AWP | Graphite,Operation Bravo Case,Classified,1430.0,FN,YOUPIN
-Desert Eagle | Golden Koi,Operation Bravo Case,Covert,2540.0,FN,C5
-AK-47 | Fire Serpent,Operation Bravo Case,Covert,24999.5,FN,YOUPIN
-,Operation Bravo Case,Gold,,,all
-★ Bayonet | Blue Steel,Operation Bravo Case,Gold,3200.0,FN,YOUPIN
-★ Bayonet | Boreal Forest,Operation Bravo Case,Gold,4701.63,FN,STEAM
-★ Bayonet | Case Hardened,Operation Bravo Case,Gold,4888.88,FN,BUFF
-★ Bayonet | Crimson Web,Operation Bravo Case,Gold,15000.0,FN,YOUPIN
-★ Bayonet | Fade,Operation Bravo Case,Gold,2863.0,FN,YOUPIN
-★ Bayonet | Forest DDPAT,Operation Bravo Case,Gold,4000.0,FN,BUFF
-★ Bayonet | Night,Operation Bravo Case,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,Operation Bravo Case,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,Operation Bravo Case,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,Operation Bravo Case,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,Operation Bravo Case,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,Operation Bravo Case,Gold,1166.0,MW,BUFF
-,Operation Bravo Case,Gold,,,all
-★ Flip Knife | Blue Steel,Operation Bravo Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,Operation Bravo Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,Operation Bravo Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,Operation Bravo Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,Operation Bravo Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,Operation Bravo Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,Operation Bravo Case,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,Operation Bravo Case,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,Operation Bravo Case,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,Operation Bravo Case,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,Operation Bravo Case,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,Operation Bravo Case,Gold,749.5,MW,BUFF
-,Operation Bravo Case,Gold,,,all
-★ Gut Knife | Blue Steel,Operation Bravo Case,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,Operation Bravo Case,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,Operation Bravo Case,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,Operation Bravo Case,Gold,5700.08,FN,HALOSKINS
-★ Gut Knife | Fade,Operation Bravo Case,Gold,954.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,Operation Bravo Case,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,Operation Bravo Case,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,Operation Bravo Case,Gold,2799.5,FN,BUFF
-★ Gut Knife | Scorched,Operation Bravo Case,Gold,2786.12,FN,STEAM
-★ Gut Knife | Slaughter,Operation Bravo Case,Gold,977.5,FN,YOUPIN
-★ Gut Knife | Stained,Operation Bravo Case,Gold,999.0,FN,YOUPIN
-★ Gut Knife | Urban Masked,Operation Bravo Case,Gold,999.0,FN,BUFF
-,Operation Bravo Case,Gold,,,all
-★ Karambit | Blue Steel,Operation Bravo Case,Gold,8966.0,FN,YOUPIN
-★ Karambit | Boreal Forest,Operation Bravo Case,Gold,7124.38,FN,STEAM
-★ Karambit | Case Hardened,Operation Bravo Case,Gold,13888.0,FN,YOUPIN
-★ Karambit | Crimson Web,Operation Bravo Case,Gold,48888.0,FN,YOUPIN
-★ Karambit | Fade,Operation Bravo Case,Gold,16300.0,FN,YOUPIN
-★ Karambit | Forest DDPAT,Operation Bravo Case,Gold,8000.0,FN,C5
-★ Karambit | Night,Operation Bravo Case,Gold,13333.0,FN,YOUPIN
-★ Karambit | Safari Mesh,Operation Bravo Case,Gold,4000.0,FN,YOUPIN
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-,Operation Bravo Case,Gold,,,all
-★ M9 Bayonet | Slaughter,Operation Bravo Case,Gold,5020.0,MW,YOUPIN
-★ M9 Bayonet | Stained,Operation Bravo Case,Gold,3650.0,FN,YOUPIN
-★ M9 Bayonet | Urban Masked,Operation Bravo Case,Gold,2390.0,MW,BUFF
-MP7 | Urban Hazard,Operation Breakout Weapon Case,Mil-Spec,5.8,FN,YOUPIN
-Negev | Desert-Strike,Operation Breakout Weapon Case,Mil-Spec,5.5,FN,BUFF
-P2000 | Ivory,Operation Breakout Weapon Case,Mil-Spec,10.17,FN,BUFF
-SSG 08 | Abyss,Operation Breakout Weapon Case,Mil-Spec,25.56,FN,YOUPIN
-UMP-45 | Labyrinth,Operation Breakout Weapon Case,Mil-Spec,5.98,FN,YOUPIN
-PP-Bizon | Osiris,Operation Breakout Weapon Case,Restricted,23.0,FN,YOUPIN
-,Operation Breakout Weapon Case,Restricted,,,all
-Nova | Koi,Operation Breakout Weapon Case,Restricted,22.8,FN,BUFF
-P250 | Supernova,Operation Breakout Weapon Case,Restricted,22.98,FN,BUFF
-Desert Eagle | Conspiracy,Operation Breakout Weapon Case,Classified,179.99,FN,BUFF
-Five-SeveN | Fowl Play,Operation Breakout Weapon Case,Classified,329.0,FN,YOUPIN
-Glock-18 | Water Elemental,Operation Breakout Weapon Case,Classified,278.0,FN,BUFF
-P90 | Asiimov,Operation Breakout Weapon Case,Covert,1583.0,FN,BUFF
-M4A1-S | Cyrex,Operation Breakout Weapon Case,Covert,1643.0,FN,YOUPIN
-,Operation Breakout Weapon Case,Gold,,,all
-★ Butterfly Knife | Blue Steel,Operation Breakout Weapon Case,Gold,8688.0,FN,BUFF
-★ Butterfly Knife | Boreal Forest,Operation Breakout Weapon Case,Gold,8000.0,FN,BUFF
-★ Butterfly Knife | Case Hardened,Operation Breakout Weapon Case,Gold,9500.0,FN,YOUPIN
-★ Butterfly Knife | Crimson Web,Operation Breakout Weapon Case,Gold,37999.0,FN,BUFF
-★ Butterfly Knife | Fade,Operation Breakout Weapon Case,Gold,20899.0,FN,BUFF
-★ Butterfly Knife | Forest DDPAT,Operation Breakout Weapon Case,Gold,6788.0,FN,YOUPIN
-★ Butterfly Knife | Night,Operation Breakout Weapon Case,Gold,9799.5,FN,BUFF
-★ Butterfly Knife | Safari Mesh,Operation Breakout Weapon Case,Gold,6500.0,FN,BUFF
-★ Butterfly Knife | Scorched,Operation Breakout Weapon Case,Gold,7000.0,FN,C5
-★ Butterfly Knife | Slaughter,Operation Breakout Weapon Case,Gold,11749.5,FN,YOUPIN
-★ Butterfly Knife | Stained,Operation Breakout Weapon Case,Gold,6533.0,FN,YOUPIN
-★ Butterfly Knife | Urban Masked,Operation Breakout Weapon Case,Gold,6088.0,FN,YOUPIN
-M4A1-S | Printstream,Operation Broken Fang Case,Covert,5067.0,FN,YOUPIN
-,Operation Broken Fang Case,Covert,,,all
-M4A4 | Cyber Security,Operation Broken Fang Case,Classified,2374.0,FN,YOUPIN
-USP-S | Monster Mashup,Operation Broken Fang Case,Classified,837.0,FN,C5
-Five-SeveN | Fairy Tale,Operation Broken Fang Case,Classified,870.0,FN,YOUPIN
-AWP | Exoskeleton,Operation Broken Fang Case,Restricted,216.89,FN,C5
-UMP-45 | Gold Bismuth,Operation Broken Fang Case,Restricted,100.0,FN,C5
-Dual Berettas | Dezastre,Operation Broken Fang Case,Restricted,118.9,FN,YOUPIN
-SSG 08 | Parallax,Operation Broken Fang Case,Restricted,117.09,FN,C5
-Nova | Clear Polymer,Operation Broken Fang Case,Restricted,115.9,FN,YOUPIN
-MP5-SD | Condition Zero,Operation Broken Fang Case,Mil-Spec,19.7,FN,YOUPIN
-M249 | Deep Relief,Operation Broken Fang Case,Mil-Spec,16.45,FN,BUFF
-,Operation Broken Fang Case,Mil-Spec,,,all
-Galil AR | Vandal,Operation Broken Fang Case,Mil-Spec,19.98,FN,BUFF
-G3SG1 | Digital Mesh,Operation Broken Fang Case,Mil-Spec,14.68,FN,BUFF
-,Operation Broken Fang Case,Mil-Spec,,,all
-,Operation Broken Fang Case,Mil-Spec,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-,Operation Broken Fang Case,Gold,,,all
-★ Moto Gloves | Smoke Out,Operation Broken Fang Case,Gold,6666.0,FN,YOUPIN
-★ Moto Gloves | Blood Pressure,Operation Broken Fang Case,Gold,5988.0,FN,YOUPIN
-★ Moto Gloves | Finish Line,Operation Broken Fang Case,Gold,4800.0,FN,C5
-★ Moto Gloves | 3rd Commando Company,Operation Broken Fang Case,Gold,2387.0,FN,YOUPIN
-★ Specialist Gloves | Marble Fade,Operation Broken Fang Case,Gold,16387.0,FN,YOUPIN
-★ Specialist Gloves | Field Agent,Operation Broken Fang Case,Gold,9800.0,FN,YOUPIN
-★ Specialist Gloves | Tiger Strike,Operation Broken Fang Case,Gold,12699.0,FN,YOUPIN
-★ Specialist Gloves | Lt. Commander,Operation Broken Fang Case,Gold,7499.0,FN,YOUPIN
-★ Sport Gloves | Slingshot,Operation Broken Fang Case,Gold,29988.88,FN,YOUPIN
-★ Sport Gloves | Nocts,Operation Broken Fang Case,Gold,28888.0,FN,YOUPIN
-★ Sport Gloves | Scarlet Shamagh,Operation Broken Fang Case,Gold,11899.9,FN,BUFF
-★ Sport Gloves | Big Game,Operation Broken Fang Case,Gold,8000.0,FN,YOUPIN
-USP-S | Blueprint,Operation Hydra Case,Mil-Spec,278.95,FN,C5
-FAMAS | Macabre,Operation Hydra Case,Mil-Spec,52.88,FN,YOUPIN
-M4A1-S | Briefing,Operation Hydra Case,Mil-Spec,204.5,FN,YOUPIN
-MAC-10 | Aloha,Operation Hydra Case,Mil-Spec,51.9,FN,YOUPIN
-MAG-7 | Hard Water,Operation Hydra Case,Mil-Spec,47.67,FN,YOUPIN
-Tec-9 | Cut Out,Operation Hydra Case,Mil-Spec,86.0,FN,YOUPIN
-UMP-45 | Metal Flowers,Operation Hydra Case,Mil-Spec,48.78,FN,BUFF
-AK-47 | Orbit Mk01,Operation Hydra Case,Restricted,757.9,FN,C5
-P2000 | Woodsman,Operation Hydra Case,Restricted,325.0,FN,YOUPIN
-P250 | Red Rock,Operation Hydra Case,Restricted,390.0,FN,YOUPIN
-P90 | Death Grip,Operation Hydra Case,Restricted,380.0,FN,YOUPIN
-SSG 08 | Death's Head,Operation Hydra Case,Restricted,315.38,FN,YOUPIN
-Dual Berettas | Cobra Strike,Operation Hydra Case,Classified,889.5,FN,YOUPIN
-Galil AR | Sugar Rush,Operation Hydra Case,Classified,1839.0,FN,YOUPIN
-M4A4 | Hellfire,Operation Hydra Case,Classified,5700.0,FN,YOUPIN
-Five-SeveN | Hyper Beast,Operation Hydra Case,Covert,5629.5,FN,YOUPIN
-AWP | Oni Taiji,Operation Hydra Case,Covert,7935.93,FN,YOUPIN
-★ Bloodhound Gloves | Snakebite,Operation Hydra Case,Gold,4300.0,FN,BUFF
-★ Bloodhound Gloves | Bronzed,Operation Hydra Case,Gold,10967.27,FN,C5
-★ Bloodhound Gloves | Guerrilla,Operation Hydra Case,Gold,8800.0,FN,BUFF
-★ Bloodhound Gloves | Charred,Operation Hydra Case,Gold,6333.0,FN,YOUPIN
-★ Driver Gloves | Crimson Weave,Operation Hydra Case,Gold,17599.0,FN,YOUPIN
-★ Driver Gloves | Lunar Weave,Operation Hydra Case,Gold,25000.0,FN,YOUPIN
-★ Driver Gloves | Diamondback,Operation Hydra Case,Gold,12000.0,FN,YOUPIN
-★ Driver Gloves | Convoy,Operation Hydra Case,Gold,7500.0,FN,YOUPIN
-★ Hand Wraps | Slaughter,Operation Hydra Case,Gold,12800.0,FN,YOUPIN
-★ Hand Wraps | Badlands,Operation Hydra Case,Gold,9999.0,FN,BUFF
-★ Hand Wraps | Spruce DDPAT,Operation Hydra Case,Gold,11000.0,FN,BUFF
-★ Hand Wraps | Leather,Operation Hydra Case,Gold,11800.0,FN,C5
-★ Moto Gloves | Spearmint,Operation Hydra Case,Gold,88000.0,FN,YOUPIN
-★ Moto Gloves | Cool Mint,Operation Hydra Case,Gold,29500.0,FN,YOUPIN
-★ Moto Gloves | Boom!,Operation Hydra Case,Gold,11000.0,FN,BUFF
-★ Moto Gloves | Eclipse,Operation Hydra Case,Gold,8800.0,FN,BUFF
-★ Specialist Gloves | Crimson Kimono,Operation Hydra Case,Gold,130000.0,FN,YOUPIN
-★ Specialist Gloves | Emerald Web,Operation Hydra Case,Gold,88888.0,FN,BUFF
-★ Specialist Gloves | Foundation,Operation Hydra Case,Gold,24800.0,FN,BUFF
-★ Specialist Gloves | Forest DDPAT,Operation Hydra Case,Gold,8888.0,FN,YOUPIN
-★ Sport Gloves | Superconductor,Operation Hydra Case,Gold,125000.0,FN,YOUPIN
-★ Sport Gloves | Hedge Maze,Operation Hydra Case,Gold,250000.0,FN,C5
-★ Sport Gloves | Pandora's Box,Operation Hydra Case,Gold,330000.0,FN,YOUPIN
-★ Sport Gloves | Arid,Operation Hydra Case,Gold,48888.0,FN,YOUPIN
-UMP-45 | Corporal,Operation Phoenix Weapon Case,Mil-Spec,15.0,FN,BUFF
-Negev | Terrain,Operation Phoenix Weapon Case,Mil-Spec,6.6,FN,BUFF
-Tec-9 | Sandstorm,Operation Phoenix Weapon Case,Mil-Spec,14.8,MW,BUFF
-MAG-7 | Heaven Guard,Operation Phoenix Weapon Case,Mil-Spec,7.19,FN,C5
-MAC-10 | Heat,Operation Phoenix Weapon Case,Restricted,98.0,FN,YOUPIN
-,Operation Phoenix Weapon Case,Restricted,,,all
-,Operation Phoenix Weapon Case,Restricted,,,all
-,Operation Phoenix Weapon Case,Restricted,,,all
-,Operation Phoenix Weapon Case,Classified,,,all
-,Operation Phoenix Weapon Case,Classified,,,all
-,Operation Phoenix Weapon Case,Classified,,,all
-,Operation Phoenix Weapon Case,Covert,,,all
-,Operation Phoenix Weapon Case,Covert,,,all
-,Operation Phoenix Weapon Case,Gold,,,all
-,Operation Phoenix Weapon Case,Gold,,,all
-,Operation Phoenix Weapon Case,Gold,,,all
-,Operation Phoenix Weapon Case,Gold,,,all
-,Operation Phoenix Weapon Case,Gold,,,all
-,Operation Phoenix Weapon Case,Gold,,,all
-★ Bayonet | Forest DDPAT,Operation Phoenix Weapon Case,Gold,797.5,FT,YOUPIN
-★ Bayonet | Night,Operation Phoenix Weapon Case,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,Operation Phoenix Weapon Case,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,Operation Phoenix Weapon Case,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,Operation Phoenix Weapon Case,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,Operation Phoenix Weapon Case,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,Operation Phoenix Weapon Case,Gold,1166.0,MW,BUFF
-,Operation Phoenix Weapon Case,Gold,,,all
-★ Flip Knife | Blue Steel,Operation Phoenix Weapon Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,Operation Phoenix Weapon Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,Operation Phoenix Weapon Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,Operation Phoenix Weapon Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,Operation Phoenix Weapon Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,Operation Phoenix Weapon Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,Operation Phoenix Weapon Case,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,Operation Phoenix Weapon Case,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,Operation Phoenix Weapon Case,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,Operation Phoenix Weapon Case,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,Operation Phoenix Weapon Case,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,Operation Phoenix Weapon Case,Gold,749.5,MW,BUFF
-,Operation Phoenix Weapon Case,Gold,,,all
-★ Gut Knife | Blue Steel,Operation Phoenix Weapon Case,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,Operation Phoenix Weapon Case,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,Operation Phoenix Weapon Case,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,Operation Phoenix Weapon Case,Gold,5700.08,FN,HALOSKINS
-★ Gut Knife | Fade,Operation Phoenix Weapon Case,Gold,954.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,Operation Phoenix Weapon Case,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,Operation Phoenix Weapon Case,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,Operation Phoenix Weapon Case,Gold,2799.5,FN,BUFF
-★ Gut Knife | Scorched,Operation Phoenix Weapon Case,Gold,2786.12,FN,STEAM
-★ Gut Knife | Slaughter,Operation Phoenix Weapon Case,Gold,977.5,FN,YOUPIN
-★ Gut Knife | Stained,Operation Phoenix Weapon Case,Gold,999.0,FN,YOUPIN
-★ Gut Knife | Urban Masked,Operation Phoenix Weapon Case,Gold,999.0,FN,BUFF
-,Operation Phoenix Weapon Case,Gold,,,all
-★ Karambit | Blue Steel,Operation Phoenix Weapon Case,Gold,8966.0,FN,YOUPIN
-★ Karambit | Boreal Forest,Operation Phoenix Weapon Case,Gold,7124.38,FN,STEAM
-★ Karambit | Case Hardened,Operation Phoenix Weapon Case,Gold,13888.0,FN,YOUPIN
-★ Karambit | Crimson Web,Operation Phoenix Weapon Case,Gold,48888.0,FN,YOUPIN
-★ Karambit | Fade,Operation Phoenix Weapon Case,Gold,16300.0,FN,YOUPIN
-★ Karambit | Forest DDPAT,Operation Phoenix Weapon Case,Gold,8000.0,FN,C5
-★ Karambit | Night,Operation Phoenix Weapon Case,Gold,13333.0,FN,YOUPIN
-★ Karambit | Safari Mesh,Operation Phoenix Weapon Case,Gold,4000.0,FN,YOUPIN
-★ Karambit | Scorched,Operation Phoenix Weapon Case,Gold,7500.0,FN,YOUPIN
-★ Karambit | Slaughter,Operation Phoenix Weapon Case,Gold,8199.0,FN,YOUPIN
-★ Karambit | Stained,Operation Phoenix Weapon Case,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,Operation Phoenix Weapon Case,Gold,6834.96,FN,STEAM
-,Operation Phoenix Weapon Case,Gold,,,all
-★ M9 Bayonet | Blue Steel,Operation Phoenix Weapon Case,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,Operation Phoenix Weapon Case,Gold,6999.0,FN,BUFF
-★ M9 Bayonet | Case Hardened,Operation Phoenix Weapon Case,Gold,8500.0,FN,BUFF
-★ M9 Bayonet | Crimson Web,Operation Phoenix Weapon Case,Gold,34999.0,FN,BUFF
-★ M9 Bayonet | Fade,Operation Phoenix Weapon Case,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,Operation Phoenix Weapon Case,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,Operation Phoenix Weapon Case,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,Operation Phoenix Weapon Case,Gold,1989.5,MW,YOUPIN
-★ M9 Bayonet | Scorched,Operation Phoenix Weapon Case,Gold,6500.0,FN,YOUPIN
-★ M9 Bayonet | Slaughter,Operation Phoenix Weapon Case,Gold,6746.0,FN,YOUPIN
-,Operation Phoenix Weapon Case,Gold,,,all
-,Operation Phoenix Weapon Case,Gold,,,all
-,Operation Riptide Case,Mil-Spec,,,all
-,Operation Riptide Case,Mil-Spec,,,all
-,Operation Riptide Case,Mil-Spec,,,all
-,Operation Riptide Case,Mil-Spec,,,all
-,Operation Riptide Case,Mil-Spec,,,all
-,Operation Riptide Case,Mil-Spec,,,all
-,Operation Riptide Case,Mil-Spec,,,all
-,Operation Riptide Case,Restricted,,,all
-,Operation Riptide Case,Restricted,,,all
-,Operation Riptide Case,Restricted,,,all
-,Operation Riptide Case,Restricted,,,all
-M4A4 | Spider Lily,Operation Riptide Case,Restricted,180.0,MW,BUFF
-MAC-10 | Toybox,Operation Riptide Case,Classified,528.0,FN,C5
-Glock-18 | Snack Attack,Operation Riptide Case,Classified,1812.8,FN,C5
-SSG 08 | Turbo Peek,Operation Riptide Case,Classified,529.4,FN,C5
-AK-47 | Leet Museo,Operation Riptide Case,Covert,5859.99,FN,C5
-Desert Eagle | Ocean Drive,Operation Riptide Case,Covert,3228.0,FN,C5
-★ Butterfly Knife | Gamma Doppler,Operation Riptide Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Gamma Doppler,Operation Riptide Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Gamma Doppler,Operation Riptide Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Gamma Doppler,Operation Riptide Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Gamma Doppler,Operation Riptide Case,Gold,17199.0,FN,BUFF
-★ Butterfly Knife | Freehand,Operation Riptide Case,Gold,5078.0,FN,YOUPIN
-★ Butterfly Knife | Lore,Operation Riptide Case,Gold,19888.0,FN,YOUPIN
-★ Butterfly Knife | Autotronic,Operation Riptide Case,Gold,13200.0,FN,C5
-★ Butterfly Knife | Bright Water,Operation Riptide Case,Gold,4760.0,FN,YOUPIN
-★ Butterfly Knife | Black Laminate,Operation Riptide Case,Gold,6880.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Operation Riptide Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Operation Riptide Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Operation Riptide Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Operation Riptide Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Gamma Doppler,Operation Riptide Case,Gold,1664.0,FN,YOUPIN
-★ Huntsman Knife | Freehand,Operation Riptide Case,Gold,642.0,FN,YOUPIN
-★ Huntsman Knife | Lore,Operation Riptide Case,Gold,1190.0,FN,BUFF
-★ Huntsman Knife | Autotronic,Operation Riptide Case,Gold,1450.0,FN,BUFF
-★ Huntsman Knife | Bright Water,Operation Riptide Case,Gold,567.5,FN,YOUPIN
-★ Huntsman Knife | Black Laminate,Operation Riptide Case,Gold,1235.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Operation Riptide Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Operation Riptide Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Operation Riptide Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Operation Riptide Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Gamma Doppler,Operation Riptide Case,Gold,1642.0,FN,YOUPIN
-★ Falchion Knife | Freehand,Operation Riptide Case,Gold,689.0,FN,YOUPIN
-★ Falchion Knife | Lore,Operation Riptide Case,Gold,1150.0,FN,BUFF
-★ Falchion Knife | Autotronic,Operation Riptide Case,Gold,1210.0,FN,YOUPIN
-★ Falchion Knife | Bright Water,Operation Riptide Case,Gold,608.88,FN,YOUPIN
-★ Falchion Knife | Black Laminate,Operation Riptide Case,Gold,846.0,FN,YOUPIN
-★ Shadow Daggers | Gamma Doppler,Operation Riptide Case,Gold,739.0,FN,BUFF
-★ Shadow Daggers | Gamma Doppler,Operation Riptide Case,Gold,739.0,FN,BUFF
-★ Shadow Daggers | Gamma Doppler,Operation Riptide Case,Gold,739.0,FN,BUFF
-★ Shadow Daggers | Gamma Doppler,Operation Riptide Case,Gold,739.0,FN,BUFF
-★ Shadow Daggers | Gamma Doppler,Operation Riptide Case,Gold,739.0,FN,BUFF
-★ Shadow Daggers | Freehand,Operation Riptide Case,Gold,450.0,FN,YOUPIN
-★ Shadow Daggers | Lore,Operation Riptide Case,Gold,970.0,FN,YOUPIN
-★ Shadow Daggers | Autotronic,Operation Riptide Case,Gold,721.5,FN,YOUPIN
-★ Shadow Daggers | Bright Water,Operation Riptide Case,Gold,395.0,FN,BUFF
-★ Shadow Daggers | Black Laminate,Operation Riptide Case,Gold,534.0,FN,YOUPIN
-★ Bowie Knife | Gamma Doppler,Operation Riptide Case,Gold,1448.0,FN,YOUPIN
-★ Bowie Knife | Gamma Doppler,Operation Riptide Case,Gold,1448.0,FN,YOUPIN
-★ Bowie Knife | Gamma Doppler,Operation Riptide Case,Gold,1448.0,FN,YOUPIN
-★ Bowie Knife | Gamma Doppler,Operation Riptide Case,Gold,1448.0,FN,YOUPIN
-★ Bowie Knife | Gamma Doppler,Operation Riptide Case,Gold,1448.0,FN,YOUPIN
-★ Bowie Knife | Freehand,Operation Riptide Case,Gold,629.0,FN,YOUPIN
-★ Bowie Knife | Lore,Operation Riptide Case,Gold,1493.0,FN,YOUPIN
-★ Bowie Knife | Autotronic,Operation Riptide Case,Gold,1249.0,FN,YOUPIN
-★ Bowie Knife | Bright Water,Operation Riptide Case,Gold,537.0,FN,YOUPIN
-★ Bowie Knife | Black Laminate,Operation Riptide Case,Gold,827.0,FN,YOUPIN
-G3SG1 | Murky,Operation Vanguard Weapon Case,Mil-Spec,12.75,FN,BUFF
-MAG-7 | Firestarter,Operation Vanguard Weapon Case,Mil-Spec,34.0,FN,YOUPIN
-MP9 | Dart,Operation Vanguard Weapon Case,Mil-Spec,13.5,FN,BUFF
-Five-SeveN | Urban Hazard,Operation Vanguard Weapon Case,Mil-Spec,18.89,FN,C5
-,Operation Vanguard Weapon Case,Mil-Spec,,,all
-,Operation Vanguard Weapon Case,Restricted,,,all
-,Operation Vanguard Weapon Case,Restricted,,,all
-,Operation Vanguard Weapon Case,Restricted,,,all
-,Operation Vanguard Weapon Case,Restricted,,,all
-,Operation Vanguard Weapon Case,Classified,,,all
-,Operation Vanguard Weapon Case,Classified,,,all
-,Operation Vanguard Weapon Case,Classified,,,all
-,Operation Vanguard Weapon Case,Covert,,,all
-,Operation Vanguard Weapon Case,Covert,,,all
-,Operation Vanguard Weapon Case,Gold,,,all
-,Operation Vanguard Weapon Case,Gold,,,all
-,Operation Vanguard Weapon Case,Gold,,,all
-,Operation Vanguard Weapon Case,Gold,,,all
-★ Bayonet | Crimson Web,Operation Vanguard Weapon Case,Gold,15000.0,FN,YOUPIN
-★ Bayonet | Fade,Operation Vanguard Weapon Case,Gold,2863.0,FN,YOUPIN
-★ Bayonet | Forest DDPAT,Operation Vanguard Weapon Case,Gold,4000.0,FN,BUFF
-★ Bayonet | Night,Operation Vanguard Weapon Case,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,Operation Vanguard Weapon Case,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,Operation Vanguard Weapon Case,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,Operation Vanguard Weapon Case,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,Operation Vanguard Weapon Case,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,Operation Vanguard Weapon Case,Gold,1166.0,MW,BUFF
-,Operation Vanguard Weapon Case,Gold,,,all
-★ Flip Knife | Blue Steel,Operation Vanguard Weapon Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,Operation Vanguard Weapon Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,Operation Vanguard Weapon Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,Operation Vanguard Weapon Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,Operation Vanguard Weapon Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,Operation Vanguard Weapon Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,Operation Vanguard Weapon Case,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,Operation Vanguard Weapon Case,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,Operation Vanguard Weapon Case,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,Operation Vanguard Weapon Case,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,Operation Vanguard Weapon Case,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,Operation Vanguard Weapon Case,Gold,749.5,MW,BUFF
-,Operation Vanguard Weapon Case,Gold,,,all
-★ Gut Knife | Blue Steel,Operation Vanguard Weapon Case,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,Operation Vanguard Weapon Case,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,Operation Vanguard Weapon Case,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,Operation Vanguard Weapon Case,Gold,5700.08,FN,HALOSKINS
-★ Gut Knife | Fade,Operation Vanguard Weapon Case,Gold,954.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,Operation Vanguard Weapon Case,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,Operation Vanguard Weapon Case,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,Operation Vanguard Weapon Case,Gold,2799.5,FN,BUFF
-★ Gut Knife | Scorched,Operation Vanguard Weapon Case,Gold,2786.12,FN,STEAM
-★ Gut Knife | Slaughter,Operation Vanguard Weapon Case,Gold,977.5,FN,YOUPIN
-★ Gut Knife | Stained,Operation Vanguard Weapon Case,Gold,999.0,FN,YOUPIN
-★ Gut Knife | Urban Masked,Operation Vanguard Weapon Case,Gold,999.0,FN,BUFF
-,Operation Vanguard Weapon Case,Gold,,,all
-★ Karambit | Blue Steel,Operation Vanguard Weapon Case,Gold,8966.0,FN,YOUPIN
-★ Karambit | Boreal Forest,Operation Vanguard Weapon Case,Gold,7124.38,FN,STEAM
-★ Karambit | Case Hardened,Operation Vanguard Weapon Case,Gold,13888.0,FN,YOUPIN
-★ Karambit | Crimson Web,Operation Vanguard Weapon Case,Gold,48888.0,FN,YOUPIN
-★ Karambit | Fade,Operation Vanguard Weapon Case,Gold,16300.0,FN,YOUPIN
-★ Karambit | Forest DDPAT,Operation Vanguard Weapon Case,Gold,8000.0,FN,C5
-★ Karambit | Night,Operation Vanguard Weapon Case,Gold,13333.0,FN,YOUPIN
-★ Karambit | Safari Mesh,Operation Vanguard Weapon Case,Gold,4000.0,FN,YOUPIN
-★ Karambit | Scorched,Operation Vanguard Weapon Case,Gold,7500.0,FN,YOUPIN
-★ Karambit | Slaughter,Operation Vanguard Weapon Case,Gold,8199.0,FN,YOUPIN
-★ Karambit | Stained,Operation Vanguard Weapon Case,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,Operation Vanguard Weapon Case,Gold,6834.96,FN,STEAM
-,Operation Vanguard Weapon Case,Gold,,,all
-★ M9 Bayonet | Blue Steel,Operation Vanguard Weapon Case,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,Operation Vanguard Weapon Case,Gold,6999.0,FN,BUFF
-★ M9 Bayonet | Case Hardened,Operation Vanguard Weapon Case,Gold,8500.0,FN,BUFF
-★ M9 Bayonet | Crimson Web,Operation Vanguard Weapon Case,Gold,34999.0,FN,BUFF
-★ M9 Bayonet | Fade,Operation Vanguard Weapon Case,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,Operation Vanguard Weapon Case,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,Operation Vanguard Weapon Case,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,Operation Vanguard Weapon Case,Gold,1989.5,MW,YOUPIN
-,Operation Vanguard Weapon Case,Gold,,,all
-,Operation Vanguard Weapon Case,Gold,,,all
-,Operation Vanguard Weapon Case,Gold,,,all
-,Operation Vanguard Weapon Case,Gold,,,all
-,Operation Vanguard Weapon Case,Restricted,,,all
-,Operation Wildfire Case,Mil-Spec,,,all
-,Operation Wildfire Case,Mil-Spec,,,all
-,Operation Wildfire Case,Mil-Spec,,,all
-,Operation Wildfire Case,Mil-Spec,,,all
-,Operation Wildfire Case,Mil-Spec,,,all
-,Operation Wildfire Case,Mil-Spec,,,all
-,Operation Wildfire Case,Restricted,,,all
-,Operation Wildfire Case,Restricted,,,all
-,Operation Wildfire Case,Restricted,,,all
-MAG-7 | Praetorian,Operation Wildfire Case,Restricted,17.63,MW,BUFF
-MP7 | Impire,Operation Wildfire Case,Classified,41.3,FN,BUFF
-AWP | Elite Build,Operation Wildfire Case,Classified,559.5,FN,YOUPIN
-Desert Eagle | Kumicho Dragon,Operation Wildfire Case,Classified,482.89,FN,BUFF
-Nova | Hyper Beast,Operation Wildfire Case,Classified,328.5,FN,C5
-M4A4 | The Battlestar,Operation Wildfire Case,Covert,1445.0,FN,YOUPIN
-AK-47 | Fuel Injector,Operation Wildfire Case,Covert,6049.0,FN,YOUPIN
-,Operation Wildfire Case,Gold,,,all
-★ Bowie Knife | Blue Steel,Operation Wildfire Case,Gold,1800.0,FN,BUFF
-★ Bowie Knife | Boreal Forest,Operation Wildfire Case,Gold,1398.0,FN,YOUPIN
-★ Bowie Knife | Case Hardened,Operation Wildfire Case,Gold,3879.0,FN,YOUPIN
-★ Bowie Knife | Crimson Web,Operation Wildfire Case,Gold,15000.0,FN,BUFF
-★ Bowie Knife | Fade,Operation Wildfire Case,Gold,1769.5,FN,YOUPIN
-★ Bowie Knife | Forest DDPAT,Operation Wildfire Case,Gold,1180.0,FN,YOUPIN
-★ Bowie Knife | Night,Operation Wildfire Case,Gold,950.0,MW,YOUPIN
-★ Bowie Knife | Safari Mesh,Operation Wildfire Case,Gold,493.0,MW,YOUPIN
-★ Bowie Knife | Scorched,Operation Wildfire Case,Gold,1396.87,FN,STEAM
-★ Bowie Knife | Slaughter,Operation Wildfire Case,Gold,1689.0,FN,YOUPIN
-★ Bowie Knife | Stained,Operation Wildfire Case,Gold,1110.98,FN,BUFF
-★ Bowie Knife | Urban Masked,Operation Wildfire Case,Gold,1380.0,FN,BUFF
-R8 Revolver | Bone Forged,Prisma 2 Case,Mil-Spec,2.77,FN,BUFF
-Negev | Prototype,Prisma 2 Case,Mil-Spec,2.96,FN,C5
-CZ75-Auto | Distressed,Prisma 2 Case,Mil-Spec,4.89,FN,YOUPIN
-AUG | Tom Cat,Prisma 2 Case,Mil-Spec,3.79,FN,YOUPIN
-MP5-SD | Desert Strike,Prisma 2 Case,Mil-Spec,5.41,FN,C5
-Desert Eagle | Blue Ply,Prisma 2 Case,Mil-Spec,16.16,FN,BUFF
-AWP | Capillary,Prisma 2 Case,Mil-Spec,27.8,FN,BUFF
-Sawed-Off | Apocalypto,Prisma 2 Case,Restricted,25.8,FN,BUFF
-P2000 | Acid Etched,Prisma 2 Case,Restricted,49.7,FN,BUFF
-SCAR-20 | Enforcer,Prisma 2 Case,Restricted,23.0,FN,YOUPIN
-SG 553 | Darkwing,Prisma 2 Case,Restricted,23.6,FN,BUFF
-SSG 08 | Fever Dream,Prisma 2 Case,Restricted,23.0,FN,BUFF
-MAC-10 | Disco Tech,Prisma 2 Case,Classified,214.5,FN,YOUPIN
-MAG-7 | Justice,Prisma 2 Case,Classified,144.5,FN,BUFF
-AK-47 | Phantom Disruptor,Prisma 2 Case,Classified,219.45,FN,BUFF
-Glock-18 | Bullet Queen,Prisma 2 Case,Covert,1338.0,FN,YOUPIN
-M4A1-S | Player Two,Prisma 2 Case,Covert,1390.0,FN,C5
-★ Talon Knife | Doppler,Prisma 2 Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma 2 Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma 2 Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma 2 Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma 2 Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma 2 Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma 2 Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Damascus Steel,Prisma 2 Case,Gold,2320.0,FN,YOUPIN
-★ Talon Knife | Marble Fade,Prisma 2 Case,Gold,3850.0,FN,YOUPIN
-★ Talon Knife | Rust Coat,Prisma 2 Case,Gold,1650.0,WW,YOUPIN
-★ Talon Knife | Tiger Tooth,Prisma 2 Case,Gold,3280.0,FN,YOUPIN
-★ Talon Knife | Ultraviolet,Prisma 2 Case,Gold,6888.0,FN,BUFF
-★ Navaja Knife | Doppler,Prisma 2 Case,Gold,835.0,FN,YOUPIN
-★ Navaja Knife | Doppler,Prisma 2 Case,Gold,835.0,FN,YOUPIN
-★ Navaja Knife | Doppler,Prisma 2 Case,Gold,835.0,FN,YOUPIN
-★ Navaja Knife | Doppler,Prisma 2 Case,Gold,835.0,FN,YOUPIN
-★ Navaja Knife | Doppler,Prisma 2 Case,Gold,835.0,FN,YOUPIN
-★ Navaja Knife | Doppler,Prisma 2 Case,Gold,835.0,FN,YOUPIN
-★ Navaja Knife | Doppler,Prisma 2 Case,Gold,835.0,FN,YOUPIN
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-,Prisma 2 Case,Gold,,,all
-★ Stiletto Knife | Rust Coat,Prisma 2 Case,Gold,890.0,WW,YOUPIN
-★ Stiletto Knife | Tiger Tooth,Prisma 2 Case,Gold,1839.0,FN,YOUPIN
-★ Stiletto Knife | Ultraviolet,Prisma 2 Case,Gold,3999.5,FN,BUFF
-★ Ursus Knife | Doppler,Prisma 2 Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma 2 Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma 2 Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma 2 Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma 2 Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma 2 Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma 2 Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Damascus Steel,Prisma 2 Case,Gold,694.48,FN,YOUPIN
-★ Ursus Knife | Marble Fade,Prisma 2 Case,Gold,1216.0,FN,YOUPIN
-★ Ursus Knife | Rust Coat,Prisma 2 Case,Gold,510.0,WW,YOUPIN
-★ Ursus Knife | Tiger Tooth,Prisma 2 Case,Gold,1068.99,FN,C5
-★ Ursus Knife | Ultraviolet,Prisma 2 Case,Gold,3000.0,FN,YOUPIN
-FAMAS | Crypsis,Prisma Case,Mil-Spec,4.4,FN,BUFF
-,Prisma Case,Mil-Spec,,,all
-MAC-10 | Whitefish,Prisma Case,Mil-Spec,7.96,FN,BUFF
-Galil AR | Akoben,Prisma Case,Mil-Spec,5.37,FN,BUFF
-MP7 | Mischief,Prisma Case,Mil-Spec,8.5,MW,BUFF
-P250 | Verdigris,Prisma Case,Mil-Spec,7.14,FN,BUFF
-P90 | Off World,Prisma Case,Mil-Spec,4.99,FN,YOUPIN
-AWP | Atheris,Prisma Case,Restricted,118.5,FN,YOUPIN
-Tec-9 | Bamboozle,Prisma Case,Restricted,25.89,FN,BUFF
-Desert Eagle | Light Rail,Prisma Case,Restricted,38.0,FN,YOUPIN
-MP5-SD | Gauss,Prisma Case,Restricted,22.83,FN,YOUPIN
-UMP-45 | Moonrise,Prisma Case,Restricted,14.69,FN,BUFF
-R8 Revolver | Skull Crusher,Prisma Case,Classified,53.68,FT,YOUPIN
-AUG | Momentum,Prisma Case,Classified,374.0,FN,BUFF
-,Prisma Case,Classified,,,all
-Five-SeveN | Angry Mob,Prisma Case,Covert,435.0,FN,C5
-M4A4 | The Emperor,Prisma Case,Covert,2698.74,FN,C5
-★ Talon Knife | Doppler,Prisma Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma Case,Gold,5787.88,FN,YOUPIN
-★ Talon Knife | Doppler,Prisma Case,Gold,5787.88,FN,YOUPIN
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-,Prisma Case,Gold,,,all
-★ Navaja Knife | Damascus Steel,Prisma Case,Gold,368.5,FT,YOUPIN
-★ Navaja Knife | Marble Fade,Prisma Case,Gold,640.0,FN,YOUPIN
-★ Navaja Knife | Rust Coat,Prisma Case,Gold,460.0,WW,C5
-★ Navaja Knife | Tiger Tooth,Prisma Case,Gold,508.0,FN,YOUPIN
-★ Navaja Knife | Ultraviolet,Prisma Case,Gold,1638.06,FN,STEAM
-★ Stiletto Knife | Doppler,Prisma Case,Gold,3250.0,FN,BUFF
-★ Stiletto Knife | Doppler,Prisma Case,Gold,3250.0,FN,BUFF
-★ Stiletto Knife | Doppler,Prisma Case,Gold,3250.0,FN,BUFF
-★ Stiletto Knife | Doppler,Prisma Case,Gold,3250.0,FN,BUFF
-★ Stiletto Knife | Doppler,Prisma Case,Gold,3250.0,FN,BUFF
-★ Stiletto Knife | Doppler,Prisma Case,Gold,3250.0,FN,BUFF
-★ Stiletto Knife | Doppler,Prisma Case,Gold,3250.0,FN,BUFF
-★ Stiletto Knife | Damascus Steel,Prisma Case,Gold,1348.0,FN,YOUPIN
-★ Stiletto Knife | Marble Fade,Prisma Case,Gold,2020.0,FN,YOUPIN
-★ Stiletto Knife | Rust Coat,Prisma Case,Gold,889.5,WW,YOUPIN
-★ Stiletto Knife | Tiger Tooth,Prisma Case,Gold,1839.0,FN,YOUPIN
-★ Stiletto Knife | Ultraviolet,Prisma Case,Gold,3999.5,FN,BUFF
-★ Ursus Knife | Doppler,Prisma Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Doppler,Prisma Case,Gold,1849.0,FN,YOUPIN
-★ Ursus Knife | Damascus Steel,Prisma Case,Gold,694.48,FN,YOUPIN
-★ Ursus Knife | Marble Fade,Prisma Case,Gold,1216.0,FN,YOUPIN
-★ Ursus Knife | Rust Coat,Prisma Case,Gold,510.0,WW,YOUPIN
-★ Ursus Knife | Tiger Tooth,Prisma Case,Gold,1068.99,FN,C5
-★ Ursus Knife | Ultraviolet,Prisma Case,Gold,3000.0,FN,YOUPIN
-FAMAS | Meow 36,Recoil Case,Mil-Spec,4.44,FN,BUFF
-Galil AR | Destroyer,Recoil Case,Mil-Spec,2.59,FN,C5
-M4A4 | Poly Mag,Recoil Case,Mil-Spec,5.68,FN,BUFF
-MAC-10 | Monkeyflage,Recoil Case,Mil-Spec,4.79,FN,BUFF
-Negev | Drop Me,Recoil Case,Mil-Spec,4.5,FN,C5
-UMP-45 | Roadblock,Recoil Case,Mil-Spec,4.47,FN,BUFF
-Glock-18 | Winterized,Recoil Case,Mil-Spec,4.51,FN,YOUPIN
-R8 Revolver | Crazy 8,Recoil Case,Restricted,23.3,FN,YOUPIN
-M249 | Downtown,Recoil Case,Restricted,12.0,FN,BUFF
-SG 553 | Dragon Tech,Recoil Case,Restricted,12.39,FN,YOUPIN
-P90 | Vent Rush,Recoil Case,Restricted,12.0,FN,YOUPIN
-Dual Berettas | Flora Carnivora,Recoil Case,Restricted,23.2,FN,C5
-AK-47 | Ice Coaled,Recoil Case,Classified,120.0,FN,BUFF
-P250 | Visions,Recoil Case,Classified,79.55,FN,BUFF
-Sawed-Off | Kiss♥Love,Recoil Case,Classified,104.5,FN,BUFF
-USP-S | Printstream,Recoil Case,Covert,854.99,FN,YOUPIN
-AWP | Chromatic Aberration,Recoil Case,Covert,604.8,FN,C5
-★ Broken Fang Gloves | Jade,Recoil Case,Gold,4899.5,FN,BUFF
-,Recoil Case,Gold,,,all
-,Recoil Case,Gold,,,all
-,Recoil Case,Gold,,,all
-,Recoil Case,Gold,,,all
-,Recoil Case,Gold,,,all
-,Recoil Case,Gold,,,all
-,Recoil Case,Gold,,,all
-,Recoil Case,Gold,,,all
-,Recoil Case,Gold,,,all
-★ Hand Wraps | Giraffe,Recoil Case,Gold,648.0,MW,BUFF
-★ Hand Wraps | Desert Shamagh,Recoil Case,Gold,2500.0,FN,YOUPIN
-★ Moto Gloves | Smoke Out,Recoil Case,Gold,6666.0,FN,YOUPIN
-★ Moto Gloves | Blood Pressure,Recoil Case,Gold,5988.0,FN,YOUPIN
-★ Moto Gloves | Finish Line,Recoil Case,Gold,4800.0,FN,C5
-★ Moto Gloves | 3rd Commando Company,Recoil Case,Gold,2387.0,FN,YOUPIN
-★ Specialist Gloves | Marble Fade,Recoil Case,Gold,16387.0,FN,YOUPIN
-★ Specialist Gloves | Field Agent,Recoil Case,Gold,9800.0,FN,YOUPIN
-★ Specialist Gloves | Tiger Strike,Recoil Case,Gold,12699.0,FN,YOUPIN
-★ Specialist Gloves | Lt. Commander,Recoil Case,Gold,7499.0,FN,YOUPIN
-★ Sport Gloves | Slingshot,Recoil Case,Gold,29988.88,FN,YOUPIN
-★ Sport Gloves | Nocts,Recoil Case,Gold,28888.0,FN,YOUPIN
-★ Sport Gloves | Scarlet Shamagh,Recoil Case,Gold,11899.9,FN,BUFF
-★ Sport Gloves | Big Game,Recoil Case,Gold,8000.0,FN,YOUPIN
-MP9 | Featherweight,Revolution Case,Mil-Spec,4.44,FN,C5
-MAG-7 | Insomnia,Revolution Case,Mil-Spec,4.36,FN,C5
-SCAR-20 | Fragments,Revolution Case,Mil-Spec,2.92,FN,C5
-P250 | Re.built,Revolution Case,Mil-Spec,4.55,FN,C5
-MP5-SD | Liquidation,Revolution Case,Mil-Spec,4.89,FN,BUFF
-,Revolution Case,Mil-Spec,,,all
-Tec-9 | Rebel,Revolution Case,Mil-Spec,4.63,FN,C5
-M4A1-S | Emphorosaur-S,Revolution Case,Restricted,28.79,FN,BUFF
-Glock-18 | Umbral Rabbit,Revolution Case,Restricted,13.46,FN,C5
-MAC-10 | Sakkaku,Revolution Case,Restricted,5.67,FT,BUFF
-R8 Revolver | Banana Cannon,Revolution Case,Restricted,23.19,FN,YOUPIN
-,Revolution Case,Restricted,,,all
-AWP | Duality,Revolution Case,Classified,105.35,FN,BUFF
-UMP-45 | Wild Child,Revolution Case,Classified,113.5,FN,YOUPIN
-P2000 | Wicked Sick,Revolution Case,Classified,111.65,FN,YOUPIN
-AK-47 | Head Shot,Revolution Case,Covert,810.0,FN,YOUPIN
-M4A4 | Temukau,Revolution Case,Covert,854.5,FN,YOUPIN
-,Revolution Case,Classified,,,all
-★ Hydra Gloves | Emerald,Revolution Case,Gold,1787.5,FN,YOUPIN
-★ Hydra Gloves | Case Hardened,Revolution Case,Gold,3043.0,FN,BUFF
-★ Hydra Gloves | Rattler,Revolution Case,Gold,1947.0,FN,YOUPIN
-★ Hydra Gloves | Mangrove,Revolution Case,Gold,1949.5,FN,YOUPIN
-★ Driver Gloves | Racing Green,Revolution Case,Gold,2948.5,FN,BUFF
-★ Driver Gloves | Overtake,Revolution Case,Gold,3850.0,FN,YOUPIN
-★ Driver Gloves | King Snake,Revolution Case,Gold,27600.0,FN,YOUPIN
-★ Driver Gloves | Imperial Plaid,Revolution Case,Gold,9199.0,FN,BUFF
-★ Hand Wraps | Duct Tape,Revolution Case,Gold,2999.5,FN,BUFF
-★ Hand Wraps | Cobalt Skulls,Revolution Case,Gold,11999.5,FN,BUFF
-★ Hand Wraps | Overprint,Revolution Case,Gold,4238.0,FN,YOUPIN
-,Revolution Case,Gold,,,all
-,Revolution Case,Gold,,,all
-,Revolution Case,Gold,,,all
-,Revolution Case,Gold,,,all
-,Revolution Case,Gold,,,all
-,Revolution Case,Gold,,,all
-,Revolution Case,Gold,,,all
-,Revolution Case,Gold,,,all
-★ Specialist Gloves | Mogul,Revolution Case,Gold,659.5,BS,YOUPIN
-★ Sport Gloves | Bronze Morph,Revolution Case,Gold,6394.0,FN,YOUPIN
-★ Sport Gloves | Amphibious,Revolution Case,Gold,30500.0,FN,YOUPIN
-★ Sport Gloves | Vice,Revolution Case,Gold,76000.0,FN,BUFF
-★ Sport Gloves | Omega,Revolution Case,Gold,17600.0,FN,YOUPIN
-R8 Revolver | Crimson Web,Revolver Case,Mil-Spec,39.95,FN,YOUPIN
-AUG | Ricochet,Revolver Case,Mil-Spec,6.36,FN,BUFF
-Desert Eagle | Corinthian,Revolver Case,Mil-Spec,7.32,FN,C5
-P2000 | Imperial,Revolver Case,Mil-Spec,5.0,FN,BUFF
-Sawed-Off | Yorick,Revolver Case,Mil-Spec,9.8,FN,C5
-SCAR-20 | Outbreak,Revolver Case,Mil-Spec,5.27,FN,BUFF
-PP-Bizon | Fuel Rod,Revolver Case,Restricted,43.48,FN,BUFF
-Five-SeveN | Retrobution,Revolver Case,Restricted,121.95,FN,C5
-Negev | Power Loader,Revolver Case,Restricted,51.7,FN,C5
-SG 553 | Tiger Moth,Revolver Case,Restricted,40.0,FN,BUFF
-Tec-9 | Avalanche,Revolver Case,Restricted,99.77,FN,YOUPIN
-XM1014 | Teclu Burner,Revolver Case,Restricted,40.0,FN,YOUPIN
-AK-47 | Point Disarray,Revolver Case,Classified,698.36,FN,BUFF
-G3SG1 | The Executioner,Revolver Case,Classified,500.0,MW,YOUPIN
-P90 | Shapewood,Revolver Case,Classified,293.9,FN,YOUPIN
-M4A4 | Royal Paladin,Revolver Case,Covert,3579.5,FN,YOUPIN
-R8 Revolver | Fade,Revolver Case,Covert,547.9,FN,YOUPIN
-,Revolver Case,Gold,,,all
-★ Bayonet | Blue Steel,Revolver Case,Gold,3200.0,FN,YOUPIN
-★ Bayonet | Boreal Forest,Revolver Case,Gold,4701.63,FN,STEAM
-★ Bayonet | Case Hardened,Revolver Case,Gold,4888.88,FN,BUFF
-★ Bayonet | Crimson Web,Revolver Case,Gold,15000.0,FN,YOUPIN
-★ Bayonet | Fade,Revolver Case,Gold,2863.0,FN,YOUPIN
-★ Bayonet | Forest DDPAT,Revolver Case,Gold,4000.0,FN,BUFF
-★ Bayonet | Night,Revolver Case,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,Revolver Case,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,Revolver Case,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,Revolver Case,Gold,2849.5,FN,BUFF
-★ Bayonet | Stained,Revolver Case,Gold,1898.5,FN,YOUPIN
-★ Bayonet | Urban Masked,Revolver Case,Gold,1166.0,MW,BUFF
-,Revolver Case,Gold,,,all
-★ Flip Knife | Blue Steel,Revolver Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,Revolver Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,Revolver Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,Revolver Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,Revolver Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,Revolver Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,Revolver Case,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,Revolver Case,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,Revolver Case,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,Revolver Case,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,Revolver Case,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,Revolver Case,Gold,749.5,MW,BUFF
-,Revolver Case,Gold,,,all
-★ Gut Knife | Blue Steel,Revolver Case,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,Revolver Case,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,Revolver Case,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,Revolver Case,Gold,5702.24,FN,HALOSKINS
-★ Gut Knife | Fade,Revolver Case,Gold,954.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,Revolver Case,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,Revolver Case,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,Revolver Case,Gold,2799.5,FN,BUFF
-,Revolver Case,Gold,,,all
-,Revolver Case,Gold,,,all
-,Revolver Case,Gold,,,all
-,Revolver Case,Gold,,,all
-,Revolver Case,Gold,,,all
-,Revolver Case,Gold,,,all
-,Revolver Case,Gold,,,all
-,Revolver Case,Gold,,,all
-,Revolver Case,Gold,,,all
-★ Karambit | Fade,Revolver Case,Gold,14988.0,MW,YOUPIN
-★ Karambit | Forest DDPAT,Revolver Case,Gold,8000.0,FN,C5
-★ Karambit | Night,Revolver Case,Gold,13333.0,FN,YOUPIN
-★ Karambit | Safari Mesh,Revolver Case,Gold,4000.0,FN,YOUPIN
-★ Karambit | Scorched,Revolver Case,Gold,7500.0,FN,YOUPIN
-★ Karambit | Slaughter,Revolver Case,Gold,8199.0,FN,YOUPIN
-★ Karambit | Stained,Revolver Case,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,Revolver Case,Gold,6834.96,FN,STEAM
-,Revolver Case,Gold,,,all
-★ M9 Bayonet | Blue Steel,Revolver Case,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,Revolver Case,Gold,6999.0,FN,BUFF
-★ M9 Bayonet | Case Hardened,Revolver Case,Gold,8500.0,FN,BUFF
-★ M9 Bayonet | Crimson Web,Revolver Case,Gold,34999.0,FN,BUFF
-★ M9 Bayonet | Fade,Revolver Case,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,Revolver Case,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,Revolver Case,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,Revolver Case,Gold,1989.5,MW,YOUPIN
-★ M9 Bayonet | Scorched,Revolver Case,Gold,6500.0,FN,YOUPIN
-★ M9 Bayonet | Slaughter,Revolver Case,Gold,6746.0,FN,YOUPIN
-★ M9 Bayonet | Stained,Revolver Case,Gold,3650.0,FN,YOUPIN
-★ M9 Bayonet | Urban Masked,Revolver Case,Gold,2300.0,MW,C5
-Dual Berettas | Dualing Dragons,Shadow Case,Mil-Spec,17.0,FN,BUFF
-FAMAS | Survivor Z,Shadow Case,Mil-Spec,7.42,FN,YOUPIN
-Glock-18 | Wraiths,Shadow Case,Mil-Spec,16.21,FN,YOUPIN
-MAC-10 | Rangeen,Shadow Case,Mil-Spec,6.19,FN,YOUPIN
-MAG-7 | Cobalt Core,Shadow Case,Mil-Spec,6.16,FN,YOUPIN
-SCAR-20 | Green Marine,Shadow Case,Mil-Spec,7.18,FN,BUFF
-XM1014 | Scumbria,Shadow Case,Mil-Spec,9.88,FN,BUFF
-Galil AR | Stone Cold,Shadow Case,Restricted,83.8,FN,BUFF
-M249 | Nebula Crusader,Shadow Case,Restricted,59.99,FN,BUFF
-MP7 | Special Delivery,Shadow Case,Restricted,54.0,FN,YOUPIN
-P250 | Wingshot,Shadow Case,Restricted,60.0,FN,BUFF
-AK-47 | Frontside Misty,Shadow Case,Classified,1519.0,FN,C5
-G3SG1 | Flux,Shadow Case,Classified,335.5,FN,YOUPIN
-SSG 08 | Big Iron,Shadow Case,Classified,268.78,FN,BUFF
-M4A1-S | Golden Coil,Shadow Case,Covert,2511.0,FN,C5
-USP-S | Kill Confirmed,Shadow Case,Covert,2632.2,FN,C5
-,Shadow Case,Gold,,,all
-★ Shadow Daggers | Blue Steel,Shadow Case,Gold,926.0,FN,BUFF
-★ Shadow Daggers | Boreal Forest,Shadow Case,Gold,899.5,FN,YOUPIN
-★ Shadow Daggers | Case Hardened,Shadow Case,Gold,1988.0,FN,BUFF
-★ Shadow Daggers | Crimson Web,Shadow Case,Gold,3500.0,FN,BUFF
-★ Shadow Daggers | Fade,Shadow Case,Gold,1040.0,FN,BUFF
-★ Shadow Daggers | Forest DDPAT,Shadow Case,Gold,1223.52,FN,STEAM
-★ Shadow Daggers | Night,Shadow Case,Gold,500.0,MW,YOUPIN
-★ Shadow Daggers | Safari Mesh,Shadow Case,Gold,1232.35,FN,STEAM
-★ Shadow Daggers | Scorched,Shadow Case,Gold,2011.84,FN,STEAM
-★ Shadow Daggers | Slaughter,Shadow Case,Gold,819.0,FN,YOUPIN
-★ Shadow Daggers | Stained,Shadow Case,Gold,1049.98,FN,YOUPIN
-★ Shadow Daggers | Urban Masked,Shadow Case,Gold,1282.51,FN,STEAM
-G3SG1 | Black Sand,Shattered Web Case,Mil-Spec,14.89,FN,BUFF
-SCAR-20 | Torn,Shattered Web Case,Mil-Spec,11.59,FN,BUFF
-Nova | Plume,Shattered Web Case,Mil-Spec,14.65,FN,BUFF
-M249 | Warbird,Shattered Web Case,Mil-Spec,26.0,FN,BUFF
-R8 Revolver | Memento,Shattered Web Case,Mil-Spec,16.5,FN,YOUPIN
-MP5-SD | Acid Wash,Shattered Web Case,Mil-Spec,13.0,FN,BUFF
-Dual Berettas | Balance,Shattered Web Case,Mil-Spec,34.0,FN,BUFF
-PP-Bizon | Embargo,Shattered Web Case,Restricted,71.0,FN,YOUPIN
-,Shattered Web Case,Restricted,,,all
-,Shattered Web Case,Restricted,,,all
-,Shattered Web Case,Restricted,,,all
-,Shattered Web Case,Restricted,,,all
-,Shattered Web Case,Classified,,,all
-,Shattered Web Case,Classified,,,all
-,Shattered Web Case,Classified,,,all
-,Shattered Web Case,Covert,,,all
-AWP | Containment Breach,Shattered Web Case,Covert,387.0,WW,YOUPIN
-,Shattered Web Case,Gold,,,all
-★ Nomad Knife | Blue Steel,Shattered Web Case,Gold,1885.0,FN,YOUPIN
-★ Nomad Knife | Boreal Forest,Shattered Web Case,Gold,1650.0,FN,BUFF
-★ Nomad Knife | Case Hardened,Shattered Web Case,Gold,2400.0,FN,YOUPIN
-★ Nomad Knife | Crimson Web,Shattered Web Case,Gold,7898.5,FN,BUFF
-★ Nomad Knife | Fade,Shattered Web Case,Gold,2819.5,FN,YOUPIN
-★ Nomad Knife | Forest DDPAT,Shattered Web Case,Gold,1400.0,FN,BUFF
-★ Nomad Knife | Night Stripe,Shattered Web Case,Gold,1780.0,FN,BUFF
-★ Nomad Knife | Safari Mesh,Shattered Web Case,Gold,1175.0,FN,BUFF
-★ Nomad Knife | Scorched,Shattered Web Case,Gold,1587.0,FN,YOUPIN
-★ Nomad Knife | Slaughter,Shattered Web Case,Gold,1799.5,FN,BUFF
-★ Nomad Knife | Stained,Shattered Web Case,Gold,1349.0,FN,YOUPIN
-★ Nomad Knife | Urban Masked,Shattered Web Case,Gold,2299.5,FN,YOUPIN
-,Shattered Web Case,Gold,,,all
-★ Skeleton Knife | Blue Steel,Shattered Web Case,Gold,2699.5,FN,BUFF
-★ Skeleton Knife | Boreal Forest,Shattered Web Case,Gold,1980.0,FN,YOUPIN
-★ Skeleton Knife | Case Hardened,Shattered Web Case,Gold,4687.0,FN,YOUPIN
-★ Skeleton Knife | Crimson Web,Shattered Web Case,Gold,16000.0,FN,BUFF
-★ Skeleton Knife | Fade,Shattered Web Case,Gold,4769.0,FN,YOUPIN
-★ Skeleton Knife | Forest DDPAT,Shattered Web Case,Gold,2100.0,FN,C5
-★ Skeleton Knife | Night Stripe,Shattered Web Case,Gold,3153.0,FN,BUFF
-★ Skeleton Knife | Safari Mesh,Shattered Web Case,Gold,1288.0,FN,BUFF
-★ Skeleton Knife | Scorched,Shattered Web Case,Gold,2979.5,FN,BUFF
-★ Skeleton Knife | Slaughter,Shattered Web Case,Gold,3218.0,FN,YOUPIN
-★ Skeleton Knife | Stained,Shattered Web Case,Gold,2099.5,FN,YOUPIN
-★ Skeleton Knife | Urban Masked,Shattered Web Case,Gold,2900.0,FN,YOUPIN
-,Shattered Web Case,Gold,,,all
-★ Paracord Knife | Blue Steel,Shattered Web Case,Gold,1369.5,FN,BUFF
-★ Paracord Knife | Boreal Forest,Shattered Web Case,Gold,1607.35,FN,STEAM
-★ Paracord Knife | Case Hardened,Shattered Web Case,Gold,1868.5,FN,BUFF
-★ Paracord Knife | Crimson Web,Shattered Web Case,Gold,10000.0,FN,BUFF
-★ Paracord Knife | Fade,Shattered Web Case,Gold,1205.0,FN,YOUPIN
-★ Paracord Knife | Forest DDPAT,Shattered Web Case,Gold,890.63,FN,STEAM
-★ Paracord Knife | Night Stripe,Shattered Web Case,Gold,2200.0,FN,YOUPIN
-★ Paracord Knife | Safari Mesh,Shattered Web Case,Gold,1050.0,FN,BUFF
-★ Paracord Knife | Scorched,Shattered Web Case,Gold,990.0,FN,BUFF
-★ Paracord Knife | Slaughter,Shattered Web Case,Gold,1050.0,FN,YOUPIN
-★ Paracord Knife | Stained,Shattered Web Case,Gold,900.0,FN,BUFF
-★ Paracord Knife | Urban Masked,Shattered Web Case,Gold,1088.0,FN,BUFF
-,Shattered Web Case,Gold,,,all
-★ Survival Knife | Blue Steel,Shattered Web Case,Gold,999.0,FN,BUFF
-★ Survival Knife | Boreal Forest,Shattered Web Case,Gold,888.0,FN,BUFF
-★ Survival Knife | Case Hardened,Shattered Web Case,Gold,1686.0,FN,BUFF
-★ Survival Knife | Crimson Web,Shattered Web Case,Gold,5145.0,FN,BUFF
-★ Survival Knife | Fade,Shattered Web Case,Gold,1099.5,FN,BUFF
-★ Survival Knife | Forest DDPAT,Shattered Web Case,Gold,1079.0,FN,BUFF
-★ Survival Knife | Night Stripe,Shattered Web Case,Gold,1283.43,FN,C5
-★ Survival Knife | Safari Mesh,Shattered Web Case,Gold,999.99,FN,YOUPIN
-★ Survival Knife | Scorched,Shattered Web Case,Gold,1100.0,FN,BUFF
-★ Survival Knife | Slaughter,Shattered Web Case,Gold,999.0,FN,YOUPIN
-★ Survival Knife | Stained,Shattered Web Case,Gold,880.0,FN,C5
-★ Survival Knife | Urban Masked,Shattered Web Case,Gold,1477.0,FN,C5
-Nova | Windblown,Snakebite Case,Mil-Spec,3.32,FN,BUFF
-Glock-18 | Clear Polymer,Snakebite Case,Mil-Spec,12.5,FN,BUFF
-CZ75-Auto | Circaetus,Snakebite Case,Mil-Spec,6.49,FN,BUFF
-,Snakebite Case,Mil-Spec,,,all
-UMP-45 | Oscillator,Snakebite Case,Mil-Spec,3.39,FN,BUFF
-SG 553 | Heavy Metal,Snakebite Case,Mil-Spec,6.01,FN,YOUPIN
-,Snakebite Case,Mil-Spec,,,all
-,Snakebite Case,Restricted,,,all
-,Snakebite Case,Restricted,,,all
-,Snakebite Case,Restricted,,,all
-,Snakebite Case,Restricted,,,all
-,Snakebite Case,Restricted,,,all
-,Snakebite Case,Classified,,,all
-,Snakebite Case,Classified,,,all
-XM1014 | XOXO,Snakebite Case,Classified,158.98,FN,BUFF
-USP-S | The Traitor,Snakebite Case,Covert,1154.5,FN,C5
-M4A4 | In Living Color,Snakebite Case,Covert,1798.5,FN,YOUPIN
-★ Broken Fang Gloves | Jade,Snakebite Case,Gold,4899.5,FN,BUFF
-,Snakebite Case,Gold,,,all
-★ Broken Fang Gloves | Needle Point,Snakebite Case,Gold,2188.0,FN,BUFF
-★ Broken Fang Gloves | Unhinged,Snakebite Case,Gold,2498.4,FN,YOUPIN
-★ Driver Gloves | Snow Leopard,Snakebite Case,Gold,18216.0,FN,C5
-★ Driver Gloves | Black Tie,Snakebite Case,Gold,13200.0,FN,YOUPIN
-★ Driver Gloves | Rezan the Red,Snakebite Case,Gold,6888.0,FN,C5
-★ Driver Gloves | Queen Jaguar,Snakebite Case,Gold,4200.0,FN,BUFF
-★ Hand Wraps | CAUTION!,Snakebite Case,Gold,7498.0,FN,YOUPIN
-★ Hand Wraps | Constrictor,Snakebite Case,Gold,2950.0,FN,YOUPIN
-★ Hand Wraps | Giraffe,Snakebite Case,Gold,3099.0,FN,BUFF
-★ Hand Wraps | Desert Shamagh,Snakebite Case,Gold,2500.0,FN,YOUPIN
-★ Moto Gloves | Smoke Out,Snakebite Case,Gold,6666.0,FN,YOUPIN
-★ Moto Gloves | Blood Pressure,Snakebite Case,Gold,5988.0,FN,YOUPIN
-★ Moto Gloves | Finish Line,Snakebite Case,Gold,4800.0,FN,C5
-★ Moto Gloves | 3rd Commando Company,Snakebite Case,Gold,2387.0,FN,YOUPIN
-★ Specialist Gloves | Marble Fade,Snakebite Case,Gold,16387.0,FN,YOUPIN
-★ Specialist Gloves | Field Agent,Snakebite Case,Gold,9800.0,FN,YOUPIN
-★ Specialist Gloves | Tiger Strike,Snakebite Case,Gold,12699.0,FN,YOUPIN
-★ Specialist Gloves | Lt. Commander,Snakebite Case,Gold,7499.0,FN,YOUPIN
-★ Sport Gloves | Slingshot,Snakebite Case,Gold,29988.88,FN,YOUPIN
-★ Sport Gloves | Nocts,Snakebite Case,Gold,28888.0,FN,YOUPIN
-★ Sport Gloves | Scarlet Shamagh,Snakebite Case,Gold,11899.9,FN,BUFF
-★ Sport Gloves | Big Game,Snakebite Case,Gold,8000.0,FN,YOUPIN
-Sawed-Off | Morris,Spectrum 2 Case,Mil-Spec,5.1,FN,YOUPIN
-AUG | Triqua,Spectrum 2 Case,Mil-Spec,6.28,FN,BUFF
-Tec-9 | Cracked Opal,Spectrum 2 Case,Mil-Spec,8.6,FN,YOUPIN
-MAC-10 | Oceanic,Spectrum 2 Case,Mil-Spec,3.23,FN,BUFF
-Glock-18 | Off World,Spectrum 2 Case,Mil-Spec,10.78,FN,BUFF
-G3SG1 | Hunter,Spectrum 2 Case,Mil-Spec,5.49,FN,YOUPIN
-SCAR-20 | Jungle Slipstream,Spectrum 2 Case,Mil-Spec,3.03,FN,BUFF
-XM1014 | Ziggy,Spectrum 2 Case,Restricted,20.89,FN,BUFF
-SG 553 | Phantom,Spectrum 2 Case,Restricted,19.99,FN,BUFF
-UMP-45 | Exposure,Spectrum 2 Case,Restricted,20.0,FN,BUFF
-MP9 | Goo,Spectrum 2 Case,Restricted,18.87,FN,YOUPIN
-CZ75-Auto | Tacticat,Spectrum 2 Case,Restricted,21.0,FN,YOUPIN
-PP-Bizon | High Roller,Spectrum 2 Case,Classified,188.0,FN,BUFF
-R8 Revolver | Llama Cannon,Spectrum 2 Case,Classified,225.0,FN,YOUPIN
-M4A1-S | Leaded Glass,Spectrum 2 Case,Classified,339.0,FN,BUFF
-P250 | See Ya Later,Spectrum 2 Case,Covert,789.0,FN,BUFF
-AK-47 | The Empress,Spectrum 2 Case,Covert,2719.5,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum 2 Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum 2 Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum 2 Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum 2 Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum 2 Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum 2 Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum 2 Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Damascus Steel,Spectrum 2 Case,Gold,6140.0,FN,YOUPIN
-★ Butterfly Knife | Marble Fade,Spectrum 2 Case,Gold,11099.5,FN,YOUPIN
-★ Butterfly Knife | Tiger Tooth,Spectrum 2 Case,Gold,8800.0,FN,YOUPIN
-,Spectrum 2 Case,Gold,,,all
-,Spectrum 2 Case,Gold,,,all
-,Spectrum 2 Case,Gold,,,all
-,Spectrum 2 Case,Gold,,,all
-,Spectrum 2 Case,Gold,,,all
-,Spectrum 2 Case,Gold,,,all
-,Spectrum 2 Case,Gold,,,all
-,Spectrum 2 Case,Gold,,,all
-,Spectrum 2 Case,Gold,,,all
-★ Huntsman Knife | Damascus Steel,Spectrum 2 Case,Gold,849.0,FN,YOUPIN
-★ Huntsman Knife | Marble Fade,Spectrum 2 Case,Gold,1340.0,FN,YOUPIN
-★ Huntsman Knife | Tiger Tooth,Spectrum 2 Case,Gold,1139.97,FN,YOUPIN
-★ Huntsman Knife | Rust Coat,Spectrum 2 Case,Gold,519.5,WW,YOUPIN
-★ Huntsman Knife | Ultraviolet,Spectrum 2 Case,Gold,2800.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum 2 Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum 2 Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum 2 Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum 2 Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum 2 Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum 2 Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum 2 Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Damascus Steel,Spectrum 2 Case,Gold,794.0,FN,YOUPIN
-★ Falchion Knife | Marble Fade,Spectrum 2 Case,Gold,1233.0,FN,YOUPIN
-★ Falchion Knife | Tiger Tooth,Spectrum 2 Case,Gold,1000.0,FN,YOUPIN
-★ Falchion Knife | Rust Coat,Spectrum 2 Case,Gold,540.0,WW,YOUPIN
-★ Falchion Knife | Ultraviolet,Spectrum 2 Case,Gold,1999.0,FN,BUFF
-★ Shadow Daggers | Doppler,Spectrum 2 Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum 2 Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum 2 Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum 2 Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum 2 Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum 2 Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum 2 Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Damascus Steel,Spectrum 2 Case,Gold,515.0,FN,YOUPIN
-★ Shadow Daggers | Marble Fade,Spectrum 2 Case,Gold,690.0,FN,YOUPIN
-★ Shadow Daggers | Tiger Tooth,Spectrum 2 Case,Gold,599.0,FN,YOUPIN
-★ Shadow Daggers | Rust Coat,Spectrum 2 Case,Gold,479.0,WW,BUFF
-★ Shadow Daggers | Ultraviolet,Spectrum 2 Case,Gold,1800.0,FN,BUFF
-★ Bowie Knife | Doppler,Spectrum 2 Case,Gold,2100.0,FN,YOUPIN
-★ Bowie Knife | Doppler,Spectrum 2 Case,Gold,2100.0,FN,YOUPIN
-★ Bowie Knife | Doppler,Spectrum 2 Case,Gold,2100.0,FN,YOUPIN
-★ Bowie Knife | Doppler,Spectrum 2 Case,Gold,2100.0,FN,YOUPIN
-★ Bowie Knife | Doppler,Spectrum 2 Case,Gold,2100.0,FN,YOUPIN
-★ Bowie Knife | Doppler,Spectrum 2 Case,Gold,2100.0,FN,YOUPIN
-★ Bowie Knife | Doppler,Spectrum 2 Case,Gold,2100.0,FN,YOUPIN
-★ Bowie Knife | Damascus Steel,Spectrum 2 Case,Gold,777.95,FN,YOUPIN
-★ Bowie Knife | Marble Fade,Spectrum 2 Case,Gold,1350.0,FN,YOUPIN
-★ Bowie Knife | Tiger Tooth,Spectrum 2 Case,Gold,1000.0,FN,YOUPIN
-★ Bowie Knife | Rust Coat,Spectrum 2 Case,Gold,614.0,WW,C5
-★ Bowie Knife | Ultraviolet,Spectrum 2 Case,Gold,3403.94,FN,STEAM
-PP-Bizon | Jungle Slipstream,Spectrum Case,Mil-Spec,3.73,FN,BUFF
-SCAR-20 | Blueprint,Spectrum Case,Mil-Spec,4.9,FN,YOUPIN
-Desert Eagle | Oxide Blaze,Spectrum Case,Mil-Spec,6.25,FN,BUFF
-Five-SeveN | Capillary,Spectrum Case,Mil-Spec,4.9,FN,BUFF
-MP7 | Akoben,Spectrum Case,Mil-Spec,4.93,FN,YOUPIN
-P250 | Ripple,Spectrum Case,Mil-Spec,3.88,FN,BUFF
-,Spectrum Case,Mil-Spec,,,all
-,Spectrum Case,Restricted,,,all
-,Spectrum Case,Restricted,,,all
-,Spectrum Case,Restricted,,,all
-,Spectrum Case,Restricted,,,all
-,Spectrum Case,Restricted,,,all
-,Spectrum Case,Classified,,,all
-,Spectrum Case,Classified,,,all
-M4A1-S | Decimator,Spectrum Case,Classified,89.9,BS,BUFF
-AK-47 | Bloodsport,Spectrum Case,Covert,1654.8,FN,C5
-USP-S | Neo-Noir,Spectrum Case,Covert,973.9,FN,BUFF
-★ Butterfly Knife | Doppler,Spectrum Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Doppler,Spectrum Case,Gold,17695.0,FN,YOUPIN
-★ Butterfly Knife | Damascus Steel,Spectrum Case,Gold,6140.0,FN,YOUPIN
-★ Butterfly Knife | Marble Fade,Spectrum Case,Gold,11099.5,FN,YOUPIN
-★ Butterfly Knife | Tiger Tooth,Spectrum Case,Gold,8800.0,FN,YOUPIN
-★ Butterfly Knife | Rust Coat,Spectrum Case,Gold,3920.0,WW,YOUPIN
-★ Butterfly Knife | Ultraviolet,Spectrum Case,Gold,14500.0,FN,BUFF
-★ Huntsman Knife | Doppler,Spectrum Case,Gold,2200.0,FN,YOUPIN
-★ Huntsman Knife | Doppler,Spectrum Case,Gold,2200.0,FN,YOUPIN
-★ Huntsman Knife | Doppler,Spectrum Case,Gold,2200.0,FN,YOUPIN
-★ Huntsman Knife | Doppler,Spectrum Case,Gold,2200.0,FN,YOUPIN
-★ Huntsman Knife | Doppler,Spectrum Case,Gold,2200.0,FN,YOUPIN
-★ Huntsman Knife | Doppler,Spectrum Case,Gold,2200.0,FN,YOUPIN
-★ Huntsman Knife | Doppler,Spectrum Case,Gold,2200.0,FN,YOUPIN
-★ Huntsman Knife | Damascus Steel,Spectrum Case,Gold,849.0,FN,YOUPIN
-★ Huntsman Knife | Marble Fade,Spectrum Case,Gold,1340.0,FN,YOUPIN
-★ Huntsman Knife | Tiger Tooth,Spectrum Case,Gold,1139.97,FN,YOUPIN
-★ Huntsman Knife | Rust Coat,Spectrum Case,Gold,519.5,WW,YOUPIN
-★ Huntsman Knife | Ultraviolet,Spectrum Case,Gold,2800.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Doppler,Spectrum Case,Gold,2097.0,FN,YOUPIN
-★ Falchion Knife | Damascus Steel,Spectrum Case,Gold,790.0,FN,YOUPIN
-★ Falchion Knife | Marble Fade,Spectrum Case,Gold,1233.5,FN,YOUPIN
-★ Falchion Knife | Tiger Tooth,Spectrum Case,Gold,1000.0,FN,YOUPIN
-★ Falchion Knife | Rust Coat,Spectrum Case,Gold,540.0,WW,YOUPIN
-★ Falchion Knife | Ultraviolet,Spectrum Case,Gold,1999.0,FN,BUFF
-★ Shadow Daggers | Doppler,Spectrum Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Doppler,Spectrum Case,Gold,1013.49,FN,YOUPIN
-★ Shadow Daggers | Damascus Steel,Spectrum Case,Gold,515.0,FN,YOUPIN
-★ Shadow Daggers | Marble Fade,Spectrum Case,Gold,690.0,FN,YOUPIN
-★ Shadow Daggers | Tiger Tooth,Spectrum Case,Gold,599.0,FN,YOUPIN
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-,Spectrum Case,Gold,,,all
-★ Bowie Knife | Tiger Tooth,Spectrum Case,Gold,1799.99,MW,C5
-★ Bowie Knife | Rust Coat,Spectrum Case,Gold,614.0,WW,C5
-★ Bowie Knife | Ultraviolet,Spectrum Case,Gold,3403.94,FN,STEAM
-PP-Bizon | Cobalt Halftone,Winter Offensive Weapon Case,Mil-Spec,67.99,FN,BUFF
-M249 | Magma,Winter Offensive Weapon Case,Mil-Spec,10.37,FN,BUFF
-Five-SeveN | Kami,Winter Offensive Weapon Case,Mil-Spec,20.0,FN,C5
-Galil AR | Sandstorm,Winter Offensive Weapon Case,Mil-Spec,37.0,MW,BUFF
-Nova | Rising Skull,Winter Offensive Weapon Case,Restricted,57.0,FN,BUFF
-MP9 | Rose Iron,Winter Offensive Weapon Case,Restricted,59.9,FN,BUFF
-Dual Berettas | Marina,Winter Offensive Weapon Case,Restricted,137.5,FN,YOUPIN
-FAMAS | Pulse,Winter Offensive Weapon Case,Restricted,68.96,FN,C5
-AWP | Redline,Winter Offensive Weapon Case,Classified,515.0,MW,BUFF
-P250 | Mehndi,Winter Offensive Weapon Case,Classified,240.0,FN,YOUPIN
-M4A1-S | Guardian,Winter Offensive Weapon Case,Classified,375.0,FN,BUFF
-Sawed-Off | The Kraken,Winter Offensive Weapon Case,Covert,565.0,FN,BUFF
-M4A4 | Asiimov,Winter Offensive Weapon Case,Covert,1998.0,FT,YOUPIN
-,Winter Offensive Weapon Case,Gold,,,all
-★ Bayonet | Blue Steel,Winter Offensive Weapon Case,Gold,3200.0,FN,YOUPIN
-★ Bayonet | Boreal Forest,Winter Offensive Weapon Case,Gold,4701.63,FN,STEAM
-★ Bayonet | Case Hardened,Winter Offensive Weapon Case,Gold,4888.88,FN,BUFF
-★ Bayonet | Crimson Web,Winter Offensive Weapon Case,Gold,15000.0,FN,YOUPIN
-★ Bayonet | Fade,Winter Offensive Weapon Case,Gold,2863.0,FN,YOUPIN
-★ Bayonet | Forest DDPAT,Winter Offensive Weapon Case,Gold,4000.0,FN,BUFF
-★ Bayonet | Night,Winter Offensive Weapon Case,Gold,7000.0,FN,BUFF
-★ Bayonet | Safari Mesh,Winter Offensive Weapon Case,Gold,902.0,MW,YOUPIN
-★ Bayonet | Scorched,Winter Offensive Weapon Case,Gold,1071.0,MW,YOUPIN
-★ Bayonet | Slaughter,Winter Offensive Weapon Case,Gold,2790.0,FN,BUFF
-★ Bayonet | Stained,Winter Offensive Weapon Case,Gold,1849.0,FN,YOUPIN
-★ Bayonet | Urban Masked,Winter Offensive Weapon Case,Gold,1166.0,MW,BUFF
-,Winter Offensive Weapon Case,Gold,,,all
-★ Flip Knife | Blue Steel,Winter Offensive Weapon Case,Gold,2189.0,FN,BUFF
-★ Flip Knife | Boreal Forest,Winter Offensive Weapon Case,Gold,2557.05,FN,STEAM
-★ Flip Knife | Case Hardened,Winter Offensive Weapon Case,Gold,2500.0,FN,YOUPIN
-★ Flip Knife | Crimson Web,Winter Offensive Weapon Case,Gold,9666.0,FN,BUFF
-★ Flip Knife | Fade,Winter Offensive Weapon Case,Gold,2449.0,FN,YOUPIN
-★ Flip Knife | Forest DDPAT,Winter Offensive Weapon Case,Gold,2021.6,FN,STEAM
-★ Flip Knife | Night,Winter Offensive Weapon Case,Gold,3859.5,FN,YOUPIN
-★ Flip Knife | Safari Mesh,Winter Offensive Weapon Case,Gold,1600.0,FN,YOUPIN
-★ Flip Knife | Scorched,Winter Offensive Weapon Case,Gold,2867.85,FN,STEAM
-★ Flip Knife | Slaughter,Winter Offensive Weapon Case,Gold,2100.0,FN,YOUPIN
-★ Flip Knife | Stained,Winter Offensive Weapon Case,Gold,1388.0,FN,C5
-★ Flip Knife | Urban Masked,Winter Offensive Weapon Case,Gold,749.5,MW,BUFF
-,Winter Offensive Weapon Case,Gold,,,all
-★ Gut Knife | Blue Steel,Winter Offensive Weapon Case,Gold,1190.0,FN,YOUPIN
-★ Gut Knife | Boreal Forest,Winter Offensive Weapon Case,Gold,6594.13,FN,STEAM
-★ Gut Knife | Case Hardened,Winter Offensive Weapon Case,Gold,2184.27,FN,STEAM
-★ Gut Knife | Crimson Web,Winter Offensive Weapon Case,Gold,5702.24,FN,HALOSKINS
-★ Gut Knife | Fade,Winter Offensive Weapon Case,Gold,954.0,FN,BUFF
-★ Gut Knife | Forest DDPAT,Winter Offensive Weapon Case,Gold,1611.41,FN,STEAM
-★ Gut Knife | Night,Winter Offensive Weapon Case,Gold,529.5,MW,BUFF
-★ Gut Knife | Safari Mesh,Winter Offensive Weapon Case,Gold,2799.5,FN,BUFF
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-,Winter Offensive Weapon Case,Gold,,,all
-★ Karambit | Stained,Winter Offensive Weapon Case,Gold,5600.0,FN,BUFF
-★ Karambit | Urban Masked,Winter Offensive Weapon Case,Gold,6834.96,FN,STEAM
-,Winter Offensive Weapon Case,Gold,,,all
-★ M9 Bayonet | Blue Steel,Winter Offensive Weapon Case,Gold,5888.0,FN,YOUPIN
-★ M9 Bayonet | Boreal Forest,Winter Offensive Weapon Case,Gold,6999.0,FN,BUFF
-★ M9 Bayonet | Case Hardened,Winter Offensive Weapon Case,Gold,8500.0,FN,BUFF
-★ M9 Bayonet | Crimson Web,Winter Offensive Weapon Case,Gold,34999.0,FN,BUFF
-★ M9 Bayonet | Fade,Winter Offensive Weapon Case,Gold,8400.0,FN,BUFF
-★ M9 Bayonet | Forest DDPAT,Winter Offensive Weapon Case,Gold,200000.0,FN,YOUPIN
-★ M9 Bayonet | Night,Winter Offensive Weapon Case,Gold,3200.0,MW,YOUPIN
-★ M9 Bayonet | Safari Mesh,Winter Offensive Weapon Case,Gold,1989.5,MW,YOUPIN
-★ M9 Bayonet | Scorched,Winter Offensive Weapon Case,Gold,6500.0,FN,YOUPIN
-★ M9 Bayonet | Slaughter,Winter Offensive Weapon Case,Gold,6746.0,FN,YOUPIN
-★ M9 Bayonet | Stained,Winter Offensive Weapon Case,Gold,3650.0,FN,YOUPIN
-★ M9 Bayonet | Urban Masked,Winter Offensive Weapon Case,Gold,2300.0,MW,C5
+name,series,tier,price,exterior,platform
+SG 553 | Cyberforce,Revolution Case,Mil-Spec,0.4,BS,YOUPIN
+SG 553 | Cyberforce,Revolution Case,Mil-Spec,0.41,BS,BUFF
+SG 553 | Cyberforce,Revolution Case,Mil-Spec,0.46,BS,C5
+SG 553 | Cyberforce,Revolution Case,Mil-Spec,0.99,BS,STEAM
+SG 553 | Cyberforce,Revolution Case,Mil-Spec,0.5,BS,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,16.87,Factory New,C5
+Galil AR | Connexion,Fracture Case,Restricted,18.75,Factory New,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,16.4,Factory New,Buff
+Galil AR | Connexion,Fracture Case,Restricted,15.79,Factory New,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,23.94,Factory New,Steam
+Galil AR | Connexion,Fracture Case,Restricted,5.2,Minimal Wear,C5
+Galil AR | Connexion,Fracture Case,Restricted,5.0,Minimal Wear,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,5.68,Minimal Wear,Buff
+Galil AR | Connexion,Fracture Case,Restricted,7.98,Minimal Wear,Steam
+Galil AR | Connexion,Fracture Case,Restricted,5.42,Minimal Wear,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,2.76,Field-Tested,C5
+Galil AR | Connexion,Fracture Case,Restricted,2.82,Field-Tested,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,2.93,Field-Tested,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,4.7,Field-Tested,Steam
+Galil AR | Connexion,Fracture Case,Restricted,2.69,Field-Tested,Buff
+Galil AR | Connexion,Fracture Case,Restricted,3.0,Well-Worn,Buff
+Galil AR | Connexion,Fracture Case,Restricted,3.6,Well-Worn,C5
+Galil AR | Connexion,Fracture Case,Restricted,2.8,Well-Worn,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,5.06,Well-Worn,Steam
+Galil AR | Connexion,Fracture Case,Restricted,6.56,Well-Worn,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,2.81,Battle-Scarred,C5
+Galil AR | Connexion,Fracture Case,Restricted,2.78,Battle-Scarred,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,2.66,Battle-Scarred,Buff
+Galil AR | Connexion,Fracture Case,Restricted,4.06,Battle-Scarred,Steam
+Galil AR | Connexion,Fracture Case,Restricted,3.0,Battle-Scarred,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,2837.48,Factory New,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,2820.0,Factory New,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,2953.55,Factory New,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,2927.99,Factory New,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,3881.72,Factory New,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,552.65,Minimal Wear,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,545.0,Minimal Wear,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,548.9,Minimal Wear,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,575.36,Minimal Wear,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,717.41,Minimal Wear,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,245.7,Field-Tested,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,236.0,Field-Tested,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,230.0,Field-Tested,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,238.0,Field-Tested,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,348.97,Field-Tested,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,215.0,Well-Worn,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,218.0,Well-Worn,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,214.5,Well-Worn,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,223.82,Well-Worn,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,303.35,Well-Worn,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,216.5,Battle-Scarred,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,208.0,Battle-Scarred,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,195.0,Battle-Scarred,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,303.43,Battle-Scarred,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,225.39,Battle-Scarred,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,12.8,Factory New,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,13.0,Factory New,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,22.95,Factory New,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,14.0,Factory New,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,14.62,Factory New,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,6.84,Minimal Wear,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.81,Minimal Wear,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,9.9,Minimal Wear,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,9.44,Minimal Wear,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,9.63,Minimal Wear,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,4.91,Field-Tested,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,8.98,Field-Tested,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,4.97,Field-Tested,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,9.4,Field-Tested,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,8.91,Field-Tested,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.2,Well-Worn,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,6.6,Well-Worn,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,4.27,Well-Worn,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,7.55,Well-Worn,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,6.92,Well-Worn,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,2.72,Battle-Scarred,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,4.7,Battle-Scarred,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.49,Battle-Scarred,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.13,Battle-Scarred,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.78,Battle-Scarred,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,413.0,Factory New,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,412.0,Factory New,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,409.5,Factory New,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,494.81,Factory New,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,431.66,Factory New,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,46.0,Minimal Wear,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,46.0,Minimal Wear,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,42.0,Minimal Wear,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,58.3,Minimal Wear,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,48.05,Minimal Wear,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,22.7,Field-Tested,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,22.48,Field-Tested,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,22.94,Field-Tested,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,30.0,Field-Tested,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,23.46,Field-Tested,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,42.75,Well-Worn,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,34.4,Well-Worn,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,50.32,Well-Worn,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,44.72,Well-Worn,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,44.48,Well-Worn,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,27.16,Battle-Scarred,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,25.5,Battle-Scarred,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,29.86,Battle-Scarred,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,22.5,Battle-Scarred,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,83.26,Battle-Scarred,HALOSKINS
+XM1014 | Incinegator,Prisma Case,Classified,450.0,Minimal Wear,Buff
+XM1014 | Incinegator,Prisma Case,Classified,418.5,Minimal Wear,YOUPIN
+XM1014 | Incinegator,Prisma Case,Classified,492.38,Minimal Wear,Steam
+XM1014 | Incinegator,Prisma Case,Classified,470.5,Minimal Wear,C5
+XM1014 | Incinegator,Prisma Case,Classified,489.4,Minimal Wear,HALOSKINS
+XM1014 | Incinegator,Prisma Case,Classified,30.0,Field-Tested,C5
+XM1014 | Incinegator,Prisma Case,Classified,29.73,Field-Tested,YOUPIN
+XM1014 | Incinegator,Prisma Case,Classified,30.0,Field-Tested,Buff
+XM1014 | Incinegator,Prisma Case,Classified,31.65,Field-Tested,HALOSKINS
+XM1014 | Incinegator,Prisma Case,Classified,47.32,Field-Tested,Steam
+XM1014 | Incinegator,Prisma Case,Classified,30.0,Well-Worn,YOUPIN
+XM1014 | Incinegator,Prisma Case,Classified,43.12,Well-Worn,Steam
+XM1014 | Incinegator,Prisma Case,Classified,29.99,Well-Worn,Buff
+XM1014 | Incinegator,Prisma Case,Classified,29.94,Well-Worn,C5
+XM1014 | Incinegator,Prisma Case,Classified,33.36,Well-Worn,HALOSKINS
+XM1014 | Incinegator,Prisma Case,Classified,42.76,Battle-Scarred,Steam
+XM1014 | Incinegator,Prisma Case,Classified,28.99,Battle-Scarred,YOUPIN
+XM1014 | Incinegator,Prisma Case,Classified,40.0,Battle-Scarred,C5
+XM1014 | Incinegator,Prisma Case,Classified,28.0,Battle-Scarred,Buff
+XM1014 | Incinegator,Prisma Case,Classified,41.7,Battle-Scarred,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,11.75,Factory New,C5
+P90 | Neoqueen,Revolution Case,Restricted,11.67,Factory New,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,11.0,Factory New,Buff
+P90 | Neoqueen,Revolution Case,Restricted,18.1,Factory New,Steam
+P90 | Neoqueen,Revolution Case,Restricted,12.26,Factory New,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,4.35,Minimal Wear,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,4.36,Minimal Wear,C5
+P90 | Neoqueen,Revolution Case,Restricted,4.57,Minimal Wear,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,4.11,Minimal Wear,Buff
+P90 | Neoqueen,Revolution Case,Restricted,6.98,Minimal Wear,Steam
+P90 | Neoqueen,Revolution Case,Restricted,2.79,Field-Tested,C5
+P90 | Neoqueen,Revolution Case,Restricted,1.15,Field-Tested,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,3.0,Field-Tested,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,2.78,Field-Tested,Buff
+P90 | Neoqueen,Revolution Case,Restricted,4.56,Field-Tested,Steam
+P90 | Neoqueen,Revolution Case,Restricted,3.16,Well-Worn,C5
+P90 | Neoqueen,Revolution Case,Restricted,2.95,Well-Worn,Buff
+P90 | Neoqueen,Revolution Case,Restricted,3.01,Well-Worn,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,5.48,Well-Worn,Steam
+P90 | Neoqueen,Revolution Case,Restricted,3.36,Well-Worn,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,2.97,Battle-Scarred,C5
+P90 | Neoqueen,Revolution Case,Restricted,2.94,Battle-Scarred,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,2.75,Battle-Scarred,Buff
+P90 | Neoqueen,Revolution Case,Restricted,3.14,Battle-Scarred,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,5.55,Battle-Scarred,Steam
+AWP | Duality,Revolution Case,Classified,113.19,Factory New,HALOSKINS
+AWP | Duality,Revolution Case,Classified,108.68,Factory New,C5
+AWP | Duality,Revolution Case,Classified,107.49,Factory New,YOUPIN
+AWP | Duality,Revolution Case,Classified,161.08,Factory New,Steam
+AWP | Duality,Revolution Case,Classified,104.5,Factory New,Buff
+AWP | Duality,Revolution Case,Classified,39.8,Minimal Wear,C5
+AWP | Duality,Revolution Case,Classified,41.49,Minimal Wear,HALOSKINS
+AWP | Duality,Revolution Case,Classified,39.75,Minimal Wear,YOUPIN
+AWP | Duality,Revolution Case,Classified,39.99,Minimal Wear,Buff
+AWP | Duality,Revolution Case,Classified,59.8,Minimal Wear,Steam
+AWP | Duality,Revolution Case,Classified,22.65,Field-Tested,C5
+AWP | Duality,Revolution Case,Classified,22.46,Field-Tested,HALOSKINS
+AWP | Duality,Revolution Case,Classified,22.82,Field-Tested,YOUPIN
+AWP | Duality,Revolution Case,Classified,34.78,Field-Tested,Steam
+AWP | Duality,Revolution Case,Classified,22.3,Field-Tested,Buff
+AWP | Duality,Revolution Case,Classified,23.65,Well-Worn,Buff
+AWP | Duality,Revolution Case,Classified,25.0,Well-Worn,C5
+AWP | Duality,Revolution Case,Classified,21.9,Well-Worn,YOUPIN
+AWP | Duality,Revolution Case,Classified,35.63,Well-Worn,Steam
+AWP | Duality,Revolution Case,Classified,26.02,Well-Worn,HALOSKINS
+AWP | Duality,Revolution Case,Classified,19.9,Battle-Scarred,Buff
+AWP | Duality,Revolution Case,Classified,23.86,Battle-Scarred,C5
+AWP | Duality,Revolution Case,Classified,20.65,Battle-Scarred,YOUPIN
+AWP | Duality,Revolution Case,Classified,33.85,Battle-Scarred,Steam
+AWP | Duality,Revolution Case,Classified,25.02,Battle-Scarred,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,5.06,Factory New,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,5.2,Factory New,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,4.95,Factory New,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,6.98,Factory New,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,5.42,Factory New,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.22,Minimal Wear,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.26,Minimal Wear,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.92,Minimal Wear,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.28,Minimal Wear,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.36,Minimal Wear,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.68,Field-Tested,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.68,Field-Tested,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.8,Field-Tested,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.86,Field-Tested,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.42,Field-Tested,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.97,Well-Worn,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.56,Well-Worn,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.54,Well-Worn,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.99,Well-Worn,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.58,Well-Worn,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.65,Battle-Scarred,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.48,Battle-Scarred,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.92,Battle-Scarred,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.98,Battle-Scarred,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.58,Battle-Scarred,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,16.87,Factory New,C5
+Galil AR | Connexion,Fracture Case,Restricted,18.75,Factory New,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,16.4,Factory New,Buff
+Galil AR | Connexion,Fracture Case,Restricted,15.79,Factory New,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,23.94,Factory New,Steam
+Galil AR | Connexion,Fracture Case,Restricted,5.2,Minimal Wear,C5
+Galil AR | Connexion,Fracture Case,Restricted,5.0,Minimal Wear,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,5.68,Minimal Wear,Buff
+Galil AR | Connexion,Fracture Case,Restricted,7.98,Minimal Wear,Steam
+Galil AR | Connexion,Fracture Case,Restricted,5.42,Minimal Wear,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,2.76,Field-Tested,C5
+Galil AR | Connexion,Fracture Case,Restricted,2.82,Field-Tested,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,2.93,Field-Tested,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,4.7,Field-Tested,Steam
+Galil AR | Connexion,Fracture Case,Restricted,2.69,Field-Tested,Buff
+Galil AR | Connexion,Fracture Case,Restricted,3.0,Well-Worn,Buff
+Galil AR | Connexion,Fracture Case,Restricted,3.6,Well-Worn,C5
+Galil AR | Connexion,Fracture Case,Restricted,2.8,Well-Worn,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,5.06,Well-Worn,Steam
+Galil AR | Connexion,Fracture Case,Restricted,6.56,Well-Worn,HALOSKINS
+Galil AR | Connexion,Fracture Case,Restricted,2.81,Battle-Scarred,C5
+Galil AR | Connexion,Fracture Case,Restricted,2.78,Battle-Scarred,YOUPIN
+Galil AR | Connexion,Fracture Case,Restricted,2.66,Battle-Scarred,Buff
+Galil AR | Connexion,Fracture Case,Restricted,4.06,Battle-Scarred,Steam
+Galil AR | Connexion,Fracture Case,Restricted,3.0,Battle-Scarred,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,2837.48,Factory New,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,2820.0,Factory New,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,2953.55,Factory New,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,2927.99,Factory New,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,3881.72,Factory New,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,552.65,Minimal Wear,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,545.0,Minimal Wear,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,548.9,Minimal Wear,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,575.36,Minimal Wear,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,717.41,Minimal Wear,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,245.7,Field-Tested,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,236.0,Field-Tested,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,230.0,Field-Tested,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,238.0,Field-Tested,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,348.97,Field-Tested,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,215.0,Well-Worn,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,218.0,Well-Worn,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,214.5,Well-Worn,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,223.82,Well-Worn,HALOSKINS
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,303.35,Well-Worn,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,216.5,Battle-Scarred,C5
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,208.0,Battle-Scarred,YOUPIN
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,195.0,Battle-Scarred,Buff
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,303.43,Battle-Scarred,Steam
+Glock-18 | Neo-Noir,Operation Broken Fang Case,Covert,225.39,Battle-Scarred,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,12.8,Factory New,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,13.0,Factory New,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,22.95,Factory New,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,14.0,Factory New,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,14.62,Factory New,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,6.84,Minimal Wear,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.81,Minimal Wear,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,9.9,Minimal Wear,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,9.44,Minimal Wear,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,9.63,Minimal Wear,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,4.91,Field-Tested,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,8.98,Field-Tested,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,4.97,Field-Tested,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,9.4,Field-Tested,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,8.91,Field-Tested,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.2,Well-Worn,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,6.6,Well-Worn,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,4.27,Well-Worn,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,7.55,Well-Worn,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,6.92,Well-Worn,HALOSKINS
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,2.72,Battle-Scarred,Buff
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,4.7,Battle-Scarred,YOUPIN
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.49,Battle-Scarred,C5
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.13,Battle-Scarred,Steam
+P250 | Contaminant,Operation Broken Fang Case,Mil-Spec,5.78,Battle-Scarred,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,413.0,Factory New,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,412.0,Factory New,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,409.5,Factory New,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,494.81,Factory New,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,431.66,Factory New,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,46.0,Minimal Wear,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,46.0,Minimal Wear,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,42.0,Minimal Wear,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,58.3,Minimal Wear,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,48.05,Minimal Wear,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,22.7,Field-Tested,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,22.48,Field-Tested,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,22.94,Field-Tested,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,30.0,Field-Tested,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,23.46,Field-Tested,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,42.75,Well-Worn,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,34.4,Well-Worn,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,50.32,Well-Worn,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,44.72,Well-Worn,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,44.48,Well-Worn,HALOSKINS
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,27.16,Battle-Scarred,C5
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,25.5,Battle-Scarred,Buff
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,29.86,Battle-Scarred,Steam
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,22.5,Battle-Scarred,YOUPIN
+M4A4 | Griffin,Operation Vanguard Weapon Case,Restricted,83.26,Battle-Scarred,HALOSKINS
+XM1014 | Incinegator,Prisma Case,Classified,450.0,Minimal Wear,Buff
+XM1014 | Incinegator,Prisma Case,Classified,418.5,Minimal Wear,YOUPIN
+XM1014 | Incinegator,Prisma Case,Classified,492.38,Minimal Wear,Steam
+XM1014 | Incinegator,Prisma Case,Classified,470.5,Minimal Wear,C5
+XM1014 | Incinegator,Prisma Case,Classified,489.4,Minimal Wear,HALOSKINS
+XM1014 | Incinegator,Prisma Case,Classified,30.0,Field-Tested,C5
+XM1014 | Incinegator,Prisma Case,Classified,29.73,Field-Tested,YOUPIN
+XM1014 | Incinegator,Prisma Case,Classified,30.0,Field-Tested,Buff
+XM1014 | Incinegator,Prisma Case,Classified,31.65,Field-Tested,HALOSKINS
+XM1014 | Incinegator,Prisma Case,Classified,47.32,Field-Tested,Steam
+XM1014 | Incinegator,Prisma Case,Classified,30.0,Well-Worn,YOUPIN
+XM1014 | Incinegator,Prisma Case,Classified,43.12,Well-Worn,Steam
+XM1014 | Incinegator,Prisma Case,Classified,29.99,Well-Worn,Buff
+XM1014 | Incinegator,Prisma Case,Classified,29.94,Well-Worn,C5
+XM1014 | Incinegator,Prisma Case,Classified,33.36,Well-Worn,HALOSKINS
+XM1014 | Incinegator,Prisma Case,Classified,42.76,Battle-Scarred,Steam
+XM1014 | Incinegator,Prisma Case,Classified,28.99,Battle-Scarred,YOUPIN
+XM1014 | Incinegator,Prisma Case,Classified,40.0,Battle-Scarred,C5
+XM1014 | Incinegator,Prisma Case,Classified,28.0,Battle-Scarred,Buff
+XM1014 | Incinegator,Prisma Case,Classified,41.7,Battle-Scarred,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,11.75,Factory New,C5
+P90 | Neoqueen,Revolution Case,Restricted,11.67,Factory New,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,11.0,Factory New,Buff
+P90 | Neoqueen,Revolution Case,Restricted,18.1,Factory New,Steam
+P90 | Neoqueen,Revolution Case,Restricted,12.26,Factory New,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,4.35,Minimal Wear,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,4.36,Minimal Wear,C5
+P90 | Neoqueen,Revolution Case,Restricted,4.57,Minimal Wear,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,4.11,Minimal Wear,Buff
+P90 | Neoqueen,Revolution Case,Restricted,6.98,Minimal Wear,Steam
+P90 | Neoqueen,Revolution Case,Restricted,2.79,Field-Tested,C5
+P90 | Neoqueen,Revolution Case,Restricted,1.15,Field-Tested,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,3.0,Field-Tested,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,2.78,Field-Tested,Buff
+P90 | Neoqueen,Revolution Case,Restricted,4.56,Field-Tested,Steam
+P90 | Neoqueen,Revolution Case,Restricted,3.16,Well-Worn,C5
+P90 | Neoqueen,Revolution Case,Restricted,2.95,Well-Worn,Buff
+P90 | Neoqueen,Revolution Case,Restricted,3.01,Well-Worn,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,5.48,Well-Worn,Steam
+P90 | Neoqueen,Revolution Case,Restricted,3.36,Well-Worn,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,2.97,Battle-Scarred,C5
+P90 | Neoqueen,Revolution Case,Restricted,2.94,Battle-Scarred,YOUPIN
+P90 | Neoqueen,Revolution Case,Restricted,2.75,Battle-Scarred,Buff
+P90 | Neoqueen,Revolution Case,Restricted,3.14,Battle-Scarred,HALOSKINS
+P90 | Neoqueen,Revolution Case,Restricted,5.55,Battle-Scarred,Steam
+AWP | Duality,Revolution Case,Classified,113.19,Factory New,HALOSKINS
+AWP | Duality,Revolution Case,Classified,108.68,Factory New,C5
+AWP | Duality,Revolution Case,Classified,107.49,Factory New,YOUPIN
+AWP | Duality,Revolution Case,Classified,161.08,Factory New,Steam
+AWP | Duality,Revolution Case,Classified,104.5,Factory New,Buff
+AWP | Duality,Revolution Case,Classified,39.8,Minimal Wear,C5
+AWP | Duality,Revolution Case,Classified,41.49,Minimal Wear,HALOSKINS
+AWP | Duality,Revolution Case,Classified,39.75,Minimal Wear,YOUPIN
+AWP | Duality,Revolution Case,Classified,39.99,Minimal Wear,Buff
+AWP | Duality,Revolution Case,Classified,59.8,Minimal Wear,Steam
+AWP | Duality,Revolution Case,Classified,22.65,Field-Tested,C5
+AWP | Duality,Revolution Case,Classified,22.46,Field-Tested,HALOSKINS
+AWP | Duality,Revolution Case,Classified,22.82,Field-Tested,YOUPIN
+AWP | Duality,Revolution Case,Classified,34.78,Field-Tested,Steam
+AWP | Duality,Revolution Case,Classified,22.3,Field-Tested,Buff
+AWP | Duality,Revolution Case,Classified,23.65,Well-Worn,Buff
+AWP | Duality,Revolution Case,Classified,25.0,Well-Worn,C5
+AWP | Duality,Revolution Case,Classified,21.9,Well-Worn,YOUPIN
+AWP | Duality,Revolution Case,Classified,35.63,Well-Worn,Steam
+AWP | Duality,Revolution Case,Classified,26.02,Well-Worn,HALOSKINS
+AWP | Duality,Revolution Case,Classified,19.9,Battle-Scarred,Buff
+AWP | Duality,Revolution Case,Classified,23.86,Battle-Scarred,C5
+AWP | Duality,Revolution Case,Classified,20.65,Battle-Scarred,YOUPIN
+AWP | Duality,Revolution Case,Classified,33.85,Battle-Scarred,Steam
+AWP | Duality,Revolution Case,Classified,25.02,Battle-Scarred,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,5.06,Factory New,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,5.2,Factory New,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,4.95,Factory New,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,6.98,Factory New,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,5.42,Factory New,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.22,Minimal Wear,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.26,Minimal Wear,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.92,Minimal Wear,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.28,Minimal Wear,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.36,Minimal Wear,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.68,Field-Tested,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.68,Field-Tested,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.8,Field-Tested,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.86,Field-Tested,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,1.42,Field-Tested,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.97,Well-Worn,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.56,Well-Worn,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.54,Well-Worn,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.99,Well-Worn,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.58,Well-Worn,HALOSKINS
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.65,Battle-Scarred,Buff
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.48,Battle-Scarred,C5
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.92,Battle-Scarred,Steam
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.98,Battle-Scarred,YOUPIN
+R8 Revolver | Grip,Clutch Case,Mil-Spec,0.58,Battle-Scarred,HALOSKINS

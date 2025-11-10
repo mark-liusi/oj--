@@ -1,0 +1,87 @@
+"""
+统一处理prices_all_min.csv,确保所有数据都有必需的列
+"""
+import pandas as pd
+import re
+
+# 读取数据
+df = pd.read_csv('prices_all_min.csv')
+
+print(f"原始数据: {len(df)}行")
+
+# 删除没有价格的行
+df = df[df['price'].notna() & (df['price'] > 0)]
+print(f"过滤无效价格后: {len(df)}行")
+
+# 外观映射
+exterior_map = {
+    'Factory New': 'FN',
+    'Minimal Wear': 'MW',
+    'Field-Tested': 'FT',
+    'Well-Worn': 'WW',
+    'Battle-Scarred': 'BS'
+}
+
+# 处理缺失name和exterior的行(从marketHashName_used提取)
+for idx, row in df.iterrows():
+    if pd.isna(row['name']) and pd.notna(row['marketHashName_used']):
+        hash_name = str(row['marketHashName_used']).strip()
+        
+        # 提取name和exterior
+        extracted_name = hash_name
+        extracted_exterior = None
+        
+        for full, abbr in exterior_map.items():
+            if f'({full})' in hash_name:
+                extracted_name = hash_name.replace(f' ({full})', '').strip()
+                extracted_exterior = abbr
+                break
+        
+        df.at[idx, 'name'] = extracted_name
+        df.at[idx, 'exterior'] = extracted_exterior
+        df.at[idx, 'market_hash_name'] = hash_name
+
+# 处理缺失series和tier的行(从rarity_en和case_name_en补充)
+for idx, row in df.iterrows():
+    if pd.isna(row['series']) and pd.notna(row['case_name_en']):
+        df.at[idx, 'series'] = row['case_name_en']
+    
+    if pd.isna(row['tier']) and pd.notna(row['rarity_en']):
+        df.at[idx, 'tier'] = row['rarity_en']
+
+# 再次过滤:必须有name, price, platform
+df = df[df['name'].notna() & df['price'].notna() & df['platform'].notna()]
+print(f"过滤缺失关键字段后: {len(df)}行")
+
+# 选择需要的列并重命名
+df_final = df[['name', 'series', 'tier', 'price', 'exterior', 'platform']].copy()
+
+# 保存
+df_final.to_csv('prices_with_exterior.csv', index=False)
+print(f"\n✅ 已生成 prices_with_exterior.csv ({len(df_final)} 行)")
+
+# 统计
+print(f"\n统计信息:")
+print(f"  唯一物品数: {df_final['name'].nunique()}")
+print(f"  各外观分布:")
+if 'exterior' in df_final.columns:
+    print(df_final['exterior'].value_counts())
+print(f"  各平台分布:")
+print(df_final['platform'].value_counts())
+
+# 显示8个修正物品
+items = [
+    'Galil AR | Connexion',
+    'Glock-18 | Neo-Noir',
+    'P250 | Contaminant',
+    'M4A4 | Griffin',
+    'XM1014 | Incinegator',
+    'P90 | Neoqueen',
+    'AWP | Duality',
+    'R8 Revolver | Grip'
+]
+result = df_final[df_final['name'].isin(items)]
+print(f"\n8个修正物品数据: {len(result)}条")
+for item in items:
+    count = len(result[result['name'] == item])
+    print(f"  {item}: {count}条")

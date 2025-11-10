@@ -1,80 +1,33 @@
-================================================================================================================================================================
+====================================================================================================
 科学版 Trade-Up 盈利 TOP 100 - 按期望利润排序
-================================================================================================================================================================
+====================================================================================================
 
-排名  物品名称                                        外观    箱子系列                            稀有度      目标              价格    期望产出    单件价值    期望利润       ROI
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-1     SSG 08 | Dragonfire                             崭新    Glove Case                          Covert      Gold           4318.00    93684.66    15926.39    11608.39   268.84%
-2     M4A4 | Buzz Kill                                崭新    Glove Case                          Covert      Gold           7099.49    93684.66    15926.39     8826.90   124.33%
-3     Five-SeveN | Hyper Beast                        崭新    Operation Hydra Case                Covert      Gold           5629.50    53410.93     9079.86     3450.36    61.29%
-4     MP7 | Bloodsport                                崭新    Clutch Case                         Covert      Gold            602.45    12251.00     2082.67     1480.22   245.70%
-5     AK-47 | Head Shot                               崭新    Revolution Case                     Covert      Gold            810.00    12978.66     2206.37     1396.37   172.39%
-6     M4A4 | Temukau                                  崭新    Revolution Case                     Covert      Gold            854.50    12978.66     2206.37     1351.87   158.21%
-7     AWP | Chromatic Aberration                      崭新    Recoil Case                         Covert      Gold            604.80    10366.75     1762.35     1157.55   191.39%
-8     AWP | Oni Taiji                                 崭新    Operation Hydra Case                Covert      Gold           7935.93    53410.93     9079.86     1143.93    14.41%
-9     R8 Revolver | Fade                              崭新    Revolver Case                       Covert      Gold            547.90     8922.71     1516.86      968.96   176.85%
-10    Sawed-Off | The Kraken                          崭新    Winter Offensive Weapon Case        Covert      Gold            565.00     8840.19     1502.83      937.83   165.99%
-11    USP-S | Printstream                             崭新    Recoil Case                         Covert      Gold            854.99    10366.75     1762.35      907.36   106.12%
-12    P90 | Death by Kitty                            略磨    ESports 2013 Case                   Covert      Gold            730.00     8638.19     1468.49      738.49   101.16%
-13    USP-S | The Traitor                             崭新    Snakebite Case                      Covert      Gold           1154.50     9266.94     1575.38      420.88    36.46%
-14    P90 | Asiimov                                   崭新    Operation Breakout Weapon Case      Covert      Gold           1583.00    11628.67     1976.87      393.87    24.88%
-15    M4A1-S | Cyrex                                  崭新    Operation Breakout Weapon Case      Covert      Gold           1643.00    11628.67     1976.87      333.87    20.32%
-16    CZ75-Auto | Victoria                            崭新    CSGO Weapon Case 3                  Covert      Gold            590.00     5353.14      910.03      320.03    54.24%
-17    MP7 | Impire                                    崭新    Operation Wildfire Case             Classified  Covert           41.30     3747.00      318.50      277.19   671.17%
-18    M4A4 | Neo-Noir                                 崭新    Clutch Case                         Covert      Gold           1829.60    12251.00     2082.67      253.07    13.83%
-19    FAMAS | Commemoration                           崭新    CS20 Case                           Covert      Gold            308.50     3046.46      517.90      209.40    67.88%
-20    P2000 | Ocean Foam                              崭新    Operation Bravo Case                Classified  Covert         1014.00    13769.75     1170.43      156.43    15.43%
-21    AWP | Neo-Noir                                  崭新    Danger Zone Case                    Covert      Gold            395.00     2975.41      505.82      110.82    28.06%
-22    R8 Revolver | Skull Crusher                     久经    Prisma Case                         Classified  Covert           53.68     1566.87      133.18       79.50   148.11%
-23    SCAR-20 | Cyrex                                 崭新    Huntsman Weapon Case                Classified  Covert          438.00     5970.00      507.45       69.45    15.86%
-24    UMP-45 | Momentum                               崭新    Danger Zone Case                    Classified  Covert           97.64     1697.25      144.27       46.63    47.75%
-25    MP5-SD | Phosphor                               崭新    Danger Zone Case                    Classified  Covert           98.99     1697.25      144.27       45.28    45.74%
-26    P90 | Chopper                                   崭新    Gamma Case                          Restricted  Classified       26.00      709.50       60.31       34.31   131.95%
-27    AUG | Aristocrat                                崭新    Gamma Case                          Restricted  Classified       29.00      709.50       60.31       31.31   107.96%
-28    AWP | Containment Breach                        破损    Shattered Web Case                  Covert      Gold            387.00     2453.57      417.11       30.11     7.78%
-29    AWP | Phobos                                    崭新    Gamma Case                          Restricted  Classified       30.40      709.50       60.31       29.91    98.38%
-30    Desert Eagle | Mecha Industries                 崭新    Danger Zone Case                    Classified  Covert          118.00     1697.25      144.27       26.27    22.26%
-31    M4A1-S | Decimator                              战痕    Spectrum Case                       Classified  Covert           89.90     1314.35      111.72       21.82    24.27%
-32    R8 Revolver | Reboot                            崭新    Gamma Case                          Restricted  Classified       39.80      709.50       60.31       20.51    51.53%
-33    Sawed-Off | Limelight                           崭新    Gamma Case                          Restricted  Classified       40.00      709.50       60.31       20.31    50.77%
-34    UMP-45 | Grand Prix                             久经    Chroma 2 Case                       Restricted  Classified        9.97      355.16       30.19       20.22   202.80%
-35    MP7 | Ocean Foam                                崭新    ESports 2014 Summer Case            Restricted  Classified       64.08      954.00       81.09       17.01    26.54%
-36    UMP-45 | Gold Bismuth                           崭新    Operation Broken Fang Case          Restricted  Classified      100.00     1360.33      115.63       15.63    15.63%
-37    FAMAS | Doomkitty                               略磨    ESports 2013 Case                   Mil-Spec    Restricted       32.87      561.14       47.70       14.83    45.11%
-38    MAG-7 | Praetorian                              略磨    Operation Wildfire Case             Restricted  Classified       17.63      353.05       30.01       12.38    70.22%
-39    XM1014 | Red Python                             略磨    ESports 2014 Summer Case            Mil-Spec    Restricted       19.70      335.01       28.48        8.78    44.55%
-40    SSG 08 | Dark Water                             略磨    ESports 2014 Summer Case            Mil-Spec    Restricted       21.89      335.01       28.48        6.59    30.08%
-41    MP7 | Special Delivery                          崭新    Shadow Case                         Restricted  Classified       54.00      707.76       60.16        6.16    11.41%
-42    MAC-10 | Sakkaku                                久经    Revolution Case                     Restricted  Classified        5.67      110.17        9.36        3.69    65.15%
-43    UMP-45 | Moonrise                               崭新    Prisma Case                         Restricted  Classified       14.69      213.84       18.18        3.49    23.73%
-44    Galil AR | Black Sand                           崭新    Glove Case                          Mil-Spec    Restricted        4.21       88.03        7.48        3.27    77.74%
-45    M249 | Spectre                                  崭新    Chroma 3 Case                       Mil-Spec    Restricted        3.74       75.22        6.39        2.65    70.95%
-46    G3SG1 | Orange Crash                            崭新    Chroma 3 Case                       Mil-Spec    Restricted        3.88       75.22        6.39        2.51    64.78%
-47    Dual Berettas | Ventilators                     崭新    Chroma 3 Case                       Mil-Spec    Restricted        3.93       75.22        6.39        2.46    62.68%
-48    MP9 | Bioleak                                   崭新    Chroma 3 Case                       Mil-Spec    Restricted        3.94       75.22        6.39        2.45    62.27%
-49    MP9 | Goo                                       崭新    Spectrum 2 Case                     Restricted  Classified       18.87      250.67       21.31        2.44    12.91%
-50    SG 553 | Tiger Moth                             崭新    Revolver Case                       Restricted  Classified       40.00      497.42       42.28        2.28     5.70%
-51    XM1014 | Teclu Burner                           崭新    Revolver Case                       Restricted  Classified       40.00      497.42       42.28        2.28     5.70%
-52    P2000 | Oceanic                                 崭新    Chroma 3 Case                       Mil-Spec    Restricted        4.18       75.22        6.39        2.21    52.95%
-53    AWP | Worm God                                  崭新    Chroma 2 Case                       Restricted  Classified       28.00      355.16       30.19        2.19     7.82%
-54    CZ75-Auto | Pole Position                       崭新    Chroma 2 Case                       Restricted  Classified       28.00      355.16       30.19        2.19     7.82%
-55    Negev | Terrain                                 崭新    Operation Phoenix Weapon Case       Mil-Spec    Restricted        6.60       98.00        8.33        1.73    26.21%
-56    PP-Bizon | Antique                              崭新    Huntsman Weapon Case                Restricted  Classified       84.10     1006.50       85.55        1.45     1.73%
-57    SG 553 | Phantom                                崭新    Spectrum 2 Case                     Restricted  Classified       19.99      250.67       21.31        1.32     6.59%
-58    UMP-45 | Exposure                               崭新    Spectrum 2 Case                     Restricted  Classified       20.00      250.67       21.31        1.31     6.53%
-59    MAG-7 | Heaven Guard                            崭新    Operation Phoenix Weapon Case       Mil-Spec    Restricted        7.19       98.00        8.33        1.14    15.86%
-60    Tec-9 | Re-Entry                                崭新    Chroma 3 Case                       Restricted  Classified       20.59      252.56       21.47        0.88     4.26%
-61    SG 553 | Atlas                                  崭新    Chroma 3 Case                       Mil-Spec    Restricted        5.68       75.22        6.39        0.71    12.56%
-62    AUG | Torque                                    崭新    Huntsman Weapon Case                Restricted  Classified       84.91     1006.50       85.55        0.64     0.76%
-63    P2000 | Imperial                                崭新    Revolver Case                       Mil-Spec    Restricted        5.00       66.15        5.62        0.62    12.45%
-64    Negev | Man-o'-war                              略磨    Chroma 2 Case                       Mil-Spec    Restricted        1.76       26.57        2.26        0.50    28.31%
-65    XM1014 | Ziggy                                  崭新    Spectrum 2 Case                     Restricted  Classified       20.89      250.67       21.31        0.42     1.99%
-66    SCAR-20 | Outbreak                              崭新    Revolver Case                       Mil-Spec    Restricted        5.27       66.15        5.62        0.35     6.69%
-67    CZ75-Auto | Tacticat                            崭新    Spectrum 2 Case                     Restricted  Classified       21.00      250.67       21.31        0.31     1.46%
-68    M249 | Nebula Crusader                          崭新    Shadow Case                         Restricted  Classified       59.99      707.76       60.16        0.17     0.28%
-69    P250 | Wingshot                                 崭新    Shadow Case                         Restricted  Classified       60.00      707.76       60.16        0.16     0.27%
-========================================================================================================================================================================
-
-总计 69 个物品（显示前 69 个）
-
-说明：外观列显示推荐购买的磨损度（基于最低价格）
+排名    物品名称                                    外观      箱子系列                          稀有度         目标          价格        期望产出      单件价值      期望利润        ROI       
+------------------------------------------------------------------------------------------------------------------------------------------------------
+137   P90 | Neoqueen                          久经      Revolution Case               Restricted  Classified  1.15      47.85     4.07      2.92        253.68   %
+332   P90 | Neoqueen                          久经      Revolution Case               Restricted  Classified  1.15      47.85     4.07      2.92        253.68   %
+148   P90 | Neoqueen                          战痕      Revolution Case               Restricted  Classified  2.75      47.85     4.07      1.32        47.90    %
+343   P90 | Neoqueen                          战痕      Revolution Case               Restricted  Classified  2.75      47.85     4.07      1.32        47.90    %
+139   P90 | Neoqueen                          久经      Revolution Case               Restricted  Classified  2.78      47.85     4.07      1.29        46.31    %
+334   P90 | Neoqueen                          久经      Revolution Case               Restricted  Classified  2.78      47.85     4.07      1.29        46.31    %
+136   P90 | Neoqueen                          久经      Revolution Case               Restricted  Classified  2.79      47.85     4.07      1.28        45.78    %
+331   P90 | Neoqueen                          久经      Revolution Case               Restricted  Classified  2.79      47.85     4.07      1.28        45.78    %
+147   P90 | Neoqueen                          战痕      Revolution Case               Restricted  Classified  2.94      47.85     4.07      1.13        38.34    %
+342   P90 | Neoqueen                          战痕      Revolution Case               Restricted  Classified  2.94      47.85     4.07      1.13        38.34    %
+142   P90 | Neoqueen                          破损      Revolution Case               Restricted  Classified  2.95      47.85     4.07      1.12        37.87    %
+337   P90 | Neoqueen                          破损      Revolution Case               Restricted  Classified  2.95      47.85     4.07      1.12        37.87    %
+146   P90 | Neoqueen                          战痕      Revolution Case               Restricted  Classified  2.97      47.85     4.07      1.10        36.95    %
+341   P90 | Neoqueen                          战痕      Revolution Case               Restricted  Classified  2.97      47.85     4.07      1.10        36.95    %
+138   P90 | Neoqueen                          久经      Revolution Case               Restricted  Classified  3.00      47.85     4.07      1.07        35.58    %
+333   P90 | Neoqueen                          久经      Revolution Case               Restricted  Classified  3.00      47.85     4.07      1.07        35.58    %
+143   P90 | Neoqueen                          破损      Revolution Case               Restricted  Classified  3.01      47.85     4.07      1.06        35.13    %
+338   P90 | Neoqueen                          破损      Revolution Case               Restricted  Classified  3.01      47.85     4.07      1.06        35.13    %
+149   P90 | Neoqueen                          战痕      Revolution Case               Restricted  Classified  3.14      47.85     4.07      0.93        29.53    %
+344   P90 | Neoqueen                          战痕      Revolution Case               Restricted  Classified  3.14      47.85     4.07      0.93        29.53    %
+141   P90 | Neoqueen                          破损      Revolution Case               Restricted  Classified  3.16      47.85     4.07      0.91        28.71    %
+336   P90 | Neoqueen                          破损      Revolution Case               Restricted  Classified  3.16      47.85     4.07      0.91        28.71    %
+145   P90 | Neoqueen                          破损      Revolution Case               Restricted  Classified  3.36      47.85     4.07      0.71        21.05    %
+340   P90 | Neoqueen                          破损      Revolution Case               Restricted  Classified  3.36      47.85     4.07      0.71        21.05    %
+1     SG 553 | Cyberforce                     战痕      Revolution Case               Mil-Spec    Restricted  0.40      5.55      0.47      0.07        17.93    %
+2     SG 553 | Cyberforce                     战痕      Revolution Case               Mil-Spec    Restricted  0.41      5.55      0.47      0.06        15.05    %
+3     SG 553 | Cyberforce                     战痕      Revolution Case               Mil-Spec    Restricted  0.46      5.55      0.47      0.01        2.55     %
