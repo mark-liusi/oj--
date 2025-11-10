@@ -29,7 +29,7 @@ echo ✅ 外观信息已提取
 echo.
 
 echo [步骤 3/4] 准备科学版输入数据...
-%PYTHON% prepare_scientific_inputs.py
+%PYTHON% prepare_scientific_inputs.py --input prices_with_exterior.csv --meta-out skins_meta_real.csv --prices-out skin_prices.csv
 if errorlevel 1 (
     echo ❌ 数据准备失败！
     pause
