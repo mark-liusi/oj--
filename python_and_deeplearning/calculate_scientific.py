@@ -41,10 +41,13 @@ import math
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Tuple, Optional
+from typing import Dict, List, Tuple, Optional, TYPE_CHECKING, Any
 
 import numpy as np
 import pandas as pd
+
+if TYPE_CHECKING:
+    from connectors_market import MarketPriceFetcher, FetcherConfig
 
 # ------------------------------
 # 常量：稀有度、跨档映射、外观阈值
@@ -263,7 +266,8 @@ def compute_ev_out_for_series(
             mask = (prices_df["name"].str.casefold()==str(s_name).casefold()) & (prices_df["exterior"]==ex_out)
             rowp = prices_df[mask]
             if not rowp.empty:
-                price_s = float(rowp.iloc[0]["price"])
+                # 使用中位数而非 iloc[0]，避免排序影响
+                price_s = float(rowp["price"].median())
         if price_s is None:
             # 回退：用主表中该皮肤的 price 均值
             price_s = float(r["price"]) if "price" in S.columns and not math.isnan(r["price"]) else None
@@ -305,6 +309,60 @@ class MaterialCandidate:
     margin_max: Optional[float]  # 基于 fn_max 的利润
     profit_ratio: Optional[float]  # 基于 fn_avg 的ROI
     profit_ratio_max: Optional[float]  # 基于 fn_max 的ROI
+
+def _normalize_name_key(s: str) -> str:
+    return str(s).strip().casefold()
+
+def find_optimal_combo(candidates: List[MaterialCandidate], K: int, 
+                       optimize_for: str = "cost") -> Optional[List[MaterialCandidate]]:
+    """找到K件材料的最优组合
+    
+    Args:
+        candidates: 候选材料列表
+        K: 需要的材料数量
+        optimize_for: 优化目标
+            - "cost": 最低成本（贪心）
+            - "margin": 最高总利润
+            - "roi": 最高平均ROI
+            - "balanced": 平衡成本和利润
+    
+    Returns:
+        最优组合的材料列表，如果无法组成则返回None
+    """
+    qualified = [c for c in candidates if c.lowfloat_price is not None]
+    if len(qualified) < K:
+        return None
+    
+    if optimize_for == "cost":
+        # 简单贪心：按价格排序取前K个
+        return sorted(qualified, key=lambda x: x.lowfloat_price)[:K]
+    
+    elif optimize_for == "margin":
+        # 按总利润排序（优先正利润）
+        return sorted(qualified, 
+                     key=lambda x: (x.margin or -1e18), 
+                     reverse=True)[:K]
+    
+    elif optimize_for == "roi":
+        # 按ROI排序（优先正ROI）
+        return sorted(qualified,
+                     key=lambda x: (x.profit_ratio or -1e18),
+                     reverse=True)[:K]
+    
+    elif optimize_for == "balanced":
+        # 平衡策略：综合考虑成本和利润
+        # score = margin / sqrt(cost)，鼓励"性价比高"的材料
+        def balance_score(c):
+            if c.margin is None or c.lowfloat_price is None or c.lowfloat_price <= 0:
+                return -1e18
+            # 使用平方根惩罚成本，避免过度偏向廉价但利润低的材料
+            return c.margin / (c.lowfloat_price ** 0.5)
+        
+        return sorted(qualified, key=balance_score, reverse=True)[:K]
+    
+    else:
+        # 默认返回成本最低
+        return sorted(qualified, key=lambda x: x.lowfloat_price)[:K]
 
 def _normalize_name_key(s: str) -> str:
     return str(s).strip().casefold()
@@ -388,7 +446,7 @@ def _series_theta_star(series: str, next_tier: str, df_all: pd.DataFrame, meta_d
     return max(0.0, min(1.0, min(thetas)))  # 双目标外观取最严阈值
 
 def _expected_out_price_fn(series: str, next_tier: str, df_all: pd.DataFrame, prices_df: Optional[pd.DataFrame], target_exterior: str = "FN") -> Optional[float]:
-    """期望的"输出为指定外观"时的平均售价（两把等概率；Gold 则按该档等概率平均）。"""
+    """期望的"输出为指定外观"时的稳健平均售价（使用中位数）。"""
     mask_target = (df_all["series"].str.casefold()==_normalize_name_key(series)) & (df_all["tier"]==next_tier)
     S = df_all[mask_target]
     if S.empty or prices_df is None:
@@ -398,7 +456,8 @@ def _expected_out_price_fn(series: str, next_tier: str, df_all: pd.DataFrame, pr
         s_name = r["name"]
         rowp = prices_df[(prices_df["name"].str.casefold()==_normalize_name_key(s_name)) & (prices_df["exterior"]==target_exterior)]
         if not rowp.empty:
-            acc.append(float(rowp.iloc[0]["price"]))
+            # 使用中位数而非 iloc[0]，避免排序影响
+            acc.append(float(rowp["price"].median()))
         elif "price" in S.columns and not math.isnan(r.get("price", float("nan"))):
             acc.append(float(r["price"]))  # 回退：用主表价格
     if not acc:
@@ -416,7 +475,8 @@ def _expected_out_price_fn_max(series: str, next_tier: str, df_all: pd.DataFrame
         s_name = r["name"]
         rowp = prices_df[(prices_df["name"].str.casefold()==_normalize_name_key(s_name)) & (prices_df["exterior"]==target_exterior)]
         if not rowp.empty:
-            acc.append(float(rowp.iloc[0]["price"]))
+            # 使用最大值而非 iloc[0]，用于偏贵目标场景
+            acc.append(float(rowp["price"].max()))
         elif "price" in S.columns and not math.isnan(r.get("price", float("nan"))):
             acc.append(float(r["price"]))  # 回退：用主表价格
     if not acc:
@@ -431,7 +491,7 @@ def best_materials_for_series(
     prices_df: Optional[pd.DataFrame],
     sell_fee: float,
     buy_fee: float,
-    fetcher: Optional[MarketPriceFetcher],
+    fetcher: Any,  # Optional[MarketPriceFetcher]，但为了避免导入问题使用 Any
     topn_external: int = 3,
     target_exterior: str = "FN"
 ) -> Tuple[List[MaterialCandidate], Optional[MaterialCandidate], Optional[MaterialCandidate]]:
@@ -667,13 +727,41 @@ def write_best_list(csv_path: str, md_path: str, results: List[Tuple[str, str, L
     with open(md_path, "w", encoding="utf-8") as f:
         f.write("# 每个系列最佳下级（主料）清单\n\n")
         for series, source_tier, cands, phys, econ in results:
-            f.write(f"## {series}（{source_tier} → {NEXT_TIER[source_tier][0]}）\n\n")
+            next_tier, K = NEXT_TIER[source_tier]
+            f.write(f"## {series}（{source_tier} → {next_tier}）\n\n")
             if phys:
                 f.write(f"- 物理最佳：**{phys.name}**（区间 {phys.fmin:.2f}–{phys.fmax:.2f}，f_allow≤{phys.f_allow:.4f} {phys.strictness_stars}）\n")
             if econ:
                 f.write(f"- 经济最佳：**{econ.name}**（低漂价≈{econ.lowfloat_price:.2f}）\n")
                 f.write(f"  - 稳健(fn_avg): 价值≈{(econ.value_per_item or 0):.2f}, 利润≈{(econ.margin or 0):.2f}, ROI≈{(econ.profit_ratio or 0):.2%}\n")
                 f.write(f"  - 偏贵(fn_max): 价值≈{(econ.value_per_item_max or 0):.2f}, 利润≈{(econ.margin_max or 0):.2f}, ROI≈{(econ.profit_ratio_max or 0):.2%}\n")
+            
+            # === 新增：多种混合同组合策略 ===
+            combo_strategies = {
+                "最低成本": "cost",
+                "最高利润": "margin", 
+                "最高ROI": "roi",
+                "平衡性价比": "balanced"
+            }
+            
+            f.write("\n### 混合同组合推荐（满足双FN阈值）\n\n")
+            for strategy_name, strategy_key in combo_strategies.items():
+                combo = find_optimal_combo(cands, int(K), optimize_for=strategy_key)
+                if combo:
+                    combo_cost = sum(c.lowfloat_price for c in combo)
+                    combo_total_margin = sum(c.margin or 0 for c in combo) if all(c.margin is not None for c in combo) else None
+                    combo_avg_roi = (combo_total_margin / combo_cost) if (combo_total_margin is not None and combo_cost > 0) else None
+                    
+                    f.write(f"**{strategy_name}策略**（{K}件）：\n")
+                    f.write(f"- 总成本: {combo_cost:.2f} | ")
+                    if combo_total_margin is not None:
+                        profit_status = "✅ 盈利" if combo_total_margin > 0 else "❌ 亏损"
+                        f.write(f"总期望利润: {combo_total_margin:.2f} {profit_status} | ")
+                    if combo_avg_roi is not None:
+                        f.write(f"ROI: {combo_avg_roi:.2%}")
+                    f.write("\n")
+                    f.write(f"- 组合: {', '.join([f'{c.name}({c.lowfloat_price:.1f}₽)' for c in combo])}\n\n")
+            
             # Top3 简表
             f.write("\n| 候选 | 名称 | f_min | f_max | f_allow | 难度 | 低漂价 | 物理分 | 经济分 | 价值(avg) | 价值(max) | 利润(avg) | 利润(max) | ROI(avg) | ROI(max) |\n")
             f.write("|---|---|---:|---:|---:|:---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n")
@@ -708,15 +796,20 @@ def run_best_list_pipeline(
     df["series"] = df["series"].astype(str)
     df["name"] = df["name"].astype(str)
 
-    # 价格表标准化：name, exterior, price
+    # 价格表标准化：name, exterior, price（仅三列必需）
     if prices_df is not None:
-        prices_df = prices_df.rename(columns={
-            detect_columns(prices_df).get("name","name"): "name",
-            detect_columns(prices_df).get("exterior","exterior"): "exterior",
-            detect_columns(prices_df).get("price","price"): "price",
-        })
-        prices_df["exterior"] = prices_df["exterior"].map(normalize_exterior)
-        prices_df = prices_df.dropna(subset=["exterior"])
+        try:
+            pmap = detect_price_columns(prices_df)  # ← 用专用函数
+            prices_df = prices_df.rename(columns={
+                pmap["name"]: "name",
+                pmap["exterior"]: "exterior",
+                pmap["price"]: "price",
+            })
+            prices_df["exterior"] = prices_df["exterior"].map(normalize_exterior)
+            prices_df = prices_df.dropna(subset=["exterior","price"])
+        except ValueError as e:
+            print(f"警告：价格表列识别失败（{e}），已忽略价格表。")
+            prices_df = None
 
     # 选择源层级
     tiers_all = ["Restricted","Classified","Covert"]
