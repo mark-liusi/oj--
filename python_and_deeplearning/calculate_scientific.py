@@ -844,7 +844,7 @@ def main():
     ap.add_argument("--input","-i", required=True, help="主CSV：包含 name/series/tier/price；可选 float/exterior/stattrak")
     ap.add_argument("--meta","-m", default=None, help="皮肤浮漂元数据 CSV：name,float_min,float_max")
     ap.add_argument("--prices","-p", default=None, help="外观价格 CSV：name,exterior(FN/MW/FT/WW/BS),price")
-    ap.add_argument("--sell-fee", type=float, default=0.15, help="卖出手续费比例（默认 0.15）")
+    ap.add_argument("--sell-fee", type=float, default=0.00, help="卖出手续费比例（默认 0.00）")
     ap.add_argument("--buy-fee", type=float, default=0.00, help="买入手续费比例（默认 0.00）")
     ap.add_argument("--filter-tier", default=None, nargs="*", help="仅计算这些输入稀有度（可多选），支持中英别名")
     ap.add_argument("--out-csv", default=None, help="导出结果 CSV 路径")

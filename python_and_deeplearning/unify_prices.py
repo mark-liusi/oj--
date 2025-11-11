@@ -13,6 +13,18 @@ print(f"原始数据: {len(df)}行")
 df = df[df['price'].notna() & (df['price'] > 0)]
 print(f"过滤无效价格后: {len(df)}行")
 
+# 添加缺失的列
+if 'name' not in df.columns:
+    df['name'] = None
+if 'exterior' not in df.columns:
+    df['exterior'] = None
+if 'market_hash_name' not in df.columns:
+    df['market_hash_name'] = None
+if 'series' not in df.columns:
+    df['series'] = None
+if 'tier' not in df.columns:
+    df['tier'] = None
+
 # 外观映射
 exterior_map = {
     'Factory New': 'FN',

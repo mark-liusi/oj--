@@ -1,6 +1,0 @@
-series,source_tier,tag,name,fmin,fmax,f_allow,strictness_stars,lowfloat_price,score_physical,score_economic,ev_double_fn,ev_double_fn_max,value_per_item,value_per_item_max,buy_cost,margin,margin_max,profit_ratio,profit_ratio_max
-Revolution Case,Restricted,physical_best,P90 | Neoqueen,0.0,0.6,0.052500000000000005,★★★★★,5.9385,0.6,9.8975,,,,,5.9385,,,,
-Revolution Case,Restricted,economic_best,P90 | Neoqueen,0.0,0.6,0.052500000000000005,★★★★★,5.9385,0.6,9.8975,,,,,5.9385,,,,
-Revolution Case,Restricted,candidate_top1,P90 | Neoqueen,0.0,0.6,0.052500000000000005,★★★★★,5.9385,0.6,9.8975,,,,,5.9385,,,,
-Revolution Case,Restricted,candidate_top2,P90 | Neoqueen,0.0,0.6,0.052500000000000005,★★★★★,5.9385,0.6,9.8975,,,,,5.9385,,,,
-Revolution Case,Restricted,candidate_top3,P90 | Neoqueen,0.0,0.6,0.052500000000000005,★★★★★,5.9385,0.6,9.8975,,,,,5.9385,,,,

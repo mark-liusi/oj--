@@ -26,6 +26,13 @@ import pandas as pd
 import requests
 from tqdm import tqdm
 
+# 尝试加载 .env 文件
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 BASE = "https://open.steamdt.com"
 def HEADERS(api_key): 
     return {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
@@ -110,19 +117,20 @@ def build_candidates(row: pd.Series) -> List[str]:
 def price_from_single(api_key: str, market_hash: str, platform: str):
     """
     若 platform == 'all'：返回该 market_hash 下所有平台的价格列表
-    否则：返回单个平台的一条记录（与原行为兼容）
+    否则：只在返回列表里精确匹配目标平台；匹配不到就返回 price=None（不再回落到第一条）。
+    这样主循环可以继续尝试下一个候选 marketHashName。
     """
     url = f"{BASE}/open/cs2/v1/price/single"
     params = {"marketHashName": market_hash}
     r = requests.get(url, params=params, headers=HEADERS(api_key), timeout=25)
     if r.status_code != 200:
         base = {"marketHashName": market_hash, "source": "single", "status": r.status_code}
-        return [dict(base, price=None, platform=platform)] if platform.lower() == "all" else dict(base, price=None, platform=platform)
-    
-    j = r.json()
-    data = j.get("data", [])
+        return [dict(base, price=None, platform=platform)] if platform.lower()=="all" else dict(base, price=None, platform=platform)
 
-    # 平台名统一小写比较但原样输出
+    j = r.json()
+    data = j.get("data", []) or []
+
+    # 平台统一小写用于比较，但输出保留原样
     if platform.lower().strip() == "all":
         rows = []
         for d in data:
@@ -135,36 +143,35 @@ def price_from_single(api_key: str, market_hash: str, platform: str):
             })
         return rows
     else:
-        platform_lower = platform.lower().strip()
-        price, plat = None, platform
+        target = platform.lower().strip()
+        # 只在真正匹配到目标平台时返回价格；否则返回 price=None
         for d in data:
-            if str(d.get("platform","")).lower() == platform_lower:
-                price = d.get("sellPrice")
-                plat = d.get("platform","")
-                break
-        if price is None and data:
-            price = data[0].get("sellPrice")
-            plat = data[0].get("platform","")
-        return {"marketHashName": market_hash, "price": price, "platform": plat, "source": "single", "status": 200}
+            plat = str(d.get("platform",""))
+            if plat.lower() == target or target in plat.lower():
+                return {"marketHashName": market_hash, "price": d.get("sellPrice"),
+                        "platform": plat, "source": "single", "status": 200}
+        # 没匹配到就显式为空，主循环会继续尝试下一个候选
+        return {"marketHashName": market_hash, "price": None,
+                "platform": platform, "source": "single", "status": 200}
 
 def price_avg7d(api_key: str, market_hash: str, platform: str):
     """
-    若 platform == 'all'：返回该 market_hash 下所有平台的7日均价列表
-    否则：返回单个平台的一条记录（与原行为兼容）
+    若 platform == 'all'：返回 dataList 里每个平台的7日均价
+    否则：只返回目标平台的均价；匹配不到则 price=None（不再用总均价兜底）
     """
     url = f"{BASE}/open/cs2/v1/price/avg"
     params = {"marketHashName": market_hash}
     r = requests.get(url, params=params, headers=HEADERS(api_key), timeout=25)
     if r.status_code != 200:
         base = {"marketHashName": market_hash, "source": "avg7d", "status": r.status_code}
-        return [dict(base, price=None, platform=platform)] if platform.lower() == "all" else dict(base, price=None, platform=platform)
-    
+        return [dict(base, price=None, platform=platform)] if platform.lower()=="all" else dict(base, price=None, platform=platform)
+
     j = r.json()
-    data = j.get("data", {})
-    
+    data = j.get("data", {}) or {}
+    data_list = data.get("dataList", []) or []
+
     if platform.lower().strip() == "all":
         rows = []
-        data_list = data.get("dataList", [])
         for d in data_list:
             rows.append({
                 "marketHashName": market_hash,
@@ -175,15 +182,15 @@ def price_avg7d(api_key: str, market_hash: str, platform: str):
             })
         return rows
     else:
-        price = data.get("avgPrice")
-        plat = platform
-        if data.get("dataList"):
-            for d in data["dataList"]:
-                if str(d.get("platform","")).lower() == platform.lower():
-                    price = d.get("avgPrice", price)
-                    plat = d.get("platform", platform)
-                    break
-        return {"marketHashName": market_hash, "price": price, "platform": plat, "source": "avg7d", "status": 200}
+        target = platform.lower().strip()
+        for d in data_list:
+            plat = str(d.get("platform",""))
+            if plat.lower() == target or target in plat.lower():
+                return {"marketHashName": market_hash, "price": d.get("avgPrice"),
+                        "platform": plat, "source": "avg7d", "status": 200}
+        # 没匹配到就显式为空
+        return {"marketHashName": market_hash, "price": None,
+                "platform": platform, "source": "avg7d", "status": 200}
 
 def main():
     ap = argparse.ArgumentParser()
@@ -235,8 +242,20 @@ def main():
                 else:
                     res = []
                 
-                # 找到有价格的就停止
-                has_price = any(r.get("price") for r in res)
+                # 修正：区分"指定平台"和"all"的命中判断
+                if args.platform.lower().strip() == "all":
+                    # all 模式：只要有任何价格就算命中
+                    has_price = any(r.get("price") for r in res)
+                else:
+                    # 指定平台模式：只有当"目标平台价格"非空，才算命中
+                    has_price = any(
+                        (r.get("price") is not None) and (
+                            str(r.get("platform","")).lower()==args.platform.lower().strip()
+                            or args.platform.lower().strip() in str(r.get("platform","")).lower()
+                        )
+                        for r in res
+                    )
+                
                 if has_price:
                     hit_rows = res
                     break
@@ -280,6 +299,109 @@ def main():
     # 写出
     df.to_csv(args.out, index=False, encoding="utf-8-sig")
     print(f"\n✅ 完成! 已保存 {len(out_rows)} 条记录到 {args.out}")
+    
+    # 统计各平台数量和价格优势
+    if len(df) > 0 and "platform" in df.columns:
+        print("\n" + "="*80)
+        print("📊 价格数据统计")
+        print("="*80)
+        
+        # 过滤掉无价格的记录和0价格
+        df_valid = df[df["price"].notna() & (df["price"] != "")]
+        try:
+            df_valid = df_valid[pd.to_numeric(df_valid["price"], errors='coerce') > 0]
+        except:
+            pass
+        
+        if len(df_valid) > 0:
+            # 平台分布统计
+            platform_counts = df_valid["platform"].value_counts()
+            total_valid = len(df_valid)
+            
+            print(f"\n总计获取 {total_valid} 条有效价格记录（{len(df)} 条总记录）：")
+            print("-" * 80)
+            
+            # 按数量排序展示
+            for platform, count in platform_counts.items():
+                percentage = (count / total_valid) * 100
+                bar_length = int(percentage / 2)  # 每2%一个字符
+                bar = "█" * bar_length
+                print(f"  {platform:10s} : {count:4d} 条  ({percentage:5.1f}%)  {bar}")
+            
+            # 价格优势分析（不管是否是 min-only 模式）
+            print("\n" + "-" * 80)
+            print("💰 价格对比分析（基准：STEAM）：")
+            print("-" * 80)
+            
+            # 按商品分组，找出每个商品的 Steam 价格
+            steam_prices = {}
+            grouped = df_valid.groupby("marketHashName_used")
+            
+            for mh, group in grouped:
+                mh = str(mh)
+                steam_rows = group[group["platform"].str.upper() == "STEAM"]
+                if len(steam_rows) > 0:
+                    try:
+                        steam_prices[mh] = float(steam_rows.iloc[0]["price"])
+                    except:
+                        pass
+            
+            # 计算每个平台相对于Steam的平均节省
+            platform_stats = {}
+            for platform in platform_counts.index:
+                if platform.upper() != "STEAM":
+                    platform_df = df_valid[df_valid["platform"] == platform]
+                    savings_list = []
+                    total_saved = 0
+                    
+                    for _, row in platform_df.iterrows():
+                        mh = str(row.get("marketHashName_used", ""))
+                        if mh in steam_prices:
+                            try:
+                                other_price = float(row["price"])
+                                steam_price = steam_prices[mh]
+                                if steam_price > 0 and other_price > 0:
+                                    saving_amount = steam_price - other_price
+                                    saving_pct = (saving_amount / steam_price) * 100
+                                    savings_list.append(saving_pct)
+                                    total_saved += saving_amount
+                            except:
+                                pass
+                    
+                    if savings_list:
+                        avg_saving = sum(savings_list) / len(savings_list)
+                        platform_stats[platform] = {
+                            "count": len(savings_list),
+                            "avg_saving": avg_saving,
+                            "total_saved": total_saved
+                        }
+            
+            # 按平均节省百分比排序
+            sorted_platforms = sorted(platform_stats.items(), 
+                                    key=lambda x: x[1]["avg_saving"], 
+                                    reverse=True)
+            
+            if sorted_platforms:
+                for platform, stats in sorted_platforms:
+                    avg_save = stats["avg_saving"]
+                    total_save = stats["total_saved"]
+                    sample_count = stats["count"]
+                    
+                    if avg_save > 0:
+                        emoji = "✅"
+                        sign = ""
+                    else:
+                        emoji = "⚠️"
+                        sign = ""
+                    
+                    print(f"  {emoji} {platform:10s} : 平均 {sign}{avg_save:+6.1f}%  "
+                          f"(累计省 ¥{total_save:.2f}, {sample_count}个商品)")
+            else:
+                print("  ⚠️  无法对比（缺少 STEAM 价格参考）")
+        else:
+            print("\n⚠️  未获取到有效价格数据")
+        
+        print("="*80 + "\n")
 
 if __name__ == "__main__":
     main()
