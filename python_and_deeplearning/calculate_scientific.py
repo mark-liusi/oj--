@@ -1092,6 +1092,9 @@ def main():
         winners_by_roi = work_sorted[work_sorted["profit_ratio"] > 0].sort_values("profit_ratio", ascending=False).head(100)
         losers_by_roi = work_sorted[work_sorted["profit_ratio"] < 0].sort_values("profit_ratio", ascending=True).head(100)
         
+        # 3. 新增：全部物品 - 按利润排序（包含所有物品，不排除Gold）
+        all_items = work_sorted.copy()
+        
         # 3. 生成 TXT 文件
         output_dir = Path(args.out_csv).parent if args.out_csv else Path(".")
         
@@ -1103,13 +1106,16 @@ def main():
             f"科学版_亏损TOP100_按利润{suffix}.txt": (losers_by_margin, f"{label} 科学版 Trade-Up 亏损 TOP 100 - 按期望利润排序"),
             f"科学版_盈利TOP100_按ROI{suffix}.txt": (winners_by_roi, f"{label} 科学版 Trade-Up 盈利 TOP 100 - 按 ROI 排序"),
             f"科学版_亏损TOP100_按ROI{suffix}.txt": (losers_by_roi, f"{label} 科学版 Trade-Up 亏损 TOP 100 - 按 ROI 排序"),
+            f"科学版_全部物品_按利润{suffix}.txt": (all_items, f"{label} 科学版 Trade-Up 全部物品（含炼金物品）- 按期望利润排序"),
         }
         
         for filename, (data, title) in txt_files.items():
             if len(data) > 0:
                 txt_path = output_dir / filename
                 with open(txt_path, 'w', encoding='utf-8') as f:
-                    f.write(format_to_txt(data, title, max_rows=100))
+                    # 对于全部物品的文件，不限制行数；其他文件保持100行限制
+                    max_rows = len(data) if "全部物品" in filename else 100
+                    f.write(format_to_txt(data, title, max_rows=max_rows))
                 print(f"已生成格式化文本：{txt_path}")
         
         # 保存本次结果

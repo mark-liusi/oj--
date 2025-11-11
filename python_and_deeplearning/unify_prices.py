@@ -1,11 +1,17 @@
 """
-统一处理prices_all_min.csv,确保所有数据都有必需的列
+统一处理prices_all.csv（全平台价格数据），确保所有数据都有必需的列
+支持从多平台数据中自动选择最低价
 """
 import pandas as pd
 import re
 
-# 读取数据
-df = pd.read_csv('prices_all_min.csv')
+# 读取数据（优先读取全平台数据，兜底使用min版本）
+try:
+    df = pd.read_csv('prices_all.csv')
+    print(f"✅ 读取全平台数据: prices_all.csv")
+except FileNotFoundError:
+    df = pd.read_csv('prices_all_min.csv')
+    print(f"⚠️  使用备用数据: prices_all_min.csv")
 
 print(f"原始数据: {len(df)}行")
 
@@ -65,8 +71,18 @@ for idx, row in df.iterrows():
 df = df[df['name'].notna() & df['price'].notna() & df['platform'].notna()]
 print(f"过滤缺失关键字段后: {len(df)}行")
 
+# ===== 新增：从多平台数据中选择每个物品的最低价 =====
+print(f"\n开始选择最低价...")
+# 按 name+exterior 分组，每组选择价格最低的一条
+df_grouped = df.groupby(['name', 'exterior'], as_index=False).apply(
+    lambda x: x.loc[x['price'].idxmin()]
+).reset_index(drop=True)
+
+print(f"去重后物品数: {len(df_grouped)}行 (原始{len(df)}行)")
+print(f"  平均每个物品有 {len(df)/len(df_grouped):.1f} 个平台的价格")
+
 # 选择需要的列并重命名
-df_final = df[['name', 'series', 'tier', 'price', 'exterior', 'platform']].copy()
+df_final = df_grouped[['name', 'series', 'tier', 'price', 'exterior', 'platform']].copy()
 
 # 保存
 df_final.to_csv('prices_with_exterior.csv', index=False)

@@ -20,9 +20,11 @@ def main():
     
     print(f"共加载 {len(df)} 条记录")
     
-    # 只保留有利润且K值有效的记录（排除Gold等级物品）
-    df_profit = df[(df['margin'] > 0) & (df['K'].notna())].copy()
-    print(f"盈利记录（有效K值）：{len(df_profit)} 条")
+    # 保留所有K值有效的记录（包括盈利和亏损）
+    df_profit = df[df['K'].notna()].copy()
+    print(f"有效K值记录（全部）：{len(df_profit)} 条")
+    print(f"  - 盈利记录：{len(df_profit[df_profit['margin'] > 0])} 条")
+    print(f"  - 亏损记录：{len(df_profit[df_profit['margin'] <= 0])} 条")
     
     # 按箱子（series）和材料分组，找出每个材料的最佳利润
     results = []
@@ -41,6 +43,7 @@ def main():
             '单件利润': row['margin'],
             '总利润': row['margin'] * row['K'],
             'ROI': f"{row['profit_ratio']:.2%}",
+            '盈亏状态': '✅盈利' if row['margin'] > 0 else '❌亏损',
             '平台': row['platform']
         })
     
@@ -57,7 +60,7 @@ def main():
         result_df = result_df.drop(columns=['材料稀有度_排序'])
         
         # 保存为CSV
-        output_file = '最佳主料清单_按箱子分类.csv'
+        output_file = '最佳主料清单_按箱子分类_完整版.csv'
         result_df.to_csv(output_file, index=False, encoding='utf-8-sig')
         print(f"\n✅ 已生成: {output_file}")
         print(f"   共 {len(result_df)} 条记录")
@@ -76,7 +79,7 @@ def main():
 
 def generate_markdown_report(df):
     """生成Markdown格式的报告（完美对齐）"""
-    output_file = '最佳主料清单_按箱子分类.md'
+    output_file = '最佳主料清单_按箱子分类_完整版.md'
     
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write("# CS2 最佳Trade-Up材料清单 - 按箱子分类\n\n")

@@ -1,0 +1,905 @@
+====================================================================================================
+All 科学版 Trade-Up 全部物品（含炼金物品）- 按期望利润排序
+====================================================================================================
+
+排名    物品名称                                    外观      箱子系列                          稀有度         目标          价格        期望产出      单件价值      期望利润        ROI       
+------------------------------------------------------------------------------------------------------------------------------------------------------
+337   P90 | Death by Kitty                    略磨      ESports 2013 Case             Covert      Gold        700.00    14255.68  2851.14   2151.14     307.31   %
+252   MP7 | Bloodsport                        崭新      Clutch Case                   Covert      Gold        609.90    11457.95  2291.59   1681.69     275.73   %
+391   SSG 08 | Blood in the Water             崭新      CSGO Weapon Case 2            Covert      Gold        1115.00   12466.67  2493.33   1378.33     123.62   %
+394   SSG 08 | Dragonfire                     崭新      Glove Case                    Covert      Gold        3987.37   26609.83  5321.97   1334.60     33.47    %
+202   M4A4 | Neo-Noir                         崭新      Clutch Case                   Covert      Gold        1812.00   11457.95  2291.59   479.59      26.47    %
+29    AUG | Chameleon                         崭新      Operation Phoenix Weapon Cas  Covert      Gold        549.90    4150.00   830.00    280.10      50.94    %
+303   P2000 | Fire Elemental                  崭新      Operation Vanguard Weapon Ca  Covert      Gold        715.00    4689.00   937.80    222.80      31.16    %
+49    AWP | Neo-Noir                          崭新      Danger Zone Case              Covert      Gold        404.50    2776.19   555.24    150.74      37.27    %
+344   P90 | Shapewood                         略磨      Revolver Case                 Classified  Covert      78.80     2055.00   205.50    126.70      160.79   %
+13    AK-47 | Legion of Anubis                崭新      Fracture Case                 Covert      Gold        382.00    2463.52   492.70    110.70      28.98    %
+277   MP9 | Starlight Protector               崭新      Dreams & Nightmares Case      Covert      Gold        718.50    4090.11   818.02    99.52       13.85    %
+430   UMP-45 | Momentum                       崭新      Danger Zone Case              Classified  Covert      91.00     1760.75   176.07    85.07       93.49    %
+248   MP5-SD | Phosphor                       崭新      Danger Zone Case              Classified  Covert      92.00     1760.75   176.07    84.07       91.39    %
+457   XM1014 | Tranquility                    崭新      Operation Vanguard Weapon Ca  Classified  Covert      163.38    2292.50   229.25    65.87       40.32    %
+75    Desert Eagle | Mecha Industries         崭新      Danger Zone Case              Classified  Covert      119.32    1760.75   176.07    56.75       47.57    %
+315   P250 | Cartel                           崭新      Operation Vanguard Weapon Ca  Classified  Covert      180.00    2292.50   229.25    49.25       27.36    %
+35    AWP | Asiimov                           久经      Operation Phoenix Weapon Cas  Covert      Gold        782.00    4150.00   830.00    48.00       6.14     %
+293   Nova | Hyper Beast                      崭新      Operation Wildfire Case       Classified  Covert      320.00    3647.25   364.73    44.73       13.98    %
+369   SCAR-20 | Cardiac                       崭新      Operation Vanguard Weapon Ca  Classified  Covert      188.50    2292.50   229.25    40.75       21.62    %
+150   Galil AR | Stone Cold                   略磨      Shadow Case                   Restricted  Classified  28.87     692.67    69.27     40.40       139.93   %
+229   MAG-7 | BI83 Spectrum                   崭新      Operation Riptide Case        Restricted  Classified  70.00     1082.83   108.28    38.28       54.69    %
+111   Five-SeveN | Boost Protocol             崭新      Operation Riptide Case        Restricted  Classified  70.16     1082.83   108.28    38.12       54.34    %
+259   MP7 | Ocean Foam                        崭新      ESports 2014 Summer Case      Restricted  Classified  57.00     917.14    91.71     34.71       60.90    %
+427   UMP-45 | Gold Bismuth                   崭新      Operation Broken Fang Case    Restricted  Classified  110.00    1377.67   137.77    27.77       25.24    %
+396   SSG 08 | Parallax                       崭新      Operation Broken Fang Case    Restricted  Classified  111.14    1377.67   137.77    26.63       23.96    %
+288   Nova | Clear Polymer                    崭新      Operation Broken Fang Case    Restricted  Classified  112.00    1377.67   137.77    25.77       23.01    %
+428   UMP-45 | Grand Prix                     久经      Chroma 2 Case                 Restricted  Classified  9.49      343.16    34.32     24.83       261.61   %
+98    FAMAS | Doomkitty                       略磨      ESports 2013 Case             Mil-Spec    Restricted  32.00     555.20    55.52     23.52       73.50    %
+262   MP7 | Special Delivery                  崭新      Shadow Case                   Restricted  Classified  46.78     692.67    69.27     22.49       48.07    %
+84    Dual Berettas | Dezastre                崭新      Operation Broken Fang Case    Restricted  Classified  115.88    1377.67   137.77    21.89       18.89    %
+257   MP7 | Nemesis                           崭新      Falchion Case                 Classified  Covert      129.46    1499.99   150.00    20.54       15.87    %
+367   SCAR-20 | Bloodsport                    崭新      Gamma Case                    Classified  Covert      169.00    1869.00   186.90    17.90       10.59    %
+454   XM1014 | Red Python                     略磨      ESports 2014 Summer Case      Mil-Spec    Restricted  19.40     325.27    32.53     13.13       67.67    %
+334   P90 | Chopper                           崭新      Gamma Case                    Restricted  Classified  25.23     372.33    37.23     12.00       47.57    %
+393   SSG 08 | Dark Water                     略磨      ESports 2014 Summer Case      Mil-Spec    Restricted  20.98     325.27    32.53     11.55       55.04    %
+48    AWP | Mortis                            崭新      Clutch Case                   Classified  Covert      109.89    1210.95   121.09    11.20       10.20    %
+236   MAG-7 | Memento                         崭新      ESports 2013 Case             Mil-Spec    Restricted  45.80     555.20    55.52     9.72        21.22    %
+53    AWP | Worm God                          崭新      Chroma 2 Case                 Restricted  Classified  25.90     343.16    34.32     8.42        32.50    %
+27    AUG | Aristocrat                        崭新      Gamma Case                    Restricted  Classified  28.96     372.33    37.23     8.27        28.57    %
+332   P250 | Wingshot                         崭新      Shadow Case                   Restricted  Classified  61.00     692.67    69.27     8.27        13.55    %
+240   MAG-7 | Praetorian                      崭新      Operation Wildfire Case       Restricted  Classified  38.80     467.19    46.72     7.92        20.41    %
+92    Dual Berettas | Urban Shock             崭新      Chroma Case                   Restricted  Classified  41.39     489.73    48.97     7.58        18.32    %
+58    CZ75-Auto | Pole Position               崭新      Chroma 2 Case                 Restricted  Classified  26.90     343.16    34.32     7.42        27.57    %
+51    AWP | Phobos                            崭新      Gamma Case                    Restricted  Classified  29.90     372.33    37.23     7.33        24.52    %
+399   Sawed-Off | Devourer                    崭新      Horizon Case                  Classified  Covert      162.90    1700.25   170.03    7.12        4.37     %
+95    FAMAS | Crypsis                         崭新      Prisma Case                   Mil-Spec    Restricted  4.60      115.18    11.52     6.92        150.39   %
+342   P90 | Off World                         崭新      Prisma Case                   Mil-Spec    Restricted  4.97      115.18    11.52     6.55        131.75   %
+255   MP7 | Impire                            崭新      Operation Wildfire Case       Restricted  Classified  40.59     467.19    46.72     6.13        15.10    %
+32    AUG | Stymphalian                       崭新      Clutch Case                   Classified  Covert      115.00    1210.95   121.09    6.09        5.30     %
+285   Negev | dev_texture                     崭新      Snakebite Case                Restricted  Classified  17.47     234.63    23.46     5.99        34.31    %
+404   Sawed-Off | Serenity                    崭新      Chroma Case                   Restricted  Classified  43.00     489.73    48.97     5.97        13.89    %
+137   Galil AR | Akoben                       崭新      Prisma Case                   Mil-Spec    Restricted  5.75      115.18    11.52     5.77        100.31   %
+384   SG 553 | Phantom                        崭新      Spectrum 2 Case               Restricted  Classified  18.90     245.33    24.53     5.63        29.80    %
+270   MP9 | Goo                               崭新      Spectrum 2 Case               Restricted  Classified  18.99     245.33    24.53     5.54        29.19    %
+173   M249 | Nebula Crusader                  崭新      Shadow Case                   Restricted  Classified  63.81     692.67    69.27     5.46        8.55     %
+460   XM1014 | Ziggy                          崭新      Spectrum 2 Case               Restricted  Classified  19.32     245.33    24.53     5.21        26.98    %
+331   P250 | Verdigris                        崭新      Prisma Case                   Mil-Spec    Restricted  6.32      115.18    11.52     5.20        82.25    %
+224   MAC-10 | Sakkaku                        久经      Revolution Case               Restricted  Classified  5.96      111.25    11.12     5.16        86.66    %
+426   UMP-45 | Exposure                       崭新      Spectrum 2 Case               Restricted  Classified  19.41     245.33    24.53     5.12        26.39    %
+132   G3SG1 | Murky                           崭新      Operation Vanguard Weapon Ca  Mil-Spec    Restricted  12.00     170.56    17.06     5.06        42.14    %
+238   MAG-7 | Petroglyph                      崭新      Gamma 2 Case                  Restricted  Classified  21.89     269.17    26.92     5.03        22.96    %
+375   SCAR-20 | Torn                          崭新      Shattered Web Case            Mil-Spec    Restricted  10.83     153.79    15.38     4.55        42.00    %
+455   XM1014 | Seasons                        崭新      Spectrum Case                 Restricted  Classified  22.78     272.78    27.28     4.50        19.75    %
+171   M249 | Emerald Poison Dart              崭新      Spectrum Case                 Restricted  Classified  22.81     272.78    27.28     4.47        19.59    %
+60    CZ75-Auto | Tacticat                    崭新      Spectrum 2 Case               Restricted  Classified  20.13     245.33    24.53     4.40        21.87    %
+267   MP9 | Dart                              崭新      Operation Vanguard Weapon Ca  Mil-Spec    Restricted  12.88     170.56    17.06     4.18        32.43    %
+317   P250 | Cyber Shell                      崭新      Snakebite Case                Restricted  Classified  19.70     234.63    23.46     3.76        19.10    %
+228   MAC-10 | Whitefish                      崭新      Prisma Case                   Mil-Spec    Restricted  7.94      115.18    11.52     3.58        45.06    %
+456   XM1014 | Slipstream                     崭新      Gamma 2 Case                  Mil-Spec    Restricted  3.76      69.30     6.93      3.17        84.32    %
+136   G3SG1 | Ventilator                      崭新      Gamma 2 Case                  Mil-Spec    Restricted  3.78      69.30     6.93      3.15        83.34    %
+256   MP7 | Mischief                          略磨      Prisma Case                   Mil-Spec    Restricted  8.40      115.18    11.52     3.12        37.12    %
+232   MAG-7 | Hard Water                      崭新      Operation Hydra Case          Mil-Spec    Restricted  46.99     501.00    50.10     3.11        6.62     %
+340   P90 | Grim                              崭新      Gamma 2 Case                  Mil-Spec    Restricted  4.20      69.30     6.93      2.73        65.01    %
+243   MP5-SD | Acid Wash                      崭新      Shattered Web Case            Mil-Spec    Restricted  12.90     153.79    15.38     2.48        19.22    %
+461   XM1014 | Zombie Offensive               崭新      Dreams & Nightmares Case      Restricted  Classified  10.00     122.30    12.23     2.23        22.30    %
+429   UMP-45 | Metal Flowers                  崭新      Operation Hydra Case          Mil-Spec    Restricted  47.89     501.00    50.10     2.21        4.61     %
+218   MAC-10 | Lapis Gator                    崭新      Operation Wildfire Case       Mil-Spec    Restricted  10.90     131.08    13.11     2.21        20.25    %
+279   Negev | Dazzle                          略磨      Gamma 2 Case                  Mil-Spec    Restricted  4.77      69.30     6.93      2.16        45.29    %
+442   USP-S | Guardian                        崭新      Operation Phoenix Weapon Cas  Restricted  Classified  63.40     655.59    65.56     2.16        3.41     %
+335   P90 | Cocoa Rampage                     崭新      Operation Broken Fang Case    Mil-Spec    Restricted  10.99     130.80    13.08     2.09        19.02    %
+284   Negev | Terrain                         崭新      Operation Phoenix Weapon Cas  Mil-Spec    Restricted  6.46      81.85     8.18      1.72        26.70    %
+31    AUG | Plague                            崭新      Operation Riptide Case        Mil-Spec    Restricted  26.98     286.83    28.68     1.70        6.31     %
+300   Nova | Windblown                        崭新      Snakebite Case                Mil-Spec    Restricted  3.00      45.26     4.53      1.53        50.88    %
+423   UMP-45 | Briefing                       崭新      Gamma 2 Case                  Mil-Spec    Restricted  5.44      69.30     6.93      1.49        27.40    %
+390   SSG 08 | Big Iron                       崭新      Shadow Case                   Classified  Covert      263.50    2649.25   264.93    1.43        0.54     %
+294   Nova | Plume                            崭新      Shattered Web Case            Mil-Spec    Restricted  14.00     153.79    15.38     1.38        9.85     %
+234   MAG-7 | Heaven Guard                    崭新      Operation Phoenix Weapon Cas  Mil-Spec    Restricted  6.84      81.85     8.18      1.34        19.66    %
+354   PP-Bizon | Lumen                        崭新      Operation Riptide Case        Mil-Spec    Restricted  27.39     286.83    28.68     1.29        4.72     %
+372   SCAR-20 | Jungle Slipstream             破损      Spectrum 2 Case               Mil-Spec    Restricted  0.80      19.35     1.94      1.14        141.88   %
+281   Negev | Lionfish                        崭新      Clutch Case                   Restricted  Classified  12.19     132.63    13.26     1.07        8.80     %
+431   UMP-45 | Oscillator                     崭新      Snakebite Case                Mil-Spec    Restricted  3.47      45.26     4.53      1.06        30.44    %
+220   MAC-10 | Malachite                      崭新      Chroma Case                   Restricted  Classified  47.96     489.73    48.97     1.01        2.11     %
+283   Negev | Man-o'-war                      略磨      Chroma 2 Case                 Mil-Spec    Restricted  1.66      25.52     2.55      0.89        53.75    %
+26    AUG | Arctic Wolf                       崭新      Shattered Web Case            Restricted  Classified  63.47     642.60    64.26     0.79        1.24     %
+316   P250 | Contaminant                      崭新      Operation Broken Fang Case    Mil-Spec    Restricted  12.50     130.80    13.08     0.58        4.64     %
+57    CZ75-Auto | Imprint                     崭新      Gamma 2 Case                  Mil-Spec    Restricted  6.50      69.30     6.93      0.43        6.62     %
+357   PP-Bizon | Space Cat                    崭新      Dreams & Nightmares Case      Restricted  Classified  11.89     122.30    12.23     0.34        2.86     %
+131   G3SG1 | Keeping Tabs                    崭新      Operation Riptide Case        Mil-Spec    Restricted  28.38     286.83    28.68     0.30        1.07     %
+395   SSG 08 | Necropos                       崭新      Operation Wildfire Case       Mil-Spec    Restricted  12.99     131.08    13.11     0.12        0.91     %
+212   MAC-10 | Aloha                          崭新      Operation Hydra Case          Mil-Spec    Restricted  50.00     501.00    50.10     0.10        0.20     %
+121   Five-SeveN | Scumbria                   崭新      Gamma 2 Case                  Mil-Spec    Restricted  6.88      69.30     6.93      0.05        0.73     %
+101   FAMAS | Macabre                         崭新      Operation Hydra Case          Mil-Spec    Restricted  50.15     501.00    50.10     -0.05       -0.10    %
+130   G3SG1 | High Seas                       崭新      Horizon Case                  Restricted  Classified  28.99     288.12    28.81     -0.18       -0.61    %
+376   SG 553 | Aerial                         崭新      Gamma Case                    Mil-Spec    Restricted  3.72      32.78     3.28      -0.44       -11.89   %
+341   P90 | Neoqueen                          崭新      Revolution Case               Restricted  Classified  11.63     111.25    11.12     -0.51       -4.35    %
+403   Sawed-Off | Origami                     崭新      Chroma 2 Case                 Mil-Spec    Restricted  3.28      25.52     2.55      -0.73       -22.19   %
+251   MP7 | Armor Core                        崭新      Chroma 2 Case                 Mil-Spec    Restricted  3.33      25.52     2.55      -0.78       -23.36   %
+353   PP-Bizon | Jungle Slipstream            崭新      Spectrum Case                 Mil-Spec    Restricted  3.76      29.49     2.95      -0.81       -21.56   %
+377   SG 553 | Aloha                          崭新      Clutch Case                   Mil-Spec    Restricted  2.66      18.17     1.82      -0.84       -31.71   %
+325   P250 | Ripple                           崭新      Spectrum Case                 Mil-Spec    Restricted  3.82      29.49     2.95      -0.87       -22.79   %
+373   SCAR-20 | Poultrygeist                  崭新      Dreams & Nightmares Case      Mil-Spec    Restricted  2.41      15.17     1.52      -0.89       -37.04   %
+231   MAG-7 | Foresight                       崭新      Dreams & Nightmares Case      Mil-Spec    Restricted  2.44      15.17     1.52      -0.92       -37.81   %
+453   XM1014 | Oxide Blaze                    崭新      Clutch Case                   Mil-Spec    Restricted  2.74      18.17     1.82      -0.92       -33.70   %
+289   Nova | Exo                              崭新      Gamma Case                    Mil-Spec    Restricted  4.25      32.78     3.28      -0.97       -22.88   %
+432   UMP-45 | Riot                           崭新      Falchion Case                 Mil-Spec    Restricted  5.40      44.15     4.42      -0.98       -18.23   %
+116   Five-SeveN | Flame Test                 崭新      Clutch Case                   Mil-Spec    Restricted  2.85      18.17     1.82      -1.03       -36.26   %
+355   PP-Bizon | Night Riot                   崭新      Clutch Case                   Mil-Spec    Restricted  2.87      18.17     1.82      -1.05       -36.70   %
+272   MP9 | Modest Threat                     崭新      Danger Zone Case              Mil-Spec    Restricted  2.77      16.64     1.66      -1.11       -39.93   %
+364   R8 Revolver | Memento                   崭新      Shattered Web Case            Mil-Spec    Restricted  16.50     153.79    15.38     -1.12       -6.79    %
+371   SCAR-20 | Fragments                     崭新      Revolution Case               Mil-Spec    Restricted  2.81      16.69     1.67      -1.14       -40.62   %
+242   MAG-7 | Sonar                           崭新      Glove Case                    Mil-Spec    Restricted  9.79      86.34     8.63      -1.16       -11.81   %
+276   MP9 | Sand Scale                        崭新      Glove Case                    Mil-Spec    Restricted  9.81      86.34     8.63      -1.18       -11.99   %
+127   G3SG1 | Digital Mesh                    崭新      Operation Broken Fang Case    Mil-Spec    Restricted  14.27     130.80    13.08     -1.19       -8.34    %
+59    CZ75-Auto | Polymer                     崭新      Glove Case                    Mil-Spec    Restricted  9.89      86.34     8.63      -1.26       -12.70   %
+366   SCAR-20 | Assault                       崭新      CS20 Case                     Mil-Spec    Restricted  3.32      19.80     1.98      -1.34       -40.36   %
+99    FAMAS | Eye of Athena                   崭新      Horizon Case                  Classified  Covert      171.47    1700.25   170.03    -1.44       -0.84    %
+383   SG 553 | Heavy Metal                    崭新      Snakebite Case                Mil-Spec    Restricted  6.00      45.26     4.53      -1.47       -24.56   %
+85    Dual Berettas | Elite 1.6               崭新      CS20 Case                     Mil-Spec    Restricted  3.47      19.80     1.98      -1.49       -42.94   %
+122   Five-SeveN | Urban Hazard               崭新      Operation Vanguard Weapon Ca  Mil-Spec    Restricted  18.69     170.56    17.06     -1.63       -8.74    %
+67    Desert Eagle | Bronze Deco              崭新      Chroma 2 Case                 Mil-Spec    Restricted  4.35      25.52     2.55      -1.80       -41.33   %
+250   MP7 | Akoben                            崭新      Spectrum Case                 Mil-Spec    Restricted  4.80      29.49     2.95      -1.85       -38.55   %
+63    CZ75-Auto | Vendetta                    崭新      Operation Broken Fang Case    Mil-Spec    Restricted  15.00     130.80    13.08     -1.92       -12.80   %
+368   SCAR-20 | Blueprint                     崭新      Spectrum Case                 Mil-Spec    Restricted  4.87      29.49     2.95      -1.92       -39.44   %
+112   Five-SeveN | Capillary                  崭新      Spectrum Case                 Mil-Spec    Restricted  4.88      29.49     2.95      -1.93       -39.56   %
+54    CZ75-Auto | Circaetus                   崭新      Snakebite Case                Mil-Spec    Restricted  6.49      45.26     4.53      -1.96       -30.26   %
+125   G3SG1 | Black Sand                      崭新      Shattered Web Case            Mil-Spec    Restricted  17.42     153.79    15.38     -2.04       -11.72   %
+239   MAG-7 | Popdog                          崭新      CS20 Case                     Mil-Spec    Restricted  4.04      19.80     1.98      -2.06       -50.99   %
+412   Tec-9 | Flash Out                       崭新      CS20 Case                     Mil-Spec    Restricted  4.05      19.80     1.98      -2.07       -51.11   %
+301   Nova | Wood Fired                       崭新      Danger Zone Case              Mil-Spec    Restricted  3.86      16.64     1.66      -2.20       -56.89   %
+165   Glock-18 | Umbral Rabbit                崭新      Revolution Case               Restricted  Classified  13.35     111.25    11.12     -2.23       -16.67   %
+172   M249 | Magma                            崭新      Winter Offensive Weapon Case  Mil-Spec    Restricted  10.11     78.45     7.85      -2.26       -22.40   %
+450   USP-S | Ticket to Hell                  崭新      Dreams & Nightmares Case      Restricted  Classified  14.50     122.30    12.23     -2.27       -15.66   %
+415   Tec-9 | Ice Cap                         崭新      Gamma Case                    Mil-Spec    Restricted  5.60      32.78     3.28      -2.32       -41.47   %
+398   Sawed-Off | Black Sand                  崭新      Danger Zone Case              Mil-Spec    Restricted  3.99      16.64     1.66      -2.33       -58.30   %
+23    AK-47 | Uncharted                       崭新      Prisma Case                   Mil-Spec    Restricted  13.90     115.18    11.52     -2.38       -17.14   %
+253   MP7 | Cirrus                            崭新      Glove Case                    Mil-Spec    Restricted  11.07     86.34     8.63      -2.44       -22.01   %
+385   SG 553 | Pulse                          略磨      Operation Phoenix Weapon Cas  Restricted  Classified  68.00     655.59    65.56     -2.44       -3.59    %
+380   SG 553 | Cyberforce                     崭新      Revolution Case               Mil-Spec    Restricted  4.18      16.69     1.67      -2.51       -60.08   %
+401   Sawed-Off | Limelight                   崭新      Gamma Case                    Restricted  Classified  39.80     372.33    37.23     -2.57       -6.45    %
+312   P2000 | Urban Hazard                    崭新      Clutch Case                   Mil-Spec    Restricted  4.47      18.17     1.82      -2.65       -59.36   %
+235   MAG-7 | Insomnia                        崭新      Revolution Case               Mil-Spec    Restricted  4.34      16.69     1.67      -2.67       -61.55   %
+219   MAC-10 | Last Dive                      崭新      Spectrum Case                 Restricted  Classified  30.00     272.78    27.28     -2.72       -9.07    %
+365   R8 Revolver | Reboot                    崭新      Gamma Case                    Restricted  Classified  40.00     372.33    37.23     -2.77       -6.92    %
+323   P250 | Re.built                         崭新      Revolution Case               Mil-Spec    Restricted  4.49      16.69     1.67      -2.82       -62.84   %
+268   MP9 | Featherweight                     崭新      Revolution Case               Mil-Spec    Restricted  4.53      16.69     1.67      -2.86       -63.17   %
+418   Tec-9 | Rebel                           崭新      Revolution Case               Mil-Spec    Restricted  4.53      16.69     1.67      -2.86       -63.17   %
+307   P2000 | Lifted Spirits                  崭新      Dreams & Nightmares Case      Mil-Spec    Restricted  4.44      15.17     1.52      -2.92       -65.82   %
+266   MP9 | Black Sand                        崭新      Clutch Case                   Mil-Spec    Restricted  4.78      18.17     1.82      -2.96       -62.00   %
+189   M4A1-S | Night Terror                   崭新      Dreams & Nightmares Case      Restricted  Classified  15.20     122.30    12.23     -2.97       -19.54   %
+216   MAC-10 | Ensnared                       崭新      Dreams & Nightmares Case      Mil-Spec    Restricted  4.50      15.17     1.52      -2.98       -66.28   %
+170   M249 | Deep Relief                      崭新      Operation Broken Fang Case    Mil-Spec    Restricted  16.15     130.80    13.08     -3.07       -19.01   %
+299   Nova | Wild Six                         崭新      Clutch Case                   Restricted  Classified  16.34     132.63    13.26     -3.08       -18.83   %
+291   Nova | Gila                             崭新      Glove Case                    Restricted  Classified  62.90     597.47    59.75     -3.15       -5.01    %
+405   Sawed-Off | Spirit Board                崭新      Dreams & Nightmares Case      Mil-Spec    Restricted  4.74      15.17     1.52      -3.22       -67.99   %
+246   MP5-SD | Liquidation                    崭新      Revolution Case               Mil-Spec    Restricted  4.93      16.69     1.67      -3.26       -66.15   %
+362   R8 Revolver | Grip                      崭新      Clutch Case                   Mil-Spec    Restricted  5.09      18.17     1.82      -3.27       -64.31   %
+346   P90 | Virus                             崭新      ESports 2014 Summer Case      Restricted  Classified  95.00     917.14    91.71     -3.29       -3.46    %
+247   MP5-SD | Necro Jr.                      崭新      Dreams & Nightmares Case      Mil-Spec    Restricted  4.83      15.17     1.52      -3.31       -68.58   %
+421   UMP-45 | Arctic Wolf                    崭新      Clutch Case                   Restricted  Classified  16.59     132.63    13.26     -3.33       -20.05   %
+78    Desert Eagle | Oxide Blaze              崭新      Spectrum Case                 Mil-Spec    Restricted  6.30      29.49     2.95      -3.35       -53.18   %
+441   USP-S | Flashback                       崭新      Danger Zone Case              Restricted  Classified  13.50     100.77    10.08     -3.42       -25.35   %
+215   MAC-10 | Classic Crate                  崭新      CS20 Case                     Mil-Spec    Restricted  5.44      19.80     1.98      -3.46       -63.60   %
+120   Five-SeveN | Scrawl                     崭新      Dreams & Nightmares Case      Mil-Spec    Restricted  4.98      15.17     1.52      -3.46       -69.53   %
+134   G3SG1 | Scavenger                       崭新      Danger Zone Case              Restricted  Classified  13.70     100.77    10.08     -3.62       -26.44   %
+260   MP7 | Powercore                         崭新      Horizon Case                  Restricted  Classified  32.48     288.12    28.81     -3.67       -11.29   %
+349   PP-Bizon | Embargo                      崭新      Shattered Web Case            Restricted  Classified  68.00     642.60    64.26     -3.74       -5.50    %
+295   Nova | Ranger                           崭新      Falchion Case                 Mil-Spec    Restricted  8.22      44.15     4.42      -3.80       -46.28   %
+290   Nova | Ghost Camo                       崭新      ESports 2013 Winter Case      Mil-Spec    Restricted  18.00     137.24    13.72     -4.28       -23.76   %
+91    Dual Berettas | Tread                   崭新      Operation Riptide Case        Mil-Spec    Restricted  32.99     286.83    28.68     -4.31       -13.06   %
+458   XM1014 | Watchdog                       崭新      Operation Riptide Case        Mil-Spec    Restricted  33.00     286.83    28.68     -4.32       -13.08   %
+160   Glock-18 | Oxide Blaze                  崭新      Danger Zone Case              Mil-Spec    Restricted  5.99      16.64     1.66      -4.33       -72.22   %
+149   Galil AR | Signal                       崭新      Danger Zone Case              Restricted  Classified  14.60     100.77    10.08     -4.52       -30.98   %
+214   MAC-10 | Carnivore                      崭新      Gamma Case                    Mil-Spec    Restricted  7.91      32.78     3.28      -4.63       -58.56   %
+164   Glock-18 | Steel Disruption             崭新      ESports 2014 Summer Case      Restricted  Classified  96.36     917.14    91.71     -4.65       -4.82    %
+83    Dual Berettas | Cartel                  崭新      Operation Wildfire Case       Mil-Spec    Restricted  17.80     131.08    13.11     -4.69       -26.36   %
+386   SG 553 | Triarch                        崭新      Gamma 2 Case                  Restricted  Classified  31.79     269.17    26.92     -4.87       -15.33   %
+142   Galil AR | Crimson Tsunami              崭新      Spectrum Case                 Restricted  Classified  32.28     272.78    27.28     -5.00       -15.49   %
+96    FAMAS | Decommissioned                  崭新      CS20 Case                     Mil-Spec    Restricted  6.99      19.80     1.98      -5.01       -71.67   %
+382   SG 553 | Danger Close                   崭新      Danger Zone Case              Mil-Spec    Restricted  6.76      16.64     1.66      -5.10       -75.38   %
+339   P90 | Elite Build                       崭新      Falchion Case                 Mil-Spec    Restricted  9.53      44.15     4.42      -5.11       -53.67   %
+417   Tec-9 | Jambiya                         崭新      Operation Wildfire Case       Mil-Spec    Restricted  18.27     131.08    13.11     -5.16       -28.26   %
+356   PP-Bizon | Photic Zone                  崭新      Operation Wildfire Case       Mil-Spec    Restricted  18.30     131.08    13.11     -5.19       -28.37   %
+245   MP5-SD | Kitbash                        崭新      Fracture Case                 Restricted  Classified  14.90     96.94     9.69      -5.21       -34.94   %
+233   MAG-7 | Heat                            崭新      Chroma 2 Case                 Restricted  Classified  39.80     343.16    34.32     -5.48       -13.78   %
+123   Five-SeveN | Violent Daimyo             崭新      Gamma Case                    Mil-Spec    Restricted  8.82      32.78     3.28      -5.54       -62.84   %
+322   P250 | Nevermore                        崭新      Danger Zone Case              Restricted  Classified  15.80     100.77    10.08     -5.72       -36.22   %
+175   M249 | Warbird                          崭新      Shattered Web Case            Mil-Spec    Restricted  21.20     153.79    15.38     -5.82       -27.46   %
+358   PP-Bizon | Water Sigil                  崭新      ESports 2013 Winter Case      Mil-Spec    Restricted  19.57     137.24    13.72     -5.85       -29.87   %
+89    Dual Berettas | Panther                 崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  23.80     178.12    17.81     -5.99       -25.16   %
+330   P250 | Valence                          崭新      Chroma 2 Case                 Mil-Spec    Restricted  8.59      25.52     2.55      -6.04       -70.29   %
+374   SCAR-20 | Powercore                     崭新      Gamma 2 Case                  Restricted  Classified  33.00     269.17    26.92     -6.08       -18.43   %
+80    Desert Eagle | Trigger Discipline       崭新      Snakebite Case                Restricted  Classified  29.55     234.63    23.46     -6.09       -20.60   %
+135   G3SG1 | Stinger                         崭新      Glove Case                    Restricted  Classified  65.90     597.47    59.75     -6.15       -9.34    %
+298   Nova | Toy Soldier                      崭新      Horizon Case                  Restricted  Classified  35.00     288.12    28.81     -6.19       -17.68   %
+275   MP9 | Ruby Poison Dart                  崭新      Falchion Case                 Restricted  Classified  21.99     157.49    15.75     -6.24       -28.38   %
+419   Tec-9 | Sandstorm                       略磨      Operation Phoenix Weapon Cas  Mil-Spec    Restricted  14.80     81.85     8.18      -6.62       -44.70   %
+138   Galil AR | Black Sand                   崭新      Glove Case                    Mil-Spec    Restricted  15.28     86.34     8.63      -6.65       -43.49   %
+244   MP5-SD | Condition Zero                 崭新      Operation Broken Fang Case    Mil-Spec    Restricted  19.75     130.80    13.08     -6.67       -33.77   %
+425   UMP-45 | Delusion                       崭新      Operation Vanguard Weapon Ca  Mil-Spec    Restricted  24.00     170.56    17.06     -6.94       -28.93   %
+154   Glock-18 | Clear Polymer                崭新      Snakebite Case                Mil-Spec    Restricted  11.80     45.26     4.53      -7.27       -61.64   %
+104   FAMAS | Neural Net                      崭新      Falchion Case                 Restricted  Classified  23.03     157.49    15.75     -7.28       -31.62   %
+311   P2000 | Turf                            崭新      Glove Case                    Mil-Spec    Restricted  16.07     86.34     8.63      -7.44       -46.27   %
+56    CZ75-Auto | Hexane                      崭新      ESports 2014 Summer Case      Mil-Spec    Restricted  40.00     325.27    32.53     -7.47       -18.68   %
+310   P2000 | Red FragCam                     崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  25.65     178.12    17.81     -7.84       -30.56   %
+328   P250 | Steel Disruption                 崭新      ESports 2013 Winter Case      Mil-Spec    Restricted  21.90     137.24    13.72     -8.18       -37.33   %
+451   USP-S | Torque                          崭新      Falchion Case                 Mil-Spec    Restricted  12.61     44.15     4.42      -8.19       -64.98   %
+258   MP7 | Neon Ply                          崭新      Shattered Web Case            Restricted  Classified  72.70     642.60    64.26     -8.44       -11.61   %
+158   Glock-18 | Moonrise                     崭新      Clutch Case                   Restricted  Classified  21.72     132.63    13.26     -8.46       -38.94   %
+50    AWP | PAW                               崭新      Horizon Case                  Restricted  Classified  37.50     288.12    28.81     -8.69       -23.17   %
+424   UMP-45 | Corporal                       崭新      Operation Phoenix Weapon Cas  Mil-Spec    Restricted  17.00     81.85     8.18      -8.82       -51.85   %
+254   MP7 | Guerrilla                         崭新      Operation Riptide Case        Mil-Spec    Restricted  38.00     286.83    28.68     -9.32       -24.52   %
+408   Sawed-Off | Zander                      崭新      Spectrum Case                 Mil-Spec    Restricted  12.28     29.49     2.95      -9.33       -75.98   %
+119   Five-SeveN | Nightshade                 崭新      ESports 2013 Winter Case      Mil-Spec    Restricted  23.14     137.24    13.72     -9.42       -40.69   %
+100   FAMAS | Hexane                          崭新      CSGO Weapon Case 2            Mil-Spec    Restricted  20.00     101.07    10.11     -9.89       -49.47   %
+124   G3SG1 | Azure Zebra                     崭新      ESports 2013 Winter Case      Mil-Spec    Restricted  23.80     137.24    13.72     -10.08      -42.34   %
+90    Dual Berettas | Royal Consorts          崭新      Glove Case                    Restricted  Classified  69.90     597.47    59.75     -10.15      -14.53   %
+439   USP-S | Cyrex                           崭新      Glove Case                    Restricted  Classified  70.00     597.47    59.75     -10.25      -14.65   %
+452   XM1014 | Entombed                       崭新      Fracture Case                 Classified  Covert      60.00     494.89    49.49     -10.51      -17.52   %
+273   MP9 | Mount Fuji                        崭新      Operation Riptide Case        Restricted  Classified  118.99    1082.83   108.28    -10.71      -9.00    %
+241   MAG-7 | SWAG-7                          崭新      Clutch Case                   Restricted  Classified  23.99     132.63    13.26     -10.73      -44.71   %
+318   P250 | Hive                             崭新      CSGO Weapon Case 2            Mil-Spec    Restricted  20.90     101.07    10.11     -10.79      -51.64   %
+296   Nova | Rising Skull                     崭新      Winter Offensive Weapon Case  Restricted  Classified  49.00     381.10    38.11     -10.89      -22.22   %
+409   Tec-9 | Blue Titanium                   崭新      CSGO Weapon Case 2            Mil-Spec    Restricted  21.22     101.07    10.11     -11.11      -52.37   %
+459   XM1014 | XOXO                           崭新      Snakebite Case                Classified  Covert      159.90    1486.49   148.65    -11.25      -7.04    %
+400   Sawed-Off | Highwayman                  崭新      Operation Vanguard Weapon Ca  Restricted  Classified  29.16     177.29    17.73     -11.43      -39.20   %
+305   P2000 | Imperial Dragon                 崭新      Gamma Case                    Classified  Covert      198.49    1869.00   186.90    -11.59      -5.84    %
+413   Tec-9 | Fubar                           略磨      Danger Zone Case              Mil-Spec    Restricted  13.50     16.64     1.66      -11.84      -87.67   %
+128   G3SG1 | Dream Glade                     崭新      Dreams & Nightmares Case      Restricted  Classified  24.28     122.30    12.23     -12.05      -49.63   %
+117   Five-SeveN | Kami                       崭新      Winter Offensive Weapon Case  Mil-Spec    Restricted  19.90     78.45     7.85      -12.05      -60.58   %
+433   UMP-45 | Scaffold                       崭新      Spectrum Case                 Restricted  Classified  39.60     272.78    27.28     -12.32      -31.12   %
+381   SG 553 | Cyrex                          崭新      Falchion Case                 Classified  Covert      162.50    1499.99   150.00    -12.50      -7.69    %
+359   R8 Revolver | Banana Cannon             崭新      Revolution Case               Restricted  Classified  23.80     111.25    11.12     -12.68      -53.26   %
+153   Glock-18 | Bunsen Burner                崭新      Falchion Case                 Mil-Spec    Restricted  17.50     44.15     4.42      -13.08      -74.77   %
+162   Glock-18 | Sacrifice                    崭新      CS20 Case                     Mil-Spec    Restricted  15.72     19.80     1.98      -13.74      -87.40   %
+211   MAC-10 | Allure                         崭新      Fracture Case                 Restricted  Classified  23.48     96.94     9.69      -13.79      -58.71   %
+151   Galil AR | Vandal                       崭新      Operation Broken Fang Case    Mil-Spec    Restricted  27.13     130.80    13.08     -14.05      -51.79   %
+237   MAG-7 | Monster Call                    崭新      Fracture Case                 Restricted  Classified  23.86     96.94     9.69      -14.17      -59.37   %
+81    Dual Berettas | Balance                 崭新      Shattered Web Case            Mil-Spec    Restricted  29.80     153.79    15.38     -14.42      -48.39   %
+350   PP-Bizon | Harvester                    崭新      Gamma Case                    Mil-Spec    Restricted  17.98     32.78     3.28      -14.70      -81.77   %
+62    CZ75-Auto | Tread Plate                 崭新      CSGO Weapon Case 3            Restricted  Classified  39.95     251.30    25.13     -14.82      -37.10   %
+269   MP9 | Food Chain                        崭新      Snakebite Case                Classified  Covert      164.00    1486.49   148.65    -15.35      -9.36    %
+223   MAC-10 | Pipe Down                      崭新      Danger Zone Case              Restricted  Classified  25.60     100.77    10.08     -15.52      -60.64   %
+249   MP7 | Abyssal Apparition                崭新      Dreams & Nightmares Case      Classified  Covert      119.39    1029.25   102.92    -16.47      -13.79   %
+110   FAMAS | ZX Spectron                     崭新      Operation Riptide Case        Restricted  Classified  125.00    1082.83   108.28    -16.72      -13.37   %
+230   MAG-7 | Firestarter                     崭新      Operation Vanguard Weapon Ca  Mil-Spec    Restricted  33.90     170.56    17.06     -16.84      -49.69   %
+88    Dual Berettas | Melondrama              崭新      Dreams & Nightmares Case      Classified  Covert      120.00    1029.25   102.92    -17.08      -14.23   %
+156   Glock-18 | Grinder                      崭新      Operation Vanguard Weapon Ca  Restricted  Classified  35.10     177.29    17.73     -17.37      -49.49   %
+182   M4A1-S | Emphorosaur-S                  崭新      Revolution Case               Restricted  Classified  28.69     111.25    11.12     -17.57      -61.22   %
+139   Galil AR | Blue Titanium                崭新      ESports 2013 Winter Case      Mil-Spec    Restricted  32.00     137.24    13.72     -18.28      -57.11   %
+347   PP-Bizon | Blue Streak                  崭新      ESports 2014 Summer Case      Restricted  Classified  110.00    917.14    91.71     -18.29      -16.62   %
+436   USP-S | Blood Tiger                     崭新      ESports 2014 Summer Case      Mil-Spec    Restricted  51.56     325.27    32.53     -19.03      -36.91   %
+292   Nova | Graphite                         崭新      CSGO Weapon Case 2            Restricted  Classified  67.00     479.50    47.95     -19.05      -28.43   %
+118   Five-SeveN | Monkey Business            略磨      Chroma 2 Case                 Classified  Covert      260.50    2409.50   240.95    -19.55      -7.50    %
+157   Glock-18 | Ironwork                     崭新      Glove Case                    Mil-Spec    Restricted  28.86     86.34     8.63      -20.23      -70.08   %
+351   PP-Bizon | High Roller                  崭新      Spectrum 2 Case               Classified  Covert      193.00    1724.00   172.40    -20.60      -10.67   %
+65    CZ75-Auto | Xiangliu                    崭新      Spectrum Case                 Classified  Covert      159.47    1383.50   138.35    -21.12      -13.24   %
+379   SG 553 | Colony IV                      崭新      Shattered Web Case            Classified  Covert      447.00    4255.27   425.53    -21.47      -4.80    %
+308   P2000 | Obsidian                        崭新      Shattered Web Case            Restricted  Classified  85.90     642.60    64.26     -21.64      -25.19   %
+278   Negev | Bratatat                        崭新      ESports 2014 Summer Case      Mil-Spec    Restricted  54.60     325.27    32.53     -22.07      -40.43   %
+213   MAC-10 | Button Masher                  崭新      Snakebite Case                Restricted  Classified  45.60     234.63    23.46     -22.14      -48.55   %
+30    AUG | Fleet Flock                       崭新      Chroma 3 Case                 Classified  Covert      243.00    2204.65   220.47    -22.53      -9.27    %
+274   MP9 | Rose Iron                         崭新      Winter Offensive Weapon Case  Restricted  Classified  60.80     381.10    38.11     -22.69      -37.32   %
+319   P250 | Iron Clad                        崭新      Gamma Case                    Mil-Spec    Restricted  25.99     32.78     3.28      -22.71      -87.39   %
+40    AWP | Duality                           崭新      Revolution Case               Classified  Covert      106.97    842.50    84.25     -22.72      -21.24   %
+106   FAMAS | Rapid Eye Movement              崭新      Dreams & Nightmares Case      Classified  Covert      127.50    1029.25   102.92    -24.58      -19.27   %
+420   Tec-9 | Titanium Bit                    崭新      CSGO Weapon Case 3            Restricted  Classified  51.41     251.30    25.13     -26.28      -51.12   %
+147   Galil AR | Sandstorm                    略磨      Winter Offensive Weapon Case  Mil-Spec    Restricted  34.67     78.45     7.85      -26.83      -77.37   %
+201   M4A4 | Magnesium                        崭新      Danger Zone Case              Mil-Spec    Restricted  29.39     16.64     1.66      -27.73      -94.34   %
+333   P90 | Blind Spot                        崭新      ESports 2013 Winter Case      Restricted  Classified  86.84     585.50    58.55     -28.29      -32.58   %
+313   P2000 | Wicked Sick                     崭新      Revolution Case               Classified  Covert      112.79    842.50    84.25     -28.54      -25.30   %
+97    FAMAS | Djinn                           崭新      Chroma 2 Case                 Classified  Covert      269.49    2409.50   240.95    -28.54      -10.59   %
+434   UMP-45 | Wild Child                     崭新      Revolution Case               Classified  Covert      113.98    842.50    84.25     -29.73      -26.08   %
+66    CZ75-Auto | Yellow Jacket               崭新      Falchion Case                 Classified  Covert      180.50    1499.99   150.00    -30.50      -16.90   %
+217   MAC-10 | Heat                           崭新      Operation Phoenix Weapon Cas  Restricted  Classified  96.80     655.59    65.56     -31.24      -32.27   %
+105   FAMAS | Pulse                           崭新      Winter Offensive Weapon Case  Restricted  Classified  69.50     381.10    38.11     -31.39      -45.17   %
+345   P90 | Trigon                            略磨      Operation Phoenix Weapon Cas  Classified  Covert      98.00     665.95    66.59     -31.41      -32.05   %
+286   Nova | Antique                          崭新      Operation Phoenix Weapon Cas  Classified  Covert      98.78     665.95    66.59     -32.19      -32.58   %
+304   P2000 | Handgun                         崭新      Falchion Case                 Restricted  Classified  49.00     157.49    15.75     -33.25      -67.86   %
+108   FAMAS | Sergeant                        略磨      Operation Phoenix Weapon Cas  Restricted  Classified  99.20     655.59    65.56     -33.64      -33.91   %
+410   Tec-9 | Cut Out                         崭新      Operation Hydra Case          Mil-Spec    Restricted  84.48     501.00    50.10     -34.38      -40.70   %
+363   R8 Revolver | Llama Cannon              崭新      Spectrum 2 Case               Classified  Covert      209.99    1724.00   172.40    -37.59      -17.90   %
+168   Glock-18 | Weasel                       崭新      Gamma 2 Case                  Restricted  Classified  66.84     269.17    26.92     -39.92      -59.73   %
+407   Sawed-Off | Wasteland Princess          崭新      Glove Case                    Classified  Covert      590.00    5487.68   548.77    -41.23      -6.99    %
+282   Negev | Loudmouth                       略磨      Falchion Case                 Restricted  Classified  59.00     157.49    15.75     -43.25      -73.31   %
+261   MP7 | Skulls                            略磨      CSGO Weapon Case              Mil-Spec    Restricted  123.00    793.20    79.32     -43.68      -35.51   %
+166   Glock-18 | Vogue                        崭新      Fracture Case                 Classified  Covert      93.39     494.89    49.49     -43.90      -47.01   %
+102   FAMAS | Mecha Industries                崭新      Glove Case                    Classified  Covert      593.40    5487.68   548.77    -44.63      -7.52    %
+86    Dual Berettas | Hemoglobin              崭新      CSGO Weapon Case 2            Restricted  Classified  93.57     479.50    47.95     -45.62      -48.75   %
+264   MP9 | Airlock                           崭新      Gamma 2 Case                  Classified  Covert      233.49    1876.70   187.67    -45.82      -19.62   %
+34    AUG | Wings                             崭新      CSGO Weapon Case              Mil-Spec    Restricted  125.17    793.20    79.32     -45.85      -36.63   %
+321   P250 | Muertos                          崭新      Chroma Case                   Classified  Covert      144.79    960.50    96.05     -48.74      -33.66   %
+129   G3SG1 | Flux                            崭新      Shadow Case                   Classified  Covert      315.00    2649.25   264.93    -50.07      -15.90   %
+327   P250 | Splash                           崭新      ESports 2013 Case             Restricted  Classified  436.10    3854.00   385.40    -50.70      -11.63   %
+271   MP9 | Hypnotic                          崭新      CSGO Weapon Case 2            Restricted  Classified  98.70     479.50    47.95     -50.75      -51.42   %
+438   USP-S | Cortex                          崭新      Clutch Case                   Classified  Covert      173.00    1210.95   121.09    -51.91      -30.00   %
+197   M4A4 | Evil Daimyo                      崭新      Falchion Case                 Restricted  Classified  67.75     157.49    15.75     -52.00      -76.75   %
+146   Galil AR | Rocket Pop                   崭新      Falchion Case                 Mil-Spec    Restricted  59.50     44.15     4.42      -55.08      -92.58   %
+44    AWP | Fever Dream                       崭新      Spectrum Case                 Classified  Covert      193.88    1383.50   138.35    -55.53      -28.64   %
+177   M4A1-S | Blood Tiger                    崭新      CSGO Weapon Case 2            Mil-Spec    Restricted  67.89     101.07    10.11     -57.78      -85.11   %
+7     AK-47 | Elite Build                     崭新      Chroma 2 Case                 Mil-Spec    Restricted  61.38     25.52     2.55      -58.83      -95.84   %
+114   Five-SeveN | Copper Galaxy              崭新      CSGO Weapon Case 3            Restricted  Classified  84.74     251.30    25.13     -59.61      -70.34   %
+343   P90 | Shallow Grave                     崭新      Glove Case                    Classified  Covert      609.00    5487.68   548.77    -60.23      -9.89    %
+33    AUG | Syd Mead                          崭新      Gamma 2 Case                  Classified  Covert      252.00    1876.70   187.67    -64.33      -25.53   %
+444   USP-S | Lead Conduit                    崭新      Operation Wildfire Case       Mil-Spec    Restricted  79.97     131.08    13.11     -66.86      -83.61   %
+43    AWP | Exoskeleton                       崭新      Operation Broken Fang Case    Restricted  Classified  205.00    1377.67   137.77    -67.23      -32.80   %
+348   PP-Bizon | Cobalt Halftone              崭新      Winter Offensive Weapon Case  Mil-Spec    Restricted  80.00     78.45     7.85      -72.16      -90.19   %
+76    Desert Eagle | Naga                     崭新      Chroma Case                   Restricted  Classified  126.00    489.73    48.97     -77.03      -61.13   %
+109   FAMAS | Valence                         崭新      Operation Wildfire Case       Restricted  Classified  124.50    467.19    46.72     -77.78      -62.47   %
+226   MAC-10 | Toybox                         崭新      Operation Riptide Case        Classified  Covert      534.50    4484.50   448.45    -86.05      -16.10   %
+208   M4A4 | Tooth Fairy                      崭新      Fracture Case                 Classified  Covert      137.44    494.89    49.49     -87.95      -63.99   %
+21    AK-47 | Slate                           崭新      Snakebite Case                Restricted  Classified  114.00    234.63    23.46     -90.54      -79.42   %
+107   FAMAS | Roll Cage                       崭新      Gamma 2 Case                  Covert      Gold        1233.50   5697.62   1139.52   -93.98      -7.62    %
+411   Tec-9 | Decimator                       崭新      Shattered Web Case            Classified  Covert      520.89    4255.27   425.53    -95.36      -18.31   %
+87    Dual Berettas | Marina                  崭新      Winter Offensive Weapon Case  Restricted  Classified  134.50    381.10    38.11     -96.39      -71.67   %
+113   Five-SeveN | Case Hardened              崭新      CSGO Weapon Case 2            Restricted  Classified  145.00    479.50    47.95     -97.05      -66.93   %
+222   MAC-10 | Neon Rider                     崭新      Chroma 2 Case                 Covert      Gold        840.00    3702.21   740.44    -99.56      -11.85   %
+183   M4A1-S | Flashback                      崭新      Glove Case                    Restricted  Classified  163.00    597.47    59.75     -103.25     -63.35   %
+397   SSG 08 | Turbo Peek                     崭新      Operation Riptide Case        Classified  Covert      554.00    4484.50   448.45    -105.55     -19.05   %
+326   P250 | See Ya Later                     崭新      Spectrum 2 Case               Covert      Gold        809.00    3515.35   703.07    -105.93     -13.09   %
+435   USP-S | Black Lotus                     崭新      Operation Riptide Case        Mil-Spec    Restricted  138.49    286.83    28.68     -109.81     -79.29   %
+55    CZ75-Auto | Crimson Web                 崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  128.40    178.12    17.81     -110.59     -86.13   %
+79    Desert Eagle | Printstream              崭新      Fracture Case                 Covert      Gold        607.79    2463.52   492.70    -115.09     -18.94   %
+320   P250 | Mehndi                           崭新      Winter Offensive Weapon Case  Classified  Covert      246.75    1253.89   125.39    -121.36     -49.18   %
+4     AK-47 | Blue Laminate                   崭新      ESports 2013 Winter Case      Restricted  Classified  187.64    585.50    58.55     -129.09     -68.80   %
+74    Desert Eagle | Kumicho Dragon           崭新      Operation Wildfire Case       Classified  Covert      494.08    3647.25   364.73    -129.35     -26.18   %
+414   Tec-9 | Fuel Injector                   崭新      Gamma 2 Case                  Classified  Covert      322.01    1876.70   187.67    -134.34     -41.72   %
+94    FAMAS | Afterimage                      崭新      ESports 2013 Winter Case      Classified  Covert      324.99    1904.50   190.45    -134.54     -41.40   %
+370   SCAR-20 | Crimson Web                   崭新      CSGO Weapon Case 2            Mil-Spec    Restricted  160.21    101.07    10.11     -150.10     -93.69   %
+178   M4A1-S | Briefing                       崭新      Operation Hydra Case          Mil-Spec    Restricted  207.50    501.00    50.10     -157.40     -75.86   %
+187   M4A1-S | Leaded Glass                   崭新      Spectrum 2 Case               Classified  Covert      333.00    1724.00   172.40    -160.60     -48.23   %
+152   Glock-18 | Blue Fissure                 崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  182.00    178.12    17.81     -164.19     -90.21   %
+71    Desert Eagle | Directive                崭新      Gamma 2 Case                  Restricted  Classified  193.00    269.17    26.92     -166.08     -86.05   %
+302   P2000 | Corticera                       崭新      ESports 2014 Summer Case      Classified  Covert      555.55    3808.00   380.80    -174.75     -31.46   %
+176   M4A1-S | Basilisk                       崭新      Operation Vanguard Weapon Ca  Restricted  Classified  194.50    177.29    17.73     -176.77     -90.88   %
+47    AWP | Man-o'-war                        略磨      Chroma Case                   Covert      Gold        791.00    3055.00   611.00    -180.00     -22.76   %
+28    AUG | Bengal Tiger                      崭新      ESports 2014 Summer Case      Classified  Covert      565.00    3808.00   380.80    -184.20     -32.60   %
+61    CZ75-Auto | The Fuschia Is Now          崭新      CSGO Weapon Case 3            Classified  Covert      247.00    610.00    61.00     -186.00     -75.30   %
+145   Galil AR | Orange DDPAT                 崭新      ESports 2013 Case             Restricted  Classified  579.99    3854.00   385.40    -194.59     -33.55   %
+329   P250 | Undertow                         崭新      CSGO Weapon Case 3            Classified  Covert      255.60    610.00    61.00     -194.60     -76.13   %
+448   USP-S | Stainless                       崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  226.00    178.12    17.81     -208.19     -92.12   %
+287   Nova | Bloomstick                       崭新      ESports 2014 Summer Case      Classified  Covert      598.00    3808.00   380.80    -217.20     -36.32   %
+437   USP-S | Blueprint                       崭新      Operation Hydra Case          Mil-Spec    Restricted  272.50    501.00    50.10     -222.40     -81.61   %
+42    AWP | Elite Build                       崭新      Operation Wildfire Case       Classified  Covert      587.50    3647.25   364.73    -222.77     -37.92   %
+141   Galil AR | Chromatic Aberration         崭新      Snakebite Case                Classified  Covert      380.00    1486.49   148.65    -231.35     -60.88   %
+185   M4A1-S | Guardian                       崭新      Winter Offensive Weapon Case  Classified  Covert      375.55    1253.89   125.39    -250.16     -66.61   %
+198   M4A4 | Faded Zebra                      崭新      ESports 2013 Case             Mil-Spec    Restricted  308.00    555.20    55.52     -252.48     -81.97   %
+144   Galil AR | Eco                          略磨      Chroma 2 Case                 Classified  Covert      499.50    2409.50   240.95    -258.55     -51.76   %
+227   MAC-10 | Ultraviolet                    崭新      ESports 2014 Summer Case      Mil-Spec    Restricted  293.00    325.27    32.53     -260.47     -88.90   %
+402   Sawed-Off | Orange DDPAT                崭新      ESports 2013 Case             Restricted  Classified  649.50    3854.00   385.40    -264.10     -40.66   %
+387   SG 553 | Ultraviolet                    崭新      CSGO Weapon Case              Mil-Spec    Restricted  346.00    793.20    79.32     -266.68     -77.08   %
+161   Glock-18 | Royal Legion                 崭新      Operation Wildfire Case       Restricted  Classified  320.42    467.19    46.72     -273.70     -85.42   %
+10    AK-47 | Head Shot                       崭新      Revolution Case               Covert      Gold        830.00    2665.00   533.00    -297.00     -35.78   %
+336   P90 | Cold Blooded                      崭新      CSGO Weapon Case 2            Classified  Covert      420.00    1115.00   111.50    -308.50     -73.45   %
+206   M4A4 | Temukau                          崭新      Revolution Case               Covert      Gold        855.00    2665.00   533.00    -322.00     -37.66   %
+181   M4A1-S | Decimator                      崭新      Spectrum Case                 Classified  Covert      465.00    1383.50   138.35    -326.65     -70.25   %
+225   MAC-10 | Stalker                        崭新      Shattered Web Case            Covert      Gold        811.50    2283.26   456.65    -354.85     -43.73   %
+190   M4A1-S | Nightmare                      崭新      Horizon Case                  Classified  Covert      530.00    1700.25   170.03    -359.98     -67.92   %
+52    AWP | Redline                           略磨      Winter Offensive Weapon Case  Classified  Covert      521.00    1253.89   125.39    -395.61     -75.93   %
+199   M4A4 | Griffin                          崭新      Operation Vanguard Weapon Ca  Restricted  Classified  423.50    177.29    17.73     -405.77     -95.81   %
+18    AK-47 | Rat Rod                         崭新      Shattered Web Case            Restricted  Classified  478.88    642.60    64.26     -414.62     -86.58   %
+447   USP-S | Serum                           崭新      CSGO Weapon Case 2            Classified  Covert      539.00    1115.00   111.50    -427.50     -79.31   %
+115   Five-SeveN | Fairy Tale                 崭新      Operation Broken Fang Case    Classified  Covert      865.00    3971.47   397.15    -467.85     -54.09   %
+440   USP-S | Dark Water                      略磨      CSGO Weapon Case              Restricted  Classified  682.50    2061.25   206.12    -476.38     -69.80   %
+445   USP-S | Monster Mashup                  崭新      Operation Broken Fang Case    Classified  Covert      880.00    3971.47   397.15    -482.85     -54.87   %
+68    Desert Eagle | Cobalt Disruption        崭新      ESports 2013 Winter Case      Classified  Covert      701.50    1904.50   190.45    -511.05     -72.85   %
+72    Desert Eagle | Heirloom                 崭新      CSGO Weapon Case 3            Restricted  Classified  536.38    251.30    25.13     -511.25     -95.31   %
+180   M4A1-S | Dark Water                     略磨      CSGO Weapon Case              Restricted  Classified  718.32    2061.25   206.12    -512.20     -71.30   %
+140   Galil AR | Chatterbox                   久经      Chroma Case                   Covert      Gold        1130.00   3055.00   611.00    -519.00     -45.93   %
+16    AK-47 | Nightwish                       崭新      Dreams & Nightmares Case      Covert      Gold        1340.00   4090.11   818.02    -521.98     -38.95   %
+392   SSG 08 | Bloodshot                      略磨      Shattered Web Case            Classified  Covert      959.90    4255.27   425.53    -534.37     -55.67   %
+41    AWP | Electric Hive                     崭新      ESports 2013 Winter Case      Classified  Covert      730.00    1904.50   190.45    -539.55     -73.91   %
+210   M4A4 | 龍王 (Dragon King)                 崭新      Chroma Case                   Classified  Covert      644.50    960.50    96.05     -548.45     -85.10   %
+196   M4A4 | Desolate Space                   崭新      Gamma Case                    Classified  Covert      749.49    1869.00   186.90    -562.59     -75.06   %
+5     AK-47 | Cartel                          崭新      Chroma Case                   Classified  Covert      679.90    960.50    96.05     -583.85     -85.87   %
+45    AWP | Hyper Beast                       崭新      Falchion Case                 Covert      Gold        1260.00   3370.15   674.03    -585.97     -46.51   %
+73    Desert Eagle | Hypnotic                 崭新      CSGO Weapon Case              Classified  Covert      982.50    3880.00   388.00    -594.50     -60.51   %
+167   Glock-18 | Wasteland Rebel              崭新      Gamma Case                    Covert      Gold        1250.00   2650.92   530.18    -719.82     -57.59   %
+155   Glock-18 | Dragon Tattoo                崭新      CSGO Weapon Case              Restricted  Classified  978.78    2061.25   206.12    -772.65     -78.94   %
+207   M4A4 | The Battlestar                   崭新      Operation Wildfire Case       Covert      Gold        1370.00   2654.32   530.86    -839.14     -61.25   %
+446   USP-S | Neo-Noir                        崭新      Spectrum Case                 Covert      Gold        1099.00   809.00    161.80    -937.20     -85.28   %
+205   M4A4 | Spider Lily                      崭新      Operation Riptide Case        Restricted  Classified  1050.00   1082.83   108.28    -941.72     -89.69   %
+69    Desert Eagle | Code Red                 崭新      Horizon Case                  Covert      Gold        1495.00   2752.59   550.52    -944.48     -63.18   %
+1     AK-47 | Aquamarine Revenge              崭新      Falchion Case                 Covert      Gold        1739.99   3370.15   674.03    -1065.96    -61.26   %
+159   Glock-18 | Neo-Noir                     崭新      Operation Broken Fang Case    Covert      Gold        2925.45   9064.60   1812.92   -1112.53    -38.03   %
+70    Desert Eagle | Crimson Web              崭新      ESports 2014 Summer Case      Restricted  Classified  1268.00   917.14    91.71     -1176.29    -92.77   %
+8     AK-47 | Frontside Misty                 崭新      Shadow Case                   Classified  Covert      1499.50   2649.25   264.93    -1234.58    -82.33   %
+15    AK-47 | Neon Rider                      崭新      Horizon Case                  Covert      Gold        1905.50   2752.59   550.52    -1354.98    -71.11   %
+14    AK-47 | Neon Revolution                 崭新      Gamma 2 Case                  Covert      Gold        2519.90   5697.62   1139.52   -1380.38    -54.78   %
+3     AK-47 | Bloodsport                      崭新      Spectrum Case                 Covert      Gold        1668.00   809.00    161.80    -1506.20    -90.30   %
+39    AWP | Corticera                         崭新      ESports 2014 Summer Case      Classified  Covert      1950.00   3808.00   380.80    -1569.20    -80.47   %
+194   M4A4 | Buzz Kill                        崭新      Glove Case                    Covert      Gold        6988.00   26609.83  5321.97   -1666.03    -23.84   %
+20    AK-47 | Redline                         略磨      Operation Phoenix Weapon Cas  Classified  Covert      1770.00   665.95    66.59     -1703.40    -96.24   %
+163   Glock-18 | Snack Attack                 崭新      Operation Riptide Case        Classified  Covert      2160.00   4484.50   448.45    -1711.55    -79.24   %
+22    AK-47 | The Empress                     崭新      Spectrum 2 Case               Covert      Gold        2639.00   3515.35   703.07    -1935.93    -73.36   %
+188   M4A1-S | Mecha Industries               崭新      Gamma Case                    Covert      Gold        2488.00   2650.92   530.18    -1957.82    -78.69   %
+195   M4A4 | Cyber Security                   崭新      Operation Broken Fang Case    Classified  Covert      2388.00   3971.47   397.15    -1990.85    -83.37   %
+184   M4A1-S | Golden Coil                    崭新      Shadow Case                   Covert      Gold        2533.00   1349.52   269.90    -2263.10    -89.34   %
+443   USP-S | Kill Confirmed                  崭新      Shadow Case                   Covert      Gold        2765.50   1349.52   269.90    -2495.60    -90.24   %
+2     AK-47 | Asiimov                         崭新      Danger Zone Case              Covert      Gold        3117.00   2776.19   555.24    -2561.76    -82.19   %
+6     AK-47 | Case Hardened                   崭新      CSGO Weapon Case              Classified  Covert      3140.00   3880.00   388.00    -2752.00    -87.64   %
+46    AWP | Lightning Strike                  崭新      CSGO Weapon Case              Covert      Gold        3880.00   5096.53   1019.31   -2860.69    -73.73   %
+25    AK-47 | Wasteland Rebel                 崭新      Operation Vanguard Weapon Ca  Covert      Gold        3870.00   4689.00   937.80    -2932.20    -75.77   %
+77    Desert Eagle | Ocean Drive              崭新      Operation Riptide Case        Covert      Gold        3254.00   1152.74   230.55    -3023.45    -92.91   %
+19    AK-47 | Red Laminate                    崭新      ESports 2013 Case             Classified  Covert      3150.00   700.00    70.00     -3080.00    -97.78   %
+191   M4A1-S | Printstream                    崭新      Operation Broken Fang Case    Covert      Gold        5017.50   9064.60   1812.92   -3204.58    -63.87   %
+186   M4A1-S | Hyper Beast                    崭新      Chroma 2 Case                 Covert      Gold        3979.00   3702.21   740.44    -3238.56    -81.39   %
+37    AWP | BOOM                              崭新      ESports 2013 Case             Classified  Covert      4558.00   700.00    70.00     -4488.00    -98.46   %
+24    AK-47 | Vulcan                          崭新      Huntsman Weapon Case          Covert      Gold        5884.00   3314.82   662.96    -5221.04    -88.73   %
+9     AK-47 | Fuel Injector                   崭新      Operation Wildfire Case       Covert      Gold        5924.50   2654.32   530.86    -5393.64    -91.04   %
+12    AK-47 | Leet Museo                      崭新      Operation Riptide Case        Covert      Gold        5715.00   1152.74   230.55    -5484.45    -95.97   %
+38    AWP | Containment Breach                崭新      Shattered Web Case            Covert      Gold        7699.05   2283.26   456.65    -7242.40    -94.07   %
+11    AK-47 | Jaguar                          崭新      ESports 2014 Summer Case      Covert      Gold        4166.00   nan       nan       nan         nan      %
+17    AK-47 | Orbit Mk01                      崭新      Operation Hydra Case          Restricted  Classified  759.30    nan       nan       nan         nan      %
+36    AWP | Atheris                           崭新      Prisma Case                   Restricted  Classified  115.18    nan       nan       nan         nan      %
+64    CZ75-Auto | Victoria                    崭新      CSGO Weapon Case 3            Covert      Gold        610.00    nan       nan       nan         nan      %
+82    Dual Berettas | Black Limba             崭新      Operation Bravo Case          Mil-Spec    Restricted  95.00     nan       nan       nan         nan      %
+93    Dual Berettas | Ventilators             崭新      Chroma 3 Case                 Mil-Spec    Restricted  3.29      nan       nan       nan         nan      %
+103   FAMAS | Meow 36                         崭新      Recoil Case                   Mil-Spec    Restricted  4.88      nan       nan       nan         nan      %
+126   G3SG1 | Demeter                         崭新      Operation Bravo Case          Mil-Spec    Restricted  119.99    nan       nan       nan         nan      %
+133   G3SG1 | Orange Crash                    崭新      Chroma 3 Case                 Mil-Spec    Restricted  3.50      nan       nan       nan         nan      %
+143   Galil AR | Destroyer                    崭新      Recoil Case                   Mil-Spec    Restricted  2.47      nan       nan       nan         nan      %
+148   Galil AR | Shattered                    崭新      Operation Bravo Case          Mil-Spec    Restricted  200.00    nan       nan       nan         nan      %
+169   M249 | Aztec                            崭新      CS20 Case                     Restricted  Classified  19.80     nan       nan       nan         nan      %
+174   M249 | Spectre                          崭新      Chroma 3 Case                 Mil-Spec    Restricted  3.72      nan       nan       nan         nan      %
+179   M4A1-S | Chantico's Fire                崭新      Chroma 3 Case                 Covert      Gold        3560.00   nan       nan       nan         nan      %
+192   M4A4 | Asiimov                          久经      Winter Offensive Weapon Case  Covert      Gold        1930.00   nan       nan       nan         nan      %
+193   M4A4 | Bullet Rain                      崭新      ESports 2014 Summer Case      Covert      Gold        3450.00   nan       nan       nan         nan      %
+200   M4A4 | In Living Color                  崭新      Snakebite Case                Covert      Gold        1767.00   nan       nan       nan         nan      %
+203   M4A4 | Poly Mag                         崭新      Recoil Case                   Mil-Spec    Restricted  5.38      nan       nan       nan         nan      %
+204   M4A4 | Royal Paladin                    崭新      Revolver Case                 Covert      Gold        3533.50   nan       nan       nan         nan      %
+209   M4A4 | X-Ray                            崭新      ESports 2013 Winter Case      Covert      Gold        1904.50   nan       nan       nan         nan      %
+221   MAC-10 | Monkeyflage                    崭新      Recoil Case                   Mil-Spec    Restricted  4.80      nan       nan       nan         nan      %
+263   MP7 | Urban Hazard                      崭新      Operation Breakout Weapon Ca  Mil-Spec    Restricted  5.41      nan       nan       nan         nan      %
+265   MP9 | Bioleak                           崭新      Chroma 3 Case                 Mil-Spec    Restricted  3.84      nan       nan       nan         nan      %
+280   Negev | Desert-Strike                   崭新      Operation Breakout Weapon Ca  Mil-Spec    Restricted  4.48      nan       nan       nan         nan      %
+297   Nova | Tempest                          崭新      Operation Bravo Case          Mil-Spec    Restricted  92.99     nan       nan       nan         nan      %
+306   P2000 | Ivory                           崭新      Operation Breakout Weapon Ca  Mil-Spec    Restricted  9.96      nan       nan       nan         nan      %
+309   P2000 | Oceanic                         崭新      Chroma 3 Case                 Mil-Spec    Restricted  4.35      nan       nan       nan         nan      %
+314   P2000 | Woodsman                        崭新      Operation Hydra Case          Restricted  Classified  359.20    nan       nan       nan         nan      %
+324   P250 | Red Rock                         崭新      Operation Hydra Case          Restricted  Classified  384.50    nan       nan       nan         nan      %
+338   P90 | Desert Warfare                    崭新      Huntsman Weapon Case          Mil-Spec    Restricted  39.60     nan       nan       nan         nan      %
+352   PP-Bizon | Judgement of Anubis          崭新      Chroma 3 Case                 Covert      Gold        849.30    nan       nan       nan         nan      %
+360   R8 Revolver | Bone Forged               崭新      Prisma 2 Case                 Mil-Spec    Restricted  2.58      nan       nan       nan         nan      %
+361   R8 Revolver | Fade                      崭新      Revolver Case                 Covert      Gold        576.50    nan       nan       nan         nan      %
+378   SG 553 | Atlas                          崭新      Chroma 3 Case                 Mil-Spec    Restricted  5.70      nan       nan       nan         nan      %
+388   SG 553 | Wave Spray                     崭新      Operation Bravo Case          Mil-Spec    Restricted  130.00    nan       nan       nan         nan      %
+389   SSG 08 | Abyss                          崭新      Operation Breakout Weapon Ca  Mil-Spec    Restricted  25.56     nan       nan       nan         nan      %
+406   Sawed-Off | The Kraken                  崭新      Winter Offensive Weapon Case  Covert      Gold        577.78    nan       nan       nan         nan      %
+416   Tec-9 | Isaac                           崭新      Huntsman Weapon Case          Mil-Spec    Restricted  101.99    nan       nan       nan         nan      %
+422   UMP-45 | Bone Pile                      崭新      Operation Bravo Case          Mil-Spec    Restricted  111.00    nan       nan       nan         nan      %
+449   USP-S | The Traitor                     崭新      Snakebite Case                Covert      Gold        1205.99   nan       nan       nan         nan      %
+462   ★ Bayonet | Autotronic                          Gamma Case                    Gold        None        4288.00   nan       nan       nan         nan      %
+463   ★ Bayonet | Black Laminate                      Gamma Case                    Gold        None        2599.00   nan       nan       nan         nan      %
+464   ★ Bayonet | Blue Steel                          CSGO Weapon Case              Gold        None        3200.00   nan       nan       nan         nan      %
+465   ★ Bayonet | Boreal Forest                       CSGO Weapon Case              Gold        None        4379.12   nan       nan       nan         nan      %
+466   ★ Bayonet | Bright Water                        Gamma Case                    Gold        None        1300.00   nan       nan       nan         nan      %
+467   ★ Bayonet | Case Hardened                       CSGO Weapon Case              Gold        None        4888.88   nan       nan       nan         nan      %
+468   ★ Bayonet | Crimson Web                         CSGO Weapon Case              Gold        None        15000.00  nan       nan       nan         nan      %
+469   ★ Bayonet | Damascus Steel                      Chroma 2 Case                 Gold        None        1467.50   nan       nan       nan         nan      %
+470   ★ Bayonet | Doppler                             Chroma 2 Case                 Gold        None        2744.00   nan       nan       nan         nan      %
+471   ★ Bayonet | Fade                                CSGO Weapon Case              Gold        None        2817.50   nan       nan       nan         nan      %
+472   ★ Bayonet | Forest DDPAT                        CSGO Weapon Case              Gold        None        4000.00   nan       nan       nan         nan      %
+473   ★ Bayonet | Freehand                            Gamma Case                    Gold        None        1338.50   nan       nan       nan         nan      %
+474   ★ Bayonet | Gamma Doppler                       Gamma 2 Case                  Gold        None        3886.00   nan       nan       nan         nan      %
+475   ★ Bayonet | Lore                                Gamma Case                    Gold        None        3330.00   nan       nan       nan         nan      %
+476   ★ Bayonet | Marble Fade                         Chroma Case                   Gold        None        2666.00   nan       nan       nan         nan      %
+477   ★ Bayonet | Night                               CSGO Weapon Case              Gold        None        7000.00   nan       nan       nan         nan      %
+478   ★ Bayonet | Rust Coat                           Chroma 2 Case                 Gold        None        930.00    nan       nan       nan         nan      %
+479   ★ Bayonet | Safari Mesh                         CSGO Weapon Case              Gold        None        887.40    nan       nan       nan         nan      %
+480   ★ Bayonet | Scorched                            Operation Bravo Case          Gold        None        1030.00   nan       nan       nan         nan      %
+481   ★ Bayonet | Slaughter                           CSGO Weapon Case              Gold        None        2650.00   nan       nan       nan         nan      %
+482   ★ Bayonet | Stained                             CSGO Weapon Case              Gold        None        1590.00   nan       nan       nan         nan      %
+483   ★ Bayonet | Tiger Tooth                         Chroma 2 Case                 Gold        None        2096.00   nan       nan       nan         nan      %
+484   ★ Bayonet | Ultraviolet                         Chroma 2 Case                 Gold        None        4000.00   nan       nan       nan         nan      %
+485   ★ Bayonet | Urban Masked                        CSGO Weapon Case              Gold        None        1165.50   nan       nan       nan         nan      %
+486   ★ Bloodhound Gloves | Bronzed                   Glove Case                    Gold        None        10000.00  nan       nan       nan         nan      %
+487   ★ Bloodhound Gloves | Charred                   Glove Case                    Gold        None        6666.00   nan       nan       nan         nan      %
+488   ★ Bloodhound Gloves | Charred                   Operation Hydra Case          Gold        None        2099.00   nan       nan       nan         nan      %
+489   ★ Bloodhound Gloves | Guerrilla                 Glove Case                    Gold        None        5888.00   nan       nan       nan         nan      %
+490   ★ Bloodhound Gloves | Snakebite                 Glove Case                    Gold        None        4500.00   nan       nan       nan         nan      %
+491   ★ Bowie Knife | Autotronic                      Operation Riptide Case        Gold        None        1179.50   nan       nan       nan         nan      %
+492   ★ Bowie Knife | Autotronic                      Dreams & Nightmares Case      Gold        None        759.00    nan       nan       nan         nan      %
+493   ★ Bowie Knife | Black Laminate                  Dreams & Nightmares Case      Gold        None        740.00    nan       nan       nan         nan      %
+494   ★ Bowie Knife | Blue Steel                      Operation Wildfire Case       Gold        None        1666.00   nan       nan       nan         nan      %
+495   ★ Bowie Knife | Boreal Forest                   Operation Wildfire Case       Gold        None        1398.00   nan       nan       nan         nan      %
+496   ★ Bowie Knife | Bright Water                    Dreams & Nightmares Case      Gold        None        525.00    nan       nan       nan         nan      %
+497   ★ Bowie Knife | Case Hardened                   Operation Wildfire Case       Gold        None        3878.00   nan       nan       nan         nan      %
+498   ★ Bowie Knife | Crimson Web                     Operation Wildfire Case       Gold        None        15000.00  nan       nan       nan         nan      %
+499   ★ Bowie Knife | Damascus Steel                  Spectrum 2 Case               Gold        None        779.00    nan       nan       nan         nan      %
+500   ★ Bowie Knife | Doppler                         Spectrum 2 Case               Gold        None        2095.00   nan       nan       nan         nan      %
+501   ★ Bowie Knife | Doppler                         Spectrum 2 Case               Gold        None        3200.00   nan       nan       nan         nan      %
+502   ★ Bowie Knife | Fade                            Operation Wildfire Case       Gold        None        1788.50   nan       nan       nan         nan      %
+503   ★ Bowie Knife | Forest DDPAT                    Operation Wildfire Case       Gold        None        1147.00   nan       nan       nan         nan      %
+504   ★ Bowie Knife | Freehand                        Operation Riptide Case        Gold        None        618.00    nan       nan       nan         nan      %
+505   ★ Bowie Knife | Gamma Doppler                   Operation Riptide Case        Gold        None        1498.50   nan       nan       nan         nan      %
+506   ★ Bowie Knife | Lore                            Operation Riptide Case        Gold        None        1588.00   nan       nan       nan         nan      %
+507   ★ Bowie Knife | Marble Fade                     Spectrum 2 Case               Gold        None        1299.00   nan       nan       nan         nan      %
+508   ★ Bowie Knife | Night                           Operation Wildfire Case       Gold        None        950.00    nan       nan       nan         nan      %
+509   ★ Bowie Knife | Rust Coat                       Spectrum 2 Case               Gold        None        614.00    nan       nan       nan         nan      %
+510   ★ Bowie Knife | Safari Mesh                     Operation Wildfire Case       Gold        None        505.00    nan       nan       nan         nan      %
+511   ★ Bowie Knife | Scorched                        Operation Wildfire Case       Gold        None        1398.78   nan       nan       nan         nan      %
+512   ★ Bowie Knife | Slaughter                       Operation Wildfire Case       Gold        None        1750.00   nan       nan       nan         nan      %
+513   ★ Bowie Knife | Stained                         Operation Wildfire Case       Gold        None        990.50    nan       nan       nan         nan      %
+514   ★ Bowie Knife | Tiger Tooth                     Spectrum 2 Case               Gold        None        989.00    nan       nan       nan         nan      %
+515   ★ Bowie Knife | Ultraviolet                     Spectrum 2 Case               Gold        None        3382.21   nan       nan       nan         nan      %
+516   ★ Bowie Knife | Urban Masked                    Operation Wildfire Case       Gold        None        1380.00   nan       nan       nan         nan      %
+517   ★ Broken Fang Gloves | Jade                     Operation Broken Fang Case    Gold        None        4400.00   nan       nan       nan         nan      %
+518   ★ Broken Fang Gloves | Needle Point             Operation Broken Fang Case    Gold        None        2080.00   nan       nan       nan         nan      %
+519   ★ Broken Fang Gloves | Unhinged                 Operation Broken Fang Case    Gold        None        2497.50   nan       nan       nan         nan      %
+520   ★ Butterfly Knife | Autotronic                  Dreams & Nightmares Case      Gold        None        12599.50  nan       nan       nan         nan      %
+521   ★ Butterfly Knife | Black Laminate              Dreams & Nightmares Case      Gold        None        6700.00   nan       nan       nan         nan      %
+522   ★ Butterfly Knife | Bright Water                Operation Riptide Case        Gold        None        4600.00   nan       nan       nan         nan      %
+523   ★ Butterfly Knife | Damascus Steel              Spectrum 2 Case               Gold        None        6049.50   nan       nan       nan         nan      %
+524   ★ Butterfly Knife | Doppler                     Spectrum 2 Case               Gold        None        16990.00  nan       nan       nan         nan      %
+525   ★ Butterfly Knife | Freehand                    Dreams & Nightmares Case      Gold        None        5150.00   nan       nan       nan         nan      %
+526   ★ Butterfly Knife | Gamma Doppler               Dreams & Nightmares Case      Gold        None        16999.00  nan       nan       nan         nan      %
+527   ★ Butterfly Knife | Lore                        Dreams & Nightmares Case      Gold        None        18800.00  nan       nan       nan         nan      %
+528   ★ Butterfly Knife | Marble Fade                 Spectrum 2 Case               Gold        None        10988.00  nan       nan       nan         nan      %
+529   ★ Butterfly Knife | Rust Coat                   Spectrum 2 Case               Gold        None        3899.00   nan       nan       nan         nan      %
+530   ★ Butterfly Knife | Scorched                    Operation Breakout Weapon Ca  Gold        None        6666.00   nan       nan       nan         nan      %
+531   ★ Butterfly Knife | Slaughter                   Operation Breakout Weapon Ca  Gold        None        11747.00  nan       nan       nan         nan      %
+532   ★ Butterfly Knife | Stained                     Operation Breakout Weapon Ca  Gold        None        6479.00   nan       nan       nan         nan      %
+533   ★ Butterfly Knife | Tiger Tooth                 Spectrum 2 Case               Gold        None        8680.65   nan       nan       nan         nan      %
+534   ★ Butterfly Knife | Ultraviolet                 Spectrum 2 Case               Gold        None        14000.00  nan       nan       nan         nan      %
+535   ★ Butterfly Knife | Urban Masked                Operation Breakout Weapon Ca  Gold        None        6000.00   nan       nan       nan         nan      %
+536   ★ Classic Knife | Case Hardened                 CS20 Case                     Gold        None        2250.00   nan       nan       nan         nan      %
+537   ★ Classic Knife | Crimson Web                   CS20 Case                     Gold        None        7755.00   nan       nan       nan         nan      %
+538   ★ Classic Knife | Fade                          CS20 Case                     Gold        None        1967.50   nan       nan       nan         nan      %
+539   ★ Classic Knife | Forest DDPAT                  CS20 Case                     Gold        None        1899.00   nan       nan       nan         nan      %
+540   ★ Classic Knife | Night Stripe                  CS20 Case                     Gold        None        3199.50   nan       nan       nan         nan      %
+541   ★ Classic Knife | Safari Mesh                   CS20 Case                     Gold        None        5500.00   nan       nan       nan         nan      %
+542   ★ Classic Knife | Scorched                      CS20 Case                     Gold        None        9999.00   nan       nan       nan         nan      %
+543   ★ Classic Knife | Slaughter                     CS20 Case                     Gold        None        1340.00   nan       nan       nan         nan      %
+544   ★ Classic Knife | Stained                       CS20 Case                     Gold        None        1035.00   nan       nan       nan         nan      %
+545   ★ Classic Knife | Urban Masked                  CS20 Case                     Gold        None        2395.00   nan       nan       nan         nan      %
+546   ★ Driver Gloves | Black Tie                     Operation Broken Fang Case    Gold        None        12880.00  nan       nan       nan         nan      %
+547   ★ Driver Gloves | Convoy                        Glove Case                    Gold        None        6886.50   nan       nan       nan         nan      %
+548   ★ Driver Gloves | Crimson Weave                 Glove Case                    Gold        None        16998.50  nan       nan       nan         nan      %
+549   ★ Driver Gloves | Diamondback                   Glove Case                    Gold        None        11000.00  nan       nan       nan         nan      %
+550   ★ Driver Gloves | Imperial Plaid                Clutch Case                   Gold        None        8250.00   nan       nan       nan         nan      %
+551   ★ Driver Gloves | King Snake                    Clutch Case                   Gold        None        29998.00  nan       nan       nan         nan      %
+552   ★ Driver Gloves | Lunar Weave                   Glove Case                    Gold        None        22222.00  nan       nan       nan         nan      %
+553   ★ Driver Gloves | Overtake                      Clutch Case                   Gold        None        3497.50   nan       nan       nan         nan      %
+554   ★ Driver Gloves | Queen Jaguar                  Operation Broken Fang Case    Gold        None        4150.00   nan       nan       nan         nan      %
+555   ★ Driver Gloves | Racing Green                  Revolution Case               Gold        None        2665.00   nan       nan       nan         nan      %
+556   ★ Driver Gloves | Rezan the Red                 Operation Broken Fang Case    Gold        None        6988.00   nan       nan       nan         nan      %
+557   ★ Driver Gloves | Snow Leopard                  Operation Broken Fang Case    Gold        None        18214.00  nan       nan       nan         nan      %
+558   ★ Falchion Knife | Autotronic                   Dreams & Nightmares Case      Gold        None        1211.00   nan       nan       nan         nan      %
+559   ★ Falchion Knife | Blue Steel                   Falchion Case                 Gold        None        1999.00   nan       nan       nan         nan      %
+560   ★ Falchion Knife | Boreal Forest                Falchion Case                 Gold        None        2839.86   nan       nan       nan         nan      %
+561   ★ Falchion Knife | Bright Water                 Dreams & Nightmares Case      Gold        None        593.00    nan       nan       nan         nan      %
+562   ★ Falchion Knife | Case Hardened                Falchion Case                 Gold        None        2799.00   nan       nan       nan         nan      %
+563   ★ Falchion Knife | Crimson Web                  Falchion Case                 Gold        None        19999.00  nan       nan       nan         nan      %
+564   ★ Falchion Knife | Damascus Steel               Spectrum 2 Case               Gold        None        775.50    nan       nan       nan         nan      %
+565   ★ Falchion Knife | Doppler                      Spectrum 2 Case               Gold        None        1995.49   nan       nan       nan         nan      %
+566   ★ Falchion Knife | Fade                         Falchion Case                 Gold        None        1600.00   nan       nan       nan         nan      %
+567   ★ Falchion Knife | Forest DDPAT                 Falchion Case                 Gold        None        2367.49   nan       nan       nan         nan      %
+568   ★ Falchion Knife | Freehand                     Dreams & Nightmares Case      Gold        None        680.00    nan       nan       nan         nan      %
+569   ★ Falchion Knife | Gamma Doppler                Dreams & Nightmares Case      Gold        None        1647.00   nan       nan       nan         nan      %
+570   ★ Falchion Knife | Lore                         Dreams & Nightmares Case      Gold        None        1200.00   nan       nan       nan         nan      %
+571   ★ Falchion Knife | Marble Fade                  Spectrum 2 Case               Gold        None        1285.00   nan       nan       nan         nan      %
+572   ★ Falchion Knife | Night                        Falchion Case                 Gold        None        2099.00   nan       nan       nan         nan      %
+573   ★ Falchion Knife | Rust Coat                    Spectrum 2 Case               Gold        None        580.00    nan       nan       nan         nan      %
+574   ★ Falchion Knife | Safari Mesh                  Falchion Case                 Gold        None        1175.00   nan       nan       nan         nan      %
+575   ★ Falchion Knife | Scorched                     Falchion Case                 Gold        None        1000.00   nan       nan       nan         nan      %
+576   ★ Falchion Knife | Slaughter                    Falchion Case                 Gold        None        1799.00   nan       nan       nan         nan      %
+577   ★ Falchion Knife | Stained                      Falchion Case                 Gold        None        1098.50   nan       nan       nan         nan      %
+578   ★ Falchion Knife | Tiger Tooth                  Spectrum 2 Case               Gold        None        1059.00   nan       nan       nan         nan      %
+579   ★ Falchion Knife | Ultraviolet                  Spectrum 2 Case               Gold        None        1999.00   nan       nan       nan         nan      %
+580   ★ Falchion Knife | Urban Masked                 Falchion Case                 Gold        None        1666.00   nan       nan       nan         nan      %
+581   ★ Flip Knife | Black Laminate                   Gamma 2 Case                  Gold        None        750.00    nan       nan       nan         nan      %
+582   ★ Flip Knife | Blue Steel                       CSGO Weapon Case              Gold        None        2150.00   nan       nan       nan         nan      %
+583   ★ Flip Knife | Boreal Forest                    CSGO Weapon Case              Gold        None        1888.00   nan       nan       nan         nan      %
+584   ★ Flip Knife | Case Hardened                    CSGO Weapon Case              Gold        None        2400.00   nan       nan       nan         nan      %
+585   ★ Flip Knife | Crimson Web                      CSGO Weapon Case              Gold        None        9666.00   nan       nan       nan         nan      %
+586   ★ Flip Knife | Damascus Steel                   Chroma 2 Case                 Gold        None        870.00    nan       nan       nan         nan      %
+587   ★ Flip Knife | Doppler                          Chroma 2 Case                 Gold        None        2199.00   nan       nan       nan         nan      %
+588   ★ Flip Knife | Doppler                          Chroma 2 Case                 Gold        None        2600.00   nan       nan       nan         nan      %
+589   ★ Flip Knife | Fade                             CSGO Weapon Case              Gold        None        2398.00   nan       nan       nan         nan      %
+590   ★ Flip Knife | Forest DDPAT                     CSGO Weapon Case              Gold        None        1988.00   nan       nan       nan         nan      %
+591   ★ Flip Knife | Gamma Doppler                    Gamma Case                    Gold        None        3050.00   nan       nan       nan         nan      %
+592   ★ Flip Knife | Marble Fade                      Chroma 2 Case                 Gold        None        1739.50   nan       nan       nan         nan      %
+593   ★ Flip Knife | Night                            CSGO Weapon Case              Gold        None        3859.50   nan       nan       nan         nan      %
+594   ★ Flip Knife | Rust Coat                        Chroma 2 Case                 Gold        None        699.00    nan       nan       nan         nan      %
+595   ★ Flip Knife | Safari Mesh                      CSGO Weapon Case              Gold        None        1600.00   nan       nan       nan         nan      %
+596   ★ Flip Knife | Scorched                         CSGO Weapon Case              Gold        None        2865.92   nan       nan       nan         nan      %
+597   ★ Flip Knife | Slaughter                        CSGO Weapon Case              Gold        None        1987.50   nan       nan       nan         nan      %
+598   ★ Flip Knife | Stained                          CSGO Weapon Case              Gold        None        1388.00   nan       nan       nan         nan      %
+599   ★ Flip Knife | Tiger Tooth                      Chroma 2 Case                 Gold        None        1470.00   nan       nan       nan         nan      %
+600   ★ Flip Knife | Ultraviolet                      Chroma 2 Case                 Gold        None        2399.50   nan       nan       nan         nan      %
+601   ★ Flip Knife | Urban Masked                     CSGO Weapon Case              Gold        None        15478.89  nan       nan       nan         nan      %
+602   ★ Gut Knife | Autotronic                        Gamma 2 Case                  Gold        None        1590.00   nan       nan       nan         nan      %
+603   ★ Gut Knife | Black Laminate                    Gamma 2 Case                  Gold        None        850.00    nan       nan       nan         nan      %
+604   ★ Gut Knife | Blue Steel                        CSGO Weapon Case              Gold        None        1190.00   nan       nan       nan         nan      %
+605   ★ Gut Knife | Boreal Forest                     CSGO Weapon Case              Gold        None        6585.20   nan       nan       nan         nan      %
+606   ★ Gut Knife | Bright Water                      Gamma 2 Case                  Gold        None        488.50    nan       nan       nan         nan      %
+607   ★ Gut Knife | Case Hardened                     CSGO Weapon Case              Gold        None        2181.44   nan       nan       nan         nan      %
+608   ★ Gut Knife | Crimson Web                       CSGO Weapon Case              Gold        None        5696.24   nan       nan       nan         nan      %
+609   ★ Gut Knife | Damascus Steel                    Chroma 2 Case                 Gold        None        515.00    nan       nan       nan         nan      %
+610   ★ Gut Knife | Doppler                           Chroma 2 Case                 Gold        None        846.30    nan       nan       nan         nan      %
+611   ★ Gut Knife | Fade                              CSGO Weapon Case              Gold        None        949.50    nan       nan       nan         nan      %
+612   ★ Gut Knife | Forest DDPAT                      CSGO Weapon Case              Gold        None        1204.32   nan       nan       nan         nan      %
+613   ★ Gut Knife | Freehand                          Gamma 2 Case                  Gold        None        546.00    nan       nan       nan         nan      %
+614   ★ Gut Knife | Gamma Doppler                     Gamma 2 Case                  Gold        None        1097.00   nan       nan       nan         nan      %
+615   ★ Gut Knife | Lore                              Gamma 2 Case                  Gold        None        1067.50   nan       nan       nan         nan      %
+616   ★ Gut Knife | Marble Fade                       Chroma 2 Case                 Gold        None        791.00    nan       nan       nan         nan      %
+617   ★ Gut Knife | Night                             CSGO Weapon Case              Gold        None        450.00    nan       nan       nan         nan      %
+618   ★ Gut Knife | Rust Coat                         Chroma 2 Case                 Gold        None        551.00    nan       nan       nan         nan      %
+619   ★ Gut Knife | Safari Mesh                       CSGO Weapon Case              Gold        None        2799.50   nan       nan       nan         nan      %
+620   ★ Gut Knife | Scorched                          CSGO Weapon Case              Gold        None        2782.18   nan       nan       nan         nan      %
+621   ★ Gut Knife | Slaughter                         Operation Bravo Case          Gold        None        966.00    nan       nan       nan         nan      %
+622   ★ Gut Knife | Stained                           ESports 2013 Case             Gold        None        999.00    nan       nan       nan         nan      %
+623   ★ Gut Knife | Tiger Tooth                       Chroma 2 Case                 Gold        None        695.00    nan       nan       nan         nan      %
+624   ★ Gut Knife | Ultraviolet                       Chroma 2 Case                 Gold        None        1600.00   nan       nan       nan         nan      %
+625   ★ Gut Knife | Urban Masked                      ESports 2013 Case             Gold        None        999.00    nan       nan       nan         nan      %
+626   ★ Hand Wraps | Arboreal                         Clutch Case                   Gold        None        2051.29   nan       nan       nan         nan      %
+627   ★ Hand Wraps | Badlands                         Glove Case                    Gold        None        7499.50   nan       nan       nan         nan      %
+628   ★ Hand Wraps | CAUTION!                         Operation Broken Fang Case    Gold        None        7888.00   nan       nan       nan         nan      %
+629   ★ Hand Wraps | Cobalt Skulls                    Clutch Case                   Gold        None        11999.00  nan       nan       nan         nan      %
+630   ★ Hand Wraps | Constrictor                      Operation Broken Fang Case    Gold        None        2399.50   nan       nan       nan         nan      %
+631   ★ Hand Wraps | Desert Shamagh                   Operation Broken Fang Case    Gold        None        3188.00   nan       nan       nan         nan      %
+632   ★ Hand Wraps | Duct Tape                        Clutch Case                   Gold        None        2800.00   nan       nan       nan         nan      %
+633   ★ Hand Wraps | Giraffe                          Operation Broken Fang Case    Gold        None        3000.00   nan       nan       nan         nan      %
+634   ★ Hand Wraps | Leather                          Glove Case                    Gold        None        11800.00  nan       nan       nan         nan      %
+635   ★ Hand Wraps | Overprint                        Clutch Case                   Gold        None        3999.00   nan       nan       nan         nan      %
+636   ★ Hand Wraps | Slaughter                        Glove Case                    Gold        None        12499.00  nan       nan       nan         nan      %
+637   ★ Hand Wraps | Spruce DDPAT                     Glove Case                    Gold        None        10999.50  nan       nan       nan         nan      %
+638   ★ Huntsman Knife | Autotronic                   Dreams & Nightmares Case      Gold        None        1400.00   nan       nan       nan         nan      %
+639   ★ Huntsman Knife | Black Laminate               Dreams & Nightmares Case      Gold        None        1232.50   nan       nan       nan         nan      %
+640   ★ Huntsman Knife | Blue Steel                   Huntsman Weapon Case          Gold        None        2200.00   nan       nan       nan         nan      %
+641   ★ Huntsman Knife | Boreal Forest                Huntsman Weapon Case          Gold        None        2000.00   nan       nan       nan         nan      %
+642   ★ Huntsman Knife | Bright Water                 Operation Riptide Case        Gold        None        561.00    nan       nan       nan         nan      %
+643   ★ Huntsman Knife | Case Hardened                Huntsman Weapon Case          Gold        None        3569.00   nan       nan       nan         nan      %
+644   ★ Huntsman Knife | Crimson Web                  Huntsman Weapon Case          Gold        None        5555.00   nan       nan       nan         nan      %
+645   ★ Huntsman Knife | Damascus Steel               Spectrum 2 Case               Gold        None        849.00    nan       nan       nan         nan      %
+646   ★ Huntsman Knife | Doppler                      Spectrum 2 Case               Gold        None        2266.00   nan       nan       nan         nan      %
+647   ★ Huntsman Knife | Fade                         Huntsman Weapon Case          Gold        None        1848.00   nan       nan       nan         nan      %
+648   ★ Huntsman Knife | Forest DDPAT                 Huntsman Weapon Case          Gold        None        2136.09   nan       nan       nan         nan      %
+649   ★ Huntsman Knife | Freehand                     Dreams & Nightmares Case      Gold        None        638.50    nan       nan       nan         nan      %
+650   ★ Huntsman Knife | Gamma Doppler                Dreams & Nightmares Case      Gold        None        1660.00   nan       nan       nan         nan      %
+651   ★ Huntsman Knife | Lore                         Dreams & Nightmares Case      Gold        None        1087.50   nan       nan       nan         nan      %
+652   ★ Huntsman Knife | Marble Fade                  Spectrum 2 Case               Gold        None        1345.00   nan       nan       nan         nan      %
+653   ★ Huntsman Knife | Night                        Huntsman Weapon Case          Gold        None        12728.17  nan       nan       nan         nan      %
+654   ★ Huntsman Knife | Rust Coat                    Spectrum 2 Case               Gold        None        549.50    nan       nan       nan         nan      %
+655   ★ Huntsman Knife | Safari Mesh                  Huntsman Weapon Case          Gold        None        999.00    nan       nan       nan         nan      %
+656   ★ Huntsman Knife | Scorched                     Huntsman Weapon Case          Gold        None        3292.56   nan       nan       nan         nan      %
+657   ★ Huntsman Knife | Slaughter                    Huntsman Weapon Case          Gold        None        2000.00   nan       nan       nan         nan      %
+658   ★ Huntsman Knife | Stained                      Huntsman Weapon Case          Gold        None        1450.00   nan       nan       nan         nan      %
+659   ★ Huntsman Knife | Tiger Tooth                  Spectrum 2 Case               Gold        None        1115.00   nan       nan       nan         nan      %
+660   ★ Huntsman Knife | Ultraviolet                  Spectrum 2 Case               Gold        None        2800.00   nan       nan       nan         nan      %
+661   ★ Huntsman Knife | Urban Masked                 Huntsman Weapon Case          Gold        None        2000.00   nan       nan       nan         nan      %
+662   ★ Hydra Gloves | Case Hardened                  Clutch Case                   Gold        None        3142.00   nan       nan       nan         nan      %
+663   ★ Hydra Gloves | Emerald                        Clutch Case                   Gold        None        1747.60   nan       nan       nan         nan      %
+664   ★ Hydra Gloves | Mangrove                       Clutch Case                   Gold        None        1800.00   nan       nan       nan         nan      %
+665   ★ Hydra Gloves | Rattler                        Clutch Case                   Gold        None        1930.47   nan       nan       nan         nan      %
+666   ★ Karambit | Autotronic                         Gamma 2 Case                  Gold        None        13437.00  nan       nan       nan         nan      %
+667   ★ Karambit | Black Laminate                     Gamma 2 Case                  Gold        None        7190.00   nan       nan       nan         nan      %
+668   ★ Karambit | Blue Steel                         Operation Bravo Case          Gold        None        8866.00   nan       nan       nan         nan      %
+669   ★ Karambit | Boreal Forest                      ESports 2013 Case             Gold        None        7119.58   nan       nan       nan         nan      %
+670   ★ Karambit | Bright Water                       Gamma 2 Case                  Gold        None        3878.50   nan       nan       nan         nan      %
+671   ★ Karambit | Case Hardened                      ESports 2013 Case             Gold        None        11679.00  nan       nan       nan         nan      %
+672   ★ Karambit | Case Hardened                      Operation Vanguard Weapon Ca  Gold        None        4689.00   nan       nan       nan         nan      %
+673   ★ Karambit | Crimson Web                        ESports 2013 Case             Gold        None        48888.00  nan       nan       nan         nan      %
+674   ★ Karambit | Crimson Web                        Operation Phoenix Weapon Cas  Gold        None        4150.00   nan       nan       nan         nan      %
+675   ★ Karambit | Damascus Steel                     Chroma 2 Case                 Gold        None        4580.00   nan       nan       nan         nan      %
+676   ★ Karambit | Doppler                            Chroma 2 Case                 Gold        None        10399.50  nan       nan       nan         nan      %
+677   ★ Karambit | Fade                               ESports 2013 Case             Gold        None        15849.50  nan       nan       nan         nan      %
+678   ★ Karambit | Fade                               CSGO Weapon Case 2            Gold        None        16100.00  nan       nan       nan         nan      %
+679   ★ Karambit | Forest DDPAT                       CSGO Weapon Case 2            Gold        None        8000.00   nan       nan       nan         nan      %
+680   ★ Karambit | Freehand                           Gamma 2 Case                  Gold        None        4049.00   nan       nan       nan         nan      %
+681   ★ Karambit | Gamma Doppler                      Gamma 2 Case                  Gold        None        21300.00  nan       nan       nan         nan      %
+682   ★ Karambit | Lore                               Gamma 2 Case                  Gold        None        9888.99   nan       nan       nan         nan      %
+683   ★ Karambit | Marble Fade                        Chroma 2 Case                 Gold        None        8133.49   nan       nan       nan         nan      %
+684   ★ Karambit | Night                              CSGO Weapon Case 2            Gold        None        13300.00  nan       nan       nan         nan      %
+685   ★ Karambit | Night                              CSGO Weapon Case              Gold        None        3200.00   nan       nan       nan         nan      %
+686   ★ Karambit | Rust Coat                          Chroma 2 Case                 Gold        None        3224.00   nan       nan       nan         nan      %
+687   ★ Karambit | Safari Mesh                        CSGO Weapon Case              Gold        None        4000.00   nan       nan       nan         nan      %
+688   ★ Karambit | Scorched                           CSGO Weapon Case              Gold        None        6999.99   nan       nan       nan         nan      %
+689   ★ Karambit | Slaughter                          CSGO Weapon Case              Gold        None        8199.50   nan       nan       nan         nan      %
+690   ★ Karambit | Stained                            CSGO Weapon Case              Gold        None        5100.00   nan       nan       nan         nan      %
+691   ★ Karambit | Tiger Tooth                        Chroma 2 Case                 Gold        None        6830.00   nan       nan       nan         nan      %
+692   ★ Karambit | Ultraviolet                        Chroma 2 Case                 Gold        None        13888.00  nan       nan       nan         nan      %
+693   ★ Karambit | Urban Masked                       CSGO Weapon Case              Gold        None        6828.51   nan       nan       nan         nan      %
+694   ★ M9 Bayonet | Autotronic                       Gamma 2 Case                  Gold        None        10000.00  nan       nan       nan         nan      %
+695   ★ M9 Bayonet | Black Laminate                   Gamma 2 Case                  Gold        None        5005.00   nan       nan       nan         nan      %
+696   ★ M9 Bayonet | Blue Steel                       CSGO Weapon Case              Gold        None        5888.00   nan       nan       nan         nan      %
+697   ★ M9 Bayonet | Boreal Forest                    CSGO Weapon Case              Gold        None        6999.00   nan       nan       nan         nan      %
+698   ★ M9 Bayonet | Bright Water                     Gamma 2 Case                  Gold        None        2960.00   nan       nan       nan         nan      %
+699   ★ M9 Bayonet | Case Hardened                    CSGO Weapon Case              Gold        None        8500.00   nan       nan       nan         nan      %
+700   ★ M9 Bayonet | Crimson Web                      CSGO Weapon Case              Gold        None        35255.00  nan       nan       nan         nan      %
+701   ★ M9 Bayonet | Damascus Steel                   Chroma Case                   Gold        None        3444.00   nan       nan       nan         nan      %
+702   ★ M9 Bayonet | Doppler                          Chroma 2 Case                 Gold        None        7698.50   nan       nan       nan         nan      %
+703   ★ M9 Bayonet | Fade                             Operation Bravo Case          Gold        None        8247.00   nan       nan       nan         nan      %
+704   ★ M9 Bayonet | Forest DDPAT                     CSGO Weapon Case              Gold        None        5000.00   nan       nan       nan         nan      %
+705   ★ M9 Bayonet | Freehand                         Gamma 2 Case                  Gold        None        3020.00   nan       nan       nan         nan      %
+706   ★ M9 Bayonet | Gamma Doppler                    Gamma 2 Case                  Gold        None        12250.00  nan       nan       nan         nan      %
+707   ★ M9 Bayonet | Lore                             Gamma 2 Case                  Gold        None        10699.00  nan       nan       nan         nan      %
+708   ★ M9 Bayonet | Marble Fade                      Chroma 2 Case                 Gold        None        6150.00   nan       nan       nan         nan      %
+709   ★ M9 Bayonet | Night                            CSGO Weapon Case              Gold        None        10220.96  nan       nan       nan         nan      %
+710   ★ M9 Bayonet | Rust Coat                        Chroma 2 Case                 Gold        None        2549.00   nan       nan       nan         nan      %
+711   ★ M9 Bayonet | Safari Mesh                      Operation Bravo Case          Gold        None        1949.50   nan       nan       nan         nan      %
+712   ★ M9 Bayonet | Scorched                         CSGO Weapon Case              Gold        None        6500.00   nan       nan       nan         nan      %
+713   ★ M9 Bayonet | Slaughter                        CSGO Weapon Case              Gold        None        6800.00   nan       nan       nan         nan      %
+714   ★ M9 Bayonet | Stained                          CSGO Weapon Case              Gold        None        3800.00   nan       nan       nan         nan      %
+715   ★ M9 Bayonet | Tiger Tooth                      Chroma 2 Case                 Gold        None        5095.99   nan       nan       nan         nan      %
+716   ★ M9 Bayonet | Ultraviolet                      Chroma 2 Case                 Gold        None        9300.00   nan       nan       nan         nan      %
+717   ★ M9 Bayonet | Urban Masked                     CSGO Weapon Case              Gold        None        2256.00   nan       nan       nan         nan      %
+718   ★ Moto Gloves | 3rd Commando Company            Operation Broken Fang Case    Gold        None        2000.00   nan       nan       nan         nan      %
+719   ★ Moto Gloves | Blood Pressure                  Operation Broken Fang Case    Gold        None        6400.00   nan       nan       nan         nan      %
+720   ★ Moto Gloves | Boom!                           Glove Case                    Gold        None        11000.00  nan       nan       nan         nan      %
+721   ★ Moto Gloves | Cool Mint                       Glove Case                    Gold        None        29500.00  nan       nan       nan         nan      %
+722   ★ Moto Gloves | Eclipse                         Glove Case                    Gold        None        7777.00   nan       nan       nan         nan      %
+723   ★ Moto Gloves | Finish Line                     Operation Broken Fang Case    Gold        None        4800.00   nan       nan       nan         nan      %
+724   ★ Moto Gloves | POW!                            Clutch Case                   Gold        None        6899.00   nan       nan       nan         nan      %
+725   ★ Moto Gloves | Polygon                         Clutch Case                   Gold        None        5879.00   nan       nan       nan         nan      %
+726   ★ Moto Gloves | Smoke Out                       Operation Broken Fang Case    Gold        None        6222.00   nan       nan       nan         nan      %
+727   ★ Moto Gloves | Spearmint                       Glove Case                    Gold        None        84888.00  nan       nan       nan         nan      %
+728   ★ Moto Gloves | Transport                       Clutch Case                   Gold        None        3294.50   nan       nan       nan         nan      %
+729   ★ Moto Gloves | Turtle                          Clutch Case                   Gold        None        5299.00   nan       nan       nan         nan      %
+730   ★ Navaja Knife | Blue Steel                     Danger Zone Case              Gold        None        855.00    nan       nan       nan         nan      %
+731   ★ Navaja Knife | Boreal Forest                  Danger Zone Case              Gold        None        1415.00   nan       nan       nan         nan      %
+732   ★ Navaja Knife | Case Hardened                  Danger Zone Case              Gold        None        1100.00   nan       nan       nan         nan      %
+733   ★ Navaja Knife | Crimson Web                    Danger Zone Case              Gold        None        3600.00   nan       nan       nan         nan      %
+734   ★ Navaja Knife | Damascus Steel                 Prisma 2 Case                 Gold        None        449.49    nan       nan       nan         nan      %
+735   ★ Navaja Knife | Doppler                        Prisma 2 Case                 Gold        None        800.00    nan       nan       nan         nan      %
+736   ★ Navaja Knife | Fade                           Danger Zone Case              Gold        None        749.00    nan       nan       nan         nan      %
+737   ★ Navaja Knife | Forest DDPAT                   Danger Zone Case              Gold        None        781.95    nan       nan       nan         nan      %
+738   ★ Navaja Knife | Marble Fade                    Prisma 2 Case                 Gold        None        620.00    nan       nan       nan         nan      %
+739   ★ Navaja Knife | Night Stripe                   Danger Zone Case              Gold        None        2689.00   nan       nan       nan         nan      %
+740   ★ Navaja Knife | Rust Coat                      Prisma 2 Case                 Gold        None        430.00    nan       nan       nan         nan      %
+741   ★ Navaja Knife | Safari Mesh                    Danger Zone Case              Gold        None        389.99    nan       nan       nan         nan      %
+742   ★ Navaja Knife | Scorched                       Danger Zone Case              Gold        None        1350.00   nan       nan       nan         nan      %
+743   ★ Navaja Knife | Slaughter                      Danger Zone Case              Gold        None        685.00    nan       nan       nan         nan      %
+744   ★ Navaja Knife | Stained                        Horizon Case                  Gold        None        797.50    nan       nan       nan         nan      %
+745   ★ Navaja Knife | Tiger Tooth                    Prisma 2 Case                 Gold        None        527.00    nan       nan       nan         nan      %
+746   ★ Navaja Knife | Ultraviolet                    Prisma 2 Case                 Gold        None        1423.43   nan       nan       nan         nan      %
+747   ★ Navaja Knife | Urban Masked                   Horizon Case                  Gold        None        1616.73   nan       nan       nan         nan      %
+748   ★ Nomad Knife | Blue Steel                      Shattered Web Case            Gold        None        1840.00   nan       nan       nan         nan      %
+749   ★ Nomad Knife | Boreal Forest                   Shattered Web Case            Gold        None        1432.96   nan       nan       nan         nan      %
+750   ★ Nomad Knife | Case Hardened                   Shattered Web Case            Gold        None        2600.00   nan       nan       nan         nan      %
+751   ★ Nomad Knife | Crimson Web                     Shattered Web Case            Gold        None        7898.50   nan       nan       nan         nan      %
+752   ★ Nomad Knife | Fade                            Shattered Web Case            Gold        None        2760.00   nan       nan       nan         nan      %
+753   ★ Nomad Knife | Forest DDPAT                    Shattered Web Case            Gold        None        1400.00   nan       nan       nan         nan      %
+754   ★ Nomad Knife | Night Stripe                    Shattered Web Case            Gold        None        1388.00   nan       nan       nan         nan      %
+755   ★ Nomad Knife | Safari Mesh                     Shattered Web Case            Gold        None        1166.84   nan       nan       nan         nan      %
+756   ★ Nomad Knife | Scorched                        Shattered Web Case            Gold        None        1509.57   nan       nan       nan         nan      %
+757   ★ Nomad Knife | Slaughter                       Shattered Web Case            Gold        None        1800.00   nan       nan       nan         nan      %
+758   ★ Nomad Knife | Stained                         Shattered Web Case            Gold        None        1320.00   nan       nan       nan         nan      %
+759   ★ Nomad Knife | Urban Masked                    Fracture Case                 Gold        None        2245.00   nan       nan       nan         nan      %
+760   ★ Paracord Knife | Blue Steel                   Fracture Case                 Gold        None        1300.00   nan       nan       nan         nan      %
+761   ★ Paracord Knife | Boreal Forest                Fracture Case                 Gold        None        1537.48   nan       nan       nan         nan      %
+762   ★ Paracord Knife | Case Hardened                Fracture Case                 Gold        None        1868.00   nan       nan       nan         nan      %
+763   ★ Paracord Knife | Crimson Web                  Fracture Case                 Gold        None        10000.00  nan       nan       nan         nan      %
+764   ★ Paracord Knife | Fade                         Fracture Case                 Gold        None        1238.50   nan       nan       nan         nan      %
+765   ★ Paracord Knife | Forest DDPAT                 Fracture Case                 Gold        None        864.26    nan       nan       nan         nan      %
+766   ★ Paracord Knife | Night Stripe                 Fracture Case                 Gold        None        2200.00   nan       nan       nan         nan      %
+767   ★ Paracord Knife | Safari Mesh                  Fracture Case                 Gold        None        1050.00   nan       nan       nan         nan      %
+768   ★ Paracord Knife | Scorched                     Fracture Case                 Gold        None        990.00    nan       nan       nan         nan      %
+769   ★ Paracord Knife | Slaughter                    Fracture Case                 Gold        None        1079.50   nan       nan       nan         nan      %
+770   ★ Paracord Knife | Stained                      Fracture Case                 Gold        None        750.00    nan       nan       nan         nan      %
+771   ★ Paracord Knife | Urban Masked                 Fracture Case                 Gold        None        1088.00   nan       nan       nan         nan      %
+772   ★ Shadow Daggers | Autotronic                   Operation Riptide Case        Gold        None        709.00    nan       nan       nan         nan      %
+773   ★ Shadow Daggers | Black Laminate               Operation Riptide Case        Gold        None        514.42    nan       nan       nan         nan      %
+774   ★ Shadow Daggers | Blue Steel                   Shadow Case                   Gold        None        849.90    nan       nan       nan         nan      %
+775   ★ Shadow Daggers | Boreal Forest                Shadow Case                   Gold        None        799.50    nan       nan       nan         nan      %
+776   ★ Shadow Daggers | Bright Water                 Operation Riptide Case        Gold        None        389.99    nan       nan       nan         nan      %
+777   ★ Shadow Daggers | Case Hardened                Shadow Case                   Gold        None        1950.00   nan       nan       nan         nan      %
+778   ★ Shadow Daggers | Crimson Web                  Shadow Case                   Gold        None        3500.00   nan       nan       nan         nan      %
+779   ★ Shadow Daggers | Damascus Steel               Spectrum Case                 Gold        None        489.50    nan       nan       nan         nan      %
+780   ★ Shadow Daggers | Doppler                      Spectrum 2 Case               Gold        None        947.47    nan       nan       nan         nan      %
+781   ★ Shadow Daggers | Fade                         Shadow Case                   Gold        None        1010.00   nan       nan       nan         nan      %
+782   ★ Shadow Daggers | Forest DDPAT                 Shadow Case                   Gold        None        1231.02   nan       nan       nan         nan      %
+783   ★ Shadow Daggers | Freehand                     Operation Riptide Case        Gold        None        449.50    nan       nan       nan         nan      %
+784   ★ Shadow Daggers | Gamma Doppler                Operation Riptide Case        Gold        None        769.50    nan       nan       nan         nan      %
+785   ★ Shadow Daggers | Lore                         Operation Riptide Case        Gold        None        955.50    nan       nan       nan         nan      %
+786   ★ Shadow Daggers | Marble Fade                  Spectrum Case                 Gold        None        726.50    nan       nan       nan         nan      %
+787   ★ Shadow Daggers | Night                        Shadow Case                   Gold        None        500.00    nan       nan       nan         nan      %
+788   ★ Shadow Daggers | Rust Coat                    Spectrum Case                 Gold        None        460.00    nan       nan       nan         nan      %
+789   ★ Shadow Daggers | Safari Mesh                  Shadow Case                   Gold        None        1230.53   nan       nan       nan         nan      %
+790   ★ Shadow Daggers | Scorched                     Shadow Case                   Gold        None        2015.18   nan       nan       nan         nan      %
+791   ★ Shadow Daggers | Slaughter                    Shadow Case                   Gold        None        776.50    nan       nan       nan         nan      %
+792   ★ Shadow Daggers | Stained                      Shadow Case                   Gold        None        1049.98   nan       nan       nan         nan      %
+793   ★ Shadow Daggers | Tiger Tooth                  Spectrum Case                 Gold        None        569.00    nan       nan       nan         nan      %
+794   ★ Shadow Daggers | Ultraviolet                  Spectrum Case                 Gold        None        1800.00   nan       nan       nan         nan      %
+795   ★ Shadow Daggers | Urban Masked                 Shadow Case                   Gold        None        1281.65   nan       nan       nan         nan      %
+796   ★ Skeleton Knife | Blue Steel                   Fracture Case                 Gold        None        2550.00   nan       nan       nan         nan      %
+797   ★ Skeleton Knife | Boreal Forest                Fracture Case                 Gold        None        1976.00   nan       nan       nan         nan      %
+798   ★ Skeleton Knife | Case Hardened                Fracture Case                 Gold        None        4380.00   nan       nan       nan         nan      %
+799   ★ Skeleton Knife | Crimson Web                  Fracture Case                 Gold        None        16000.00  nan       nan       nan         nan      %
+800   ★ Skeleton Knife | Fade                         Fracture Case                 Gold        None        4748.50   nan       nan       nan         nan      %
+801   ★ Skeleton Knife | Forest DDPAT                 Fracture Case                 Gold        None        2145.00   nan       nan       nan         nan      %
+802   ★ Skeleton Knife | Night Stripe                 Fracture Case                 Gold        None        2800.00   nan       nan       nan         nan      %
+803   ★ Skeleton Knife | Safari Mesh                  Fracture Case                 Gold        None        1632.15   nan       nan       nan         nan      %
+804   ★ Skeleton Knife | Scorched                     Fracture Case                 Gold        None        2979.50   nan       nan       nan         nan      %
+805   ★ Skeleton Knife | Slaughter                    Fracture Case                 Gold        None        3113.50   nan       nan       nan         nan      %
+806   ★ Skeleton Knife | Stained                      Fracture Case                 Gold        None        2050.00   nan       nan       nan         nan      %
+807   ★ Skeleton Knife | Urban Masked                 Fracture Case                 Gold        None        2700.00   nan       nan       nan         nan      %
+808   ★ Specialist Gloves | Buckshot                  Clutch Case                   Gold        None        2850.00   nan       nan       nan         nan      %
+809   ★ Specialist Gloves | Crimson Kimono            Glove Case                    Gold        None        130000.00 nan       nan       nan         nan      %
+810   ★ Specialist Gloves | Crimson Web               Clutch Case                   Gold        None        13299.00  nan       nan       nan         nan      %
+811   ★ Specialist Gloves | Emerald Web               Glove Case                    Gold        None        88853.00  nan       nan       nan         nan      %
+812   ★ Specialist Gloves | Fade                      Clutch Case                   Gold        None        19998.50  nan       nan       nan         nan      %
+813   ★ Specialist Gloves | Field Agent               Operation Broken Fang Case    Gold        None        9650.00   nan       nan       nan         nan      %
+814   ★ Specialist Gloves | Forest DDPAT              Operation Hydra Case          Gold        None        8888.00   nan       nan       nan         nan      %
+815   ★ Specialist Gloves | Foundation                Operation Hydra Case          Gold        None        19999.00  nan       nan       nan         nan      %
+816   ★ Specialist Gloves | Lt. Commander             Operation Broken Fang Case    Gold        None        7333.00   nan       nan       nan         nan      %
+817   ★ Specialist Gloves | Marble Fade               Operation Broken Fang Case    Gold        None        16000.00  nan       nan       nan         nan      %
+818   ★ Specialist Gloves | Mogul                     Clutch Case                   Gold        None        5200.00   nan       nan       nan         nan      %
+819   ★ Specialist Gloves | Tiger Strike              Operation Broken Fang Case    Gold        None        11998.50  nan       nan       nan         nan      %
+820   ★ Sport Gloves | Amphibious                     Clutch Case                   Gold        None        31000.00  nan       nan       nan         nan      %
+821   ★ Sport Gloves | Arid                           Operation Hydra Case          Gold        None        49999.00  nan       nan       nan         nan      %
+822   ★ Sport Gloves | Big Game                       Operation Broken Fang Case    Gold        None        8308.50   nan       nan       nan         nan      %
+823   ★ Sport Gloves | Bronze Morph                   Clutch Case                   Gold        None        6200.00   nan       nan       nan         nan      %
+824   ★ Sport Gloves | Hedge Maze                     Operation Hydra Case          Gold        None        240000.00 nan       nan       nan         nan      %
+825   ★ Sport Gloves | Nocts                          Operation Broken Fang Case    Gold        None        26000.00  nan       nan       nan         nan      %
+826   ★ Sport Gloves | Omega                          Clutch Case                   Gold        None        17399.00  nan       nan       nan         nan      %
+827   ★ Sport Gloves | Pandora's Box                  Operation Hydra Case          Gold        None        330000.00 nan       nan       nan         nan      %
+828   ★ Sport Gloves | Scarlet Shamagh                Operation Broken Fang Case    Gold        None        11500.00  nan       nan       nan         nan      %
+829   ★ Sport Gloves | Slingshot                      Operation Broken Fang Case    Gold        None        30588.88  nan       nan       nan         nan      %
+830   ★ Sport Gloves | Superconductor                 Operation Hydra Case          Gold        None        125000.00 nan       nan       nan         nan      %
+831   ★ Sport Gloves | Vice                           Clutch Case                   Gold        None        75000.00  nan       nan       nan         nan      %
+832   ★ Stiletto Knife | Blue Steel                   Horizon Case                  Gold        None        2000.00   nan       nan       nan         nan      %
+833   ★ Stiletto Knife | Boreal Forest                Horizon Case                  Gold        None        2199.00   nan       nan       nan         nan      %
+834   ★ Stiletto Knife | Case Hardened                Horizon Case                  Gold        None        3900.00   nan       nan       nan         nan      %
+835   ★ Stiletto Knife | Crimson Web                  Horizon Case                  Gold        None        9699.50   nan       nan       nan         nan      %
+836   ★ Stiletto Knife | Damascus Steel               Prisma 2 Case                 Gold        None        1300.00   nan       nan       nan         nan      %
+837   ★ Stiletto Knife | Doppler                      Prisma 2 Case                 Gold        None        3229.50   nan       nan       nan         nan      %
+838   ★ Stiletto Knife | Fade                         Horizon Case                  Gold        None        3070.00   nan       nan       nan         nan      %
+839   ★ Stiletto Knife | Forest DDPAT                 Horizon Case                  Gold        None        1887.00   nan       nan       nan         nan      %
+840   ★ Stiletto Knife | Marble Fade                  Prisma 2 Case                 Gold        None        2043.50   nan       nan       nan         nan      %
+841   ★ Stiletto Knife | Night Stripe                 Horizon Case                  Gold        None        2850.00   nan       nan       nan         nan      %
+842   ★ Stiletto Knife | Rust Coat                    Prisma 2 Case                 Gold        None        868.50    nan       nan       nan         nan      %
+843   ★ Stiletto Knife | Safari Mesh                  Horizon Case                  Gold        None        1666.00   nan       nan       nan         nan      %
+844   ★ Stiletto Knife | Scorched                     Horizon Case                  Gold        None        1999.00   nan       nan       nan         nan      %
+845   ★ Stiletto Knife | Slaughter                    Horizon Case                  Gold        None        2799.00   nan       nan       nan         nan      %
+846   ★ Stiletto Knife | Stained                      Horizon Case                  Gold        None        1300.00   nan       nan       nan         nan      %
+847   ★ Stiletto Knife | Stained                      Danger Zone Case              Gold        None        1050.00   nan       nan       nan         nan      %
+848   ★ Stiletto Knife | Tiger Tooth                  Prisma Case                   Gold        None        1842.50   nan       nan       nan         nan      %
+849   ★ Stiletto Knife | Ultraviolet                  Prisma 2 Case                 Gold        None        4100.00   nan       nan       nan         nan      %
+850   ★ Stiletto Knife | Urban Masked                 Danger Zone Case              Gold        None        1900.00   nan       nan       nan         nan      %
+851   ★ Survival Knife | Blue Steel                   Fracture Case                 Gold        None        999.00    nan       nan       nan         nan      %
+852   ★ Survival Knife | Boreal Forest                Fracture Case                 Gold        None        888.00    nan       nan       nan         nan      %
+853   ★ Survival Knife | Case Hardened                Fracture Case                 Gold        None        1684.50   nan       nan       nan         nan      %
+854   ★ Survival Knife | Crimson Web                  Fracture Case                 Gold        None        5141.50   nan       nan       nan         nan      %
+855   ★ Survival Knife | Fade                         Fracture Case                 Gold        None        1079.50   nan       nan       nan         nan      %
+856   ★ Survival Knife | Forest DDPAT                 Fracture Case                 Gold        None        1079.00   nan       nan       nan         nan      %
+857   ★ Survival Knife | Night Stripe                 Fracture Case                 Gold        None        1550.00   nan       nan       nan         nan      %
+858   ★ Survival Knife | Safari Mesh                  Fracture Case                 Gold        None        987.99    nan       nan       nan         nan      %
+859   ★ Survival Knife | Scorched                     Fracture Case                 Gold        None        1100.00   nan       nan       nan         nan      %
+860   ★ Survival Knife | Slaughter                    Fracture Case                 Gold        None        998.50    nan       nan       nan         nan      %
+861   ★ Survival Knife | Stained                      Fracture Case                 Gold        None        880.00    nan       nan       nan         nan      %
+862   ★ Survival Knife | Urban Masked                 Fracture Case                 Gold        None        1477.00   nan       nan       nan         nan      %
+863   ★ Talon Knife | Blue Steel                      Danger Zone Case              Gold        None        3750.00   nan       nan       nan         nan      %
+864   ★ Talon Knife | Boreal Forest                   Danger Zone Case              Gold        None        3486.50   nan       nan       nan         nan      %
+865   ★ Talon Knife | Case Hardened                   Danger Zone Case              Gold        None        7200.00   nan       nan       nan         nan      %
+866   ★ Talon Knife | Crimson Web                     Danger Zone Case              Gold        None        15000.00  nan       nan       nan         nan      %
+867   ★ Talon Knife | Damascus Steel                  Prisma Case                   Gold        None        2200.00   nan       nan       nan         nan      %
+868   ★ Talon Knife | Doppler                         Prisma Case                   Gold        None        5899.00   nan       nan       nan         nan      %
+869   ★ Talon Knife | Doppler                         Prisma Case                   Gold        None        5987.00   nan       nan       nan         nan      %
+870   ★ Talon Knife | Fade                            Danger Zone Case              Gold        None        6200.00   nan       nan       nan         nan      %
+871   ★ Talon Knife | Forest DDPAT                    Danger Zone Case              Gold        None        3500.00   nan       nan       nan         nan      %
+872   ★ Talon Knife | Marble Fade                     Prisma Case                   Gold        None        3850.00   nan       nan       nan         nan      %
+873   ★ Talon Knife | Night Stripe                    Danger Zone Case              Gold        None        4150.00   nan       nan       nan         nan      %
+874   ★ Talon Knife | Rust Coat                       Prisma 2 Case                 Gold        None        1680.00   nan       nan       nan         nan      %
+875   ★ Talon Knife | Safari Mesh                     Danger Zone Case              Gold        None        3000.00   nan       nan       nan         nan      %
+876   ★ Talon Knife | Scorched                        Danger Zone Case              Gold        None        2400.00   nan       nan       nan         nan      %
+877   ★ Talon Knife | Slaughter                       Danger Zone Case              Gold        None        4850.00   nan       nan       nan         nan      %
+878   ★ Talon Knife | Stained                         Danger Zone Case              Gold        None        2550.00   nan       nan       nan         nan      %
+879   ★ Talon Knife | Tiger Tooth                     Prisma 2 Case                 Gold        None        3242.53   nan       nan       nan         nan      %
+880   ★ Talon Knife | Ultraviolet                     Prisma 2 Case                 Gold        None        7300.00   nan       nan       nan         nan      %
+881   ★ Talon Knife | Urban Masked                    Danger Zone Case              Gold        None        4852.50   nan       nan       nan         nan      %
+882   ★ Ursus Knife | Blue Steel                      Danger Zone Case              Gold        None        1199.00   nan       nan       nan         nan      %
+883   ★ Ursus Knife | Boreal Forest                   Danger Zone Case              Gold        None        879.50    nan       nan       nan         nan      %
+884   ★ Ursus Knife | Case Hardened                   Danger Zone Case              Gold        None        2285.00   nan       nan       nan         nan      %
+885   ★ Ursus Knife | Crimson Web                     Danger Zone Case              Gold        None        6900.00   nan       nan       nan         nan      %
+886   ★ Ursus Knife | Damascus Steel                  Prisma 2 Case                 Gold        None        675.00    nan       nan       nan         nan      %
+887   ★ Ursus Knife | Doppler                         Prisma 2 Case                 Gold        None        1840.00   nan       nan       nan         nan      %
+888   ★ Ursus Knife | Fade                            Danger Zone Case              Gold        None        1646.00   nan       nan       nan         nan      %
+889   ★ Ursus Knife | Forest DDPAT                    Danger Zone Case              Gold        None        1249.00   nan       nan       nan         nan      %
+890   ★ Ursus Knife | Marble Fade                     Prisma 2 Case                 Gold        None        1220.00   nan       nan       nan         nan      %
+891   ★ Ursus Knife | Night Stripe                    Danger Zone Case              Gold        None        1673.28   nan       nan       nan         nan      %
+892   ★ Ursus Knife | Rust Coat                       Prisma 2 Case                 Gold        None        508.00    nan       nan       nan         nan      %
+893   ★ Ursus Knife | Safari Mesh                     Danger Zone Case              Gold        None        1100.00   nan       nan       nan         nan      %
+894   ★ Ursus Knife | Scorched                        Danger Zone Case              Gold        None        1300.00   nan       nan       nan         nan      %
+895   ★ Ursus Knife | Slaughter                       Danger Zone Case              Gold        None        1387.00   nan       nan       nan         nan      %
+896   ★ Ursus Knife | Stained                         Danger Zone Case              Gold        None        900.00    nan       nan       nan         nan      %
+897   ★ Ursus Knife | Tiger Tooth                     Prisma 2 Case                 Gold        None        1065.00   nan       nan       nan         nan      %
+898   ★ Ursus Knife | Ultraviolet                     Prisma 2 Case                 Gold        None        2800.00   nan       nan       nan         nan      %
+899   ★ Ursus Knife | Urban Masked                    Danger Zone Case              Gold        None        1920.00   nan       nan       nan         nan      %

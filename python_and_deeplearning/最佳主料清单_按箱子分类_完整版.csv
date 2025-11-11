@@ -1,0 +1,462 @@
+﻿箱子名称,投入材料,材料稀有度,材料外观,材料价格,产出稀有度,需要数量,总投入,期望产出,单件利润,总利润,ROI,盈亏状态,平台
+CS20 Case,SCAR-20 | Assault,Mil-Spec,FN,3.32,Restricted,10,33.199999999999996,19.8,-1.34,-13.4,-40.36%,❌亏损,BUFF
+CS20 Case,Dual Berettas | Elite 1.6,Mil-Spec,FN,3.47,Restricted,10,34.7,19.8,-1.4900000000000002,-14.900000000000002,-42.94%,❌亏损,BUFF
+CS20 Case,MAG-7 | Popdog,Mil-Spec,FN,4.04,Restricted,10,40.4,19.8,-2.06,-20.6,-50.99%,❌亏损,C5
+CS20 Case,Tec-9 | Flash Out,Mil-Spec,FN,4.05,Restricted,10,40.5,19.8,-2.07,-20.7,-51.11%,❌亏损,C5
+CS20 Case,MAC-10 | Classic Crate,Mil-Spec,FN,5.44,Restricted,10,54.400000000000006,19.8,-3.4600000000000004,-34.6,-63.60%,❌亏损,BUFF
+CS20 Case,FAMAS | Decommissioned,Mil-Spec,FN,6.99,Restricted,10,69.9,19.8,-5.01,-50.099999999999994,-71.67%,❌亏损,YOUPIN
+CS20 Case,Glock-18 | Sacrifice,Mil-Spec,FN,15.72,Restricted,10,157.20000000000002,19.8,-13.74,-137.4,-87.40%,❌亏损,YOUPIN
+CS20 Case,M249 | Aztec,Restricted,FN,19.8,Classified,10,198.0,,,,nan%,❌亏损,BUFF
+CSGO Weapon Case,MP7 | Skulls,Mil-Spec,MW,123.0,Restricted,10,1230.0,793.1999999999999,-43.68000000000001,-436.80000000000007,-35.51%,❌亏损,YOUPIN
+CSGO Weapon Case,AUG | Wings,Mil-Spec,FN,125.17,Restricted,10,1251.7,793.1999999999999,-45.85000000000001,-458.5000000000001,-36.63%,❌亏损,C5
+CSGO Weapon Case,SG 553 | Ultraviolet,Mil-Spec,FN,346.0,Restricted,10,3460.0,793.1999999999999,-266.68,-2666.8,-77.08%,❌亏损,BUFF
+CSGO Weapon Case,USP-S | Dark Water,Restricted,MW,682.5,Classified,10,6825.0,2061.25,-476.375,-4763.75,-69.80%,❌亏损,BUFF
+CSGO Weapon Case,M4A1-S | Dark Water,Restricted,MW,718.32,Classified,10,7183.200000000001,2061.25,-512.195,-5121.950000000001,-71.30%,❌亏损,C5
+CSGO Weapon Case,Glock-18 | Dragon Tattoo,Restricted,FN,978.78,Classified,10,9787.8,2061.25,-772.655,-7726.549999999999,-78.94%,❌亏损,C5
+CSGO Weapon Case,Desert Eagle | Hypnotic,Classified,FN,982.5,Covert,10,9825.0,3880.0,-594.5,-5945.0,-60.51%,❌亏损,YOUPIN
+CSGO Weapon Case,AK-47 | Case Hardened,Classified,FN,3140.0,Covert,10,31400.0,3880.0,-2752.0,-27520.0,-87.64%,❌亏损,YOUPIN
+CSGO Weapon Case,AWP | Lightning Strike,Covert,FN,3880.0,Gold,5,19400.0,5096.532291666666,-2860.6935416666665,-14303.467708333334,-73.73%,❌亏损,YOUPIN
+CSGO Weapon Case 2,FAMAS | Hexane,Mil-Spec,FN,20.0,Restricted,10,200.0,101.0675,-9.89325,-98.9325,-49.47%,❌亏损,BUFF
+CSGO Weapon Case 2,P250 | Hive,Mil-Spec,FN,20.9,Restricted,10,209.0,101.0675,-10.79325,-107.9325,-51.64%,❌亏损,YOUPIN
+CSGO Weapon Case 2,Tec-9 | Blue Titanium,Mil-Spec,FN,21.22,Restricted,10,212.2,101.0675,-11.11325,-111.13250000000001,-52.37%,❌亏损,YOUPIN
+CSGO Weapon Case 2,M4A1-S | Blood Tiger,Mil-Spec,FN,67.89,Restricted,10,678.9,101.0675,-57.78325,-577.8325,-85.11%,❌亏损,BUFF
+CSGO Weapon Case 2,SCAR-20 | Crimson Web,Mil-Spec,FN,160.21,Restricted,10,1602.1000000000001,101.0675,-150.10325,-1501.0325,-93.69%,❌亏损,HALOSKINS
+CSGO Weapon Case 2,Nova | Graphite,Restricted,FN,67.0,Classified,10,670.0,479.5,-19.05,-190.5,-28.43%,❌亏损,BUFF
+CSGO Weapon Case 2,Dual Berettas | Hemoglobin,Restricted,FN,93.57,Classified,10,935.6999999999999,479.5,-45.61999999999999,-456.19999999999993,-48.75%,❌亏损,YOUPIN
+CSGO Weapon Case 2,MP9 | Hypnotic,Restricted,FN,98.7,Classified,10,987.0,479.5,-50.75,-507.5,-51.42%,❌亏损,BUFF
+CSGO Weapon Case 2,Five-SeveN | Case Hardened,Restricted,FN,145.0,Classified,10,1450.0,479.5,-97.05,-970.5,-66.93%,❌亏损,BUFF
+CSGO Weapon Case 2,P90 | Cold Blooded,Classified,FN,420.0,Covert,10,4200.0,1115.0,-308.5,-3085.0,-73.45%,❌亏损,YOUPIN
+CSGO Weapon Case 2,USP-S | Serum,Classified,FN,539.0,Covert,10,5390.0,1115.0,-427.5,-4275.0,-79.31%,❌亏损,YOUPIN
+CSGO Weapon Case 2,SSG 08 | Blood in the Water,Covert,FN,1115.0,Gold,5,5575.0,12466.666666666666,1378.333333333333,6891.666666666665,123.62%,✅盈利,YOUPIN
+CSGO Weapon Case 3,Dual Berettas | Panther,Mil-Spec,FN,23.8,Restricted,10,238.0,178.12,-5.988,-59.88,-25.16%,❌亏损,C5
+CSGO Weapon Case 3,P2000 | Red FragCam,Mil-Spec,FN,25.65,Restricted,10,256.5,178.12,-7.837999999999997,-78.37999999999997,-30.56%,❌亏损,C5
+CSGO Weapon Case 3,CZ75-Auto | Crimson Web,Mil-Spec,FN,128.4,Restricted,10,1284.0,178.12,-110.588,-1105.8799999999999,-86.13%,❌亏损,YOUPIN
+CSGO Weapon Case 3,Glock-18 | Blue Fissure,Mil-Spec,FN,182.0,Restricted,10,1820.0,178.12,-164.188,-1641.8799999999999,-90.21%,❌亏损,YOUPIN
+CSGO Weapon Case 3,USP-S | Stainless,Mil-Spec,FN,226.0,Restricted,10,2260.0,178.12,-208.188,-2081.88,-92.12%,❌亏损,YOUPIN
+CSGO Weapon Case 3,CZ75-Auto | Tread Plate,Restricted,FN,39.95,Classified,10,399.5,251.3,-14.82,-148.2,-37.10%,❌亏损,BUFF
+CSGO Weapon Case 3,Tec-9 | Titanium Bit,Restricted,FN,51.41,Classified,10,514.0999999999999,251.3,-26.279999999999998,-262.79999999999995,-51.12%,❌亏损,BUFF
+CSGO Weapon Case 3,Five-SeveN | Copper Galaxy,Restricted,FN,84.74,Classified,10,847.4,251.3,-59.60999999999999,-596.0999999999999,-70.34%,❌亏损,YOUPIN
+CSGO Weapon Case 3,Desert Eagle | Heirloom,Restricted,FN,536.38,Classified,10,5363.8,251.3,-511.25,-5112.5,-95.31%,❌亏损,HALOSKINS
+CSGO Weapon Case 3,CZ75-Auto | The Fuschia Is Now,Classified,FN,247.0,Covert,10,2470.0,610.0,-186.0,-1860.0,-75.30%,❌亏损,YOUPIN
+CSGO Weapon Case 3,P250 | Undertow,Classified,FN,255.6,Covert,10,2556.0,610.0,-194.6,-1946.0,-76.13%,❌亏损,YOUPIN
+CSGO Weapon Case 3,CZ75-Auto | Victoria,Covert,FN,610.0,Gold,5,3050.0,,,,nan%,❌亏损,BUFF
+Chroma 2 Case,Negev | Man-o'-war,Mil-Spec,MW,1.66,Restricted,10,16.599999999999998,25.5225,0.89225,8.9225,53.75%,✅盈利,BUFF
+Chroma 2 Case,Sawed-Off | Origami,Mil-Spec,FN,3.28,Restricted,10,32.8,25.5225,-0.7277499999999999,-7.277499999999999,-22.19%,❌亏损,BUFF
+Chroma 2 Case,MP7 | Armor Core,Mil-Spec,FN,3.33,Restricted,10,33.3,25.5225,-0.7777500000000002,-7.777500000000002,-23.36%,❌亏损,BUFF
+Chroma 2 Case,Desert Eagle | Bronze Deco,Mil-Spec,FN,4.35,Restricted,10,43.5,25.5225,-1.7977499999999995,-17.977499999999996,-41.33%,❌亏损,BUFF
+Chroma 2 Case,P250 | Valence,Mil-Spec,FN,8.59,Restricted,10,85.9,25.5225,-6.03775,-60.3775,-70.29%,❌亏损,BUFF
+Chroma 2 Case,AK-47 | Elite Build,Mil-Spec,FN,61.38,Restricted,10,613.8000000000001,25.5225,-58.82775,-588.2775,-95.84%,❌亏损,BUFF
+Chroma 2 Case,UMP-45 | Grand Prix,Restricted,FT,9.49,Classified,10,94.9,343.16333333333336,24.82633333333333,248.26333333333332,261.61%,✅盈利,YOUPIN
+Chroma 2 Case,AWP | Worm God,Restricted,FN,25.9,Classified,10,259.0,343.16333333333336,8.416333333333334,84.16333333333334,32.50%,✅盈利,BUFF
+Chroma 2 Case,CZ75-Auto | Pole Position,Restricted,FN,26.9,Classified,10,269.0,343.16333333333336,7.416333333333334,74.16333333333334,27.57%,✅盈利,BUFF
+Chroma 2 Case,MAG-7 | Heat,Restricted,FN,39.8,Classified,10,398.0,343.16333333333336,-5.4836666666666645,-54.836666666666645,-13.78%,❌亏损,BUFF
+Chroma 2 Case,Five-SeveN | Monkey Business,Classified,MW,260.5,Covert,10,2605.0,2409.5,-19.55000000000001,-195.5000000000001,-7.50%,❌亏损,YOUPIN
+Chroma 2 Case,FAMAS | Djinn,Classified,FN,269.49,Covert,10,2694.9,2409.5,-28.54000000000002,-285.4000000000002,-10.59%,❌亏损,YOUPIN
+Chroma 2 Case,Galil AR | Eco,Classified,MW,499.5,Covert,10,4995.0,2409.5,-258.55,-2585.5,-51.76%,❌亏损,C5
+Chroma 2 Case,MAC-10 | Neon Rider,Covert,FN,840.0,Gold,5,4200.0,3702.206428571429,-99.55871428571412,-497.7935714285706,-11.85%,❌亏损,BUFF
+Chroma 2 Case,M4A1-S | Hyper Beast,Covert,FN,3979.0,Gold,5,19895.0,3702.206428571429,-3238.558714285714,-16192.79357142857,-81.39%,❌亏损,C5
+Chroma 3 Case,Dual Berettas | Ventilators,Mil-Spec,FN,3.29,Restricted,10,32.9,,,,nan%,❌亏损,BUFF
+Chroma 3 Case,G3SG1 | Orange Crash,Mil-Spec,FN,3.5,Restricted,10,35.0,,,,nan%,❌亏损,BUFF
+Chroma 3 Case,M249 | Spectre,Mil-Spec,FN,3.72,Restricted,10,37.2,,,,nan%,❌亏损,BUFF
+Chroma 3 Case,MP9 | Bioleak,Mil-Spec,FN,3.84,Restricted,10,38.4,,,,nan%,❌亏损,C5
+Chroma 3 Case,P2000 | Oceanic,Mil-Spec,FN,4.35,Restricted,10,43.5,,,,nan%,❌亏损,BUFF
+Chroma 3 Case,SG 553 | Atlas,Mil-Spec,FN,5.7,Restricted,10,57.0,,,,nan%,❌亏损,BUFF
+Chroma 3 Case,AUG | Fleet Flock,Classified,FN,243.0,Covert,10,2430.0,2204.65,-22.535,-225.35,-9.27%,❌亏损,YOUPIN
+Chroma 3 Case,M4A1-S | Chantico's Fire,Covert,FN,3560.0,Gold,5,17800.0,,,,nan%,❌亏损,YOUPIN
+Chroma 3 Case,PP-Bizon | Judgement of Anubis,Covert,FN,849.3,Gold,5,4246.5,,,,nan%,❌亏损,BUFF
+Chroma Case,Dual Berettas | Urban Shock,Restricted,FN,41.39,Classified,10,413.9,489.73,7.582999999999998,75.82999999999998,18.32%,✅盈利,BUFF
+Chroma Case,Sawed-Off | Serenity,Restricted,FN,43.0,Classified,10,430.0,489.73,5.972999999999999,59.72999999999999,13.89%,✅盈利,YOUPIN
+Chroma Case,MAC-10 | Malachite,Restricted,FN,47.96,Classified,10,479.6,489.73,1.012999999999998,10.12999999999998,2.11%,✅盈利,BUFF
+Chroma Case,Desert Eagle | Naga,Restricted,FN,126.0,Classified,10,1260.0,489.73,-77.027,-770.27,-61.13%,❌亏损,BUFF
+Chroma Case,P250 | Muertos,Classified,FN,144.79,Covert,10,1447.8999999999999,960.5,-48.74,-487.40000000000003,-33.66%,❌亏损,C5
+Chroma Case,M4A4 | 龍王 (Dragon King),Classified,FN,644.5,Covert,10,6445.0,960.5,-548.45,-5484.5,-85.10%,❌亏损,YOUPIN
+Chroma Case,AK-47 | Cartel,Classified,FN,679.9,Covert,10,6799.0,960.5,-583.85,-5838.5,-85.87%,❌亏损,YOUPIN
+Chroma Case,AWP | Man-o'-war,Covert,MW,791.0,Gold,5,3955.0,3055.0,-180.0,-900.0,-22.76%,❌亏损,C5
+Chroma Case,Galil AR | Chatterbox,Covert,FT,1130.0,Gold,5,5650.0,3055.0,-519.0,-2595.0,-45.93%,❌亏损,YOUPIN
+Clutch Case,SG 553 | Aloha,Mil-Spec,FN,2.66,Restricted,10,26.6,18.166,-0.8434000000000001,-8.434000000000001,-31.71%,❌亏损,C5
+Clutch Case,XM1014 | Oxide Blaze,Mil-Spec,FN,2.74,Restricted,10,27.400000000000002,18.166,-0.9234000000000002,-9.234000000000002,-33.70%,❌亏损,C5
+Clutch Case,Five-SeveN | Flame Test,Mil-Spec,FN,2.85,Restricted,10,28.5,18.166,-1.0334,-10.334000000000001,-36.26%,❌亏损,BUFF
+Clutch Case,PP-Bizon | Night Riot,Mil-Spec,FN,2.87,Restricted,10,28.700000000000003,18.166,-1.0534,-10.533999999999999,-36.70%,❌亏损,BUFF
+Clutch Case,P2000 | Urban Hazard,Mil-Spec,FN,4.47,Restricted,10,44.699999999999996,18.166,-2.6533999999999995,-26.533999999999995,-59.36%,❌亏损,BUFF
+Clutch Case,MP9 | Black Sand,Mil-Spec,FN,4.78,Restricted,10,47.800000000000004,18.166,-2.9634,-29.634,-62.00%,❌亏损,C5
+Clutch Case,R8 Revolver | Grip,Mil-Spec,FN,5.09,Restricted,10,50.9,18.166,-3.2734,-32.734,-64.31%,❌亏损,BUFF
+Clutch Case,Negev | Lionfish,Restricted,FN,12.19,Classified,10,121.89999999999999,132.63,1.0730000000000004,10.730000000000004,8.80%,✅盈利,BUFF
+Clutch Case,Nova | Wild Six,Restricted,FN,16.34,Classified,10,163.4,132.63,-3.077,-30.77,-18.83%,❌亏损,BUFF
+Clutch Case,UMP-45 | Arctic Wolf,Restricted,FN,16.59,Classified,10,165.9,132.63,-3.327,-33.269999999999996,-20.05%,❌亏损,BUFF
+Clutch Case,Glock-18 | Moonrise,Restricted,FN,21.72,Classified,10,217.2,132.63,-8.456999999999999,-84.57,-38.94%,❌亏损,C5
+Clutch Case,MAG-7 | SWAG-7,Restricted,FN,23.99,Classified,10,239.89999999999998,132.63,-10.727,-107.27000000000001,-44.71%,❌亏损,BUFF
+Clutch Case,AWP | Mortis,Classified,FN,109.89,Covert,10,1098.9,1210.95,11.204999999999998,112.04999999999998,10.20%,✅盈利,BUFF
+Clutch Case,AUG | Stymphalian,Classified,FN,115.0,Covert,10,1150.0,1210.95,6.094999999999999,60.94999999999999,5.30%,✅盈利,BUFF
+Clutch Case,USP-S | Cortex,Classified,FN,173.0,Covert,10,1730.0,1210.95,-51.905,-519.05,-30.00%,❌亏损,BUFF
+Clutch Case,MP7 | Bloodsport,Covert,FN,609.9,Gold,5,3049.5,11457.950434782608,1681.6900869565216,8408.450434782608,275.73%,✅盈利,C5
+Clutch Case,M4A4 | Neo-Noir,Covert,FN,1812.0,Gold,5,9060.0,11457.950434782608,479.5900869565217,2397.9504347826087,26.47%,✅盈利,C5
+Danger Zone Case,MP9 | Modest Threat,Mil-Spec,FN,2.77,Restricted,10,27.7,16.64,-1.106,-11.06,-39.93%,❌亏损,BUFF
+Danger Zone Case,Nova | Wood Fired,Mil-Spec,FN,3.86,Restricted,10,38.6,16.64,-2.196,-21.96,-56.89%,❌亏损,YOUPIN
+Danger Zone Case,Sawed-Off | Black Sand,Mil-Spec,FN,3.99,Restricted,10,39.900000000000006,16.64,-2.326,-23.26,-58.30%,❌亏损,BUFF
+Danger Zone Case,Glock-18 | Oxide Blaze,Mil-Spec,FN,5.99,Restricted,10,59.900000000000006,16.64,-4.3260000000000005,-43.260000000000005,-72.22%,❌亏损,BUFF
+Danger Zone Case,SG 553 | Danger Close,Mil-Spec,FN,6.76,Restricted,10,67.6,16.64,-5.096,-50.96,-75.38%,❌亏损,STEAM
+Danger Zone Case,Tec-9 | Fubar,Mil-Spec,MW,13.5,Restricted,10,135.0,16.64,-11.836,-118.36,-87.67%,❌亏损,BUFF
+Danger Zone Case,M4A4 | Magnesium,Mil-Spec,FN,29.39,Restricted,10,293.9,16.64,-27.726,-277.26,-94.34%,❌亏损,BUFF
+Danger Zone Case,USP-S | Flashback,Restricted,FN,13.5,Classified,10,135.0,100.77333333333333,-3.422666666666668,-34.22666666666668,-25.35%,❌亏损,YOUPIN
+Danger Zone Case,G3SG1 | Scavenger,Restricted,FN,13.7,Classified,10,137.0,100.77333333333333,-3.6226666666666674,-36.226666666666674,-26.44%,❌亏损,BUFF
+Danger Zone Case,Galil AR | Signal,Restricted,FN,14.6,Classified,10,146.0,100.77333333333333,-4.522666666666668,-45.226666666666674,-30.98%,❌亏损,BUFF
+Danger Zone Case,P250 | Nevermore,Restricted,FN,15.8,Classified,10,158.0,100.77333333333333,-5.722666666666669,-57.22666666666669,-36.22%,❌亏损,BUFF
+Danger Zone Case,MAC-10 | Pipe Down,Restricted,FN,25.6,Classified,10,256.0,100.77333333333333,-15.52266666666667,-155.2266666666667,-60.64%,❌亏损,YOUPIN
+Danger Zone Case,UMP-45 | Momentum,Classified,FN,91.0,Covert,10,910.0,1760.75,85.07499999999999,850.7499999999999,93.49%,✅盈利,C5
+Danger Zone Case,MP5-SD | Phosphor,Classified,FN,92.0,Covert,10,920.0,1760.75,84.07499999999999,840.7499999999999,91.39%,✅盈利,YOUPIN
+Danger Zone Case,Desert Eagle | Mecha Industries,Classified,FN,119.32,Covert,10,1193.1999999999998,1760.75,56.755,567.5500000000001,47.57%,✅盈利,BUFF
+Danger Zone Case,AWP | Neo-Noir,Covert,FN,404.5,Gold,5,2022.5,2776.1866666666665,150.73733333333325,753.6866666666663,37.27%,✅盈利,YOUPIN
+Danger Zone Case,AK-47 | Asiimov,Covert,FN,3117.0,Gold,5,15585.0,2776.1866666666665,-2561.7626666666665,-12808.813333333332,-82.19%,❌亏损,BUFF
+Dreams & Nightmares Case,SCAR-20 | Poultrygeist,Mil-Spec,FN,2.41,Restricted,10,24.1,15.174,-0.8926000000000001,-8.926,-37.04%,❌亏损,C5
+Dreams & Nightmares Case,MAG-7 | Foresight,Mil-Spec,FN,2.44,Restricted,10,24.4,15.174,-0.9226,-9.225999999999999,-37.81%,❌亏损,C5
+Dreams & Nightmares Case,P2000 | Lifted Spirits,Mil-Spec,FN,4.44,Restricted,10,44.400000000000006,15.174,-2.9226,-29.226,-65.82%,❌亏损,C5
+Dreams & Nightmares Case,MAC-10 | Ensnared,Mil-Spec,FN,4.5,Restricted,10,45.0,15.174,-2.9826,-29.826,-66.28%,❌亏损,YOUPIN
+Dreams & Nightmares Case,Sawed-Off | Spirit Board,Mil-Spec,FN,4.74,Restricted,10,47.400000000000006,15.174,-3.2226,-32.226,-67.99%,❌亏损,C5
+Dreams & Nightmares Case,MP5-SD | Necro Jr.,Mil-Spec,FN,4.83,Restricted,10,48.3,15.174,-3.3126,-33.126000000000005,-68.58%,❌亏损,BUFF
+Dreams & Nightmares Case,Five-SeveN | Scrawl,Mil-Spec,FN,4.98,Restricted,10,49.800000000000004,15.174,-3.4626,-34.626000000000005,-69.53%,❌亏损,BUFF
+Dreams & Nightmares Case,XM1014 | Zombie Offensive,Restricted,FN,10.0,Classified,10,100.0,122.29666666666668,2.2296666666666667,22.296666666666667,22.30%,✅盈利,YOUPIN
+Dreams & Nightmares Case,PP-Bizon | Space Cat,Restricted,FN,11.89,Classified,10,118.9,122.29666666666668,0.3396666666666661,3.396666666666661,2.86%,✅盈利,YOUPIN
+Dreams & Nightmares Case,USP-S | Ticket to Hell,Restricted,FN,14.5,Classified,10,145.0,122.29666666666668,-2.2703333333333333,-22.703333333333333,-15.66%,❌亏损,BUFF
+Dreams & Nightmares Case,M4A1-S | Night Terror,Restricted,FN,15.2,Classified,10,152.0,122.29666666666668,-2.9703333333333326,-29.703333333333326,-19.54%,❌亏损,BUFF
+Dreams & Nightmares Case,G3SG1 | Dream Glade,Restricted,FN,24.28,Classified,10,242.8,122.29666666666668,-12.050333333333334,-120.50333333333334,-49.63%,❌亏损,BUFF
+Dreams & Nightmares Case,MP7 | Abyssal Apparition,Classified,FN,119.39,Covert,10,1193.9,1029.25,-16.465000000000003,-164.65000000000003,-13.79%,❌亏损,BUFF
+Dreams & Nightmares Case,Dual Berettas | Melondrama,Classified,FN,120.0,Covert,10,1200.0,1029.25,-17.075000000000003,-170.75000000000003,-14.23%,❌亏损,YOUPIN
+Dreams & Nightmares Case,FAMAS | Rapid Eye Movement,Classified,FN,127.5,Covert,10,1275.0,1029.25,-24.575000000000003,-245.75000000000003,-19.27%,❌亏损,BUFF
+Dreams & Nightmares Case,MP9 | Starlight Protector,Covert,FN,718.5,Gold,5,3592.5,4090.1111111111113,99.52222222222224,497.6111111111112,13.85%,✅盈利,BUFF
+Dreams & Nightmares Case,AK-47 | Nightwish,Covert,FN,1340.0,Gold,5,6700.0,4090.1111111111113,-521.9777777777778,-2609.8888888888887,-38.95%,❌亏损,YOUPIN
+ESports 2013 Case,FAMAS | Doomkitty,Mil-Spec,MW,32.0,Restricted,10,320.0,555.1966666666667,23.519666666666676,235.19666666666677,73.50%,✅盈利,YOUPIN
+ESports 2013 Case,MAG-7 | Memento,Mil-Spec,FN,45.8,Restricted,10,458.0,555.1966666666667,9.719666666666676,97.19666666666676,21.22%,✅盈利,YOUPIN
+ESports 2013 Case,M4A4 | Faded Zebra,Mil-Spec,FN,308.0,Restricted,10,3080.0,555.1966666666667,-252.48033333333333,-2524.8033333333333,-81.97%,❌亏损,YOUPIN
+ESports 2013 Case,P250 | Splash,Restricted,FN,436.1,Classified,10,4361.0,3854.0,-50.700000000000045,-507.00000000000045,-11.63%,❌亏损,C5
+ESports 2013 Case,Galil AR | Orange DDPAT,Restricted,FN,579.99,Classified,10,5799.9,3854.0,-194.59000000000003,-1945.9000000000003,-33.55%,❌亏损,BUFF
+ESports 2013 Case,Sawed-Off | Orange DDPAT,Restricted,FN,649.5,Classified,10,6495.0,3854.0,-264.1,-2641.0,-40.66%,❌亏损,YOUPIN
+ESports 2013 Case,AK-47 | Red Laminate,Classified,FN,3150.0,Covert,10,31500.0,700.0,-3080.0,-30800.0,-97.78%,❌亏损,YOUPIN
+ESports 2013 Case,AWP | BOOM,Classified,FN,4558.0,Covert,10,45580.0,700.0,-4488.0,-44880.0,-98.46%,❌亏损,BUFF
+ESports 2013 Case,P90 | Death by Kitty,Covert,MW,700.0,Gold,5,3500.0,14255.68,2151.136,10755.68,307.31%,✅盈利,BUFF
+ESports 2013 Winter Case,Nova | Ghost Camo,Mil-Spec,FN,18.0,Restricted,10,180.0,137.24,-4.276,-42.76,-23.76%,❌亏损,BUFF
+ESports 2013 Winter Case,PP-Bizon | Water Sigil,Mil-Spec,FN,19.57,Restricted,10,195.7,137.24,-5.846,-58.46,-29.87%,❌亏损,C5
+ESports 2013 Winter Case,P250 | Steel Disruption,Mil-Spec,FN,21.9,Restricted,10,219.0,137.24,-8.175999999999998,-81.75999999999999,-37.33%,❌亏损,BUFF
+ESports 2013 Winter Case,Five-SeveN | Nightshade,Mil-Spec,FN,23.14,Restricted,10,231.4,137.24,-9.416,-94.16,-40.69%,❌亏损,C5
+ESports 2013 Winter Case,G3SG1 | Azure Zebra,Mil-Spec,FN,23.8,Restricted,10,238.0,137.24,-10.076,-100.76,-42.34%,❌亏损,BUFF
+ESports 2013 Winter Case,Galil AR | Blue Titanium,Mil-Spec,FN,32.0,Restricted,10,320.0,137.24,-18.276,-182.76,-57.11%,❌亏损,YOUPIN
+ESports 2013 Winter Case,P90 | Blind Spot,Restricted,FN,86.84,Classified,10,868.4000000000001,585.4966666666667,-28.290333333333336,-282.90333333333336,-32.58%,❌亏损,BUFF
+ESports 2013 Winter Case,AK-47 | Blue Laminate,Restricted,FN,187.64,Classified,10,1876.3999999999999,585.4966666666667,-129.09033333333332,-1290.9033333333332,-68.80%,❌亏损,C5
+ESports 2013 Winter Case,FAMAS | Afterimage,Classified,FN,324.99,Covert,10,3249.9,1904.5,-134.54000000000002,-1345.4,-41.40%,❌亏损,YOUPIN
+ESports 2013 Winter Case,Desert Eagle | Cobalt Disruption,Classified,FN,701.5,Covert,10,7015.0,1904.5,-511.05,-5110.5,-72.85%,❌亏损,YOUPIN
+ESports 2013 Winter Case,AWP | Electric Hive,Classified,FN,730.0,Covert,10,7300.0,1904.5,-539.55,-5395.5,-73.91%,❌亏损,C5
+ESports 2013 Winter Case,M4A4 | X-Ray,Covert,FN,1904.5,Gold,5,9522.5,,,,nan%,❌亏损,C5
+ESports 2014 Summer Case,XM1014 | Red Python,Mil-Spec,MW,19.4,Restricted,10,194.0,325.272,13.127200000000002,131.27200000000002,67.67%,✅盈利,BUFF
+ESports 2014 Summer Case,SSG 08 | Dark Water,Mil-Spec,MW,20.98,Restricted,10,209.8,325.272,11.5472,115.47200000000001,55.04%,✅盈利,BUFF
+ESports 2014 Summer Case,CZ75-Auto | Hexane,Mil-Spec,FN,40.0,Restricted,10,400.0,325.272,-7.472799999999999,-74.728,-18.68%,❌亏损,YOUPIN
+ESports 2014 Summer Case,USP-S | Blood Tiger,Mil-Spec,FN,51.56,Restricted,10,515.6,325.272,-19.0328,-190.32800000000003,-36.91%,❌亏损,C5
+ESports 2014 Summer Case,Negev | Bratatat,Mil-Spec,FN,54.6,Restricted,10,546.0,325.272,-22.0728,-220.728,-40.43%,❌亏损,BUFF
+ESports 2014 Summer Case,MAC-10 | Ultraviolet,Mil-Spec,FN,293.0,Restricted,10,2930.0,325.272,-260.4728,-2604.728,-88.90%,❌亏损,YOUPIN
+ESports 2014 Summer Case,MP7 | Ocean Foam,Restricted,FN,57.0,Classified,10,570.0,917.1375,34.713750000000005,347.13750000000005,60.90%,✅盈利,YOUPIN
+ESports 2014 Summer Case,P90 | Virus,Restricted,FN,95.0,Classified,10,950.0,917.1375,-3.2862499999999955,-32.862499999999955,-3.46%,❌亏损,YOUPIN
+ESports 2014 Summer Case,Glock-18 | Steel Disruption,Restricted,FN,96.36,Classified,10,963.6,917.1375,-4.646249999999995,-46.46249999999995,-4.82%,❌亏损,C5
+ESports 2014 Summer Case,PP-Bizon | Blue Streak,Restricted,FN,110.0,Classified,10,1100.0,917.1375,-18.286249999999995,-182.86249999999995,-16.62%,❌亏损,BUFF
+ESports 2014 Summer Case,Desert Eagle | Crimson Web,Restricted,FN,1268.0,Classified,10,12680.0,917.1375,-1176.28625,-11762.862500000001,-92.77%,❌亏损,BUFF
+ESports 2014 Summer Case,P2000 | Corticera,Classified,FN,555.55,Covert,10,5555.5,3808.0,-174.74999999999994,-1747.4999999999995,-31.46%,❌亏损,YOUPIN
+ESports 2014 Summer Case,AUG | Bengal Tiger,Classified,FN,565.0,Covert,10,5650.0,3808.0,-184.2,-1842.0,-32.60%,❌亏损,YOUPIN
+ESports 2014 Summer Case,Nova | Bloomstick,Classified,FN,598.0,Covert,10,5980.0,3808.0,-217.2,-2172.0,-36.32%,❌亏损,C5
+ESports 2014 Summer Case,AWP | Corticera,Classified,FN,1950.0,Covert,10,19500.0,3808.0,-1569.2,-15692.0,-80.47%,❌亏损,C5
+ESports 2014 Summer Case,AK-47 | Jaguar,Covert,FN,4166.0,Gold,5,20830.0,,,,nan%,❌亏损,YOUPIN
+ESports 2014 Summer Case,M4A4 | Bullet Rain,Covert,FN,3450.0,Gold,5,17250.0,,,,nan%,❌亏损,C5
+Falchion Case,UMP-45 | Riot,Mil-Spec,FN,5.4,Restricted,10,54.0,44.154,-0.9846000000000004,-9.846000000000004,-18.23%,❌亏损,YOUPIN
+Falchion Case,Nova | Ranger,Mil-Spec,FN,8.22,Restricted,10,82.2,44.154,-3.8046000000000006,-38.04600000000001,-46.28%,❌亏损,YOUPIN
+Falchion Case,P90 | Elite Build,Mil-Spec,FN,9.53,Restricted,10,95.3,44.154,-5.114599999999999,-51.145999999999994,-53.67%,❌亏损,C5
+Falchion Case,USP-S | Torque,Mil-Spec,FN,12.61,Restricted,10,126.1,44.154,-8.1946,-81.946,-64.98%,❌亏损,YOUPIN
+Falchion Case,Glock-18 | Bunsen Burner,Mil-Spec,FN,17.5,Restricted,10,175.0,44.154,-13.0846,-130.846,-74.77%,❌亏损,BUFF
+Falchion Case,Galil AR | Rocket Pop,Mil-Spec,FN,59.5,Restricted,10,595.0,44.154,-55.0846,-550.846,-92.58%,❌亏损,BUFF
+Falchion Case,MP9 | Ruby Poison Dart,Restricted,FN,21.99,Classified,10,219.89999999999998,157.48666666666668,-6.24133333333333,-62.4133333333333,-28.38%,❌亏损,BUFF
+Falchion Case,FAMAS | Neural Net,Restricted,FN,23.03,Classified,10,230.3,157.48666666666668,-7.281333333333331,-72.8133333333333,-31.62%,❌亏损,YOUPIN
+Falchion Case,P2000 | Handgun,Restricted,FN,49.0,Classified,10,490.0,157.48666666666668,-33.251333333333335,-332.5133333333333,-67.86%,❌亏损,BUFF
+Falchion Case,Negev | Loudmouth,Restricted,MW,59.0,Classified,10,590.0,157.48666666666668,-43.251333333333335,-432.5133333333333,-73.31%,❌亏损,YOUPIN
+Falchion Case,M4A4 | Evil Daimyo,Restricted,FN,67.75,Classified,10,677.5,157.48666666666668,-52.001333333333335,-520.0133333333333,-76.75%,❌亏损,BUFF
+Falchion Case,MP7 | Nemesis,Classified,FN,129.46,Covert,10,1294.6000000000001,1499.995,20.539499999999972,205.39499999999973,15.87%,✅盈利,BUFF
+Falchion Case,SG 553 | Cyrex,Classified,FN,162.5,Covert,10,1625.0,1499.995,-12.500500000000017,-125.00500000000017,-7.69%,❌亏损,BUFF
+Falchion Case,CZ75-Auto | Yellow Jacket,Classified,FN,180.5,Covert,10,1805.0,1499.995,-30.500500000000017,-305.00500000000017,-16.90%,❌亏损,C5
+Falchion Case,AWP | Hyper Beast,Covert,FN,1260.0,Gold,5,6300.0,3370.1541666666667,-585.9691666666666,-2929.8458333333333,-46.51%,❌亏损,YOUPIN
+Falchion Case,AK-47 | Aquamarine Revenge,Covert,FN,1739.99,Gold,5,8699.95,3370.1541666666667,-1065.9591666666663,-5329.795833333332,-61.26%,❌亏损,YOUPIN
+Fracture Case,MP5-SD | Kitbash,Restricted,FN,14.9,Classified,10,149.0,96.94333333333331,-5.205666666666668,-52.056666666666686,-34.94%,❌亏损,BUFF
+Fracture Case,MAC-10 | Allure,Restricted,FN,23.48,Classified,10,234.8,96.94333333333331,-13.785666666666668,-137.85666666666668,-58.71%,❌亏损,BUFF
+Fracture Case,MAG-7 | Monster Call,Restricted,FN,23.86,Classified,10,238.6,96.94333333333331,-14.165666666666668,-141.6566666666667,-59.37%,❌亏损,YOUPIN
+Fracture Case,XM1014 | Entombed,Classified,FN,60.0,Covert,10,600.0,494.895,-10.5105,-105.105,-17.52%,❌亏损,YOUPIN
+Fracture Case,Glock-18 | Vogue,Classified,FN,93.39,Covert,10,933.9,494.895,-43.9005,-439.005,-47.01%,❌亏损,BUFF
+Fracture Case,M4A4 | Tooth Fairy,Classified,FN,137.44,Covert,10,1374.4,494.895,-87.9505,-879.5050000000001,-63.99%,❌亏损,BUFF
+Fracture Case,AK-47 | Legion of Anubis,Covert,FN,382.0,Gold,5,1910.0,2463.523783783784,110.7047567567568,553.523783783784,28.98%,✅盈利,YOUPIN
+Fracture Case,Desert Eagle | Printstream,Covert,FN,607.79,Gold,5,3038.95,2463.523783783784,-115.08524324324316,-575.4262162162158,-18.94%,❌亏损,C5
+Gamma 2 Case,XM1014 | Slipstream,Mil-Spec,FN,3.76,Restricted,10,37.599999999999994,69.304,3.1704000000000008,31.704000000000008,84.32%,✅盈利,YOUPIN
+Gamma 2 Case,G3SG1 | Ventilator,Mil-Spec,FN,3.78,Restricted,10,37.8,69.304,3.1504000000000008,31.50400000000001,83.34%,✅盈利,YOUPIN
+Gamma 2 Case,P90 | Grim,Mil-Spec,FN,4.2,Restricted,10,42.0,69.304,2.7304000000000004,27.304000000000002,65.01%,✅盈利,BUFF
+Gamma 2 Case,Negev | Dazzle,Mil-Spec,MW,4.77,Restricted,10,47.699999999999996,69.304,2.160400000000001,21.60400000000001,45.29%,✅盈利,YOUPIN
+Gamma 2 Case,UMP-45 | Briefing,Mil-Spec,FN,5.44,Restricted,10,54.400000000000006,69.304,1.4904000000000002,14.904000000000002,27.40%,✅盈利,BUFF
+Gamma 2 Case,CZ75-Auto | Imprint,Mil-Spec,FN,6.5,Restricted,10,65.0,69.304,0.4304000000000005,4.304000000000005,6.62%,✅盈利,BUFF
+Gamma 2 Case,Five-SeveN | Scumbria,Mil-Spec,FN,6.88,Restricted,10,68.8,69.304,0.0504000000000006,0.504000000000006,0.73%,✅盈利,YOUPIN
+Gamma 2 Case,MAG-7 | Petroglyph,Restricted,FN,21.89,Classified,10,218.9,269.1666666666667,5.026666666666667,50.26666666666667,22.96%,✅盈利,BUFF
+Gamma 2 Case,SG 553 | Triarch,Restricted,FN,31.79,Classified,10,317.9,269.1666666666667,-4.873333333333331,-48.73333333333331,-15.33%,❌亏损,BUFF
+Gamma 2 Case,SCAR-20 | Powercore,Restricted,FN,33.0,Classified,10,330.0,269.1666666666667,-6.083333333333332,-60.83333333333332,-18.43%,❌亏损,C5
+Gamma 2 Case,Glock-18 | Weasel,Restricted,FN,66.84,Classified,10,668.4000000000001,269.1666666666667,-39.92333333333333,-399.23333333333335,-59.73%,❌亏损,C5
+Gamma 2 Case,Desert Eagle | Directive,Restricted,FN,193.0,Classified,10,1930.0,269.1666666666667,-166.08333333333334,-1660.8333333333335,-86.05%,❌亏损,BUFF
+Gamma 2 Case,MP9 | Airlock,Classified,FN,233.49,Covert,10,2334.9,1876.7,-45.81999999999999,-458.19999999999993,-19.62%,❌亏损,BUFF
+Gamma 2 Case,AUG | Syd Mead,Classified,FN,252.0,Covert,10,2520.0,1876.7,-64.32999999999998,-643.2999999999998,-25.53%,❌亏损,BUFF
+Gamma 2 Case,Tec-9 | Fuel Injector,Classified,FN,322.01,Covert,10,3220.1,1876.7,-134.33999999999995,-1343.3999999999994,-41.72%,❌亏损,C5
+Gamma 2 Case,FAMAS | Roll Cage,Covert,FN,1233.5,Gold,5,6167.5,5697.6245,-93.97510000000013,-469.8755000000006,-7.62%,❌亏损,BUFF
+Gamma 2 Case,AK-47 | Neon Revolution,Covert,FN,2519.9,Gold,5,12599.5,5697.6245,-1380.3751000000002,-6901.875500000001,-54.78%,❌亏损,C5
+Gamma Case,SG 553 | Aerial,Mil-Spec,FN,3.72,Restricted,10,37.2,32.778,-0.4422000000000001,-4.422000000000001,-11.89%,❌亏损,BUFF
+Gamma Case,Nova | Exo,Mil-Spec,FN,4.25,Restricted,10,42.5,32.778,-0.9722,-9.722,-22.88%,❌亏损,BUFF
+Gamma Case,Tec-9 | Ice Cap,Mil-Spec,FN,5.6,Restricted,10,56.0,32.778,-2.3222,-23.222,-41.47%,❌亏损,BUFF
+Gamma Case,MAC-10 | Carnivore,Mil-Spec,FN,7.91,Restricted,10,79.1,32.778,-4.6322,-46.322,-58.56%,❌亏损,YOUPIN
+Gamma Case,Five-SeveN | Violent Daimyo,Mil-Spec,FN,8.82,Restricted,10,88.2,32.778,-5.5422,-55.422000000000004,-62.84%,❌亏损,C5
+Gamma Case,PP-Bizon | Harvester,Mil-Spec,FN,17.98,Restricted,10,179.8,32.778,-14.7022,-147.022,-81.77%,❌亏损,BUFF
+Gamma Case,P250 | Iron Clad,Mil-Spec,FN,25.99,Restricted,10,259.9,32.778,-22.7122,-227.12199999999999,-87.39%,❌亏损,BUFF
+Gamma Case,P90 | Chopper,Restricted,FN,25.23,Classified,10,252.3,372.32666666666665,12.002666666666666,120.02666666666667,47.57%,✅盈利,BUFF
+Gamma Case,AUG | Aristocrat,Restricted,FN,28.96,Classified,10,289.6,372.32666666666665,8.272666666666666,82.72666666666666,28.57%,✅盈利,BUFF
+Gamma Case,AWP | Phobos,Restricted,FN,29.9,Classified,10,299.0,372.32666666666665,7.332666666666668,73.32666666666668,24.52%,✅盈利,BUFF
+Gamma Case,Sawed-Off | Limelight,Restricted,FN,39.8,Classified,10,398.0,372.32666666666665,-2.5673333333333304,-25.673333333333304,-6.45%,❌亏损,BUFF
+Gamma Case,R8 Revolver | Reboot,Restricted,FN,40.0,Classified,10,400.0,372.32666666666665,-2.767333333333333,-27.673333333333332,-6.92%,❌亏损,BUFF
+Gamma Case,SCAR-20 | Bloodsport,Classified,FN,169.0,Covert,10,1690.0,1869.0,17.900000000000006,179.00000000000006,10.59%,✅盈利,BUFF
+Gamma Case,P2000 | Imperial Dragon,Classified,FN,198.49,Covert,10,1984.9,1869.0,-11.590000000000003,-115.90000000000003,-5.84%,❌亏损,BUFF
+Gamma Case,M4A4 | Desolate Space,Classified,FN,749.49,Covert,10,7494.9,1869.0,-562.59,-5625.900000000001,-75.06%,❌亏损,C5
+Gamma Case,Glock-18 | Wasteland Rebel,Covert,FN,1250.0,Gold,5,6250.0,2650.9166666666665,-719.8166666666667,-3599.0833333333335,-57.59%,❌亏损,BUFF
+Gamma Case,M4A1-S | Mecha Industries,Covert,FN,2488.0,Gold,5,12440.0,2650.9166666666665,-1957.8166666666664,-9789.083333333332,-78.69%,❌亏损,BUFF
+Glove Case,MAG-7 | Sonar,Mil-Spec,FN,9.79,Restricted,10,97.89999999999999,86.34,-1.1559999999999988,-11.559999999999988,-11.81%,❌亏损,BUFF
+Glove Case,MP9 | Sand Scale,Mil-Spec,FN,9.81,Restricted,10,98.10000000000001,86.34,-1.1760000000000002,-11.760000000000002,-11.99%,❌亏损,YOUPIN
+Glove Case,CZ75-Auto | Polymer,Mil-Spec,FN,9.89,Restricted,10,98.9,86.34,-1.2560000000000002,-12.560000000000002,-12.70%,❌亏损,BUFF
+Glove Case,MP7 | Cirrus,Mil-Spec,FN,11.07,Restricted,10,110.7,86.34,-2.436,-24.36,-22.01%,❌亏损,YOUPIN
+Glove Case,Galil AR | Black Sand,Mil-Spec,FN,15.28,Restricted,10,152.79999999999998,86.34,-6.645999999999999,-66.46,-43.49%,❌亏损,YOUPIN
+Glove Case,P2000 | Turf,Mil-Spec,FN,16.07,Restricted,10,160.7,86.34,-7.436,-74.36,-46.27%,❌亏损,YOUPIN
+Glove Case,Glock-18 | Ironwork,Mil-Spec,FN,28.86,Restricted,10,288.6,86.34,-20.226,-202.26,-70.08%,❌亏损,BUFF
+Glove Case,Nova | Gila,Restricted,FN,62.9,Classified,10,629.0,597.4666666666667,-3.153333333333329,-31.53333333333329,-5.01%,❌亏损,YOUPIN
+Glove Case,G3SG1 | Stinger,Restricted,FN,65.9,Classified,10,659.0,597.4666666666667,-6.153333333333336,-61.53333333333336,-9.34%,❌亏损,BUFF
+Glove Case,Dual Berettas | Royal Consorts,Restricted,FN,69.9,Classified,10,699.0,597.4666666666667,-10.153333333333336,-101.53333333333336,-14.53%,❌亏损,BUFF
+Glove Case,USP-S | Cyrex,Restricted,FN,70.0,Classified,10,700.0,597.4666666666667,-10.25333333333333,-102.5333333333333,-14.65%,❌亏损,BUFF
+Glove Case,M4A1-S | Flashback,Restricted,FN,163.0,Classified,10,1630.0,597.4666666666667,-103.25333333333332,-1032.533333333333,-63.35%,❌亏损,BUFF
+Glove Case,Sawed-Off | Wasteland Princess,Classified,FN,590.0,Covert,10,5900.0,5487.685,-41.231500000000096,-412.31500000000096,-6.99%,❌亏损,BUFF
+Glove Case,FAMAS | Mecha Industries,Classified,FN,593.4,Covert,10,5934.0,5487.685,-44.63150000000008,-446.3150000000008,-7.52%,❌亏损,BUFF
+Glove Case,P90 | Shallow Grave,Classified,FN,609.0,Covert,10,6090.0,5487.685,-60.231500000000096,-602.315000000001,-9.89%,❌亏损,BUFF
+Glove Case,SSG 08 | Dragonfire,Covert,FN,3987.37,Gold,5,19936.85,26609.83333333333,1334.5966666666664,6672.983333333332,33.47%,✅盈利,HALOSKINS
+Glove Case,M4A4 | Buzz Kill,Covert,FN,6988.0,Gold,5,34940.0,26609.83333333333,-1666.0333333333338,-8330.166666666668,-23.84%,❌亏损,C5
+Horizon Case,G3SG1 | High Seas,Restricted,FN,28.99,Classified,10,289.9,288.12333333333333,-0.1776666666666635,-1.776666666666635,-0.61%,❌亏损,YOUPIN
+Horizon Case,MP7 | Powercore,Restricted,FN,32.48,Classified,10,324.79999999999995,288.12333333333333,-3.667666666666662,-36.67666666666662,-11.29%,❌亏损,BUFF
+Horizon Case,Nova | Toy Soldier,Restricted,FN,35.0,Classified,10,350.0,288.12333333333333,-6.187666666666665,-61.87666666666665,-17.68%,❌亏损,BUFF
+Horizon Case,AWP | PAW,Restricted,FN,37.5,Classified,10,375.0,288.12333333333333,-8.687666666666665,-86.87666666666665,-23.17%,❌亏损,BUFF
+Horizon Case,Sawed-Off | Devourer,Classified,FN,162.9,Covert,10,1629.0,1700.25,7.125,71.25,4.37%,✅盈利,YOUPIN
+Horizon Case,FAMAS | Eye of Athena,Classified,FN,171.47,Covert,10,1714.7,1700.25,-1.4449999999999932,-14.449999999999932,-0.84%,❌亏损,C5
+Horizon Case,M4A1-S | Nightmare,Classified,FN,530.0,Covert,10,5300.0,1700.25,-359.975,-3599.75,-67.92%,❌亏损,C5
+Horizon Case,Desert Eagle | Code Red,Covert,FN,1495.0,Gold,5,7475.0,2752.5946153846157,-944.4810769230768,-4722.405384615384,-63.18%,❌亏损,C5
+Horizon Case,AK-47 | Neon Rider,Covert,FN,1905.5,Gold,5,9527.5,2752.5946153846157,-1354.981076923077,-6774.905384615385,-71.11%,❌亏损,YOUPIN
+Huntsman Weapon Case,P90 | Desert Warfare,Mil-Spec,FN,39.6,Restricted,10,396.0,,,,nan%,❌亏损,BUFF
+Huntsman Weapon Case,Tec-9 | Isaac,Mil-Spec,FN,101.99,Restricted,10,1019.9,,,,nan%,❌亏损,BUFF
+Huntsman Weapon Case,AK-47 | Vulcan,Covert,FN,5884.0,Gold,5,29420.0,3314.818333333333,-5221.0363333333335,-26105.181666666667,-88.73%,❌亏损,YOUPIN
+Operation Bravo Case,Dual Berettas | Black Limba,Mil-Spec,FN,95.0,Restricted,10,950.0,,,,nan%,❌亏损,BUFF
+Operation Bravo Case,G3SG1 | Demeter,Mil-Spec,FN,119.99,Restricted,10,1199.8999999999999,,,,nan%,❌亏损,BUFF
+Operation Bravo Case,Galil AR | Shattered,Mil-Spec,FN,200.0,Restricted,10,2000.0,,,,nan%,❌亏损,YOUPIN
+Operation Bravo Case,Nova | Tempest,Mil-Spec,FN,92.99,Restricted,10,929.9,,,,nan%,❌亏损,BUFF
+Operation Bravo Case,SG 553 | Wave Spray,Mil-Spec,FN,130.0,Restricted,10,1300.0,,,,nan%,❌亏损,BUFF
+Operation Bravo Case,UMP-45 | Bone Pile,Mil-Spec,FN,111.0,Restricted,10,1110.0,,,,nan%,❌亏损,C5
+Operation Breakout Weapon Case,MP7 | Urban Hazard,Mil-Spec,FN,5.41,Restricted,10,54.1,,,,nan%,❌亏损,BUFF
+Operation Breakout Weapon Case,Negev | Desert-Strike,Mil-Spec,FN,4.48,Restricted,10,44.800000000000004,,,,nan%,❌亏损,BUFF
+Operation Breakout Weapon Case,P2000 | Ivory,Mil-Spec,FN,9.96,Restricted,10,99.60000000000001,,,,nan%,❌亏损,BUFF
+Operation Breakout Weapon Case,SSG 08 | Abyss,Mil-Spec,FN,25.56,Restricted,10,255.6,,,,nan%,❌亏损,YOUPIN
+Operation Broken Fang Case,P90 | Cocoa Rampage,Mil-Spec,FN,10.99,Restricted,10,109.9,130.804,2.0904000000000007,20.904000000000007,19.02%,✅盈利,BUFF
+Operation Broken Fang Case,P250 | Contaminant,Mil-Spec,FN,12.5,Restricted,10,125.0,130.804,0.5804000000000009,5.804000000000009,4.64%,✅盈利,BUFF
+Operation Broken Fang Case,G3SG1 | Digital Mesh,Mil-Spec,FN,14.27,Restricted,10,142.7,130.804,-1.1895999999999989,-11.895999999999988,-8.34%,❌亏损,BUFF
+Operation Broken Fang Case,CZ75-Auto | Vendetta,Mil-Spec,FN,15.0,Restricted,10,150.0,130.804,-1.919599999999999,-19.19599999999999,-12.80%,❌亏损,BUFF
+Operation Broken Fang Case,M249 | Deep Relief,Mil-Spec,FN,16.15,Restricted,10,161.5,130.804,-3.0695999999999977,-30.695999999999977,-19.01%,❌亏损,BUFF
+Operation Broken Fang Case,MP5-SD | Condition Zero,Mil-Spec,FN,19.75,Restricted,10,197.5,130.804,-6.669599999999999,-66.696,-33.77%,❌亏损,YOUPIN
+Operation Broken Fang Case,Galil AR | Vandal,Mil-Spec,FN,27.13,Restricted,10,271.3,130.804,-14.049599999999998,-140.49599999999998,-51.79%,❌亏损,C5
+Operation Broken Fang Case,UMP-45 | Gold Bismuth,Restricted,FN,110.0,Classified,10,1100.0,1377.6666666666667,27.76666666666668,277.6666666666668,25.24%,✅盈利,BUFF
+Operation Broken Fang Case,SSG 08 | Parallax,Restricted,FN,111.14,Classified,10,1111.4,1377.6666666666667,26.62666666666668,266.26666666666677,23.96%,✅盈利,C5
+Operation Broken Fang Case,Nova | Clear Polymer,Restricted,FN,112.0,Classified,10,1120.0,1377.6666666666667,25.76666666666668,257.6666666666668,23.01%,✅盈利,YOUPIN
+Operation Broken Fang Case,Dual Berettas | Dezastre,Restricted,FN,115.88,Classified,10,1158.8,1377.6666666666667,21.886666666666684,218.86666666666684,18.89%,✅盈利,YOUPIN
+Operation Broken Fang Case,AWP | Exoskeleton,Restricted,FN,205.0,Classified,10,2050.0,1377.6666666666667,-67.23333333333332,-672.3333333333333,-32.80%,❌亏损,BUFF
+Operation Broken Fang Case,Five-SeveN | Fairy Tale,Classified,FN,865.0,Covert,10,8650.0,3971.475,-467.8525,-4678.525000000001,-54.09%,❌亏损,BUFF
+Operation Broken Fang Case,USP-S | Monster Mashup,Classified,FN,880.0,Covert,10,8800.0,3971.475,-482.8525,-4828.525000000001,-54.87%,❌亏损,BUFF
+Operation Broken Fang Case,M4A4 | Cyber Security,Classified,FN,2388.0,Covert,10,23880.0,3971.475,-1990.8525,-19908.525,-83.37%,❌亏损,YOUPIN
+Operation Broken Fang Case,Glock-18 | Neo-Noir,Covert,FN,2925.45,Gold,5,14627.25,9064.60347826087,-1112.529304347826,-5562.64652173913,-38.03%,❌亏损,BUFF
+Operation Broken Fang Case,M4A1-S | Printstream,Covert,FN,5017.5,Gold,5,25087.5,9064.60347826087,-3204.579304347826,-16022.89652173913,-63.87%,❌亏损,YOUPIN
+Operation Hydra Case,MAG-7 | Hard Water,Mil-Spec,FN,46.99,Restricted,10,469.90000000000003,501.0,3.1099999999999994,31.099999999999994,6.62%,✅盈利,BUFF
+Operation Hydra Case,UMP-45 | Metal Flowers,Mil-Spec,FN,47.89,Restricted,10,478.9,501.0,2.210000000000001,22.10000000000001,4.61%,✅盈利,YOUPIN
+Operation Hydra Case,MAC-10 | Aloha,Mil-Spec,FN,50.0,Restricted,10,500.0,501.0,0.1000000000000014,1.000000000000014,0.20%,✅盈利,YOUPIN
+Operation Hydra Case,FAMAS | Macabre,Mil-Spec,FN,50.15,Restricted,10,501.5,501.0,-0.0499999999999971,-0.499999999999971,-0.10%,❌亏损,YOUPIN
+Operation Hydra Case,Tec-9 | Cut Out,Mil-Spec,FN,84.48,Restricted,10,844.8000000000001,501.0,-34.38,-343.8,-40.70%,❌亏损,YOUPIN
+Operation Hydra Case,M4A1-S | Briefing,Mil-Spec,FN,207.5,Restricted,10,2075.0,501.0,-157.4,-1574.0,-75.86%,❌亏损,C5
+Operation Hydra Case,USP-S | Blueprint,Mil-Spec,FN,272.5,Restricted,10,2725.0,501.0,-222.4,-2224.0,-81.61%,❌亏损,YOUPIN
+Operation Hydra Case,AK-47 | Orbit Mk01,Restricted,FN,759.3,Classified,10,7593.0,,,,nan%,❌亏损,C5
+Operation Hydra Case,P2000 | Woodsman,Restricted,FN,359.2,Classified,10,3592.0,,,,nan%,❌亏损,YOUPIN
+Operation Hydra Case,P250 | Red Rock,Restricted,FN,384.5,Classified,10,3845.0,,,,nan%,❌亏损,YOUPIN
+Operation Phoenix Weapon Case,Negev | Terrain,Mil-Spec,FN,6.46,Restricted,10,64.6,81.85,1.7249999999999988,17.249999999999986,26.70%,✅盈利,C5
+Operation Phoenix Weapon Case,MAG-7 | Heaven Guard,Mil-Spec,FN,6.84,Restricted,10,68.4,81.85,1.3449999999999989,13.449999999999989,19.66%,✅盈利,C5
+Operation Phoenix Weapon Case,Tec-9 | Sandstorm,Mil-Spec,MW,14.8,Restricted,10,148.0,81.85,-6.615000000000002,-66.15000000000002,-44.70%,❌亏损,BUFF
+Operation Phoenix Weapon Case,UMP-45 | Corporal,Mil-Spec,FN,17.0,Restricted,10,170.0,81.85,-8.815000000000001,-88.15,-51.85%,❌亏损,C5
+Operation Phoenix Weapon Case,USP-S | Guardian,Restricted,FN,63.4,Classified,10,634.0,655.5933333333334,2.1593333333333438,21.593333333333437,3.41%,✅盈利,BUFF
+Operation Phoenix Weapon Case,SG 553 | Pulse,Restricted,MW,68.0,Classified,10,680.0,655.5933333333334,-2.440666666666658,-24.40666666666658,-3.59%,❌亏损,BUFF
+Operation Phoenix Weapon Case,MAC-10 | Heat,Restricted,FN,96.8,Classified,10,968.0,655.5933333333334,-31.24066666666665,-312.4066666666665,-32.27%,❌亏损,BUFF
+Operation Phoenix Weapon Case,FAMAS | Sergeant,Restricted,MW,99.2,Classified,10,992.0,655.5933333333334,-33.64066666666666,-336.40666666666664,-33.91%,❌亏损,YOUPIN
+Operation Phoenix Weapon Case,P90 | Trigon,Classified,MW,98.0,Covert,10,980.0,665.95,-31.405,-314.05,-32.05%,❌亏损,YOUPIN
+Operation Phoenix Weapon Case,Nova | Antique,Classified,FN,98.78,Covert,10,987.8,665.95,-32.185,-321.85,-32.58%,❌亏损,BUFF
+Operation Phoenix Weapon Case,AK-47 | Redline,Classified,MW,1770.0,Covert,10,17700.0,665.95,-1703.405,-17034.05,-96.24%,❌亏损,C5
+Operation Phoenix Weapon Case,AUG | Chameleon,Covert,FN,549.9,Gold,5,2749.5,4150.0,280.1,1400.5,50.94%,✅盈利,C5
+Operation Phoenix Weapon Case,AWP | Asiimov,Covert,FT,782.0,Gold,5,3910.0,4150.0,48.0,240.0,6.14%,✅盈利,YOUPIN
+Operation Riptide Case,AUG | Plague,Mil-Spec,FN,26.98,Restricted,10,269.8,286.83000000000004,1.703000000000003,17.03000000000003,6.31%,✅盈利,BUFF
+Operation Riptide Case,PP-Bizon | Lumen,Mil-Spec,FN,27.39,Restricted,10,273.9,286.83000000000004,1.2930000000000028,12.930000000000028,4.72%,✅盈利,BUFF
+Operation Riptide Case,G3SG1 | Keeping Tabs,Mil-Spec,FN,28.38,Restricted,10,283.8,286.83000000000004,0.3030000000000044,3.0300000000000438,1.07%,✅盈利,BUFF
+Operation Riptide Case,Dual Berettas | Tread,Mil-Spec,FN,32.99,Restricted,10,329.90000000000003,286.83000000000004,-4.306999999999999,-43.069999999999986,-13.06%,❌亏损,BUFF
+Operation Riptide Case,XM1014 | Watchdog,Mil-Spec,FN,33.0,Restricted,10,330.0,286.83000000000004,-4.316999999999997,-43.169999999999966,-13.08%,❌亏损,C5
+Operation Riptide Case,MP7 | Guerrilla,Mil-Spec,FN,38.0,Restricted,10,380.0,286.83000000000004,-9.316999999999997,-93.16999999999996,-24.52%,❌亏损,YOUPIN
+Operation Riptide Case,USP-S | Black Lotus,Mil-Spec,FN,138.49,Restricted,10,1384.9,286.83000000000004,-109.807,-1098.07,-79.29%,❌亏损,BUFF
+Operation Riptide Case,MAG-7 | BI83 Spectrum,Restricted,FN,70.0,Classified,10,700.0,1082.8333333333333,38.28333333333333,382.8333333333333,54.69%,✅盈利,C5
+Operation Riptide Case,Five-SeveN | Boost Protocol,Restricted,FN,70.16,Classified,10,701.5999999999999,1082.8333333333333,38.123333333333335,381.23333333333335,54.34%,✅盈利,BUFF
+Operation Riptide Case,MP9 | Mount Fuji,Restricted,FN,118.99,Classified,10,1189.8999999999999,1082.8333333333333,-10.706666666666663,-107.06666666666663,-9.00%,❌亏损,BUFF
+Operation Riptide Case,FAMAS | ZX Spectron,Restricted,FN,125.0,Classified,10,1250.0,1082.8333333333333,-16.71666666666667,-167.16666666666669,-13.37%,❌亏损,YOUPIN
+Operation Riptide Case,M4A4 | Spider Lily,Restricted,FN,1050.0,Classified,10,10500.0,1082.8333333333333,-941.7166666666668,-9417.166666666668,-89.69%,❌亏损,BUFF
+Operation Riptide Case,MAC-10 | Toybox,Classified,FN,534.5,Covert,10,5345.0,4484.5,-86.05000000000001,-860.5000000000001,-16.10%,❌亏损,C5
+Operation Riptide Case,SSG 08 | Turbo Peek,Classified,FN,554.0,Covert,10,5540.0,4484.5,-105.55,-1055.5,-19.05%,❌亏损,C5
+Operation Riptide Case,Glock-18 | Snack Attack,Classified,FN,2160.0,Covert,10,21600.0,4484.5,-1711.55,-17115.5,-79.24%,❌亏损,YOUPIN
+Operation Riptide Case,Desert Eagle | Ocean Drive,Covert,FN,3254.0,Gold,5,16270.0,1152.7425,-3023.4515,-15117.2575,-92.91%,❌亏损,C5
+Operation Riptide Case,AK-47 | Leet Museo,Covert,FN,5715.0,Gold,5,28575.0,1152.7425,-5484.4515,-27422.2575,-95.97%,❌亏损,YOUPIN
+Operation Vanguard Weapon Case,G3SG1 | Murky,Mil-Spec,FN,12.0,Restricted,10,120.0,170.565,5.0565,50.565,42.14%,✅盈利,YOUPIN
+Operation Vanguard Weapon Case,MP9 | Dart,Mil-Spec,FN,12.88,Restricted,10,128.8,170.565,4.176499999999999,41.764999999999986,32.43%,✅盈利,BUFF
+Operation Vanguard Weapon Case,Five-SeveN | Urban Hazard,Mil-Spec,FN,18.69,Restricted,10,186.9,170.565,-1.6335000000000015,-16.335000000000015,-8.74%,❌亏损,C5
+Operation Vanguard Weapon Case,UMP-45 | Delusion,Mil-Spec,FN,24.0,Restricted,10,240.0,170.565,-6.9435,-69.435,-28.93%,❌亏损,YOUPIN
+Operation Vanguard Weapon Case,MAG-7 | Firestarter,Mil-Spec,FN,33.9,Restricted,10,339.0,170.565,-16.8435,-168.435,-49.69%,❌亏损,BUFF
+Operation Vanguard Weapon Case,Sawed-Off | Highwayman,Restricted,FN,29.16,Classified,10,291.6,177.29333333333332,-11.430666666666667,-114.30666666666667,-39.20%,❌亏损,C5
+Operation Vanguard Weapon Case,Glock-18 | Grinder,Restricted,FN,35.1,Classified,10,351.0,177.29333333333332,-17.37066666666667,-173.70666666666668,-49.49%,❌亏损,C5
+Operation Vanguard Weapon Case,M4A1-S | Basilisk,Restricted,FN,194.5,Classified,10,1945.0,177.29333333333332,-176.77066666666667,-1767.7066666666667,-90.88%,❌亏损,YOUPIN
+Operation Vanguard Weapon Case,M4A4 | Griffin,Restricted,FN,423.5,Classified,10,4235.0,177.29333333333332,-405.7706666666666,-4057.706666666666,-95.81%,❌亏损,YOUPIN
+Operation Vanguard Weapon Case,XM1014 | Tranquility,Classified,FN,163.38,Covert,10,1633.8,2292.5,65.87,658.7,40.32%,✅盈利,BUFF
+Operation Vanguard Weapon Case,P250 | Cartel,Classified,FN,180.0,Covert,10,1800.0,2292.5,49.25,492.5,27.36%,✅盈利,YOUPIN
+Operation Vanguard Weapon Case,SCAR-20 | Cardiac,Classified,FN,188.5,Covert,10,1885.0,2292.5,40.75,407.5,21.62%,✅盈利,BUFF
+Operation Vanguard Weapon Case,P2000 | Fire Elemental,Covert,FN,715.0,Gold,5,3575.0,4689.0,222.79999999999995,1113.9999999999998,31.16%,✅盈利,YOUPIN
+Operation Vanguard Weapon Case,AK-47 | Wasteland Rebel,Covert,FN,3870.0,Gold,5,19350.0,4689.0,-2932.2,-14661.0,-75.77%,❌亏损,YOUPIN
+Operation Wildfire Case,MAC-10 | Lapis Gator,Mil-Spec,FN,10.9,Restricted,10,109.0,131.0775,2.2077500000000008,22.077500000000008,20.25%,✅盈利,BUFF
+Operation Wildfire Case,SSG 08 | Necropos,Mil-Spec,FN,12.99,Restricted,10,129.9,131.0775,0.1177500000000009,1.1775000000000089,0.91%,✅盈利,BUFF
+Operation Wildfire Case,Dual Berettas | Cartel,Mil-Spec,FN,17.8,Restricted,10,178.0,131.0775,-4.69225,-46.9225,-26.36%,❌亏损,BUFF
+Operation Wildfire Case,Tec-9 | Jambiya,Mil-Spec,FN,18.27,Restricted,10,182.7,131.0775,-5.162249999999999,-51.622499999999995,-28.26%,❌亏损,BUFF
+Operation Wildfire Case,PP-Bizon | Photic Zone,Mil-Spec,FN,18.3,Restricted,10,183.0,131.0775,-5.19225,-51.9225,-28.37%,❌亏损,YOUPIN
+Operation Wildfire Case,USP-S | Lead Conduit,Mil-Spec,FN,79.97,Restricted,10,799.7,131.0775,-66.86225,-668.6225000000001,-83.61%,❌亏损,BUFF
+Operation Wildfire Case,MAG-7 | Praetorian,Restricted,FN,38.8,Classified,10,388.0,467.1933333333333,7.919333333333334,79.19333333333334,20.41%,✅盈利,BUFF
+Operation Wildfire Case,MP7 | Impire,Restricted,FN,40.59,Classified,10,405.90000000000003,467.1933333333333,6.129333333333328,61.29333333333328,15.10%,✅盈利,BUFF
+Operation Wildfire Case,FAMAS | Valence,Restricted,FN,124.5,Classified,10,1245.0,467.1933333333333,-77.78066666666666,-777.8066666666666,-62.47%,❌亏损,YOUPIN
+Operation Wildfire Case,Glock-18 | Royal Legion,Restricted,FN,320.42,Classified,10,3204.2000000000003,467.1933333333333,-273.7006666666667,-2737.0066666666667,-85.42%,❌亏损,HALOSKINS
+Operation Wildfire Case,Nova | Hyper Beast,Classified,FN,320.0,Covert,10,3200.0,3647.25,44.72500000000002,447.2500000000002,13.98%,✅盈利,BUFF
+Operation Wildfire Case,Desert Eagle | Kumicho Dragon,Classified,FN,494.08,Covert,10,4940.8,3647.25,-129.35499999999996,-1293.5499999999997,-26.18%,❌亏损,HALOSKINS
+Operation Wildfire Case,AWP | Elite Build,Classified,FN,587.5,Covert,10,5875.0,3647.25,-222.775,-2227.75,-37.92%,❌亏损,C5
+Operation Wildfire Case,M4A4 | The Battlestar,Covert,FN,1370.0,Gold,5,6850.0,2654.315,-839.137,-4195.6849999999995,-61.25%,❌亏损,BUFF
+Operation Wildfire Case,AK-47 | Fuel Injector,Covert,FN,5924.5,Gold,5,29622.5,2654.315,-5393.637,-26968.184999999998,-91.04%,❌亏损,YOUPIN
+Prisma 2 Case,R8 Revolver | Bone Forged,Mil-Spec,FN,2.58,Restricted,10,25.8,,,,nan%,❌亏损,BUFF
+Prisma Case,FAMAS | Crypsis,Mil-Spec,FN,4.6,Restricted,10,46.0,115.18,6.918000000000001,69.18,150.39%,✅盈利,BUFF
+Prisma Case,P90 | Off World,Mil-Spec,FN,4.97,Restricted,10,49.699999999999996,115.18,6.548000000000001,65.48,131.75%,✅盈利,YOUPIN
+Prisma Case,Galil AR | Akoben,Mil-Spec,FN,5.75,Restricted,10,57.5,115.18,5.768000000000001,57.68000000000001,100.31%,✅盈利,BUFF
+Prisma Case,P250 | Verdigris,Mil-Spec,FN,6.32,Restricted,10,63.2,115.18,5.198,51.980000000000004,82.25%,✅盈利,BUFF
+Prisma Case,MAC-10 | Whitefish,Mil-Spec,FN,7.94,Restricted,10,79.4,115.18,3.5780000000000003,35.78,45.06%,✅盈利,BUFF
+Prisma Case,MP7 | Mischief,Mil-Spec,MW,8.4,Restricted,10,84.0,115.18,3.1180000000000003,31.180000000000003,37.12%,✅盈利,BUFF
+Prisma Case,AK-47 | Uncharted,Mil-Spec,FN,13.9,Restricted,10,139.0,115.18,-2.382,-23.82,-17.14%,❌亏损,BUFF
+Prisma Case,AWP | Atheris,Restricted,FN,115.18,Classified,10,1151.8000000000002,,,,nan%,❌亏损,BUFF
+Recoil Case,FAMAS | Meow 36,Mil-Spec,FN,4.88,Restricted,10,48.8,,,,nan%,❌亏损,C5
+Recoil Case,Galil AR | Destroyer,Mil-Spec,FN,2.47,Restricted,10,24.700000000000003,,,,nan%,❌亏损,BUFF
+Recoil Case,M4A4 | Poly Mag,Mil-Spec,FN,5.38,Restricted,10,53.8,,,,nan%,❌亏损,BUFF
+Recoil Case,MAC-10 | Monkeyflage,Mil-Spec,FN,4.8,Restricted,10,48.0,,,,nan%,❌亏损,C5
+Revolution Case,SCAR-20 | Fragments,Mil-Spec,FN,2.81,Restricted,10,28.1,16.686,-1.1414,-11.414,-40.62%,❌亏损,YOUPIN
+Revolution Case,SG 553 | Cyberforce,Mil-Spec,FN,4.18,Restricted,10,41.8,16.686,-2.5114,-25.114,-60.08%,❌亏损,C5
+Revolution Case,MAG-7 | Insomnia,Mil-Spec,FN,4.34,Restricted,10,43.4,16.686,-2.6714,-26.714000000000002,-61.55%,❌亏损,C5
+Revolution Case,P250 | Re.built,Mil-Spec,FN,4.49,Restricted,10,44.900000000000006,16.686,-2.8214,-28.214000000000002,-62.84%,❌亏损,BUFF
+Revolution Case,MP9 | Featherweight,Mil-Spec,FN,4.53,Restricted,10,45.300000000000004,16.686,-2.8614,-28.614,-63.17%,❌亏损,C5
+Revolution Case,Tec-9 | Rebel,Mil-Spec,FN,4.53,Restricted,10,45.300000000000004,16.686,-2.8614,-28.614,-63.17%,❌亏损,C5
+Revolution Case,MP5-SD | Liquidation,Mil-Spec,FN,4.93,Restricted,10,49.3,16.686,-3.2614,-32.614000000000004,-66.15%,❌亏损,BUFF
+Revolution Case,MAC-10 | Sakkaku,Restricted,FT,5.96,Classified,10,59.6,111.24666666666668,5.164666666666666,51.64666666666666,86.66%,✅盈利,BUFF
+Revolution Case,P90 | Neoqueen,Restricted,FN,11.63,Classified,10,116.30000000000001,111.24666666666668,-0.5053333333333345,-5.053333333333345,-4.35%,❌亏损,C5
+Revolution Case,Glock-18 | Umbral Rabbit,Restricted,FN,13.35,Classified,10,133.5,111.24666666666668,-2.2253333333333334,-22.253333333333334,-16.67%,❌亏损,BUFF
+Revolution Case,R8 Revolver | Banana Cannon,Restricted,FN,23.8,Classified,10,238.0,111.24666666666668,-12.675333333333334,-126.75333333333334,-53.26%,❌亏损,C5
+Revolution Case,M4A1-S | Emphorosaur-S,Restricted,FN,28.69,Classified,10,286.90000000000003,111.24666666666668,-17.565333333333335,-175.65333333333336,-61.22%,❌亏损,BUFF
+Revolution Case,AWP | Duality,Classified,FN,106.97,Covert,10,1069.7,842.5,-22.72,-227.2,-21.24%,❌亏损,BUFF
+Revolution Case,P2000 | Wicked Sick,Classified,FN,112.79,Covert,10,1127.9,842.5,-28.540000000000006,-285.4000000000001,-25.30%,❌亏损,BUFF
+Revolution Case,UMP-45 | Wild Child,Classified,FN,113.98,Covert,10,1139.8,842.5,-29.730000000000004,-297.30000000000007,-26.08%,❌亏损,BUFF
+Revolution Case,AK-47 | Head Shot,Covert,FN,830.0,Gold,5,4150.0,2665.0,-297.0,-1485.0,-35.78%,❌亏损,BUFF
+Revolution Case,M4A4 | Temukau,Covert,FN,855.0,Gold,5,4275.0,2665.0,-322.0,-1610.0,-37.66%,❌亏损,YOUPIN
+Revolver Case,P90 | Shapewood,Classified,MW,78.8,Covert,10,788.0,2055.0,126.7,1267.0,160.79%,✅盈利,YOUPIN
+Revolver Case,M4A4 | Royal Paladin,Covert,FN,3533.5,Gold,5,17667.5,,,,nan%,❌亏损,C5
+Revolver Case,R8 Revolver | Fade,Covert,FN,576.5,Gold,5,2882.5,,,,nan%,❌亏损,YOUPIN
+Shadow Case,Galil AR | Stone Cold,Restricted,MW,28.87,Classified,10,288.7,692.6666666666666,40.39666666666666,403.9666666666666,139.93%,✅盈利,C5
+Shadow Case,MP7 | Special Delivery,Restricted,FN,46.78,Classified,10,467.8,692.6666666666666,22.486666666666665,224.86666666666665,48.07%,✅盈利,BUFF
+Shadow Case,P250 | Wingshot,Restricted,FN,61.0,Classified,10,610.0,692.6666666666666,8.266666666666666,82.66666666666666,13.55%,✅盈利,YOUPIN
+Shadow Case,M249 | Nebula Crusader,Restricted,FN,63.81,Classified,10,638.1,692.6666666666666,5.456666666666664,54.56666666666664,8.55%,✅盈利,YOUPIN
+Shadow Case,SSG 08 | Big Iron,Classified,FN,263.5,Covert,10,2635.0,2649.25,1.4250000000000114,14.250000000000114,0.54%,✅盈利,BUFF
+Shadow Case,G3SG1 | Flux,Classified,FN,315.0,Covert,10,3150.0,2649.25,-50.07499999999999,-500.7499999999999,-15.90%,❌亏损,YOUPIN
+Shadow Case,AK-47 | Frontside Misty,Classified,FN,1499.5,Covert,10,14995.0,2649.25,-1234.575,-12345.75,-82.33%,❌亏损,YOUPIN
+Shadow Case,M4A1-S | Golden Coil,Covert,FN,2533.0,Gold,5,12665.0,1349.5216666666668,-2263.0956666666666,-11315.478333333333,-89.34%,❌亏损,YOUPIN
+Shadow Case,USP-S | Kill Confirmed,Covert,FN,2765.5,Gold,5,13827.5,1349.5216666666668,-2495.5956666666666,-12477.978333333333,-90.24%,❌亏损,C5
+Shattered Web Case,SCAR-20 | Torn,Mil-Spec,FN,10.83,Restricted,10,108.3,153.79000000000002,4.549000000000001,45.49000000000001,42.00%,✅盈利,C5
+Shattered Web Case,MP5-SD | Acid Wash,Mil-Spec,FN,12.9,Restricted,10,129.0,153.79000000000002,2.479000000000001,24.79000000000001,19.22%,✅盈利,BUFF
+Shattered Web Case,Nova | Plume,Mil-Spec,FN,14.0,Restricted,10,140.0,153.79000000000002,1.3790000000000011,13.790000000000012,9.85%,✅盈利,BUFF
+Shattered Web Case,R8 Revolver | Memento,Mil-Spec,FN,16.5,Restricted,10,165.0,153.79000000000002,-1.1209999999999989,-11.209999999999988,-6.79%,❌亏损,YOUPIN
+Shattered Web Case,G3SG1 | Black Sand,Mil-Spec,FN,17.42,Restricted,10,174.20000000000002,153.79000000000002,-2.0410000000000004,-20.410000000000004,-11.72%,❌亏损,C5
+Shattered Web Case,M249 | Warbird,Mil-Spec,FN,21.2,Restricted,10,212.0,153.79000000000002,-5.820999999999998,-58.20999999999998,-27.46%,❌亏损,BUFF
+Shattered Web Case,Dual Berettas | Balance,Mil-Spec,FN,29.8,Restricted,10,298.0,153.79000000000002,-14.421,-144.20999999999998,-48.39%,❌亏损,BUFF
+Shattered Web Case,AUG | Arctic Wolf,Restricted,FN,63.47,Classified,10,634.7,642.5966666666667,0.7896666666666761,7.896666666666761,1.24%,✅盈利,YOUPIN
+Shattered Web Case,PP-Bizon | Embargo,Restricted,FN,68.0,Classified,10,680.0,642.5966666666667,-3.740333333333325,-37.40333333333325,-5.50%,❌亏损,C5
+Shattered Web Case,MP7 | Neon Ply,Restricted,FN,72.7,Classified,10,727.0,642.5966666666667,-8.440333333333328,-84.40333333333328,-11.61%,❌亏损,BUFF
+Shattered Web Case,P2000 | Obsidian,Restricted,FN,85.9,Classified,10,859.0,642.5966666666667,-21.64033333333333,-216.4033333333333,-25.19%,❌亏损,BUFF
+Shattered Web Case,AK-47 | Rat Rod,Restricted,FN,478.88,Classified,10,4788.8,642.5966666666667,-414.6203333333333,-4146.203333333333,-86.58%,❌亏损,BUFF
+Shattered Web Case,SG 553 | Colony IV,Classified,FN,447.0,Covert,10,4470.0,4255.275,-21.472500000000025,-214.72500000000025,-4.80%,❌亏损,BUFF
+Shattered Web Case,Tec-9 | Decimator,Classified,FN,520.89,Covert,10,5208.9,4255.275,-95.3625,-953.625,-18.31%,❌亏损,YOUPIN
+Shattered Web Case,SSG 08 | Bloodshot,Classified,MW,959.9,Covert,10,9599.0,4255.275,-534.3725,-5343.724999999999,-55.67%,❌亏损,C5
+Shattered Web Case,MAC-10 | Stalker,Covert,FN,811.5,Gold,5,4057.5,2283.260909090909,-354.8478181818182,-1774.239090909091,-43.73%,❌亏损,YOUPIN
+Shattered Web Case,AWP | Containment Breach,Covert,FN,7699.05,Gold,5,38495.25,2283.260909090909,-7242.397818181818,-36211.98909090909,-94.07%,❌亏损,C5
+Snakebite Case,Nova | Windblown,Mil-Spec,FN,3.0,Restricted,10,30.0,45.264,1.5263999999999998,15.263999999999998,50.88%,✅盈利,C5
+Snakebite Case,UMP-45 | Oscillator,Mil-Spec,FN,3.47,Restricted,10,34.7,45.264,1.0563999999999996,10.563999999999997,30.44%,✅盈利,BUFF
+Snakebite Case,SG 553 | Heavy Metal,Mil-Spec,FN,6.0,Restricted,10,60.0,45.264,-1.4736000000000002,-14.736000000000002,-24.56%,❌亏损,C5
+Snakebite Case,CZ75-Auto | Circaetus,Mil-Spec,FN,6.49,Restricted,10,64.9,45.264,-1.9636000000000005,-19.636000000000003,-30.26%,❌亏损,BUFF
+Snakebite Case,Glock-18 | Clear Polymer,Mil-Spec,FN,11.8,Restricted,10,118.0,45.264,-7.273600000000001,-72.736,-61.64%,❌亏损,BUFF
+Snakebite Case,Negev | dev_texture,Restricted,FN,17.47,Classified,10,174.7,234.63333333333333,5.993333333333332,59.93333333333332,34.31%,✅盈利,C5
+Snakebite Case,P250 | Cyber Shell,Restricted,FN,19.7,Classified,10,197.0,234.63333333333333,3.763333333333332,37.63333333333332,19.10%,✅盈利,BUFF
+Snakebite Case,Desert Eagle | Trigger Discipline,Restricted,FN,29.55,Classified,10,295.5,234.63333333333333,-6.08666666666667,-60.866666666666696,-20.60%,❌亏损,YOUPIN
+Snakebite Case,MAC-10 | Button Masher,Restricted,FN,45.6,Classified,10,456.0,234.63333333333333,-22.13666666666667,-221.3666666666667,-48.55%,❌亏损,C5
+Snakebite Case,AK-47 | Slate,Restricted,FN,114.0,Classified,10,1140.0,234.63333333333333,-90.53666666666666,-905.3666666666666,-79.42%,❌亏损,BUFF
+Snakebite Case,XM1014 | XOXO,Classified,FN,159.9,Covert,10,1599.0,1486.495,-11.250500000000017,-112.50500000000017,-7.04%,❌亏损,YOUPIN
+Snakebite Case,MP9 | Food Chain,Classified,FN,164.0,Covert,10,1640.0,1486.495,-15.350500000000013,-153.50500000000014,-9.36%,❌亏损,BUFF
+Snakebite Case,Galil AR | Chromatic Aberration,Classified,FN,380.0,Covert,10,3800.0,1486.495,-231.3505,-2313.505,-60.88%,❌亏损,BUFF
+Snakebite Case,M4A4 | In Living Color,Covert,FN,1767.0,Gold,5,8835.0,,,,nan%,❌亏损,YOUPIN
+Snakebite Case,USP-S | The Traitor,Covert,FN,1205.99,Gold,5,6029.95,,,,nan%,❌亏损,BUFF
+Spectrum 2 Case,SCAR-20 | Jungle Slipstream,Mil-Spec,WW,0.8,Restricted,10,8.0,19.35,1.135,11.35,141.88%,✅盈利,BUFF
+Spectrum 2 Case,SG 553 | Phantom,Restricted,FN,18.9,Classified,10,189.0,245.33,5.633000000000003,56.33000000000003,29.80%,✅盈利,BUFF
+Spectrum 2 Case,MP9 | Goo,Restricted,FN,18.99,Classified,10,189.89999999999998,245.33,5.543000000000003,55.43000000000003,29.19%,✅盈利,BUFF
+Spectrum 2 Case,XM1014 | Ziggy,Restricted,FN,19.32,Classified,10,193.2,245.33,5.213000000000001,52.13000000000001,26.98%,✅盈利,BUFF
+Spectrum 2 Case,UMP-45 | Exposure,Restricted,FN,19.41,Classified,10,194.1,245.33,5.123000000000001,51.23000000000001,26.39%,✅盈利,C5
+Spectrum 2 Case,CZ75-Auto | Tacticat,Restricted,FN,20.13,Classified,10,201.29999999999998,245.33,4.403000000000002,44.03000000000002,21.87%,✅盈利,YOUPIN
+Spectrum 2 Case,PP-Bizon | High Roller,Classified,FN,193.0,Covert,10,1930.0,1724.0,-20.599999999999994,-205.99999999999994,-10.67%,❌亏损,YOUPIN
+Spectrum 2 Case,R8 Revolver | Llama Cannon,Classified,FN,209.99,Covert,10,2099.9,1724.0,-37.59,-375.90000000000003,-17.90%,❌亏损,BUFF
+Spectrum 2 Case,M4A1-S | Leaded Glass,Classified,FN,333.0,Covert,10,3330.0,1724.0,-160.6,-1606.0,-48.23%,❌亏损,C5
+Spectrum 2 Case,P250 | See Ya Later,Covert,FN,809.0,Gold,5,4045.0,3515.3528,-105.92944,-529.6472,-13.09%,❌亏损,BUFF
+Spectrum 2 Case,AK-47 | The Empress,Covert,FN,2639.0,Gold,5,13195.0,3515.3528,-1935.92944,-9679.647200000001,-73.36%,❌亏损,BUFF
+Spectrum Case,PP-Bizon | Jungle Slipstream,Mil-Spec,FN,3.76,Restricted,10,37.599999999999994,29.494,-0.8106,-8.106,-21.56%,❌亏损,BUFF
+Spectrum Case,P250 | Ripple,Mil-Spec,FN,3.82,Restricted,10,38.199999999999996,29.494,-0.8706,-8.706,-22.79%,❌亏损,BUFF
+Spectrum Case,MP7 | Akoben,Mil-Spec,FN,4.8,Restricted,10,48.0,29.494,-1.8506,-18.506,-38.55%,❌亏损,YOUPIN
+Spectrum Case,SCAR-20 | Blueprint,Mil-Spec,FN,4.87,Restricted,10,48.7,29.494,-1.9206000000000003,-19.206000000000003,-39.44%,❌亏损,BUFF
+Spectrum Case,Five-SeveN | Capillary,Mil-Spec,FN,4.88,Restricted,10,48.8,29.494,-1.9306,-19.306,-39.56%,❌亏损,BUFF
+Spectrum Case,Desert Eagle | Oxide Blaze,Mil-Spec,FN,6.3,Restricted,10,63.0,29.494,-3.3506,-33.506,-53.18%,❌亏损,BUFF
+Spectrum Case,Sawed-Off | Zander,Mil-Spec,FN,12.28,Restricted,10,122.8,29.494,-9.3306,-93.30600000000001,-75.98%,❌亏损,BUFF
+Spectrum Case,XM1014 | Seasons,Restricted,FN,22.78,Classified,10,227.8,272.78333333333336,4.498333333333335,44.98333333333335,19.75%,✅盈利,BUFF
+Spectrum Case,M249 | Emerald Poison Dart,Restricted,FN,22.81,Classified,10,228.1,272.78333333333336,4.468333333333337,44.68333333333337,19.59%,✅盈利,BUFF
+Spectrum Case,MAC-10 | Last Dive,Restricted,FN,30.0,Classified,10,300.0,272.78333333333336,-2.721666666666664,-27.21666666666664,-9.07%,❌亏损,BUFF
+Spectrum Case,Galil AR | Crimson Tsunami,Restricted,FN,32.28,Classified,10,322.8,272.78333333333336,-5.001666666666665,-50.01666666666665,-15.49%,❌亏损,BUFF
+Spectrum Case,UMP-45 | Scaffold,Restricted,FN,39.6,Classified,10,396.0,272.78333333333336,-12.321666666666664,-123.21666666666664,-31.12%,❌亏损,YOUPIN
+Spectrum Case,CZ75-Auto | Xiangliu,Classified,FN,159.47,Covert,10,1594.7,1383.5,-21.120000000000005,-211.20000000000005,-13.24%,❌亏损,BUFF
+Spectrum Case,AWP | Fever Dream,Classified,FN,193.88,Covert,10,1938.8,1383.5,-55.53,-555.3,-28.64%,❌亏损,BUFF
+Spectrum Case,M4A1-S | Decimator,Classified,FN,465.0,Covert,10,4650.0,1383.5,-326.65,-3266.5,-70.25%,❌亏损,BUFF
+Spectrum Case,USP-S | Neo-Noir,Covert,FN,1099.0,Gold,5,5495.0,809.0,-937.2,-4686.0,-85.28%,❌亏损,BUFF
+Spectrum Case,AK-47 | Bloodsport,Covert,FN,1668.0,Gold,5,8340.0,809.0,-1506.2,-7531.0,-90.30%,❌亏损,YOUPIN
+Winter Offensive Weapon Case,M249 | Magma,Mil-Spec,FN,10.11,Restricted,10,101.1,78.45,-2.264999999999999,-22.649999999999988,-22.40%,❌亏损,BUFF
+Winter Offensive Weapon Case,Five-SeveN | Kami,Mil-Spec,FN,19.9,Restricted,10,199.0,78.45,-12.054999999999998,-120.54999999999998,-60.58%,❌亏损,C5
+Winter Offensive Weapon Case,Galil AR | Sandstorm,Mil-Spec,MW,34.67,Restricted,10,346.70000000000005,78.45,-26.825000000000003,-268.25,-77.37%,❌亏损,BUFF
+Winter Offensive Weapon Case,PP-Bizon | Cobalt Halftone,Mil-Spec,FN,80.0,Restricted,10,800.0,78.45,-72.155,-721.55,-90.19%,❌亏损,YOUPIN
+Winter Offensive Weapon Case,Nova | Rising Skull,Restricted,FN,49.0,Classified,10,490.0,381.1,-10.89,-108.9,-22.22%,❌亏损,C5
+Winter Offensive Weapon Case,MP9 | Rose Iron,Restricted,FN,60.8,Classified,10,608.0,381.1,-22.69,-226.9,-37.32%,❌亏损,YOUPIN
+Winter Offensive Weapon Case,FAMAS | Pulse,Restricted,FN,69.5,Classified,10,695.0,381.1,-31.39,-313.9,-45.17%,❌亏损,YOUPIN
+Winter Offensive Weapon Case,Dual Berettas | Marina,Restricted,FN,134.5,Classified,10,1345.0,381.1,-96.39,-963.9,-71.67%,❌亏损,YOUPIN
+Winter Offensive Weapon Case,P250 | Mehndi,Classified,FN,246.75,Covert,10,2467.5,1253.89,-121.36100000000002,-1213.6100000000001,-49.18%,❌亏损,C5
+Winter Offensive Weapon Case,M4A1-S | Guardian,Classified,FN,375.55,Covert,10,3755.5,1253.89,-250.16100000000003,-2501.61,-66.61%,❌亏损,C5
+Winter Offensive Weapon Case,AWP | Redline,Classified,MW,521.0,Covert,10,5210.0,1253.89,-395.611,-3956.1099999999997,-75.93%,❌亏损,YOUPIN
+Winter Offensive Weapon Case,M4A4 | Asiimov,Covert,FT,1930.0,Gold,5,9650.0,,,,nan%,❌亏损,C5
+Winter Offensive Weapon Case,Sawed-Off | The Kraken,Covert,FN,577.78,Gold,5,2888.8999999999996,,,,nan%,❌亏损,C5
