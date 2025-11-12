@@ -4,103 +4,103 @@ All 科学版 Trade-Up 亏损 TOP 100 - 按期望利润排序
 
 排名    物品名称                                    外观      箱子系列                          稀有度         目标          价格        期望产出      单件价值      期望利润        ROI       
 ------------------------------------------------------------------------------------------------------------------------------------------------------
-38    AWP | Containment Breach                崭新      Shattered Web Case            Covert      Gold        7699.05   2283.26   456.65    -7242.40    -94.07   %
-12    AK-47 | Leet Museo                      崭新      Operation Riptide Case        Covert      Gold        5715.00   1152.74   230.55    -5484.45    -95.97   %
-9     AK-47 | Fuel Injector                   崭新      Operation Wildfire Case       Covert      Gold        5924.50   2654.32   530.86    -5393.64    -91.04   %
-24    AK-47 | Vulcan                          崭新      Huntsman Weapon Case          Covert      Gold        5884.00   3314.82   662.96    -5221.04    -88.73   %
-37    AWP | BOOM                              崭新      ESports 2013 Case             Classified  Covert      4558.00   700.00    70.00     -4488.00    -98.46   %
-186   M4A1-S | Hyper Beast                    崭新      Chroma 2 Case                 Covert      Gold        3979.00   3702.21   740.44    -3238.56    -81.39   %
-191   M4A1-S | Printstream                    崭新      Operation Broken Fang Case    Covert      Gold        5017.50   9064.60   1812.92   -3204.58    -63.87   %
-19    AK-47 | Red Laminate                    崭新      ESports 2013 Case             Classified  Covert      3150.00   700.00    70.00     -3080.00    -97.78   %
-77    Desert Eagle | Ocean Drive              崭新      Operation Riptide Case        Covert      Gold        3254.00   1152.74   230.55    -3023.45    -92.91   %
-25    AK-47 | Wasteland Rebel                 崭新      Operation Vanguard Weapon Ca  Covert      Gold        3870.00   4689.00   937.80    -2932.20    -75.77   %
-46    AWP | Lightning Strike                  崭新      CSGO Weapon Case              Covert      Gold        3880.00   5096.53   1019.31   -2860.69    -73.73   %
-6     AK-47 | Case Hardened                   崭新      CSGO Weapon Case              Classified  Covert      3140.00   3880.00   388.00    -2752.00    -87.64   %
-2     AK-47 | Asiimov                         崭新      Danger Zone Case              Covert      Gold        3117.00   2776.19   555.24    -2561.76    -82.19   %
-443   USP-S | Kill Confirmed                  崭新      Shadow Case                   Covert      Gold        2765.50   1349.52   269.90    -2495.60    -90.24   %
-184   M4A1-S | Golden Coil                    崭新      Shadow Case                   Covert      Gold        2533.00   1349.52   269.90    -2263.10    -89.34   %
-195   M4A4 | Cyber Security                   崭新      Operation Broken Fang Case    Classified  Covert      2388.00   3971.47   397.15    -1990.85    -83.37   %
-188   M4A1-S | Mecha Industries               崭新      Gamma Case                    Covert      Gold        2488.00   2650.92   530.18    -1957.82    -78.69   %
-22    AK-47 | The Empress                     崭新      Spectrum 2 Case               Covert      Gold        2639.00   3515.35   703.07    -1935.93    -73.36   %
-163   Glock-18 | Snack Attack                 崭新      Operation Riptide Case        Classified  Covert      2160.00   4484.50   448.45    -1711.55    -79.24   %
-20    AK-47 | Redline                         略磨      Operation Phoenix Weapon Cas  Classified  Covert      1770.00   665.95    66.59     -1703.40    -96.24   %
-194   M4A4 | Buzz Kill                        崭新      Glove Case                    Covert      Gold        6988.00   26609.83  5321.97   -1666.03    -23.84   %
-39    AWP | Corticera                         崭新      ESports 2014 Summer Case      Classified  Covert      1950.00   3808.00   380.80    -1569.20    -80.47   %
-3     AK-47 | Bloodsport                      崭新      Spectrum Case                 Covert      Gold        1668.00   809.00    161.80    -1506.20    -90.30   %
-14    AK-47 | Neon Revolution                 崭新      Gamma 2 Case                  Covert      Gold        2519.90   5697.62   1139.52   -1380.38    -54.78   %
-15    AK-47 | Neon Rider                      崭新      Horizon Case                  Covert      Gold        1905.50   2752.59   550.52    -1354.98    -71.11   %
-8     AK-47 | Frontside Misty                 崭新      Shadow Case                   Classified  Covert      1499.50   2649.25   264.93    -1234.58    -82.33   %
-70    Desert Eagle | Crimson Web              崭新      ESports 2014 Summer Case      Restricted  Classified  1268.00   917.14    91.71     -1176.29    -92.77   %
-159   Glock-18 | Neo-Noir                     崭新      Operation Broken Fang Case    Covert      Gold        2925.45   9064.60   1812.92   -1112.53    -38.03   %
-1     AK-47 | Aquamarine Revenge              崭新      Falchion Case                 Covert      Gold        1739.99   3370.15   674.03    -1065.96    -61.26   %
-69    Desert Eagle | Code Red                 崭新      Horizon Case                  Covert      Gold        1495.00   2752.59   550.52    -944.48     -63.18   %
-205   M4A4 | Spider Lily                      崭新      Operation Riptide Case        Restricted  Classified  1050.00   1082.83   108.28    -941.72     -89.69   %
-446   USP-S | Neo-Noir                        崭新      Spectrum Case                 Covert      Gold        1099.00   809.00    161.80    -937.20     -85.28   %
-207   M4A4 | The Battlestar                   崭新      Operation Wildfire Case       Covert      Gold        1370.00   2654.32   530.86    -839.14     -61.25   %
-155   Glock-18 | Dragon Tattoo                崭新      CSGO Weapon Case              Restricted  Classified  978.78    2061.25   206.12    -772.65     -78.94   %
-167   Glock-18 | Wasteland Rebel              崭新      Gamma Case                    Covert      Gold        1250.00   2650.92   530.18    -719.82     -57.59   %
-73    Desert Eagle | Hypnotic                 崭新      CSGO Weapon Case              Classified  Covert      982.50    3880.00   388.00    -594.50     -60.51   %
-45    AWP | Hyper Beast                       崭新      Falchion Case                 Covert      Gold        1260.00   3370.15   674.03    -585.97     -46.51   %
-5     AK-47 | Cartel                          崭新      Chroma Case                   Classified  Covert      679.90    960.50    96.05     -583.85     -85.87   %
-196   M4A4 | Desolate Space                   崭新      Gamma Case                    Classified  Covert      749.49    1869.00   186.90    -562.59     -75.06   %
-210   M4A4 | 龍王 (Dragon King)                 崭新      Chroma Case                   Classified  Covert      644.50    960.50    96.05     -548.45     -85.10   %
-41    AWP | Electric Hive                     崭新      ESports 2013 Winter Case      Classified  Covert      730.00    1904.50   190.45    -539.55     -73.91   %
-392   SSG 08 | Bloodshot                      略磨      Shattered Web Case            Classified  Covert      959.90    4255.27   425.53    -534.37     -55.67   %
-16    AK-47 | Nightwish                       崭新      Dreams & Nightmares Case      Covert      Gold        1340.00   4090.11   818.02    -521.98     -38.95   %
-140   Galil AR | Chatterbox                   久经      Chroma Case                   Covert      Gold        1130.00   3055.00   611.00    -519.00     -45.93   %
-180   M4A1-S | Dark Water                     略磨      CSGO Weapon Case              Restricted  Classified  718.32    2061.25   206.12    -512.20     -71.30   %
-72    Desert Eagle | Heirloom                 崭新      CSGO Weapon Case 3            Restricted  Classified  536.38    251.30    25.13     -511.25     -95.31   %
-68    Desert Eagle | Cobalt Disruption        崭新      ESports 2013 Winter Case      Classified  Covert      701.50    1904.50   190.45    -511.05     -72.85   %
-445   USP-S | Monster Mashup                  崭新      Operation Broken Fang Case    Classified  Covert      880.00    3971.47   397.15    -482.85     -54.87   %
-440   USP-S | Dark Water                      略磨      CSGO Weapon Case              Restricted  Classified  682.50    2061.25   206.12    -476.38     -69.80   %
-115   Five-SeveN | Fairy Tale                 崭新      Operation Broken Fang Case    Classified  Covert      865.00    3971.47   397.15    -467.85     -54.09   %
-447   USP-S | Serum                           崭新      CSGO Weapon Case 2            Classified  Covert      539.00    1115.00   111.50    -427.50     -79.31   %
-18    AK-47 | Rat Rod                         崭新      Shattered Web Case            Restricted  Classified  478.88    642.60    64.26     -414.62     -86.58   %
-199   M4A4 | Griffin                          崭新      Operation Vanguard Weapon Ca  Restricted  Classified  423.50    177.29    17.73     -405.77     -95.81   %
-52    AWP | Redline                           略磨      Winter Offensive Weapon Case  Classified  Covert      521.00    1253.89   125.39    -395.61     -75.93   %
-190   M4A1-S | Nightmare                      崭新      Horizon Case                  Classified  Covert      530.00    1700.25   170.03    -359.98     -67.92   %
-225   MAC-10 | Stalker                        崭新      Shattered Web Case            Covert      Gold        811.50    2283.26   456.65    -354.85     -43.73   %
-181   M4A1-S | Decimator                      崭新      Spectrum Case                 Classified  Covert      465.00    1383.50   138.35    -326.65     -70.25   %
-206   M4A4 | Temukau                          崭新      Revolution Case               Covert      Gold        855.00    2665.00   533.00    -322.00     -37.66   %
-336   P90 | Cold Blooded                      崭新      CSGO Weapon Case 2            Classified  Covert      420.00    1115.00   111.50    -308.50     -73.45   %
-10    AK-47 | Head Shot                       崭新      Revolution Case               Covert      Gold        830.00    2665.00   533.00    -297.00     -35.78   %
-161   Glock-18 | Royal Legion                 崭新      Operation Wildfire Case       Restricted  Classified  320.42    467.19    46.72     -273.70     -85.42   %
-387   SG 553 | Ultraviolet                    崭新      CSGO Weapon Case              Mil-Spec    Restricted  346.00    793.20    79.32     -266.68     -77.08   %
-402   Sawed-Off | Orange DDPAT                崭新      ESports 2013 Case             Restricted  Classified  649.50    3854.00   385.40    -264.10     -40.66   %
-227   MAC-10 | Ultraviolet                    崭新      ESports 2014 Summer Case      Mil-Spec    Restricted  293.00    325.27    32.53     -260.47     -88.90   %
-144   Galil AR | Eco                          略磨      Chroma 2 Case                 Classified  Covert      499.50    2409.50   240.95    -258.55     -51.76   %
-198   M4A4 | Faded Zebra                      崭新      ESports 2013 Case             Mil-Spec    Restricted  308.00    555.20    55.52     -252.48     -81.97   %
-185   M4A1-S | Guardian                       崭新      Winter Offensive Weapon Case  Classified  Covert      375.55    1253.89   125.39    -250.16     -66.61   %
-141   Galil AR | Chromatic Aberration         崭新      Snakebite Case                Classified  Covert      380.00    1486.49   148.65    -231.35     -60.88   %
-42    AWP | Elite Build                       崭新      Operation Wildfire Case       Classified  Covert      587.50    3647.25   364.73    -222.77     -37.92   %
-437   USP-S | Blueprint                       崭新      Operation Hydra Case          Mil-Spec    Restricted  272.50    501.00    50.10     -222.40     -81.61   %
-287   Nova | Bloomstick                       崭新      ESports 2014 Summer Case      Classified  Covert      598.00    3808.00   380.80    -217.20     -36.32   %
-448   USP-S | Stainless                       崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  226.00    178.12    17.81     -208.19     -92.12   %
-329   P250 | Undertow                         崭新      CSGO Weapon Case 3            Classified  Covert      255.60    610.00    61.00     -194.60     -76.13   %
-145   Galil AR | Orange DDPAT                 崭新      ESports 2013 Case             Restricted  Classified  579.99    3854.00   385.40    -194.59     -33.55   %
-61    CZ75-Auto | The Fuschia Is Now          崭新      CSGO Weapon Case 3            Classified  Covert      247.00    610.00    61.00     -186.00     -75.30   %
-28    AUG | Bengal Tiger                      崭新      ESports 2014 Summer Case      Classified  Covert      565.00    3808.00   380.80    -184.20     -32.60   %
-47    AWP | Man-o'-war                        略磨      Chroma Case                   Covert      Gold        791.00    3055.00   611.00    -180.00     -22.76   %
-176   M4A1-S | Basilisk                       崭新      Operation Vanguard Weapon Ca  Restricted  Classified  194.50    177.29    17.73     -176.77     -90.88   %
-302   P2000 | Corticera                       崭新      ESports 2014 Summer Case      Classified  Covert      555.55    3808.00   380.80    -174.75     -31.46   %
-71    Desert Eagle | Directive                崭新      Gamma 2 Case                  Restricted  Classified  193.00    269.17    26.92     -166.08     -86.05   %
-152   Glock-18 | Blue Fissure                 崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  182.00    178.12    17.81     -164.19     -90.21   %
-187   M4A1-S | Leaded Glass                   崭新      Spectrum 2 Case               Classified  Covert      333.00    1724.00   172.40    -160.60     -48.23   %
-178   M4A1-S | Briefing                       崭新      Operation Hydra Case          Mil-Spec    Restricted  207.50    501.00    50.10     -157.40     -75.86   %
-370   SCAR-20 | Crimson Web                   崭新      CSGO Weapon Case 2            Mil-Spec    Restricted  160.21    101.07    10.11     -150.10     -93.69   %
-94    FAMAS | Afterimage                      崭新      ESports 2013 Winter Case      Classified  Covert      324.99    1904.50   190.45    -134.54     -41.40   %
-414   Tec-9 | Fuel Injector                   崭新      Gamma 2 Case                  Classified  Covert      322.01    1876.70   187.67    -134.34     -41.72   %
-74    Desert Eagle | Kumicho Dragon           崭新      Operation Wildfire Case       Classified  Covert      494.08    3647.25   364.73    -129.35     -26.18   %
-4     AK-47 | Blue Laminate                   崭新      ESports 2013 Winter Case      Restricted  Classified  187.64    585.50    58.55     -129.09     -68.80   %
-320   P250 | Mehndi                           崭新      Winter Offensive Weapon Case  Classified  Covert      246.75    1253.89   125.39    -121.36     -49.18   %
-79    Desert Eagle | Printstream              崭新      Fracture Case                 Covert      Gold        607.79    2463.52   492.70    -115.09     -18.94   %
-55    CZ75-Auto | Crimson Web                 崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  128.40    178.12    17.81     -110.59     -86.13   %
-435   USP-S | Black Lotus                     崭新      Operation Riptide Case        Mil-Spec    Restricted  138.49    286.83    28.68     -109.81     -79.29   %
-326   P250 | See Ya Later                     崭新      Spectrum 2 Case               Covert      Gold        809.00    3515.35   703.07    -105.93     -13.09   %
-397   SSG 08 | Turbo Peek                     崭新      Operation Riptide Case        Classified  Covert      554.00    4484.50   448.45    -105.55     -19.05   %
-183   M4A1-S | Flashback                      崭新      Glove Case                    Restricted  Classified  163.00    597.47    59.75     -103.25     -63.35   %
-222   MAC-10 | Neon Rider                     崭新      Chroma 2 Case                 Covert      Gold        840.00    3702.21   740.44    -99.56      -11.85   %
-113   Five-SeveN | Case Hardened              崭新      CSGO Weapon Case 2            Restricted  Classified  145.00    479.50    47.95     -97.05      -66.93   %
-87    Dual Berettas | Marina                  崭新      Winter Offensive Weapon Case  Restricted  Classified  134.50    381.10    38.11     -96.39      -71.67   %
-411   Tec-9 | Decimator                       崭新      Shattered Web Case            Classified  Covert      520.89    4255.27   425.53    -95.36      -18.31   %
-107   FAMAS | Roll Cage                       崭新      Gamma 2 Case                  Covert      Gold        1233.50   5697.62   1139.52   -93.98      -7.62    %
+7     AK-47 | Fire Serpent                    崭新      Operation Bravo Case          Covert      Gold        24255.00  3100.00   620.00    -23635.00   -97.44   %
+30    AWP | BOOM                              崭新      ESports 2013 Case             Classified  Covert      4999.00   699.00    69.90     -4929.10    -98.60   %
+153   M4A1-S | Printstream                    崭新      Operation Broken Fang Case    Covert      Gold        4970.00   2928.33   585.67    -4384.33    -88.22   %
+149   M4A1-S | Hyper Beast                    崭新      Chroma 2 Case                 Covert      Gold        4248.00   1662.83   332.57    -3915.43    -92.17   %
+19    AK-47 | Wasteland Rebel                 崭新      Operation Vanguard Weapon Ca  Covert      Gold        3948.00   963.50    192.70    -3755.30    -95.12   %
+11    AK-47 | Leet Museo                      崭新      Operation Riptide Case        Covert      Gold        5680.00   10855.17  2171.03   -3508.97    -61.78   %
+16    AK-47 | Red Laminate                    崭新      ESports 2013 Case             Classified  Covert      3146.00   699.00    69.90     -3076.10    -97.78   %
+142   M4A1-S | Chantico's Fire                崭新      Chroma 3 Case                 Covert      Gold        3665.88   3599.75   719.95    -2945.93    -80.36   %
+5     AK-47 | Case Hardened                   崭新      CSGO Weapon Case              Classified  Covert      3276.40   3888.00   388.80    -2887.60    -88.13   %
+2     AK-47 | Asiimov                         崭新      Danger Zone Case              Covert      Gold        3139.50   2730.51   546.10    -2593.40    -82.61   %
+354   USP-S | Kill Confirmed                  崭新      Shadow Case                   Covert      Gold        2770.00   1374.14   274.83    -2495.17    -90.08   %
+126   Glock-18 | Neo-Noir                     崭新      Operation Broken Fang Case    Covert      Gold        2928.80   2928.33   585.67    -2343.13    -80.00   %
+148   M4A1-S | Golden Coil                    崭新      Shadow Case                   Covert      Gold        2569.00   1374.14   274.83    -2294.17    -89.30   %
+155   M4A4 | Cyber Security                   崭新      Operation Broken Fang Case    Classified  Covert      2420.00   3949.40   394.94    -2025.06    -83.68   %
+39    AWP | Lightning Strike                  崭新      CSGO Weapon Case              Covert      Gold        3888.00   9786.46   1957.29   -1930.71    -49.66   %
+13    AK-47 | Neon Revolution                 崭新      Gamma 2 Case                  Covert      Gold        2758.00   4167.39   833.48    -1924.52    -69.78   %
+18    AK-47 | The Empress                     崭新      Spectrum 2 Case               Covert      Gold        2767.00   4331.63   866.33    -1900.67    -68.69   %
+69    Desert Eagle | Golden Koi               崭新      Operation Bravo Case          Covert      Gold        2515.00   3100.00   620.00    -1895.00    -75.35   %
+267   P90 | Emerald Dragon                    崭新      Operation Bravo Case          Classified  Covert      3168.46   13385.00  1338.50   -1829.96    -57.76   %
+17    AK-47 | Redline                         略磨      Operation Phoenix Weapon Cas  Classified  Covert      1779.50   694.84    69.48     -1710.02    -96.10   %
+32    AWP | Corticera                         崭新      ESports 2014 Summer Case      Classified  Covert      2006.91   3725.00   372.50    -1634.41    -81.44   %
+129   Glock-18 | Snack Attack                 崭新      Operation Riptide Case        Classified  Covert      2000.00   4506.50   450.65    -1549.35    -77.47   %
+162   M4A4 | X-Ray                            崭新      ESports 2013 Winter Case      Covert      Gold        1924.00   1950.00   390.00    -1534.00    -79.73   %
+3     AK-47 | Bloodsport                      崭新      Spectrum Case                 Covert      Gold        1700.00   1044.90   208.98    -1491.02    -87.71   %
+8     AK-47 | Frontside Misty                 崭新      Shadow Case                   Classified  Covert      1488.99   2669.50   266.95    -1222.04    -82.07   %
+67    Desert Eagle | Crimson Web              崭新      ESports 2014 Summer Case      Restricted  Classified  1288.00   954.35    95.43     -1192.57    -92.59   %
+73    Desert Eagle | Ocean Drive              崭新      Operation Riptide Case        Covert      Gold        3333.00   10855.17  2171.03   -1161.97    -34.86   %
+1     AK-47 | Aquamarine Revenge              崭新      Falchion Case                 Covert      Gold        1769.00   3328.16   665.63    -1103.37    -62.37   %
+356   USP-S | Neo-Noir                        崭新      Spectrum Case                 Covert      Gold        1226.00   1044.90   208.98    -1017.02    -82.95   %
+159   M4A4 | Spider Lily                      崭新      Operation Riptide Case        Restricted  Classified  1085.00   1034.17   103.42    -981.58     -90.47   %
+152   M4A1-S | Player Two                     崭新      Prisma 2 Case                 Covert      Gold        1460.00   2458.18   491.64    -968.36     -66.33   %
+122   Glock-18 | Bullet Queen                 崭新      Prisma 2 Case                 Covert      Gold        1399.00   2458.18   491.64    -907.36     -64.86   %
+124   Glock-18 | Dragon Tattoo                崭新      CSGO Weapon Case              Restricted  Classified  1011.36   2142.95   214.29    -797.07     -78.81   %
+14    AK-47 | Neon Rider                      崭新      Horizon Case                  Covert      Gold        1949.00   6100.00   1220.00   -729.00     -37.40   %
+71    Desert Eagle | Hypnotic                 崭新      CSGO Weapon Case              Classified  Covert      1009.50   3888.00   388.80    -620.70     -61.49   %
+43    AWP | Wildfire                          崭新      CS20 Case                     Covert      Gold        1289.40   3382.71   676.54    -612.86     -47.53   %
+90    FAMAS | Roll Cage                       崭新      Gamma 2 Case                  Covert      Gold        1440.00   4167.39   833.48    -606.52     -42.12   %
+38    AWP | Hyper Beast                       崭新      Falchion Case                 Covert      Gold        1264.00   3328.16   665.63    -598.37     -47.34   %
+172   MAC-10 | Neon Rider                     崭新      Chroma 2 Case                 Covert      Gold        900.00    1662.83   332.57    -567.43     -63.05   %
+358   USP-S | Serum                           崭新      CSGO Weapon Case 2            Classified  Covert      647.00    1099.49   109.95    -537.05     -83.01   %
+98    Five-SeveN | Fairy Tale                 崭新      Operation Broken Fang Case    Classified  Covert      928.00    3949.40   394.94    -533.06     -57.44   %
+144   M4A1-S | Dark Water                     略磨      CSGO Weapon Case              Restricted  Classified  744.00    2142.95   214.29    -529.71     -71.20   %
+235   P2000 | Fire Elemental                  崭新      Operation Vanguard Weapon Ca  Covert      Gold        710.00    963.50    192.70    -517.30     -72.86   %
+63    Desert Eagle | Cobalt Disruption        崭新      ESports 2013 Winter Case      Classified  Covert      709.49    1924.00   192.40    -517.09     -72.88   %
+34    AWP | Electric Hive                     崭新      ESports 2013 Winter Case      Classified  Covert      707.00    1924.00   192.40    -514.60     -72.79   %
+355   USP-S | Monster Mashup                  崭新      Operation Broken Fang Case    Classified  Covert      899.80    3949.40   394.94    -504.86     -56.11   %
+70    Desert Eagle | Heirloom                 崭新      CSGO Weapon Case 3            Restricted  Classified  518.00    248.66    24.87     -493.13     -95.20   %
+357   USP-S | Overgrowth                      崭新      Operation Bravo Case          Restricted  Classified  649.00    1843.99   184.40    -464.60     -71.59   %
+351   USP-S | Dark Water                      略磨      CSGO Weapon Case              Restricted  Classified  678.00    2142.95   214.29    -463.71     -68.39   %
+158   M4A4 | Griffin                          崭新      Operation Vanguard Weapon Ca  Restricted  Classified  434.90    175.97    17.60     -417.30     -95.95   %
+163   M4A4 | Zirka                            崭新      Operation Bravo Case          Restricted  Classified  573.10    1843.99   184.40    -388.70     -67.82   %
+151   M4A1-S | Nightmare                      崭新      Horizon Case                  Classified  Covert      533.00    1754.50   175.45    -357.55     -67.08   %
+64    Desert Eagle | Code Red                 崭新      Horizon Case                  Covert      Gold        1560.00   6100.00   1220.00   -340.00     -21.79   %
+310   SSG 08 | Blood in the Water             崭新      CSGO Weapon Case 2            Covert      Gold        1099.49   3840.31   768.06    -331.43     -30.14   %
+145   M4A1-S | Decimator                      崭新      Spectrum Case                 Classified  Covert      474.00    1463.00   146.30    -327.70     -69.14   %
+263   P90 | Cold Blooded                      崭新      CSGO Weapon Case 2            Classified  Covert      399.00    1099.49   109.95    -289.05     -72.44   %
+20    AUG | Bengal Tiger                      崭新      ESports 2014 Summer Case      Classified  Covert      648.00    3725.00   372.50    -275.50     -42.52   %
+177   MAC-10 | Ultraviolet                    崭新      ESports 2014 Summer Case      Mil-Spec    Restricted  292.50    332.02    33.20     -259.30     -88.65   %
+306   SG 553 | Ultraviolet                    崭新      CSGO Weapon Case              Mil-Spec    Restricted  340.00    811.12    81.11     -258.89     -76.14   %
+116   Galil AR | Eco                          略磨      Chroma 2 Case                 Classified  Covert      510.00    2574.00   257.40    -252.60     -49.53   %
+169   MAC-10 | Graven                         崭新      Operation Bravo Case          Restricted  Classified  429.50    1843.99   184.40    -245.10     -57.07   %
+157   M4A4 | Faded Zebra                      崭新      ESports 2013 Case             Mil-Spec    Restricted  300.00    552.94    55.29     -244.71     -81.57   %
+320   Sawed-Off | Orange DDPAT                崭新      ESports 2013 Case             Restricted  Classified  649.50    4072.50   407.25    -242.25     -37.30   %
+224   Nova | Bloomstick                       崭新      ESports 2014 Summer Case      Classified  Covert      599.47    3725.00   372.50    -226.97     -37.86   %
+208   MP9 | Hydra                             崭新      CS20 Case                     Classified  Covert      294.00    800.45    80.05     -213.95     -72.77   %
+359   USP-S | Stainless                       崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  226.31    174.53    17.45     -208.86     -92.29   %
+234   P2000 | Corticera                       崭新      ESports 2014 Summer Case      Classified  Covert      563.00    3725.00   372.50    -190.50     -33.84   %
+68    Desert Eagle | Directive                崭新      Gamma 2 Case                  Restricted  Classified  221.39    314.47    31.45     -189.94     -85.80   %
+257   P250 | Undertow                         崭新      CSGO Weapon Case 3            Classified  Covert      255.99    680.00    68.00     -187.99     -73.44   %
+150   M4A1-S | Leaded Glass                   崭新      Spectrum 2 Case               Classified  Covert      361.50    1823.25   182.32    -179.18     -49.56   %
+58    CZ75-Auto | Victoria                    崭新      CSGO Weapon Case 3            Covert      Gold        680.00    2513.79   502.76    -177.24     -26.07   %
+277   PP-Bizon | Judgement of Anubis          崭新      Chroma 3 Case                 Covert      Gold        894.50    3599.75   719.95    -174.55     -19.51   %
+54    CZ75-Auto | The Fuschia Is Now          崭新      CSGO Weapon Case 3            Classified  Covert      241.33    680.00    68.00     -173.33     -71.82   %
+117   Galil AR | Orange DDPAT                 崭新      ESports 2013 Case             Restricted  Classified  579.43    4072.50   407.25    -172.18     -29.72   %
+121   Glock-18 | Blue Fissure                 崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  175.00    174.53    17.45     -157.55     -90.03   %
+118   Galil AR | Shattered                    崭新      Operation Bravo Case          Mil-Spec    Restricted  200.00    479.90    47.99     -152.01     -76.00   %
+329   Tec-9 | Fuel Injector                   崭新      Gamma 2 Case                  Classified  Covert      358.00    2099.00   209.90    -148.10     -41.37   %
+133   Glock-18 | Water Elemental              崭新      Operation Breakout Weapon Ca  Classified  Covert      308.30    1663.00   166.30    -142.00     -46.06   %
+290   SCAR-20 | Crimson Web                   崭新      CSGO Weapon Case 2            Mil-Spec    Restricted  150.05    103.17    10.32     -139.73     -93.12   %
+82    FAMAS | Afterimage                      崭新      ESports 2013 Winter Case      Classified  Covert      324.99    1924.00   192.40    -132.59     -40.80   %
+4     AK-47 | Blue Laminate                   崭新      ESports 2013 Winter Case      Restricted  Classified  187.50    580.49    58.05     -129.45     -69.04   %
+99    Five-SeveN | Fowl Play                  崭新      Operation Breakout Weapon Ca  Classified  Covert      290.00    1663.00   166.30    -123.70     -42.66   %
+348   USP-S | Black Lotus                     崭新      Operation Riptide Case        Mil-Spec    Restricted  141.00    297.33    29.73     -111.27     -78.91   %
+46    CZ75-Auto | Crimson Web                 崭新      CSGO Weapon Case 3            Mil-Spec    Restricted  125.66    174.53    17.45     -108.21     -86.11   %
+316   SSG 08 | Turbo Peek                     崭新      Operation Riptide Case        Classified  Covert      557.50    4506.50   450.65    -106.85     -19.17   %
+96    Five-SeveN | Case Hardened              崭新      CSGO Weapon Case 2            Restricted  Classified  155.00    523.00    52.30     -102.70     -66.26   %
+176   MAC-10 | Toybox                         崭新      Operation Riptide Case        Classified  Covert      545.00    4506.50   450.65    -94.35      -17.31   %
+161   M4A4 | Tooth Fairy                      崭新      Fracture Case                 Classified  Covert      138.00    497.38    49.74     -88.26      -63.96   %
+26    AUG | Syd Mead                          崭新      Gamma 2 Case                  Classified  Covert      297.90    2099.00   209.90    -88.00      -29.54   %
+141   M4A1-S | Bright Water                   略磨      Operation Bravo Case          Restricted  Classified  268.00    1843.99   184.40    -83.60      -31.19   %
+245   P250 | Asiimov                          略磨      Chroma 3 Case                 Classified  Covert      311.11    2280.19   228.02    -83.09      -26.71   %
+307   SG 553 | Wave Spray                     崭新      Operation Bravo Case          Mil-Spec    Restricted  130.00    479.90    47.99     -82.01      -63.08   %
+205   MP9 | Airlock                           崭新      Gamma 2 Case                  Classified  Covert      287.50    2099.00   209.90    -77.60      -26.99   %
+15    AK-47 | Phantom Disruptor               崭新      Prisma 2 Case                 Classified  Covert      220.19    1429.50   142.95    -77.24      -35.08   %
+106   G3SG1 | Demeter                         崭新      Operation Bravo Case          Mil-Spec    Restricted  119.87    479.90    47.99     -71.88      -59.96   %
+167   MAC-10 | Disco Tech                     崭新      Prisma 2 Case                 Classified  Covert      210.00    1429.50   142.95    -67.05      -31.93   %
+35    AWP | Exoskeleton                       崭新      Operation Broken Fang Case    Restricted  Classified  205.00    1415.93   141.59    -63.41      -30.93   %
+335   UMP-45 | Bone Pile                      崭新      Operation Bravo Case          Mil-Spec    Restricted  111.00    479.90    47.99     -63.01      -56.77   %
+156   M4A4 | Evil Daimyo                      崭新      Falchion Case                 Restricted  Classified  78.00     158.29    15.83     -62.17      -79.71   %
+97    Five-SeveN | Copper Galaxy              崭新      CSGO Weapon Case 3            Restricted  Classified  85.50     248.66    24.87     -60.63      -70.92   %
