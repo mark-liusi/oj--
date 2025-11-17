@@ -1,0 +1,106 @@
+====================================================================================================
+All 科学版 Trade-Up 盈利 TOP 100 - 按期望利润排序
+====================================================================================================
+
+排名    物品名称                                    外观      箱子系列                          稀有度         目标          价格        期望产出      单件价值      期望利润        ROI       
+------------------------------------------------------------------------------------------------------------------------------------------------------
+160   CZ75-Auto | Victoria                    战痕      CSGO Weapon Case 3            Covert      Gold        449.99    7860.52   1572.10   1122.11     249.36   %
+162   CZ75-Auto | Victoria                    久经      CSGO Weapon Case 3            Covert      Gold        459.89    7860.52   1572.10   1112.21     241.84   %
+163   CZ75-Auto | Victoria                    略磨      CSGO Weapon Case 3            Covert      Gold        521.00    7860.52   1572.10   1051.10     201.75   %
+161   CZ75-Auto | Victoria                    崭新      CSGO Weapon Case 3            Covert      Gold        627.00    7860.52   1572.10   945.10      150.73   %
+164   CZ75-Auto | Victoria                    破损      CSGO Weapon Case 3            Covert      Gold        761.00    7860.52   1572.10   811.10      106.58   %
+36    AK-47 | Jaguar                          战痕      ESports 2014 Summer Case      Covert      Gold        481.55    4980.00   996.00    514.45      106.83   %
+664   P90 | Death by Kitty                    久经      ESports 2013 Case             Covert      Gold        515.00    4968.65   993.73    478.73      92.96    %
+665   P90 | Death by Kitty                    略磨      ESports 2013 Case             Covert      Gold        628.00    4968.65   993.73    365.73      58.24    %
+404   M4A4 | Temukau                          战痕      Revolution Case               Covert      Gold        181.00    2606.40   521.28    340.28      188.00   %
+26    AK-47 | Head Shot                       战痕      Revolution Case               Covert      Gold        188.00    2606.40   521.28    333.28      177.28   %
+408   M4A4 | Temukau                          破损      Revolution Case               Covert      Gold        199.46    2606.40   521.28    321.82      161.35   %
+30    AK-47 | Head Shot                       破损      Revolution Case               Covert      Gold        205.50    2606.40   521.28    315.78      153.66   %
+406   M4A4 | Temukau                          久经      Revolution Case               Covert      Gold        217.50    2606.40   521.28    303.78      139.67   %
+28    AK-47 | Head Shot                       久经      Revolution Case               Covert      Gold        219.00    2606.40   521.28    302.28      138.03   %
+573   Nova | Hyper Beast                      战痕      Operation Wildfire Case       Classified  Covert      88.00     3109.94   310.99    222.99      253.40   %
+575   Nova | Hyper Beast                      久经      Operation Wildfire Case       Classified  Covert      94.47     3109.94   310.99    216.52      229.20   %
+110   AWP | Elite Build                       破损      Operation Wildfire Case       Classified  Covert      97.59     3109.94   310.99    213.40      218.67   %
+106   AWP | Elite Build                       战痕      Operation Wildfire Case       Classified  Covert      103.30    3109.94   310.99    207.69      201.06   %
+108   AWP | Elite Build                       久经      Operation Wildfire Case       Classified  Covert      107.84    3109.94   310.99    203.15      188.38   %
+944   USP-S | Printstream                     战痕      Recoil Case                   Covert      Gold        225.00    2122.62   424.52    199.52      88.68    %
+948   USP-S | Printstream                     破损      Recoil Case                   Covert      Gold        230.00    2122.62   424.52    194.52      84.58    %
+946   USP-S | Printstream                     久经      Recoil Case                   Covert      Gold        233.80    2122.62   424.52    190.72      81.58    %
+576   Nova | Hyper Beast                      略磨      Operation Wildfire Case       Classified  Covert      131.00    3109.94   310.99    179.99      137.40   %
+577   Nova | Hyper Beast                      破损      Operation Wildfire Case       Classified  Covert      133.45    3109.94   310.99    177.54      133.04   %
+189   Desert Eagle | Kumicho Dragon           久经      Operation Wildfire Case       Classified  Covert      137.00    3109.94   310.99    173.99      127.00   %
+187   Desert Eagle | Kumicho Dragon           战痕      Operation Wildfire Case       Classified  Covert      137.98    3109.94   310.99    173.01      125.39   %
+191   Desert Eagle | Kumicho Dragon           破损      Operation Wildfire Case       Classified  Covert      145.37    3109.94   310.99    165.62      113.93   %
+414   M4A4 | The Emperor                      战痕      Prisma Case                   Covert      Gold        313.99    2312.53   462.51    148.52      47.30    %
+246   Five-SeveN | Angry Mob                  战痕      Prisma Case                   Covert      Gold        315.99    2312.53   462.51    146.52      46.37    %
+248   Five-SeveN | Angry Mob                  久经      Prisma Case                   Covert      Gold        316.00    2312.53   462.51    146.51      46.36    %
+109   AWP | Elite Build                       略磨      Operation Wildfire Case       Classified  Covert      165.00    3109.94   310.99    145.99      88.48    %
+250   Five-SeveN | Angry Mob                  破损      Prisma Case                   Covert      Gold        318.00    2312.53   462.51    144.51      45.44    %
+418   M4A4 | The Emperor                      破损      Prisma Case                   Covert      Gold        319.89    2312.53   462.51    142.62      44.58    %
+407   M4A4 | Temukau                          略磨      Revolution Case               Covert      Gold        381.50    2606.40   521.28    139.78      36.64    %
+416   M4A4 | The Emperor                      久经      Prisma Case                   Covert      Gold        327.00    2312.53   462.51    135.51      41.44    %
+249   Five-SeveN | Angry Mob                  略磨      Prisma Case                   Covert      Gold        334.50    2312.53   462.51    128.01      38.27    %
+190   Desert Eagle | Kumicho Dragon           略磨      Operation Wildfire Case       Classified  Covert      185.90    3109.94   310.99    125.09      67.29    %
+327   Glock-18 | Snack Attack                 战痕      Operation Riptide Case        Classified  Covert      105.00    1911.06   191.11    86.11       82.01    %
+817   SSG 08 | Turbo Peek                     战痕      Operation Riptide Case        Classified  Covert      107.02    1911.06   191.11    84.09       78.57    %
+29    AK-47 | Head Shot                       略磨      Revolution Case               Covert      Gold        439.00    2606.40   521.28    82.28       18.74    %
+749   SCAR-20 | Cardiac                       战痕      Operation Vanguard Weapon Ca  Classified  Covert      49.70     1319.22   131.92    82.22       165.44   %
+462   MAC-10 | Toybox                         战痕      Operation Riptide Case        Classified  Covert      110.00    1911.06   191.11    81.11       73.73    %
+753   SCAR-20 | Cardiac                       破损      Operation Vanguard Weapon Ca  Classified  Covert      51.77     1319.22   131.92    80.15       154.82   %
+751   SCAR-20 | Cardiac                       久经      Operation Vanguard Weapon Ca  Classified  Covert      53.95     1319.22   131.92    77.97       144.53   %
+821   SSG 08 | Turbo Peek                     破损      Operation Riptide Case        Classified  Covert      117.50    1911.06   191.11    73.61       62.64    %
+617   P250 | Cartel                           久经      Operation Vanguard Weapon Ca  Classified  Covert      58.85     1319.22   131.92    73.07       124.17   %
+615   P250 | Cartel                           战痕      Operation Vanguard Weapon Ca  Classified  Covert      60.00     1319.22   131.92    71.92       119.87   %
+775   SG 553 | Colony IV                      久经      Shattered Web Case            Classified  Covert      54.00     1250.93   125.09    71.09       131.65   %
+774   SG 553 | Colony IV                      战痕      Shattered Web Case            Classified  Covert      54.80     1250.93   125.09    70.29       128.27   %
+776   SG 553 | Colony IV                      破损      Shattered Web Case            Classified  Covert      54.84     1250.93   125.09    70.25       128.10   %
+964   XM1014 | Tranquility                    久经      Operation Vanguard Weapon Ca  Classified  Covert      64.50     1319.22   131.92    67.42       104.53   %
+962   XM1014 | Tranquility                    战痕      Operation Vanguard Weapon Ca  Classified  Covert      65.00     1319.22   131.92    66.92       102.96   %
+466   MAC-10 | Toybox                         破损      Operation Riptide Case        Classified  Covert      129.00    1911.06   191.11    62.11       48.14    %
+331   Glock-18 | Snack Attack                 破损      Operation Riptide Case        Classified  Covert      130.00    1911.06   191.11    61.11       47.00    %
+827   Sawed-Off | Devourer                    战痕      Horizon Case                  Classified  Covert      30.00     861.12    86.11     56.11       187.04   %
+965   XM1014 | Tranquility                    略磨      Operation Vanguard Weapon Ca  Classified  Covert      79.00     1319.22   131.92    52.92       66.99    %
+829   Sawed-Off | Devourer                    久经      Horizon Case                  Classified  Covert      33.26     861.12    86.11     52.85       158.91   %
+618   P250 | Cartel                           略磨      Operation Vanguard Weapon Ca  Classified  Covert      79.67     1319.22   131.92    52.25       65.59    %
+619   P250 | Cartel                           破损      Operation Vanguard Weapon Ca  Classified  Covert      80.00     1319.22   131.92    51.92       64.90    %
+831   Sawed-Off | Devourer                    破损      Horizon Case                  Classified  Covert      34.70     861.12    86.11     51.41       148.16   %
+303   Galil AR | Orange DDPAT                 久经      ESports 2013 Case             Restricted  Classified  104.76    1556.42   155.64    50.88       48.57    %
+301   Galil AR | Orange DDPAT                 战痕      ESports 2013 Case             Restricted  Classified  105.00    1556.42   155.64    50.64       48.23    %
+847   Sawed-Off | Orange DDPAT                战痕      ESports 2013 Case             Restricted  Classified  105.45    1556.42   155.64    50.19       47.60    %
+752   SCAR-20 | Cardiac                       略磨      Operation Vanguard Weapon Ca  Classified  Covert      81.85     1319.22   131.92    50.07       61.18    %
+588   P2000 | Imperial Dragon                 战痕      Gamma Case                    Classified  Covert      73.06     1229.30   122.93    49.87       68.26    %
+223   FAMAS | Eye of Athena                   战痕      Horizon Case                  Classified  Covert      36.79     861.12    86.11     49.32       134.06   %
+849   Sawed-Off | Orange DDPAT                久经      ESports 2013 Case             Restricted  Classified  107.90    1556.42   155.64    47.74       44.25    %
+819   SSG 08 | Turbo Peek                     久经      Operation Riptide Case        Classified  Covert      143.79    1911.06   191.11    47.32       32.91    %
+966   XM1014 | Tranquility                    破损      Operation Vanguard Weapon Ca  Classified  Covert      85.20     1319.22   131.92    46.72       54.84    %
+56    AK-47 | The Empress                     战痕      Spectrum 2 Case               Covert      Gold        542.99    2946.52   589.30    46.31       8.53     %
+227   FAMAS | Eye of Athena                   破损      Horizon Case                  Classified  Covert      39.88     861.12    86.11     46.23       115.93   %
+225   FAMAS | Eye of Athena                   久经      Horizon Case                  Classified  Covert      40.24     861.12    86.11     45.87       114.00   %
+71    AUG | Fleet Flock                       战痕      Chroma 3 Case                 Classified  Covert      76.30     1194.92   119.49    43.19       56.61    %
+464   MAC-10 | Toybox                         久经      Operation Riptide Case        Classified  Covert      148.00    1911.06   191.11    43.11       29.13    %
+389   M4A4 | Desolate Space                   战痕      Gamma Case                    Classified  Covert      79.88     1229.30   122.93    43.05       53.89    %
+60    AK-47 | The Empress                     破损      Spectrum 2 Case               Covert      Gold        546.90    2946.52   589.30    42.40       7.75     %
+614   P250 | Asiimov                          战痕      Chroma 3 Case                 Classified  Covert      77.23     1194.92   119.49    42.26       54.72    %
+75    AUG | Fleet Flock                       破损      Chroma 3 Case                 Classified  Covert      77.89     1194.92   119.49    41.60       53.41    %
+851   Sawed-Off | Orange DDPAT                破损      ESports 2013 Case             Restricted  Classified  115.00    1556.42   155.64    40.64       35.34    %
+393   M4A4 | Desolate Space                   破损      Gamma Case                    Classified  Covert      82.44     1229.30   122.93    40.49       49.11    %
+748   SCAR-20 | Bloodsport                    破损      Gamma Case                    Classified  Covert      83.00     1229.30   122.93    39.93       48.11    %
+381   M4A1-S | Nightmare                      战痕      Horizon Case                  Classified  Covert      47.29     861.12    86.11     38.82       82.09    %
+719   R8 Revolver | Fade                      久经      Revolver Case                 Covert      Gold        458.00    2483.98   496.80    38.80       8.47     %
+592   P2000 | Imperial Dragon                 破损      Gamma Case                    Classified  Covert      84.18     1229.30   122.93    38.75       46.03    %
+726   R8 Revolver | Llama Cannon              战痕      Spectrum 2 Case               Classified  Covert      54.90     936.13    93.61     38.71       70.52    %
+385   M4A1-S | Nightmare                      破损      Horizon Case                  Classified  Covert      47.90     861.12    86.11     38.21       79.78    %
+73    AUG | Fleet Flock                       久经      Chroma 3 Case                 Classified  Covert      81.30     1194.92   119.49    38.19       46.98    %
+686   PP-Bizon | High Roller                  战痕      Spectrum 2 Case               Classified  Covert      55.55     936.13    93.61     38.06       68.52    %
+373   M4A1-S | Leaded Glass                   久经      Spectrum 2 Case               Classified  Covert      56.85     936.13    93.61     36.76       64.67    %
+305   Galil AR | Orange DDPAT                 破损      ESports 2013 Case             Restricted  Classified  119.00    1556.42   155.64    36.64       30.79    %
+371   M4A1-S | Leaded Glass                   战痕      Spectrum 2 Case               Classified  Covert      57.14     936.13    93.61     36.47       63.83    %
+329   Glock-18 | Snack Attack                 久经      Operation Riptide Case        Classified  Covert      154.94    1911.06   191.11    36.17       23.34    %
+637   P250 | See Ya Later                     战痕      Spectrum 2 Case               Covert      Gold        554.47    2946.52   589.30    34.83       6.28     %
+730   R8 Revolver | Llama Cannon              破损      Spectrum 2 Case               Classified  Covert      58.80     936.13    93.61     34.81       59.21    %
+375   M4A1-S | Leaded Glass                   破损      Spectrum 2 Case               Classified  Covert      61.50     936.13    93.61     32.11       52.22    %
+949   XM1014 | Incinegator                    战痕      Prisma Case                   Classified  Covert      30.00     617.62    61.76     31.76       105.87   %
+690   PP-Bizon | High Roller                  破损      Spectrum 2 Case               Classified  Covert      61.90     936.13    93.61     31.71       51.23    %
+738   R8 Revolver | Skull Crusher             破损      Prisma Case                   Classified  Covert      30.09     617.62    61.76     31.67       105.26   %
+80    AUG | Momentum                          破损      Prisma Case                   Classified  Covert      30.30     617.62    61.76     31.46       103.83   %
+736   R8 Revolver | Skull Crusher             战痕      Prisma Case                   Classified  Covert      30.70     617.62    61.76     31.06       101.18   %

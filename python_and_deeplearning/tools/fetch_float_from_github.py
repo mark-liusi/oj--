@@ -73,7 +73,7 @@ def match_skin(item_name: str, skins_data: list) -> dict:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--items", "-i", required=True, help="物品CSV文件")
-    ap.add_argument("--output", "-o", default="skins_meta_complete.csv", help="输出文件")
+    ap.add_argument("--output", "-o", default="data/skins_meta_complete.csv", help="输出文件")
     args = ap.parse_args()
     
     # 获取GitHub数据

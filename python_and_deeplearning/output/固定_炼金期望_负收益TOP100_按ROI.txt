@@ -1,0 +1,106 @@
+======================================================================================================================================================
+炼金期望 负收益 TOP100 - 按 ROI 排序（含绝对利润）
+======================================================================================================================================================
+
+排名    物品名称                                    系列                          稀有度       目标        外观            单价        期望产出        单件价值          亏损       ROI
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1     USP-S | Torque                          Falchion Case               Mil-Spec  Restricted久经         65.87        9.66        0.97      -64.90   -98.53%
+2     USP-S | Stainless                       CSGO Weapon Case 3          Mil-Spec  Restricted战痕        222.48       43.75        4.38     -218.10   -98.03%
+3     Glock-18 | Blue Fissure                 CSGO Weapon Case 3          Mil-Spec  Restricted战痕        160.00       43.75        4.38     -155.62   -97.27%
+4     CZ75-Auto | Crimson Web                 CSGO Weapon Case 3          Mil-Spec  Restricted战痕        118.40       43.75        4.38     -114.02   -96.30%
+5     Desert Eagle | Crimson Web              ESports 2014 Summer Case    RestrictedClassified久经       1568.00      598.50       59.85    -1508.15   -96.18%
+6     AK-47 | Elite Build                     Chroma 2 Case               Mil-Spec  Restricted战痕         61.30       27.17        2.72      -58.58   -95.57%
+7     M4A4 | Griffin                          Operation Vanguard Weapon   RestrictedClassified战痕        399.00      182.50       18.25     -380.75   -95.43%
+8     USP-S | Stainless                       CSGO Weapon Case 3          Mil-Spec  Restricted战痕         69.90       43.75        4.38      -65.52   -93.74%
+9     AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕       3009.00      955.00      191.00    -2818.00   -93.65%
+10    Desert Eagle | Crimson Web              ESports 2014 Summer Case    RestrictedClassified久经        374.80      241.55       24.16     -350.64   -93.56%
+11    M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       4966.50     1631.79      326.36    -4640.14   -93.43%
+12    M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       2225.00      781.73      156.35    -2068.65   -92.97%
+13    AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕       5780.00     2138.61      427.72    -5352.28   -92.60%
+14    USP-S | Stainless                       CSGO Weapon Case 3          Mil-Spec  Restricted战痕         49.90       36.99        3.70      -46.20   -92.59%
+15    SSG 08 | Abyss                          Operation Breakout Weapon   Mil-Spec  Restricted破损         27.80       23.00        2.30      -25.50   -91.73%
+16    AK-47 | Elite Build                     Chroma 2 Case               Mil-Spec  Restricted战痕         18.60       16.04        1.60      -17.00   -91.38%
+17    M4A4 | X-Ray                            ESports 2013 Winter Case    Covert    Gold      久经       1920.00      827.90      165.58    -1754.42   -91.38%
+18    Glock-18 | Warhawk                      Horizon Case                Mil-Spec  Restricted战痕         38.90       33.77        3.38      -35.52   -91.32%
+19    M4A1-S | Basilisk                       Operation Vanguard Weapon   RestrictedClassified久经        198.97      182.50       18.25     -180.72   -90.83%
+20    AK-47 | Elite Build                     Chroma 2 Case               Mil-Spec  Restricted战痕         11.00       10.24        1.02       -9.98   -90.69%
+21    Glock-18 | Steel Disruption             ESports 2014 Summer Case    RestrictedClassified略磨         90.00       86.27        8.63      -81.37   -90.42%
+22    Desert Eagle | Cobalt Disruption        ESports 2013 Winter Case    ClassifiedCovert    略磨        566.00      565.00       56.50     -509.50   -90.02%
+23    AK-47 | Elite Build                     Chroma 2 Case               Mil-Spec  Restricted战痕          8.87        9.28        0.93       -7.94   -89.54%
+24    Desert Eagle | Crimson Web              ESports 2014 Summer Case    RestrictedClassified久经         89.89       94.15        9.41      -80.48   -89.53%
+25    Desert Eagle | Crimson Web              ESports 2014 Summer Case    RestrictedClassified久经         81.90       86.27        8.63      -73.27   -89.47%
+26    USP-S | Stainless                       CSGO Weapon Case 3          Mil-Spec  Restricted战痕         38.00       40.94        4.09      -33.91   -89.23%
+27    M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       1347.50      728.10      145.62    -1201.88   -89.19%
+28    Desert Eagle | Crimson Web              ESports 2014 Summer Case    RestrictedClassified久经         92.99      100.93       10.09      -82.90   -89.15%
+29    M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       1439.00      781.73      156.35    -1282.65   -89.14%
+30    Desert Eagle | Cobalt Disruption        ESports 2013 Winter Case    ClassifiedCovert    略磨        519.89      565.00       56.50     -463.39   -89.13%
+31    AK-47 | Elite Build                     Chroma 2 Case               Mil-Spec  Restricted战痕          8.29        9.12        0.91       -7.38   -89.00%
+32    USP-S | Serum                           CSGO Weapon Case 2          ClassifiedCovert    略磨        542.00      609.49       60.95     -481.05   -88.75%
+33    AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕       1398.50      788.00      157.60    -1240.90   -88.73%
+34    USP-S | Stainless                       CSGO Weapon Case 3          Mil-Spec  Restricted战痕         38.76       43.75        4.38      -34.38   -88.71%
+35    M4A1-S | Basilisk                       Operation Vanguard Weapon   RestrictedClassified久经         51.00       57.65        5.76      -45.23   -88.70%
+36    AK-47 | Asiimov                         Danger Zone Case            Covert    Gold      久经       2900.00     1681.61      336.32    -2563.68   -88.40%
+37    AK-47 | Aquamarine Revenge              Falchion Case               Covert    Gold      久经       2028.00     1199.50      239.90    -1788.10   -88.17%
+38    M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       1093.50      666.51      133.30     -960.20   -87.81%
+39    Glock-18 | Neo-Noir                     Operation Broken Fang Case  Covert    Gold      战痕       2519.50     1631.79      326.36    -2193.14   -87.05%
+40    M4A1-S | Basilisk                       Operation Vanguard Weapon   RestrictedClassified久经         61.00       79.75        7.97      -53.02   -86.93%
+41    M4A1-S | Basilisk                       Operation Vanguard Weapon   RestrictedClassified久经         59.90       79.75        7.97      -51.92   -86.69%
+42    AK-47 | Bloodsport                      Spectrum Case               Covert    Gold      破损       1857.50     1287.62      257.52    -1599.98   -86.14%
+43    AWP | Redline                           Winter Offensive Weapon Ca  ClassifiedCovert    久经        360.00      509.85       50.98     -309.01   -85.84%
+44    M4A1-S | Basilisk                       Operation Vanguard Weapon   RestrictedClassified久经         55.00       79.75        7.97      -47.02   -85.50%
+45    AUG | Amber Slipstream                  Horizon Case                Mil-Spec  Restricted战痕          2.90        4.35        0.43       -2.47   -85.02%
+46    AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕        996.90      747.98      149.60     -847.30   -84.99%
+47    USP-S | Neo-Noir                        Spectrum Case               Covert    Gold      战痕       1655.00     1287.62      257.52    -1397.48   -84.44%
+48    Five-SeveN | Urban Hazard               Operation Vanguard Weapon   Mil-Spec  Restricted久经         14.89       23.33        2.33      -12.56   -84.33%
+49    USP-S | Torque                          Falchion Case               Mil-Spec  Restricted久经          8.00       12.65        1.26       -6.74   -84.19%
+50    MP7 | Ocean Foam                        ESports 2014 Summer Case    RestrictedClassified略磨         59.34       94.15        9.41      -49.93   -84.13%
+51    MP9 | Dart                              Operation Vanguard Weapon   Mil-Spec  Restricted久经         14.99       24.50        2.45      -12.54   -83.66%
+52    M4A4 | Cyber Security                   Operation Broken Fang Case  ClassifiedCovert    破损       2250.00     3743.00      374.30    -1875.70   -83.36%
+53    M4A4 | Griffin                          Operation Vanguard Weapon   RestrictedClassified战痕         47.39       79.75        7.97      -39.41   -83.17%
+54    AWP | Electric Hive                     ESports 2013 Winter Case    ClassifiedCovert    久经        331.55      565.00       56.50     -275.05   -82.96%
+55    M4A4 | Faded Zebra                      ESports 2013 Case           Mil-Spec  Restricted久经        308.50      529.63       52.96     -255.54   -82.83%
+56    P2000 | Red FragCam                     CSGO Weapon Case 3          Mil-Spec  Restricted久经         25.02       43.75        4.38      -20.64   -82.51%
+57    R8 Revolver | Survivalist               Horizon Case                Mil-Spec  Restricted战痕          2.70        4.72        0.47       -2.23   -82.50%
+58    USP-S | Torque                          Falchion Case               Mil-Spec  Restricted久经          5.50        9.66        0.97       -4.53   -82.44%
+59    M4A4 | X-Ray                            ESports 2013 Winter Case    Covert    Gold      久经        808.00      710.00      142.00     -666.00   -82.43%
+60    AWP | Redline                           Winter Offensive Weapon Ca  ClassifiedCovert    久经        288.49      507.85       50.79     -237.71   -82.40%
+61    USP-S | Torque                          Falchion Case               Mil-Spec  Restricted久经          5.07        8.98        0.90       -4.17   -82.28%
+62    Glock-18 | Steel Disruption             ESports 2014 Summer Case    RestrictedClassified略磨         56.63      100.93       10.09      -46.54   -82.18%
+63    AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕        861.50      779.68      155.94     -705.56   -81.90%
+64    MP7 | Ocean Foam                        ESports 2014 Summer Case    RestrictedClassified略磨         55.00      100.93       10.09      -44.91   -81.65%
+65    Glock-18 | Wraiths                      Shadow Case                 Mil-Spec  Restricted久经          5.75       11.04        1.10       -4.65   -80.80%
+66    AK-47 | The Empress                     Spectrum 2 Case             Covert    Gold      破损       2900.00     2786.89      557.38    -2342.62   -80.78%
+67    Five-SeveN | Urban Hazard               Operation Vanguard Weapon   Mil-Spec  Restricted久经         19.81       38.32        3.83      -15.98   -80.65%
+68    AWP | Atheris                           Prisma Case                 RestrictedClassified战痕        111.47      215.92       21.59      -89.88   -80.63%
+69    M4A4 | Evil Daimyo                      Falchion Case               RestrictedClassified破损         19.93       38.83        3.88      -16.05   -80.52%
+70    P90 | Cold Blooded                      CSGO Weapon Case 2          ClassifiedCovert    略磨        509.95      998.50       99.85     -410.10   -80.42%
+71    Dual Berettas | Panther                 CSGO Weapon Case 3          Mil-Spec  Restricted战痕         21.90       43.75        4.38      -17.52   -80.02%
+72    Glock-18 | Blue Fissure                 CSGO Weapon Case 3          Mil-Spec  Restricted战痕         18.50       36.99        3.70      -14.80   -80.01%
+73    USP-S | Lead Conduit                    Operation Wildfire Case     Mil-Spec  Restricted战痕         83.64      167.47       16.75      -66.89   -79.98%
+74    Galil AR | Shattered                    Operation Bravo Case        Mil-Spec  Restricted久经        211.16      428.83       42.88     -168.28   -79.69%
+75    M4A4 | Evil Daimyo                      Falchion Case               RestrictedClassified破损         19.10       38.83        3.88      -15.22   -79.67%
+76    M4A4 | Evil Daimyo                      Falchion Case               RestrictedClassified破损         18.96       38.83        3.88      -15.08   -79.52%
+77    Dual Berettas | Shred                   Horizon Case                Mil-Spec  Restricted久经          2.12        4.35        0.43       -1.69   -79.50%
+78    P90 | Traction                          Horizon Case                Mil-Spec  Restricted战痕          2.34        4.81        0.48       -1.86   -79.44%
+79    CZ75-Auto | Hexane                      ESports 2014 Summer Case    Mil-Spec  Restricted久经         23.73       48.90        4.89      -18.84   -79.39%
+80    Dual Berettas | Shred                   Horizon Case                Mil-Spec  Restricted久经          2.10        4.35        0.43       -1.67   -79.31%
+81    Five-SeveN | Urban Hazard               Operation Vanguard Weapon   Mil-Spec  Restricted久经         11.80       24.50        2.45       -9.35   -79.24%
+82    P2000 | Imperial                        Revolver Case               Mil-Spec  Restricted略磨          3.55        7.38        0.74       -2.81   -79.23%
+83    SCAR-20 | Green Marine                  Shadow Case                 Mil-Spec  Restricted久经          5.25       11.04        1.10       -4.15   -78.97%
+84    Glock-18 | Steel Disruption             ESports 2014 Summer Case    RestrictedClassified略磨         47.95      100.93       10.09      -37.86   -78.95%
+85    AK-47 | Bloodsport                      Spectrum Case               Covert    Gold      破损       1175.00     1255.08      251.02     -923.98   -78.64%
+86    Dual Berettas | Shred                   Horizon Case                Mil-Spec  Restricted久经          2.34        5.04        0.50       -1.84   -78.48%
+87    M4A4 | Evil Daimyo                      Falchion Case               RestrictedClassified破损         72.95      157.50       15.75      -57.20   -78.41%
+88    Glock-18 | Warhawk                      Horizon Case                Mil-Spec  Restricted战痕          2.30        5.04        0.50       -1.80   -78.11%
+89    P90 | Traction                          Horizon Case                Mil-Spec  Restricted战痕          2.30        5.04        0.50       -1.80   -78.11%
+90    M4A4 | Evil Daimyo                      Falchion Case               RestrictedClassified破损         28.25       62.20        6.22      -22.03   -77.98%
+91    M4A4 | Cyber Security                   Operation Broken Fang Case  ClassifiedCovert    破损        628.00     1385.00      138.50     -489.50   -77.95%
+92    AK-47 | Slate                           Snakebite Case              RestrictedClassified战痕         45.95      101.89       10.19      -35.76   -77.83%
+93    P2000 | Imperial                        Revolver Case               Mil-Spec  Restricted略磨          3.20        7.27        0.73       -2.47   -77.27%
+94    P2000 | Ivory                           Operation Breakout Weapon   Mil-Spec  Restricted战痕         10.08       23.00        2.30       -7.78   -77.18%
+95    Desert Eagle | Bronze Deco              Chroma 2 Case               Mil-Spec  Restricted久经          4.29        9.85        0.99       -3.30   -77.03%
+96    P90 | Traction                          Horizon Case                Mil-Spec  Restricted战痕          1.89        4.35        0.43       -1.46   -77.01%
+97    AK-47 | Slate                           Snakebite Case              RestrictedClassified战痕        111.50      256.94       25.69      -85.81   -76.96%
+98    AWP | Redline                           Winter Offensive Weapon Ca  ClassifiedCovert    久经        519.00     1198.26      119.83     -399.17   -76.91%
+99    R8 Revolver | Survivalist               Horizon Case                Mil-Spec  Restricted战痕          2.17        5.04        0.50       -1.67   -76.80%
+100   AUG | Amber Slipstream                  Horizon Case                Mil-Spec  Restricted战痕          1.87        4.35        0.43       -1.44   -76.76%

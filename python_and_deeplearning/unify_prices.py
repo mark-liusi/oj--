@@ -7,11 +7,11 @@ import re
 
 # 读取数据（优先读取全平台数据，兜底使用min版本）
 try:
-    df = pd.read_csv('prices_all.csv')
-    print(f"✅ 读取全平台数据: prices_all.csv")
+    df = pd.read_csv('data/prices_all.csv')
+    print(f"✅ 读取全平台数据: data/prices_all.csv")
 except FileNotFoundError:
-    df = pd.read_csv('prices_all_min.csv')
-    print(f"⚠️  使用备用数据: prices_all_min.csv")
+    df = pd.read_csv('data/prices_all_min.csv')
+    print(f"⚠️  使用备用数据: data/prices_all_min.csv")
 
 print(f"原始数据: {len(df)}行")
 
@@ -84,9 +84,13 @@ print(f"  平均每个物品有 {len(df)/len(df_grouped):.1f} 个平台的价格
 # 选择需要的列并重命名
 df_final = df_grouped[['name', 'series', 'tier', 'price', 'exterior', 'platform']].copy()
 
-# 保存
-df_final.to_csv('prices_with_exterior.csv', index=False)
-print(f"\n✅ 已生成 prices_with_exterior.csv ({len(df_final)} 行)")
+# 保存两个文件: prices_all_min.csv (最低价汇总) 和 prices_with_exterior.csv (用于计算)
+df_out = df_final.copy()
+df_out.to_csv('data/prices_all_min.csv', index=False, encoding='utf-8-sig')
+print(f"\n✅ 已输出: data/prices_all_min.csv (共 {len(df_out)} 条记录)")
+
+df_final.to_csv('data/prices_with_exterior.csv', index=False)
+print(f"✅ 已生成 data/prices_with_exterior.csv ({len(df_final)} 行)")
 
 # 统计
 print(f"\n统计信息:")

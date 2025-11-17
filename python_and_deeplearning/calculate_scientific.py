@@ -47,7 +47,7 @@ import numpy as np
 import pandas as pd
 
 if TYPE_CHECKING:
-    from connectors_market import MarketPriceFetcher, FetcherConfig
+    from tools.connectors_market import MarketPriceFetcher, FetcherConfig
 
 # ------------------------------
 # 常量：稀有度、跨档映射、外观阈值
@@ -282,7 +282,7 @@ def compute_ev_out_for_series(
 # 最佳主料清单模块的依赖导入
 # ------------------------------
 try:
-    from connectors_market import MarketPriceFetcher, FetcherConfig
+    from tools.connectors_market import MarketPriceFetcher, FetcherConfig
 except Exception:
     # 若用户未放置 connectors_market.py，也不影响主功能
     MarketPriceFetcher, FetcherConfig = None, None

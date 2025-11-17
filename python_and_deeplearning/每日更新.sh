@@ -11,7 +11,7 @@ export STEAMDT_API_KEY=ef24f95ea93b45a3b79c828687b85c4e
 
 echo "[步骤 1/4] 爬取最新价格数据（全平台完整数据）..."
 echo "  → 从 STEAM/BUFF/YOUPIN/C5 等9个平台获取所有价格"
-$PYTHON fetch_prices_with_steamdt.py --items-csv cs2_case_items_full.csv --out prices_all.csv --platform all
+$PYTHON fetch_prices_with_steamdt.py --items-csv data/cs2_case_items_full.csv --out prices_all.csv --platform all
 if [ $? -ne 0 ]; then
     echo "❌ 价格爬取失败！"
     exit 1
@@ -31,7 +31,7 @@ echo ""
 
 echo "[步骤 3/4] 运行科学版计算..."
 echo "  → 基于全平台最低价计算最优 Trade-Up 方案"
-$PYTHON calculate_scientific.py --input prices_with_exterior.csv --meta skins_meta_complete.csv --out-csv 科学版_盈利TOP100.csv
+$PYTHON calculate_scientific.py --input prices_with_exterior.csv --meta data/skins_meta_complete.csv --out-csv 科学版_盈利TOP100.csv
 if [ $? -ne 0 ]; then
     echo "❌ 计算失败！"
     exit 1

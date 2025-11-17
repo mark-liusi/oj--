@@ -6,8 +6,8 @@ Batch-fetch CS2 skin prices using SteamDT OpenAPI.
 
 Usage:
   export STEAMDT_API_KEY=xxxxx
-  python fetch_prices_with_steamdt.py --items-csv cs2_case_items_full.csv --out prices_today.csv --platform steam --mode current
-  python fetch_prices_with_steamdt.py --items-csv cs2_case_items_full.csv --out prices_avg7d.csv --platform steam --mode avg7d
+  python fetch_prices_with_steamdt.py --items-csv data/cs2_case_items_full.csv --out prices_today.csv --platform steam --mode current
+  python fetch_prices_with_steamdt.py --items-csv data/cs2_case_items_full.csv --out prices_avg7d.csv --platform steam --mode avg7d
 
 Columns expected in --items-csv:
   - item_name_en, weapon, finish, steamdt_market_hash_name (optional)
@@ -225,8 +225,9 @@ def main():
     out_rows = []
     for idx, (_, row) in enumerate(tqdm(df.iterrows(), total=total, desc="获取价格", unit="item"), 1):
         cands = build_candidates(row)
-        hit_rows = []  # 可能是多平台
+        hit_rows = []  # 收集所有外观的价格
         
+        # 遍历所有外观候选，不要提前 break
         for mh in cands:
             try:
                 if args.mode == "current":
@@ -242,7 +243,7 @@ def main():
                 else:
                     res = []
                 
-                # 修正：区分"指定平台"和"all"的命中判断
+                # 检查是否有有效价格
                 if args.platform.lower().strip() == "all":
                     # all 模式：只要有任何价格就算命中
                     has_price = any(r.get("price") for r in res)
@@ -256,17 +257,29 @@ def main():
                         for r in res
                     )
                 
+                # 将有价格的结果添加到 hit_rows，继续查询其他外观
                 if has_price:
-                    hit_rows = res
-                    break
+                    hit_rows.extend(res)
+                    
             except Exception as e:
-                hit_rows = [{"marketHashName": mh, "price": None, "platform": args.platform, 
-                            "source": args.mode, "status": -1, "error": str(e)}]
+                # 记录错误但继续查询其他外观
+                pass
         
-        # "只保留全网底价"开关
+        # "只保留全网底价"开关 - 按外观分组，每个外观选最便宜平台
         if args.min_only and hit_rows:
-            picked = _pick_min(hit_rows)
-            hit_rows = [picked] if picked else []
+            # 按 marketHashName 分组
+            from collections import defaultdict
+            wear_groups = defaultdict(list)
+            for hr in hit_rows:
+                mh = hr.get("marketHashName", "")
+                wear_groups[mh].append(hr)
+            
+            # 每个外观选最便宜的平台
+            hit_rows = []
+            for mh, group in wear_groups.items():
+                picked = _pick_min(group)
+                if picked:
+                    hit_rows.append(picked)
         
         # 如果没有命中任何价格，添加一个空记录
         if not hit_rows:

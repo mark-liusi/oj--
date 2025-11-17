@@ -1,0 +1,106 @@
+======================================================================================================================================================
+炼金期望 负收益 TOP100 - 按利润排序（含 ROI）
+======================================================================================================================================================
+
+排名    物品名称                                    系列                          稀有度       目标        外观            单价        期望产出        单件价值          亏损       ROI
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1     AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕       5780.00     2138.61      427.72    -5352.28   -92.60%
+2     M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       4966.50     1631.79      326.36    -4640.14   -93.43%
+3     AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕       3009.00      955.00      191.00    -2818.00   -93.65%
+4     AK-47 | Asiimov                         Danger Zone Case            Covert    Gold      久经       2900.00     1681.61      336.32    -2563.68   -88.40%
+5     AK-47 | The Empress                     Spectrum 2 Case             Covert    Gold      破损       2900.00     2786.89      557.38    -2342.62   -80.78%
+6     Glock-18 | Neo-Noir                     Operation Broken Fang Case  Covert    Gold      战痕       2519.50     1631.79      326.36    -2193.14   -87.05%
+7     M4A1-S | Mecha Industries               Gamma Case                  Covert    Gold      略磨       3171.50     4895.00      979.00    -2192.50   -69.13%
+8     AK-47 | Neon Revolution                 Gamma 2 Case                Covert    Gold      战痕       3035.00     4546.68      909.34    -2125.66   -70.04%
+9     M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       2225.00      781.73      156.35    -2068.65   -92.97%
+10    M4A4 | Cyber Security                   Operation Broken Fang Case  ClassifiedCovert    破损       2250.00     3743.00      374.30    -1875.70   -83.36%
+11    AK-47 | Aquamarine Revenge              Falchion Case               Covert    Gold      久经       2028.00     1199.50      239.90    -1788.10   -88.17%
+12    M4A4 | X-Ray                            ESports 2013 Winter Case    Covert    Gold      久经       1920.00      827.90      165.58    -1754.42   -91.38%
+13    AK-47 | Bloodsport                      Spectrum Case               Covert    Gold      破损       1857.50     1287.62      257.52    -1599.98   -86.14%
+14    Desert Eagle | Crimson Web              ESports 2014 Summer Case    RestrictedClassified久经       1568.00      598.50       59.85    -1508.15   -96.18%
+15    USP-S | Neo-Noir                        Spectrum Case               Covert    Gold      战痕       1655.00     1287.62      257.52    -1397.48   -84.44%
+16    M4A4 | Asiimov                          Winter Offensive Weapon Ca  Covert    Gold      战痕       1800.00     2380.00      476.00    -1324.00   -73.56%
+17    M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       1439.00      781.73      156.35    -1282.65   -89.14%
+18    AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕       1398.50      788.00      157.60    -1240.90   -88.73%
+19    M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       1347.50      728.10      145.62    -1201.88   -89.19%
+20    M4A1-S | Atomic Alloy                   Huntsman Weapon Case        ClassifiedCovert    战痕       1762.20     5780.00      578.00    -1184.20   -67.20%
+21    M4A1-S | Printstream                    Operation Broken Fang Case  Covert    Gold      战痕       1093.50      666.51      133.30     -960.20   -87.81%
+22    AK-47 | Bloodsport                      Spectrum Case               Covert    Gold      破损       1175.00     1255.08      251.02     -923.98   -78.64%
+23    AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕        996.90      747.98      149.60     -847.30   -84.99%
+24    M4A1-S | Mecha Industries               Gamma Case                  Covert    Gold      略磨       1625.00     4125.00      825.00     -800.00   -49.23%
+25    Galil AR | Chatterbox                   Chroma Case                 Covert    Gold      战痕       1188.88     2073.00      414.60     -774.28   -65.13%
+26    AK-47 | Neon Revolution                 Gamma 2 Case                Covert    Gold      战痕       1533.00     3832.07      766.41     -766.59   -50.01%
+27    AK-47 | Bloodsport                      Spectrum Case               Covert    Gold      破损        969.60     1249.17      249.83     -719.77   -74.23%
+28    AK-47 | Vulcan                          Huntsman Weapon Case        Covert    Gold      战痕        861.50      779.68      155.94     -705.56   -81.90%
+29    M4A4 | Desolate Space                   Gamma Case                  ClassifiedCovert    战痕        929.90     2319.75      231.97     -697.92   -75.05%
+30    M4A4 | X-Ray                            ESports 2013 Winter Case    Covert    Gold      久经        808.00      710.00      142.00     -666.00   -82.43%
+31    USP-S | Neo-Noir                        Spectrum Case               Covert    Gold      战痕        874.00     1255.08      251.02     -622.98   -71.28%
+32    P250 | See Ya Later                     Spectrum 2 Case             Covert    Gold      战痕       1180.00     2786.89      557.38     -622.62   -52.76%
+33    AK-47 | Bloodsport                      Spectrum Case               Covert    Gold      破损        937.50     1574.94      314.99     -622.51   -66.40%
+34    Desert Eagle | Cobalt Disruption        ESports 2013 Winter Case    ClassifiedCovert    略磨        760.00     1920.00      192.00     -568.00   -74.74%
+35    FAMAS | Roll Cage                       Gamma 2 Case                Covert    Gold      战痕       1459.50     4546.68      909.34     -550.16   -37.70%
+36    Desert Eagle | Cobalt Disruption        ESports 2013 Winter Case    ClassifiedCovert    略磨        566.00      565.00       56.50     -509.50   -90.02%
+37    SSG 08 | Blood in the Water             CSGO Weapon Case 2          Covert    Gold      略磨        998.50     2462.47      492.49     -506.01   -50.68%
+38    USP-S | Monster Mashup                  Operation Broken Fang Case  ClassifiedCovert    久经        879.70     3743.00      374.30     -505.40   -57.45%
+39    Five-SeveN | Fairy Tale                 Operation Broken Fang Case  ClassifiedCovert    破损        874.00     3743.00      374.30     -499.70   -57.17%
+40    Galil AR | Chatterbox                   Chroma Case                 Covert    Gold      战痕        799.88     1549.33      309.87     -490.01   -61.26%
+41    M4A4 | Cyber Security                   Operation Broken Fang Case  ClassifiedCovert    破损        628.00     1385.00      138.50     -489.50   -77.95%
+42    AK-47 | Orbit Mk01                      Operation Hydra Case        RestrictedClassified战痕        770.00     2805.67      280.57     -489.43   -63.56%
+43    Glock-18 | Wasteland Rebel              Gamma Case                  Covert    Gold      战痕       1468.00     4895.00      979.00     -489.00   -33.31%
+44    USP-S | Serum                           CSGO Weapon Case 2          ClassifiedCovert    略磨        542.00      609.49       60.95     -481.05   -88.75%
+45    AWP | Electric Hive                     ESports 2013 Winter Case    ClassifiedCovert    久经        664.88     1920.00      192.00     -472.88   -71.12%
+46    Desert Eagle | Cobalt Disruption        ESports 2013 Winter Case    ClassifiedCovert    略磨        519.89      565.00       56.50     -463.39   -89.13%
+47    AK-47 | The Empress                     Spectrum 2 Case             Covert    Gold      破损       1105.00     3240.39      648.08     -456.92   -41.35%
+48    Galil AR | Chatterbox                   Chroma Case                 Covert    Gold      战痕        759.50     1547.83      309.57     -449.93   -59.24%
+49    M4A4 | X-Ray                            ESports 2013 Winter Case    Covert    Gold      久经        565.00      720.00      144.00     -421.00   -74.51%
+50    P90 | Cold Blooded                      CSGO Weapon Case 2          ClassifiedCovert    略磨        509.95      998.50       99.85     -410.10   -80.42%
+51    M4A4 | Asiimov                          Winter Offensive Weapon Ca  Covert    Gold      战痕        829.50     2115.00      423.00     -406.50   -49.01%
+52    AWP | Redline                           Winter Offensive Weapon Ca  ClassifiedCovert    久经        519.00     1198.26      119.83     -399.17   -76.91%
+53    Desert Eagle | Printstream              Fracture Case               Covert    Gold      久经        612.00     1135.74      227.15     -384.85   -62.88%
+54    AK-47 | Aquamarine Revenge              Falchion Case               Covert    Gold      久经        594.50     1061.67      212.33     -382.17   -64.28%
+55    M4A4 | Griffin                          Operation Vanguard Weapon   RestrictedClassified战痕        399.00      182.50       18.25     -380.75   -95.43%
+56    USP-S | Neo-Noir                        Spectrum Case               Covert    Gold      战痕        616.00     1249.17      249.83     -366.17   -59.44%
+57    M4A1-S | Decimator                      Spectrum Case               ClassifiedCovert    战痕        529.90     1756.25      175.62     -354.27   -66.86%
+58    PP-Bizon | Judgement of Anubis          Chroma 3 Case               Covert    Gold      战痕        898.00     2724.00      544.80     -353.20   -39.33%
+59    Desert Eagle | Crimson Web              ESports 2014 Summer Case    RestrictedClassified久经        374.80      241.55       24.16     -350.64   -93.56%
+60    M4A1-S | Guardian                       Winter Offensive Weapon Ca  ClassifiedCovert    久经        459.88     1198.26      119.83     -340.05   -73.94%
+61    PP-Bizon | Judgement of Anubis          Chroma 3 Case               Covert    Gold      战痕        800.88     2389.33      477.87     -323.01   -40.33%
+62    USP-S | Neo-Noir                        Spectrum Case               Covert    Gold      战痕        568.00     1249.17      249.83     -318.17   -56.02%
+63    AK-47 | Neon Revolution                 Gamma 2 Case                Covert    Gold      战痕        969.50     3256.72      651.35     -318.15   -32.82%
+64    PP-Bizon | Judgement of Anubis          Chroma 3 Case               Covert    Gold      战痕        794.00     2407.81      481.56     -312.44   -39.35%
+65    PP-Bizon | Judgement of Anubis          Chroma 3 Case               Covert    Gold      战痕        787.50     2378.00      475.60     -311.90   -39.61%
+66    AWP | Redline                           Winter Offensive Weapon Ca  ClassifiedCovert    久经        360.00      509.85       50.98     -309.01   -85.84%
+67    PP-Bizon | Judgement of Anubis          Chroma 3 Case               Covert    Gold      战痕        779.00     2366.67      473.33     -305.67   -39.24%
+68    Sawed-Off | Orange DDPAT                ESports 2013 Case           RestrictedClassified久经        649.50     3455.54      345.55     -303.95   -46.80%
+69    AWP | Electric Hive                     ESports 2013 Winter Case    ClassifiedCovert    久经        331.55      565.00       56.50     -275.05   -82.96%
+70    AK-47 | Asiimov                         Danger Zone Case            Covert    Gold      久经        403.00      731.18      146.24     -256.76   -63.71%
+71    M4A4 | Faded Zebra                      ESports 2013 Case           Mil-Spec  Restricted久经        308.50      529.63       52.96     -255.54   -82.83%
+72    AWP | Neo-Noir                          Danger Zone Case            Covert    Gold      久经        390.75      731.18      146.24     -244.51   -62.58%
+73    AWP | Redline                           Winter Offensive Weapon Ca  ClassifiedCovert    久经        288.49      507.85       50.79     -237.71   -82.40%
+74    USP-S | Neo-Noir                        Spectrum Case               Covert    Gold      战痕        550.00     1574.94      314.99     -235.01   -42.73%
+75    Glock-18 | Neo-Noir                     Operation Broken Fang Case  Covert    Gold      战痕        545.00     1631.79      326.36     -218.64   -40.12%
+76    USP-S | Stainless                       CSGO Weapon Case 3          Mil-Spec  Restricted战痕        222.48       43.75        4.38     -218.10   -98.03%
+77    USP-S | Serum                           CSGO Weapon Case 2          ClassifiedCovert    略磨        244.65      609.49       60.95     -183.70   -75.09%
+78    AWP | Electric Hive                     ESports 2013 Winter Case    ClassifiedCovert    久经        238.48      565.00       56.50     -181.98   -76.31%
+79    AWP | Electric Hive                     ESports 2013 Winter Case    ClassifiedCovert    久经        261.80      808.00       80.80     -181.00   -69.14%
+80    M4A1-S | Basilisk                       Operation Vanguard Weapon   RestrictedClassified久经        198.97      182.50       18.25     -180.72   -90.83%
+81    Galil AR | Orange DDPAT                 ESports 2013 Case           RestrictedClassified战痕        520.00     3455.54      345.55     -174.45   -33.55%
+82    Galil AR | Shattered                    Operation Bravo Case        Mil-Spec  Restricted久经        211.16      428.83       42.88     -168.28   -79.69%
+83    USP-S | Monster Mashup                  Operation Broken Fang Case  ClassifiedCovert    久经        288.03     1228.39      122.84     -165.19   -57.35%
+84    Five-SeveN | Fairy Tale                 Operation Broken Fang Case  ClassifiedCovert    破损        299.00     1385.00      138.50     -160.50   -53.68%
+85    M4A1-S | Guardian                       Winter Offensive Weapon Ca  ClassifiedCovert    久经        210.90      509.85       50.98     -159.92   -75.83%
+86    AK-47 | Neon Revolution                 Gamma 2 Case                Covert    Gold      战痕        789.78     3169.81      633.96     -155.82   -19.73%
+87    Glock-18 | Blue Fissure                 CSGO Weapon Case 3          Mil-Spec  Restricted战痕        160.00       43.75        4.38     -155.62   -97.27%
+88    AK-47 | Asiimov                         Danger Zone Case            Covert    Gold      久经        288.00      667.45      133.49     -154.51   -53.65%
+89    USP-S | Serum                           CSGO Weapon Case 2          ClassifiedCovert    略磨        250.00      998.50       99.85     -150.15   -60.06%
+90    FAMAS | Afterimage                      ESports 2013 Winter Case    ClassifiedCovert    破损        336.49     1920.00      192.00     -144.49   -42.94%
+91    SCAR-20 | Cyrex                         Huntsman Weapon Case        ClassifiedCovert    久经        227.76      861.50       86.15     -141.61   -62.18%
+92    M4A4 | Cyber Security                   Operation Broken Fang Case  ClassifiedCovert    破损        223.99      835.39       83.54     -140.45   -62.70%
+93    AK-47 | Legion of Anubis                Fracture Case               Covert    Gold      战痕        367.50     1135.74      227.15     -140.35   -38.19%
+94    FAMAS | Roll Cage                       Gamma 2 Case                Covert    Gold      战痕        904.50     3832.07      766.41     -138.09   -15.27%
+95    M4A4 | Asiimov                          Winter Offensive Weapon Ca  Covert    Gold      战痕        545.70     2040.00      408.00     -137.70   -25.23%
+96    AK-47 | The Empress                     Spectrum 2 Case             Covert    Gold      破损        724.00     2932.97      586.59     -137.41   -18.98%
+97    M4A1-S | Leaded Glass                   Spectrum 2 Case             ClassifiedCovert    战痕        339.99     2040.00      204.00     -135.99   -40.00%
+98    P250 | See Ya Later                     Spectrum 2 Case             Covert    Gold      战痕        722.00     2932.97      586.59     -135.41   -18.75%
+99    FAMAS | Roll Cage                       Gamma 2 Case                Covert    Gold      战痕        794.00     3296.79      659.36     -134.64   -16.96%
+100   M4A1-S | Guardian                       Winter Offensive Weapon Ca  ClassifiedCovert    久经        184.97      507.85       50.79     -134.19   -72.54%

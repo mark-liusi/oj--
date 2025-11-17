@@ -1,0 +1,106 @@
+======================================================================================================================================================
+炼金期望 正收益 TOP100 - 按 ROI 排序（含绝对利润）
+======================================================================================================================================================
+
+排名    物品名称                                    系列                          稀有度       目标        外观            单价        期望产出        单件价值          利润       ROI
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1     MP5-SD | Gauss                          Prisma Case                 RestrictedClassified破损          3.24      204.70       20.47       17.23   531.79%
+2     Tec-9 | Bamboozle                       Prisma Case                 RestrictedClassified战痕          3.27      204.70       20.47       17.20   525.99%
+3     MP5-SD | Gauss                          Prisma Case                 RestrictedClassified破损          3.37      204.88       20.49       17.12   507.94%
+4     MP5-SD | Gauss                          Prisma Case                 RestrictedClassified破损          3.39      204.70       20.47       17.08   503.83%
+5     Tec-9 | Bamboozle                       Prisma Case                 RestrictedClassified战痕          3.57      204.88       20.49       16.92   473.88%
+6     UMP-45 | Moonrise                       Prisma Case                 RestrictedClassified久经          3.99      204.70       20.47       16.48   413.03%
+7     Tec-9 | Bamboozle                       Prisma Case                 RestrictedClassified战痕          4.04      204.70       20.47       16.43   406.68%
+8     Desert Eagle | Light Rail               Prisma Case                 RestrictedClassified战痕          4.78      204.70       20.47       15.69   328.24%
+9     Desert Eagle | Light Rail               Prisma Case                 RestrictedClassified战痕          5.03      204.70       20.47       15.44   306.96%
+10    Desert Eagle | Light Rail               Prisma Case                 RestrictedClassified战痕          5.28      204.88       20.49       15.21   288.02%
+11    Negev | dev_texture                     Snakebite Case              RestrictedClassified久经          2.56       88.53        8.85        6.29   245.84%
+12    UMP-45 | Moonrise                       Prisma Case                 RestrictedClassified久经          5.95      204.88       20.49       14.54   244.33%
+13    MAC-10 | Button Masher                  Snakebite Case              RestrictedClassified战痕          2.59       88.59        8.86        6.27   242.03%
+14    P250 | Cyber Shell                      Snakebite Case              RestrictedClassified破损          2.62       88.59        8.86        6.24   238.11%
+15    P250 | Cyber Shell                      Snakebite Case              RestrictedClassified破损          2.64       88.59        8.86        6.22   235.55%
+16    MAC-10 | Button Masher                  Snakebite Case              RestrictedClassified战痕          2.64       88.53        8.85        6.21   235.36%
+17    Negev | dev_texture                     Snakebite Case              RestrictedClassified久经          2.68       88.59        8.86        6.18   230.54%
+18    P250 | Cyber Shell                      Snakebite Case              RestrictedClassified破损          2.71       89.34        8.93        6.22   229.65%
+19    MP5-SD | Gauss                          Prisma Case                 RestrictedClassified破损          6.60      215.92       21.59       14.99   227.15%
+20    MAC-10 | Button Masher                  Snakebite Case              RestrictedClassified战痕          2.74       89.34        8.93        6.19   226.04%
+21    Negev | dev_texture                     Snakebite Case              RestrictedClassified久经          2.79       88.59        8.86        6.07   217.51%
+22    UMP-45 | Moonrise                       Prisma Case                 RestrictedClassified久经          6.57      204.70       20.47       13.90   211.57%
+23    Desert Eagle | Trigger Discipline       Snakebite Case              RestrictedClassified战痕          3.17       88.59        8.86        5.69   179.45%
+24    Desert Eagle | Trigger Discipline       Snakebite Case              RestrictedClassified战痕          3.25       88.53        8.85        5.60   172.42%
+25    Tec-9 | Bamboozle                       Prisma Case                 RestrictedClassified战痕          8.49      215.92       21.59       13.10   154.32%
+26    Desert Eagle | Trigger Discipline       Snakebite Case              RestrictedClassified战痕          4.00       89.34        8.93        4.93   123.34%
+27    P2000 | Imperial Dragon                 Gamma Case                  ClassifiedCovert    战痕         73.05     1573.12      157.31       84.26   115.35%
+28    P250 | Cyber Shell                      Snakebite Case              RestrictedClassified破损          5.00      101.89       10.19        5.19   103.77%
+29    Galil AR | Orange DDPAT                 ESports 2013 Case           RestrictedClassified战痕        105.00     2107.93      210.79      105.79   100.76%
+30    SG 553 | Cyrex                          Falchion Case               ClassifiedCovert    破损         29.69      594.50       59.45       29.76   100.24%
+31    Negev | dev_texture                     Snakebite Case              RestrictedClassified久经          4.50       89.34        8.93        4.43    98.52%
+32    Sawed-Off | Orange DDPAT                ESports 2013 Case           RestrictedClassified久经        107.90     2107.93      210.79      102.89    95.36%
+33    SG 553 | Cyrex                          Falchion Case               ClassifiedCovert    破损         30.93      594.50       59.45       28.52    92.21%
+34    SCAR-20 | Bloodsport                    Gamma Case                  ClassifiedCovert    破损         83.50     1573.12      157.31       73.81    88.40%
+35    M4A4 | Desolate Space                   Gamma Case                  ClassifiedCovert    战痕         84.53     1583.12      158.31       73.78    87.29%
+36    P2000 | Imperial Dragon                 Gamma Case                  ClassifiedCovert    战痕         87.46     1618.26      161.83       74.37    85.03%
+37    Sawed-Off | Orange DDPAT                ESports 2013 Case           RestrictedClassified久经        115.00     2107.93      210.79       95.79    83.30%
+38    Desert Eagle | Light Rail               Prisma Case                 RestrictedClassified战痕         11.90      215.92       21.59        9.69    81.45%
+39    AWP | Chromatic Aberration              Recoil Case                 Covert    Gold      战痕        219.00     1977.56      395.51      176.51    80.60%
+40    Galil AR | Orange DDPAT                 ESports 2013 Case           RestrictedClassified战痕        119.00     2107.93      210.79       91.79    77.14%
+41    SCAR-20 | Bloodsport                    Gamma Case                  ClassifiedCovert    破损         91.81     1618.26      161.83       70.02    76.26%
+42    P2000 | Imperial Dragon                 Gamma Case                  ClassifiedCovert    战痕         92.00     1618.26      161.83       69.83    75.90%
+43    CZ75-Auto | Yellow Jacket               Falchion Case               ClassifiedCovert    破损         34.00      594.50       59.45       25.45    74.85%
+44    Desert Eagle | Ocean Drive              Operation Riptide Case      Covert    Gold      战痕        418.98     3660.39      732.08      313.10    74.73%
+45    Sawed-Off | Orange DDPAT                ESports 2013 Case           RestrictedClassified久经        122.57     2107.93      210.79       88.22    71.98%
+46    CZ75-Auto | Yellow Jacket               Falchion Case               ClassifiedCovert    破损         34.57      594.50       59.45       24.88    71.97%
+47    M4A4 | Desolate Space                   Gamma Case                  ClassifiedCovert    战痕         94.88     1618.26      161.83       66.95    70.56%
+48    XM1014 | Teclu Burner                   Revolver Case               RestrictedClassified久经         34.90      590.00       59.00       24.10    69.05%
+49    Galil AR | Orange DDPAT                 ESports 2013 Case           RestrictedClassified战痕        124.90     2107.93      210.79       85.89    68.77%
+50    USP-S | Printstream                     Recoil Case                 Covert    Gold      战痕        234.90     1977.56      395.51      160.61    68.37%
+51    MAC-10 | Button Masher                  Snakebite Case              RestrictedClassified战痕          6.06      101.89       10.19        4.13    68.13%
+52    Desert Eagle | Ocean Drive              Operation Riptide Case      Covert    Gold      战痕        418.75     3502.72      700.54      281.79    67.29%
+53    P250 | Red Rock                         Operation Hydra Case        RestrictedClassified战痕        111.13     1765.41      176.54       65.41    58.86%
+54    PP-Bizon | Fuel Rod                     Revolver Case               RestrictedClassified战痕         38.00      590.00       59.00       21.00    55.26%
+55    P90 | Chopper                           Gamma Case                  RestrictedClassified战痕         31.70      489.97       49.00       17.30    54.56%
+56    AWP | Chromatic Aberration              Recoil Case                 Covert    Gold      战痕        567.00     4368.81      873.76      306.76    54.10%
+57    SG 553 | Tiger Moth                     Revolver Case               RestrictedClassified破损         38.47      590.00       59.00       20.53    53.37%
+58    M4A4 | Desolate Space                   Gamma Case                  ClassifiedCovert    战痕        109.00     1671.62      167.16       58.16    53.36%
+59    SCAR-20 | Bloodsport                    Gamma Case                  ClassifiedCovert    破损        110.50     1671.62      167.16       56.66    51.28%
+60    P2000 | Woodsman                        Operation Hydra Case        RestrictedClassified战痕        121.26     1816.24      181.62       60.36    49.78%
+61    Negev | dev_texture                     Snakebite Case              RestrictedClassified久经         17.24      256.94       25.69        8.45    49.03%
+62    P90 | Death Grip                        Operation Hydra Case        RestrictedClassified战痕        119.40     1765.41      176.54       57.14    47.86%
+63    Negev | Power Loader                    Revolver Case               RestrictedClassified破损          6.29       92.89        9.29        3.00    47.68%
+64    AWP | Chromatic Aberration              Recoil Case                 Covert    Gold      战痕        185.78     1362.69      272.54       86.76    46.70%
+65    R8 Revolver | Grip                      Snakebite Case              Mil-Spec  Restricted战痕          0.48        6.96        0.70        0.22    44.92%
+66    R8 Revolver | Grip                      Snakebite Case              Mil-Spec  Restricted战痕          0.58        8.38        0.84        0.26    44.52%
+67    Negev | Power Loader                    Revolver Case               RestrictedClassified破损          6.58       95.00        9.50        2.92    44.38%
+68    USP-S | Printstream                     Recoil Case                 Covert    Gold      战痕        238.00     1706.67      341.33      103.33    43.42%
+69    AUG | Aristocrat                        Gamma Case                  RestrictedClassified战痕         34.39      489.97       49.00       14.61    42.47%
+70    SCAR-20 | Cyrex                         Huntsman Weapon Case        ClassifiedCovert    久经        409.50     5780.00      578.00      168.50    41.15%
+71    Five-SeveN | Retrobution                Revolver Case               RestrictedClassified战痕          6.80       95.00        9.50        2.70    39.71%
+72    PP-Bizon | Fuel Rod                     Revolver Case               RestrictedClassified战痕          6.80       95.00        9.50        2.70    39.71%
+73    MAC-10 | Lapis Gator                    Operation Wildfire Case     Mil-Spec  Restricted战痕         12.20      167.47       16.75        4.55    37.27%
+74    XM1014 | Seasons                        Spectrum Case               RestrictedClassified久经         22.63      309.01       30.90        8.27    36.55%
+75    PP-Bizon | Fuel Rod                     Revolver Case               RestrictedClassified战痕          6.92       92.89        9.29        2.37    34.23%
+76    SG 553 | Tiger Moth                     Revolver Case               RestrictedClassified破损          6.99       92.89        9.29        2.30    32.89%
+77    AWP | Chromatic Aberration              Recoil Case                 Covert    Gold      战痕        206.00     1362.69      272.54       66.54    32.30%
+78    P250 | Splash                           ESports 2013 Case           RestrictedClassified略磨        159.90     2107.93      210.79       50.89    31.83%
+79    MP9 | Dart                              Operation Vanguard Weapon   Mil-Spec  Restricted久经         12.29      160.72       16.07        3.78    30.77%
+80    R8 Revolver | Grip                      Snakebite Case              Mil-Spec  Restricted战痕          0.55        7.19        0.72        0.17    30.76%
+81    PP-Bizon | Antique                      Huntsman Weapon Case        RestrictedClassified久经         83.38     1085.85      108.58       25.20    30.23%
+82    UMP-45 | Moonrise                       Prisma Case                 RestrictedClassified久经         16.78      215.92       21.59        4.81    28.68%
+83    XM1014 | Heaven Guard                   Huntsman Weapon Case        RestrictedClassified久经         85.27     1085.85      108.58       23.31    27.34%
+84    Negev | Power Loader                    Revolver Case               RestrictedClassified破损         46.60      590.00       59.00       12.40    26.61%
+85    XM1014 | Teclu Burner                   Revolver Case               RestrictedClassified久经          7.38       92.89        9.29        1.91    25.87%
+86    Five-SeveN | Retrobution                Revolver Case               RestrictedClassified战痕          7.40       92.89        9.29        1.89    25.53%
+87    XM1014 | Teclu Burner                   Revolver Case               RestrictedClassified久经          9.00      112.66       11.27        2.27    25.18%
+88    AWP | Chromatic Aberration              Recoil Case                 Covert    Gold      战痕        317.00     1977.56      395.51       78.51    24.77%
+89    R8 Revolver | Reboot                    Gamma Case                  RestrictedClassified战痕         20.49      254.33       25.43        4.94    24.13%
+90    Negev | Man-o'-war                      Chroma 2 Case               Mil-Spec  Restricted久经          1.62       20.07        2.01        0.39    23.86%
+91    Dual Berettas | Cartel                  Operation Wildfire Case     Mil-Spec  Restricted破损          2.22       27.00        2.70        0.48    21.62%
+92    SG 553 | Tiger Moth                     Revolver Case               RestrictedClassified破损          7.65       92.89        9.29        1.64    21.42%
+93    Tec-9 | Jambiya                         Operation Wildfire Case     Mil-Spec  Restricted战痕          2.23       27.00        2.70        0.47    21.08%
+94    P2000 | Turf                            Glove Case                  Mil-Spec  Restricted战痕          2.50       30.19        3.02        0.52    20.77%
+95    USP-S | Printstream                     Recoil Case                 Covert    Gold      战痕        226.00     1362.69      272.54       46.54    20.59%
+96    Tec-9 | Jambiya                         Operation Wildfire Case     Mil-Spec  Restricted战痕          2.00       24.00        2.40        0.40    20.00%
+97    P250 | Cyber Shell                      Snakebite Case              RestrictedClassified破损         21.57      256.94       25.69        4.12    19.12%
+98    XM1014 | Teclu Burner                   Revolver Case               RestrictedClassified久经          7.99       95.00        9.50        1.51    18.90%
+99    Tec-9 | Avalanche                       Revolver Case               RestrictedClassified战痕          8.00       95.00        9.50        1.50    18.75%
+100   CZ75-Auto | Yellow Jacket               Falchion Case               ClassifiedCovert    破损        171.01     2028.00      202.80       31.79    18.59%

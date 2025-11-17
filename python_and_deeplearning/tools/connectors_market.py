@@ -28,7 +28,7 @@ from pathlib import Path
 # ------------------------------
 _NAME_MAPPING: Optional[Dict[str, str]] = None
 
-def _load_name_mapping(csv_path: str = "name_mapping.csv") -> Dict[str, str]:
+def _load_name_mapping(csv_path: str = "data/name_mapping.csv") -> Dict[str, str]:
     """加载名称映射表：name → market_hash_name"""
     global _NAME_MAPPING
     if _NAME_MAPPING is not None:
