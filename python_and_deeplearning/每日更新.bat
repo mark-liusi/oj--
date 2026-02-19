@@ -5,7 +5,7 @@ echo CS2 Trade-Up 科学版计算 - 每日更新脚本
 echo ================================================================================
 echo.
 
-set PYTHON=E:\anaconda\envs\lsPython\python.exe
+set PYTHON=D:\acaconda\envs\dl\python.exe
 set STEAMDT_API_KEY=ef24f95ea93b45a3b79c828687b85c4e
 
 echo [步骤 1/4] 爬取最新价格数据（全平台完整数据）...

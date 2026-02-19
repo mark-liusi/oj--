@@ -78,19 +78,19 @@ NEXT_TIER = {
 
 # 外观阈值(全球统一档):FN, MW, FT, WW, BS
 EXTERIOR_THRESHOLDS = [
-    ("FN", 0.00, 0.07),
-    ("MW", 0.07, 0.15),
-    ("FT", 0.15, 0.38),
-    ("WW", 0.38, 0.45),
+    ("FN", 0.00, 0.069999),
+    ("MW", 0.07, 0.149999),
+    ("FT", 0.15, 0.379999),
+    ("WW", 0.38, 0.449999),
     ("BS", 0.45, 1.00),
 ]
 
 # 外观上限阈值字典（用于目标外观计算）
 EXTERIOR_UPPER_THRESHOLDS = {
-    "FN": 0.07,
-    "MW": 0.15,
-    "FT": 0.38,
-    "WW": 0.45,
+    "FN": 0.069999,
+    "MW": 0.149999,
+    "FT": 0.379999,
+    "WW": 0.449999,
     "BS": 1.00,
 }
 
@@ -121,8 +121,9 @@ except Exception:
     cp_model = None
 
 # ====== 运行期缓存（加速） ======
-PRICE_ANCHOR_MAP: Optional[Dict[Tuple[str,str], float]] = None  # (name_cf, exterior)->median price
-FALLBACK_PRICE_MAP: Optional[Dict[str, float]] = None           # name_cf->median price (fallback)
+PRICE_ANCHOR_MAP: Optional[Dict[Tuple[str,str], float]] = None  # (name_cf, exterior)->min price
+PRICE_SOURCE_MAP: Optional[Dict[Tuple[str,str], str]] = None    # (name_cf, exterior)->platform source
+FALLBACK_PRICE_MAP: Optional[Dict[str, float]] = None           # name_cf->min price (fallback)
 F_RANGE_MAP: Optional[Dict[str, Tuple[float,float]]] = None     # name_cf->(fmin,fmax)
 CAND_MAP: Optional[Dict[Tuple[str,str], List[Tuple[str,float,float,float]]]] = None
 # (series_cf, tier)->[(name, fallback_price, fmin_out, fmax_out), ...]
@@ -135,7 +136,7 @@ def init_runtime_caches(df_ctx: pd.DataFrame,
                         meta_df: Optional[pd.DataFrame],
                         prices_df: Optional[pd.DataFrame]) -> None:
     """为本数据集建立加速用的查找表（ST/Normal 各自独立）"""
-    global PRICE_ANCHOR_MAP, FALLBACK_PRICE_MAP, F_RANGE_MAP, CAND_MAP, CHEAPEST_EX_MAP
+    global PRICE_ANCHOR_MAP, PRICE_SOURCE_MAP, FALLBACK_PRICE_MAP, F_RANGE_MAP, CAND_MAP, CHEAPEST_EX_MAP
 
     # 1) 浮漂区间
     F_RANGE_MAP = {}
@@ -147,12 +148,18 @@ def init_runtime_caches(df_ctx: pd.DataFrame,
 
     # 2) 外观锚点价 & 最便宜外观
     PRICE_ANCHOR_MAP = {}
+    PRICE_SOURCE_MAP = {}
     if prices_df is not None and len(prices_df):
         pp = prices_df.copy()
         pp["name_cf"] = pp["name"].astype(str).str.strip().str.casefold()
-        grp = pp.groupby(["name_cf","exterior"])["price"].median().reset_index()
-        for _, r in grp.iterrows():
-            PRICE_ANCHOR_MAP[(r["name_cf"], r["exterior"])] = float(r["price"])
+        # 按(name_cf, exterior)分组，取最低价及其来源平台
+        for (name_cf, exterior), grp_data in pp.groupby(["name_cf","exterior"]):
+            # 找最低价的行
+            idx_min = grp_data["price"].idxmin()
+            min_price = float(grp_data.loc[idx_min, "price"])
+            source_platform = str(grp_data.loc[idx_min, "platform"])
+            PRICE_ANCHOR_MAP[(name_cf, exterior)] = min_price
+            PRICE_SOURCE_MAP[(name_cf, exterior)] = source_platform
         idx = pp.groupby("name_cf")["price"].idxmin()
         CHEAPEST_EX_MAP = {pp.loc[i,"name_cf"]: pp.loc[i,"exterior"] for i in idx}
     else:
@@ -163,11 +170,11 @@ def init_runtime_caches(df_ctx: pd.DataFrame,
     if prices_df is not None and len(prices_df):
         p2 = prices_df.copy()
         p2["name_cf"] = p2["name"].astype(str).str.strip().str.casefold()
-        gg = p2.groupby("name_cf")["price"].median().reset_index()
+        gg = p2.groupby("name_cf")["price"].min().reset_index()
         for _, r in gg.iterrows():
             FALLBACK_PRICE_MAP[r["name_cf"]] = float(r["price"])
     else:
-        gg = df_ctx.groupby("name")["price"].median().reset_index()
+        gg = df_ctx.groupby("name")["price"].min().reset_index()
         gg["name_cf"] = gg["name"].astype(str).str.strip().str.casefold()
         for _, r in gg.iterrows():
             FALLBACK_PRICE_MAP[r["name_cf"]] = float(r["price"])
@@ -181,7 +188,7 @@ def init_runtime_caches(df_ctx: pd.DataFrame,
         for nm, gg in g.groupby("name"):
             ncf = _cf(nm)
             fmin, fmax = F_RANGE_MAP.get(ncf, (0.0, 1.0))
-            fallback = FALLBACK_PRICE_MAP.get(ncf, float(gg["price"].median()))
+            fallback = FALLBACK_PRICE_MAP.get(ncf, float(gg["price"].min()))
             lst.append((str(nm), float(fallback), float(fmin), float(fmax)))
         CAND_MAP[(ser_cf, tier)] = lst
 
@@ -264,28 +271,7 @@ def exterior_from_float(f: float) -> str:
 def midpoint(lo: float, hi: float) -> float:
     return (float(lo)+float(hi))/2.0
 
-def _smart_markup_for_f_allow(f_allow: float,
-                              prices_df: Optional[pd.DataFrame],
-                              name: str) -> float:
-    """
-    根据允许最高磨损 f_allow 给出"低漂溢价倍数"：
-      - f_allow ≤ 0.02: 取 FN 桶 P90/median；无桶数据回退 1.15
-      - f_allow ≤ 0.03: 取 FN 桶 P75/median；无桶数据回退 1.10
-      - 其他:         取 FN 桶 P60/median；无桶数据回退 1.07
-    """
-    if prices_df is not None:
-        m = prices_df[(prices_df["name"].str.casefold()==str(name).strip().casefold()) &
-                      (prices_df["exterior"]=="FN")]["price"]
-        if len(m) >= 3:
-            med = float(m.median())
-            if med > 0:
-                if f_allow <= 0.02:  return float(m.quantile(0.90)) / med
-                if f_allow <= 0.03:  return float(m.quantile(0.75)) / med
-                return float(m.quantile(0.60)) / med
-    # 兜底固定倍数
-    if f_allow <= 0.02: return 1.15
-    if f_allow <= 0.03: return 1.10
-    return 1.07
+
 # ------------------------------
 # EV(科学版)：对“同系列+下一档”的候选皮肤，按浮漂传导→外观→价格求均值
 
@@ -297,7 +283,11 @@ def _get_float_value(f_in, exterior_in):
         ex = normalize_exterior(exterior_in)
         for label, lo, hi in EXTERIOR_THRESHOLDS:
             if label == ex:
-                return midpoint(lo, hi)
+                # 当只有外观信息时，使用该外观的最高磨损度下界（上界-ε）
+                # 因为区间是 [lo, hi)，所以应该稍小于hi
+                # 例如：MW [0.07, 0.15) → 返回 0.15 - 1e-6 = 0.149999
+                epsilon = 1e-6
+                return float(hi - epsilon)
     return None
 
 def _get_skin_float_range(name, meta_df, assume_full=True):
@@ -361,19 +351,19 @@ def compute_ev_out_for_series(
     cand = df_all[(df_all[col_series]==series) & (df_all[col_tier]==next_tier)]
     if cand.empty:
         return None
-    # 使用去重名字
-    S = cand.groupby(col_name, as_index=False)["price"].mean()  # 保留可回退的均价
+    # 使用去重名字，取最低价作为回退价
+    S = cand.groupby(col_name, as_index=False)["price"].min()  # 保留最低价作为回退价
     # 2) 输入侧：计算 ~f
     ftilde = None
     f_in_val = None
     if f_in is not None and not (isinstance(f_in, float) and math.isnan(f_in)):
         f_in_val = float(f_in)
     elif exterior_in is not None:
-        # 用外观阈值中点作为 f_in
+        # 用外观的最高磨损度（上界-ε）
         ex = normalize_exterior(exterior_in)
         for label, lo, hi in EXTERIOR_THRESHOLDS:
             if label == ex:
-                f_in_val = midpoint(lo,hi); break
+                f_in_val = hi - 1e-6; break  # 取上界-ε，确保落在该外观区间
     # 输入皮肤 min/max（如果能拿到）
     fmin_in = None; fmax_in = None
     if meta_df is not None:
@@ -408,16 +398,16 @@ def compute_ev_out_for_series(
         # f_out
         f_out = fmin_out + ftilde * (fmax_out - fmin_out)
         ex_out = exterior_from_float(f_out)
-        # 查价格
+        # 查价格：根据外观从prices_df中查询最低价
         price_s = None
         if prices_df is not None:
             mask = (prices_df["name"].str.casefold()==str(s_name).casefold()) & (prices_df["exterior"]==ex_out)
             rowp = prices_df[mask]
             if not rowp.empty:
-                # 使用中位数而非 iloc[0]，避免排序影响
-                price_s = float(rowp["price"].median())
+                # 使用最低价而非中位数
+                price_s = float(rowp["price"].min())
         if price_s is None:
-            # 回退：用主表中该皮肤的 price 均值
+            # 回退：用主表中该皮肤的最低价
             price_s = float(r["price"]) if "price" in S.columns and not math.isnan(r["price"]) else None
         if price_s is None:
             continue  # 实在没法估价，跳过该候选
@@ -447,7 +437,7 @@ def compute_ev_out_for_series_fast(series: str, next_tier: str,
         exn = normalize_exterior(exterior_in)
         for label, lo, hi in EXTERIOR_THRESHOLDS:
             if label == exn:
-                f_in_val = midpoint(lo, hi); break
+                f_in_val = hi - 1e-6; break  # 取上界-ε
     fmin_in, fmax_in = (0.0, 1.0)
     if 'F_RANGE_MAP' in globals() and F_RANGE_MAP is not None:
         fmin_in, fmax_in = F_RANGE_MAP.get(str(in_name).strip().casefold(), (0.0, 1.0))
@@ -457,19 +447,28 @@ def compute_ev_out_for_series_fast(series: str, next_tier: str,
     else:
         ftilde = max(0.0, min(1.0, f_in_val)) if (f_in_val is not None and assume_full_range) else 0.50
 
-    # 价格聚合
+    # 价格聚合：根据浮漂传导后的外观，从PRICE_ANCHOR_MAP查询该外观的最低价
     total, cnt = 0.0, 0
     for s_name, fallback_price, fmin_out, fmax_out in S:
+        # 步骤1：浮漂传导
         f_out = fmin_out + ftilde * (fmax_out - fmin_out)
+        # 步骤2：判断外观
         ex_out = exterior_from_float(f_out)
+        
+        # 步骤3：查询该物品在该外观下的最低价
+        s_name_cf = str(s_name).strip().casefold()
         p = None
         if 'PRICE_ANCHOR_MAP' in globals() and PRICE_ANCHOR_MAP is not None:
-            p = PRICE_ANCHOR_MAP.get((str(s_name).strip().casefold(), ex_out))
+            p = PRICE_ANCHOR_MAP.get((s_name_cf, ex_out))
+        
+        # 步骤4：回退策略（如果该外观没有数据）
         if p is None:
             p = fallback_price
+        
         if p is None:
             continue
         total += float(p); cnt += 1
+    
     if cnt == 0:
         return None
     return total / cnt
@@ -493,34 +492,27 @@ def _ext_bounds(ex: str):
 
 def price_from_float(name: str, f_allow: float, prices_df,
                      gamma=None, kappa=None, eps=0.01) -> Optional[float]:
-    """估算在 f_allow 处的最低可成交价（单调、贴近更好外观）。"""
-    ex = exterior_from_float(f_allow)
-    P_mid = _get_price_anchor(prices_df, name, ex)
-    if P_mid is None:
-        return None
-    if ex == "FN":
-        return float(max(0.0, P_mid))  # FN 段直接用 FN 统一价
-
-    ex_better = _BETTER.get(ex)
-    P_left = _get_price_anchor(prices_df, name, ex_better) if ex_better else None
-    if P_left is None:
-        return float(max(0.0, P_mid))
-
-    # 缺省曲率（FN<-MW 最陡）
-    gamma_map = {"MW":1.6, "FT":1.3, "WW":1.2, "BS":1.1}
-    kappa_map = {"MW":0.96,"FT":0.94,"WW":0.92,"BS":0.90}
-    γ = gamma if gamma is not None else gamma_map.get(ex, 1.2)
-    κ = kappa if kappa is not None else kappa_map.get(ex, 0.95)
-
-    lo, hi = _ext_bounds(ex)
-    if lo is None: return float(max(0.0, P_mid))
-    f = min(max(float(f_allow), lo), hi-1e-6)
-    # 越靠左（低磨） r 越大，价格越靠近更好外观价
-    r = (hi - f) / (hi - lo)
-    p = P_mid + (r**γ) * (κ*P_left - P_mid)
-    if ex_better == "FN":
-        p = min(p, (1.0 - eps)*P_left)
-    return float(max(0.0, p))
+    """获取物品的最低价格（与主流程一致）。
+    
+    参数 gamma, kappa, eps 已弃用，保留只为向后兼容。
+    现在直接返回该物品的最低价，确保整个系统（包括辅助优化）一致使用最低价。
+    """
+    # 获取该物品的最低价
+    name_cf = str(name).strip().casefold()
+    
+    # 优先使用缓存的最低价
+    if FALLBACK_PRICE_MAP is not None:
+        fallback_price = FALLBACK_PRICE_MAP.get(name_cf)
+        if fallback_price is not None:
+            return float(fallback_price)
+    
+    # 回退到直接查询prices_df
+    if prices_df is not None and len(prices_df) > 0:
+        m = prices_df[prices_df["name"].str.casefold() == name_cf]["price"]
+        if len(m) > 0:
+            return float(m.min())
+    
+    return None
 
 
 # =========================================
@@ -548,678 +540,129 @@ def EV_out_at_avgF(series: str, next_tier: str, avgF: float,
                 acc.append(float(p))
         return (sum(acc)/len(acc)) if acc else None
 
-    # —— 回退到原实现（保持不变） ——
+    # —— 回退实现：使用最低价确保一致性 ——
     S = df_all[(df_all["series"].str.casefold()==str(series).casefold())
                & (df_all["tier"]==next_tier)]
     if S.empty: return None
     acc = []
     # 按 name 聚合，避免同名多行重复计入
     for sname, g in S.groupby("name"):
-        fmin=fmax=None
-        if meta_df is not None:
-            row = meta_df[meta_df["name"].str.casefold()==str(sname).casefold()]
-            if not row.empty:
-                fmin, fmax = float(row.iloc[0]["float_min"]), float(row.iloc[0]["float_max"])
-        if fmin is None or fmax is None or not (fmax>fmin):
-            fmin, fmax = 0.0, 1.0
-        fout = min(max(avgF, fmin), fmax)
-        ex = exterior_from_float(fout)
         price = None
         if prices_df is not None:
-            rowp = prices_df[(prices_df["name"].str.casefold()==str(sname).casefold())
-                             & (prices_df["exterior"]==ex)]
+            rowp = prices_df[prices_df["name"].str.casefold()==str(sname).casefold()]
             if not rowp.empty:
-                price = float(rowp["price"].median())
+                price = float(rowp["price"].min())  # 使用最低价而非中位数
         if price is None and "price" in g:
-            price = float(g["price"].median())
+            price = float(g["price"].min())  # 使用最低价而非中位数
         if price is not None:
             acc.append(price)
     return (sum(acc)/len(acc)) if acc else None
 
 
 # =========================================
-# MIP（CP-SAT）：给定主料（含磨损），在 1打9/2打8/3打7 下选最优辅料
-# 目标 = Σ(辅料成本) + k*anchor_cost  -  Σ(系列期望收益)
-# （手续费忽略）
+# 简化版最佳主料推荐：为每个目标物品找价格最低的下级主料
 # =========================================
-def optimize_card_wear_mip(
-    anchor_items: List[Dict[str, Any]],  # [{"name","float","price","series","tier"}]
-    df_all: pd.DataFrame, prices_df: pd.DataFrame, meta_df: pd.DataFrame,
-    target_series: str, source_tier: str, target_exterior: str = "FN",
-    forbid_target_series_in_aux: bool = True,
-    aux_f_levels: Tuple[float,...]=(0.030,0.025,0.020,0.015,0.010,0.005),
-    max_time_s: float = None,  # None表示自动计算
-    ub_tighten: float = 0.05,  # 只搜更优5%的解
-    outer_iters: int = 2,  # 外层固定点迭代次数
-) -> Dict[str, Any]:
-    # 1) 计算容量与件数
-    k = len(anchor_items)
-    target_hi = {lab:hi for lab,lo,hi in EXTERIOR_THRESHOLDS}.get(target_exterior, 0.07)
-    F_anc_sum = sum(float(a["float"]) for a in anchor_items)
-    R = 10.0*target_hi - F_anc_sum - 2e-4
-    if R <= 0:
-        return {"feasible": False, "reason": f"容量不可行 R={R:.6f}"}
-    N = 10 - k
-
-    # 2) 辅料候选池
-    pool = df_all[df_all["tier"]==source_tier].copy()
-    if forbid_target_series_in_aux:
-        pool = pool[pool["series"].str.casefold()!=str(target_series).casefold()]
-    if pool.empty:
-        return {"feasible": False, "reason": "无辅料候选"}
+def find_best_anchor_for_target(
+    target_name: str, target_series: str, target_tier: str, target_exterior: str,
+    df_all: pd.DataFrame, prices_df: pd.DataFrame, meta_df: pd.DataFrame
+) -> Optional[Dict[str, Any]]:
+    """
+    为指定目标物品找最佳主料（同系列、下一级稀有度、价格最低）。
     
-    # 动态计算max_time_s：max(12.0, 0.002 * (#aux_names) * (#f_levels))
-    if max_time_s is None:
-        n_aux_names = pool["name"].nunique()
-        max_time_s = max(12.0, 0.002 * n_aux_names * len(aux_f_levels))
-
-    # 3) 为每个 name 生成 (f, cost) 档位（优先曲线估价，兜底本地价×智能溢价）
-    def _local_price_any(name: str) -> Optional[float]:
-        if prices_df is not None:
-            m = prices_df[prices_df["name"].str.casefold()==name.casefold()]["price"]
-            if len(m): return float(m.median())
-        m2 = pool[pool["name"].str.casefold()==name.casefold()]["price"]
-        return float(m2.median()) if len(m2) else None
-
-    groups = {}  # name -> [{'f','cost','series'}...]
-    for nm, g in pool.groupby("name"):
-        ser = str(g.iloc[0]["series"])
-        # 获取该皮肤的可达浮漂区间
-        fmin_item, fmax_item = 0.0, 1.0
-        if meta_df is not None:
-            rowm = meta_df[meta_df["name"].str.casefold()==str(nm).casefold()]
-            if not rowm.empty:
-                fmin_item = float(rowm.iloc[0]["float_min"])
-                fmax_item = float(rowm.iloc[0]["float_max"])
-        opts = []
-        for f in aux_f_levels:
-            # 用 meta_df 的 float_min 做下界裁剪
-            f_eff = min(max(float(f), fmin_item), fmax_item - 1e-6)
-            p = price_from_float(nm, f_eff, prices_df)
-            if p is None:
-                base = _local_price_any(nm)
-                if base is None:
-                    continue
-                # 兜底：回退你已有的"允许浮漂溢价"函数
-                p = float(base) * _smart_markup_for_f_allow(f_eff, prices_df, nm)
-            opts.append({"f": float(f_eff), "cost": float(p), "series": ser})
-        # 帕累托裁剪（删掉"更高 f 却更贵"的劣解）
-        opts = sorted(opts, key=lambda x: (x["f"], x["cost"]))
-        pareto = []
-        best_cost = float("inf")
-        for o in opts:
-            if o["cost"] < best_cost:
-                pareto.append(o); best_cost = o["cost"]
-        if pareto: groups[str(nm)] = pareto
-
-    if not groups:
-        return {"feasible": False, "reason": "辅料估价失败"}
-
-    # 4) 按 avgF 估“系列收益”（每件 1/10）
-    next_tier = NEXT_TIER[source_tier][0]
-    avgF_guess = max(0.0, min(R/10.0, target_hi - 2e-4))
-    benefit_by_series = {}
-    all_series = sorted(pool["series"].unique().tolist() + [target_series])
-    for s in all_series:
-        ev = EV_out_at_avgF(s, next_tier, avgF_guess, df_all, meta_df, prices_df)
-        benefit_by_series[s] = (ev or 0.0) / 10.0
-
-    # 5) 若无 OR-Tools，用贪心近似
-    if cp_model is None:
-        items = []
-        for nm, opts in groups.items():
-            for o in opts:
-                # 辅料系列收益抵扣
-                unit = (o["cost"] - benefit_by_series.get(o["series"],0.0)) / max(o["f"],1e-6)
-                items.append((unit, nm, o))
-        items.sort(key=lambda x: x[0])
-        chosen = []; Fsum=0.0; used=set()
-        for _, nm, o in items:
-            if nm in used: continue
-            if Fsum + o["f"] <= R + 1e-9:
-                chosen.append((nm,o)); used.add(nm); Fsum+=o["f"]
-                if len(chosen)==N: break
-        if len(chosen)<N:
-            return {"feasible": False, "reason": "贪心未达基数约束"}
-        total_cost_aux = sum(o["cost"] for _,o in chosen)
-        total_benefit = sum(benefit_by_series.get(o["series"],0.0) for _,o in chosen)
-        # 加上主料的成本与收益
-        anchor_cost = sum(float(a["price"]) for a in anchor_items)
-        total_cost = anchor_cost + total_cost_aux
-        total_benefit += k * benefit_by_series.get(target_series, 0.0)
-        return {
-            "feasible": True, "solver":"greedy",
-            "chosen_aux":[{"name":nm, **o} for nm,o in chosen],
-            "Fsum_aux": Fsum, "avgF": (F_anc_sum + Fsum)/10.0,
-            "total_cost": total_cost, "total_benefit": total_benefit,
-            "objective": total_cost - total_benefit,
-        }
-
-    # 6) 贪心上界 + hint
-    greedy_result = _greedy_upper_bound(groups, N, R, benefit_by_series)
-    # 主料净成本常数项
-    anchor_cost = sum(float(a["price"]) for a in anchor_items)
-    anchor_benefit = k * benefit_by_series.get(target_series, 0.0)
-    const_term = anchor_cost - anchor_benefit
-    if greedy_result is not None:
-        greedy_obj = greedy_result["obj_aux"]
-        greedy_chosen = greedy_result["chosen"]
-        greedy_Fsum = greedy_result["Fsum"]
-        ub_total = const_term + greedy_obj  # 目标函数上界（总目标）
-    else:
-        greedy_obj = None
-        greedy_chosen = None
-        greedy_Fsum = None
-        ub_total = None
-
-    # 7) CP-SAT 模型
-    model = cp_model.CpModel()
-    F_SCALE, P_SCALE = 100000, 100  # 1e-5 浮漂精度、0.01 价格精度
-    # 变量
-    y = {}    # (name, idx) -> Bool
-    idx_by_name = {}
-    all_opts = []
-    for nm, opts in groups.items():
-        idxs=[]
-        for j,o in enumerate(opts):
-            v = model.NewBoolVar(f"y_{nm}_{j}")
-            y[(nm,j)] = v
-            idxs.append((j,v))
-            all_opts.append((nm,j,o))
-        idx_by_name[nm] = idxs
-
-    # 基数、每name至多一个、容量约束
-    model.Add(sum(v for v in y.values()) == N)
-    for nm, idxs in idx_by_name.items():
-        model.Add(sum(v for _,v in idxs) <= 1)
-    model.Add(sum(int(round(o["f"]*F_SCALE))*y[(nm,j)] for nm,j,o in all_opts)
-              <= int(round(R*F_SCALE)))
-
-    # 线性目标变量 Z，并加"只搜更优5%"的剪枝约束
-    Z_lo = 0
-    Z_hi = int(1e12)
-    Z = model.NewIntVar(Z_lo, Z_hi, "Z")
-    terms = []
-    for nm,j,o in all_opts:
-        ben = benefit_by_series.get(o["series"], 0.0)
-        coef = int(round(o["cost"]*P_SCALE)) - int(round(ben*P_SCALE))
-        terms.append(coef * y[(nm,j)])
-    const_scaled = int(round(const_term * P_SCALE))
-    model.Add(Z == sum(terms) + const_scaled)
-    if ub_total is not None:
-        ub_scaled = int(round(ub_total * P_SCALE * (1.0 - ub_tighten)))  # 只搜更优5%
-        model.Add(Z <= ub_scaled)
-
-    model.Minimize(Z)
-    solver = cp_model.CpSolver()
-    solver.parameters.max_time_in_seconds = max_time_s
-    solver.parameters.num_search_workers = 8
-
-    # 解提示（solution hint）
-    if greedy_chosen is not None:
-        try:
-            hint_vars, hint_vals = [], []
-            used_pairs = set()
-            for nm, j, o in greedy_chosen:
-                used_pairs.add((nm, j))
-            for nm,j,o in all_opts:
-                val = 1 if (nm,j) in used_pairs else 0
-                hint_vars.append(y[(nm,j)])
-                hint_vals.append(val)
-            model.AddHint(hint_vars, hint_vals)
-        except Exception:
-            pass  # hint失败不影响求解
-
-    # 8) 外层固定点：用求得 avgF 重新计算 benefit 再求一次
-    best_sol = None
-    for it in range(max(1, outer_iters)):
-        st = solver.Solve(model)
-        if st not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
-            if best_sol is not None:
-                break
-            return {"feasible": False, "reason": f"CP-SAT 无解 (iter {it})", "status": int(st)}
-
-        chosen, Fsum = [], 0.0
-        total_cost_aux, total_benefit_aux = 0.0, 0.0
-        for nm,j,o in all_opts:
-            if solver.BooleanValue(y[(nm,j)]):
-                chosen.append({"name": nm, **o})
-                Fsum += o["f"]
-                total_cost_aux += o["cost"]
-                total_benefit_aux += benefit_by_series.get(o["series"], 0.0)
-        
-        avgF_true = (F_anc_sum + Fsum) / 10.0
-        obj_val = (anchor_cost + total_cost_aux) - (anchor_benefit + total_benefit_aux)
-        best_sol = {
-            "feasible": True, "solver":"cp-sat", "iter": it, "status": int(st),
-            "chosen_aux": chosen, "Fsum_aux": Fsum, "avgF": avgF_true,
-            "total_cost": anchor_cost + total_cost_aux,
-            "total_benefit": anchor_benefit + total_benefit_aux,
-            "objective": obj_val,
-        }
-
-        # 迭代：用 avgF_true 重新估 EV
-        if it+1 < outer_iters:
-            benefit_by_series_new = {}
-            for s in all_series:
-                ev = EV_out_at_avgF(s, next_tier, avgF_true, df_all, meta_df, prices_df)
-                benefit_by_series_new[s] = (ev or 0.0) / 10.0
-            benefit_by_series = benefit_by_series_new
-            # 重新计算目标函数（更新Z的定义）
-            # 为简化，这里直接break；完整实现需要重建模型
-            break
-
-    return best_sol
-
-
-# =========================================
-# 为“每个目标皮”生成“最优下级清单”（按箱/系列分组）
-# 主料（同系列、下一级稀有度）的名字与磨损一并优化
-# =========================================
-def build_best_lower_map_for_targets(
-    df_all: pd.DataFrame, prices_df: pd.DataFrame, meta_df: pd.DataFrame,
-    target_tier: str, k_anchor: int = 1, target_exterior: str = "FN",
-    aux_f_levels: Tuple[float,...]=(0.030,0.025,0.020,0.015,0.010,0.005),
-    tol_pct: float = 0.005, n_jobs: int = 1
-) -> pd.DataFrame:
-    rows = []
-    targets = df_all[df_all["tier"]==target_tier].copy()
-    if "case_name_en" not in targets.columns:
-        targets["case_name_en"] = targets["series"]
-
-    tasks = [(str(r["name"]), str(r["series"]), str(r.get("case_name_en", r["series"])))
-             for _, r in targets.iterrows()]
-
-    def solve_one(tgt_name, tgt_series, case_name):
-        best = _coarse_to_fine_anchor_search_for_one_target(
-            tgt_name=tgt_name, tgt_series=tgt_series, target_tier=target_tier,
-            df_all=df_all, prices_df=prices_df, meta_df=meta_df,
-            k_anchor=k_anchor, target_exterior=target_exterior, aux_f_levels=aux_f_levels,
-            tol_pct=tol_pct, coarse_points=8, fine_points=8
-        )
-        if not best: 
-            return None
-        return {
-            "case_name_en": case_name,
-            "target_series": tgt_series,
-            "target_name": tgt_name,
-            "target_tier": target_tier,
-            "target_exterior": target_exterior,
-            "best_anchor_name": best["anchor_name"],
-            "best_anchor_float": best["anchor_float"],
-            "best_anchor_cost": best["anchor_cost"],
-            "aux_count": len(best["chosen_aux"]),
-            "avgF": best["avgF"],
-            "total_cost": best["total_cost"],
-            "total_ev": best["total_ev"],
-            "objective": best["objective"],
-            "aux_series_counts": json.dumps(Counter([x["series"] for x in best["chosen_aux"]]))
-        }
-
-    if n_jobs <= 1:
-        for t in tasks:
-            rec = solve_one(*t)
-            if rec: rows.append(rec)
-    else:
-        with ProcessPoolExecutor(max_workers=n_jobs) as ex:
-            for fut in as_completed([ex.submit(solve_one, *t) for t in tasks]):
-                rec = fut.result()
-                if rec: rows.append(rec)
-
-    return pd.DataFrame(rows)
-
-
-# 补丁A
-def adaptive_float_grid(fmin: float, fmax: float, n_points: int = 12,
-                        split: float = 0.030, hard_cap: float = 0.120) -> list:
+    返回：
+    {
+        "anchor_name": str,        # 最佳主料名称
+        "anchor_price": float,     # 最佳主料价格
+        "anchor_float": float,     # 推荐磨损值（尽量低）
+        "source_tier": str         # 来源稀有度
+    }
     """
-    低浮漂密采样，高浮漂稀疏采样；并限制到 [fmin, min(fmax, hard_cap)] 内。
-    """
-    lo = max(0.0, fmin)
-    hi = min(fmax, hard_cap)
-    if lo >= hi: 
-        return [lo]
-    n_lo = max(2, n_points // 2)
-    n_hi = max(1, n_points - n_lo)
-    grid_lo = np.linspace(lo, min(hi, split), n_lo, endpoint=True)
-    grid_hi = np.linspace(max(lo, split), hi, n_hi, endpoint=True)
-    g = sorted(set([float(round(x, 6)) for x in np.concatenate([grid_lo, grid_hi])]))
-    return g
-
-def _series_upper_bound_for_anchor_float(
-    N_aux: int, thr_hi: float, meta_df: Optional[pd.DataFrame],
-    aux_groups: Dict[str, list], eps: float = 2e-4, k_anchor: int = 1, other_anchor_sum: float = 0.0
-) -> float:
-    """
-    用“辅料每个 name 可达的最低浮漂”来估计最小 ΣF_aux，从而得到主料可行的最大磨损(上界)。
-    ΣF_aux_min = 选 N_aux 个 name 的各自最小 f 值之和。
-    fa_max ≤ (10*thr_hi - other_anchor_sum - ΣF_aux_min - eps) / k_anchor
-    """
-    # 计算每个 name 的最低可达 f（已在构建 aux_groups 时按 meta_df 做下界裁剪）
-    fmins = []
-    for nm, opts in aux_groups.items():
-        fmins.append(min(o["f"] for o in opts))
-    fmins.sort()
-    if len(fmins) < N_aux:
-        return 0.0
-    F_aux_min = sum(fmins[:N_aux])
-    return (10.0 * thr_hi - other_anchor_sum - F_aux_min - eps) / max(1, k_anchor)
-
-# 补丁B
-def _build_aux_groups(pool, prices_df, meta_df, aux_f_levels):
-    """
-    为每个 name 生成若干 (f, cost, series) 档位：
-    - f 用 meta_df 的 float_min 做下界裁剪（不可达的低漂档位会提升到该皮的最小可达值）
-    - cost 优先用价格–磨损曲线 price_from_float；失败再用本地价 × 智能溢价兜底
-    - 做帕累托裁剪（删“更高 f 且更贵”的点）
-    """
-    groups = {}
-    for nm, g in pool.groupby("name"):
-        ser = str(g.iloc[0]["series"])
-        # 皮肤可达的真实区间
-        fmin_item, fmax_item = 0.0, 1.0
-        if meta_df is not None:
-            rowm = meta_df[meta_df["name"].str.casefold()==str(nm).casefold()]
-            if not rowm.empty:
-                fmin_item = float(rowm.iloc[0]["float_min"])
-                fmax_item = float(rowm.iloc[0]["float_max"])
-        opts = []
-        for f in aux_f_levels:
-            f_eff = min(max(float(f), fmin_item), fmax_item - 1e-6)
-            p = price_from_float(nm, f_eff, prices_df)
-            if p is None:
-                # 本地价兜底
-                base = None
-                if prices_df is not None:
-                    m = prices_df[prices_df["name"].str.casefold()==nm.casefold()]["price"]
-                    if len(m): base = float(m.median())
-                if base is None:
-                    mg = g["price"]
-                    base = float(mg.median()) if len(mg) else None
-                if base is None:
-                    continue
-                p = float(base) * _smart_markup_for_f_allow(f_eff, prices_df, nm)
-            opts.append({"f": f_eff, "cost": float(p), "series": ser})
-        if not opts: 
-            continue
-        # 帕累托裁剪
-        opts = sorted(opts, key=lambda x: (x["f"], x["cost"]))
-        pareto, best_c = [], float("inf")
-        for o in opts:
-            if o["cost"] < best_c:
-                pareto.append(o); best_c = o["cost"]
-        groups[str(nm)] = pareto
-    return groups
-
-def _greedy_upper_bound(groups, N, R, benefit_by_series):
-    """
-    简单贪心：按单位“净成本/浮漂”排序，返回 (objective_ub, chosen_list, Fsum)。
-    """
-    items = []
-    for nm, opts in groups.items():
-        for o in opts:
-            ben = benefit_by_series.get(o["series"], 0.0)
-            unit = (o["cost"] - ben) / max(o["f"], 1e-9)
-            items.append((unit, nm, o))
-    items.sort(key=lambda x: x[0])
-
-    chosen, Fsum, used = [], 0.0, set()
-    for _, nm, o in items:
-        if nm in used:
-            continue
-        if Fsum + o["f"] <= R + 1e-9:
-            chosen.append((nm, o))
-            used.add(nm)
-            Fsum += o["f"]
-            if len(chosen) == N:
-                break
-    if len(chosen) < N:
-        return None, None, None
-    obj = sum(o["cost"] - benefit_by_series.get(o["series"], 0.0) for _, o in chosen)
-    return obj, chosen, Fsum
-
-def _best_aux_unit_net_cost_per_float(groups, benefit_by_series):
-    best = float("inf")
-    for nm, opts in groups.items():
-        for o in opts:
-            if o["f"] <= 0: 
-                continue
-            ben = benefit_by_series.get(o["series"], 0.0)
-            best = min(best, (o["cost"] - ben) / o["f"])
-    return best
-
-def _prune_anchor_grid_by_marginal(aname, grid, prices_df, aux_unit_best, margin=0.02):
-    """
-    若锚点曲线的 ΔC/ΔF ≥ (1+margin)*aux_unit_best，则把该点左侧（更低磨损）剪枝。
-    """
-    if not grid: 
-        return grid
-    pts = sorted(set(grid))
-    costs = []
-    for f in pts:
-        p = price_from_float(aname, f, prices_df)
-        if p is None:
-            return pts  # 没法估就不剪
-        costs.append(p)
-    keep = [True]*len(pts)
-    for i in range(len(pts)-1, 0, -1):  # 右→左扫
-        df = pts[i] - pts[i-1]
-        if df <= 1e-9:
-            continue
-        dc = costs[i-1] - costs[i]  # 向左(降磨)的成本增量（取绝对）
-        slope = abs(dc) / df
-        if slope >= (1.0 + margin) * aux_unit_best:
-            for j in range(0, i):
-                keep[j] = False
-            break
-    pruned = [x for x,k in zip(pts,keep) if k]
-    return pruned if pruned else [pts[-1]]
-
-# 补丁C 
-def _coarse_to_fine_anchor_search_for_one_target(
-    tgt_name, tgt_series, target_tier, df_all, prices_df, meta_df,
-    k_anchor: int, target_exterior: str, aux_f_levels: Tuple[float,...],
-    tol_pct: float = 0.005, coarse_points: int = 8, fine_points: int = 8
-):
-    # 1) 找 source_tier、主料候选集与其可达区间
+    # 1) 找到下级稀有度（source_tier）
     source_tier = None
     for src, nxt in NEXT_TIER.items():
         if target_tier in nxt:
-            source_tier = src; break
+            source_tier = src
+            break
     if source_tier is None:
         return None
-    anchors_df = df_all[(df_all["series"].str.casefold()==tgt_series.casefold())
-                         & (df_all["tier"]==source_tier)]
-    if anchors_df.empty:
+    
+    # 2) 筛选同系列、下级稀有度的物品
+    pool = df_all[
+        (df_all["series"].str.casefold() == str(target_series).casefold()) &
+        (df_all["tier"] == source_tier)
+    ].copy()
+    
+    if pool.empty:
         return None
-
-    # 2) 构建一次辅料 groups，用于"主料上界"估计与后续反复求解（可复用）
-    pool_aux = df_all[(df_all["tier"]==source_tier) &
-                     (df_all["series"].str.casefold()!=tgt_series.casefold())]
-    groups_aux = _build_aux_groups(pool_aux, prices_df, meta_df, aux_f_levels)
-    if not groups_aux:
-        return None
-
-    # 2.5) 计算系列收益和最佳辅料单位净成本（用于后续边际成本剪枝）
-    thr_hi = {lab:hi for lab,lo,hi in EXTERIOR_THRESHOLDS}.get(target_exterior, 0.07)
-    N_aux = 10 - k_anchor
-    next_tier = NEXT_TIER[source_tier][0]
-    avgF_guess = thr_hi - 2e-4
-    series_set = set(pool_aux["series"].unique().tolist() + [tgt_series])
-    benefit_by_series = {
-        s: (EV_out_at_avgF(s, next_tier, avgF_guess, df_all, meta_df, prices_df) or 0.0)/10.0
-        for s in series_set
-    }
-    aux_unit_best = _best_aux_unit_net_cost_per_float(groups_aux, benefit_by_series)
-
-    # 3) 两段式：先 coarse（稀疏），再 fine（在优胜者附近细化）
+    
+    # 3) 找价格最低的物品
     best = None
-    cand_records = []
-    # —— coarse ——  
-    for aname, g in anchors_df.groupby("name"):
-        # 该主料可达区间
-        fmin_i, fmax_i = 0.0, 1.0
-        rowm = meta_df[meta_df["name"].str.casefold()==str(aname).casefold()]
-        if not rowm.empty:
-            fmin_i, fmax_i = float(rowm.iloc[0]["float_min"]), float(rowm.iloc[0]["float_max"])
-
-        # 可行上界：用辅料最低可达浮漂估计主料最大磨损
-        thr_hi = {lab:hi for lab,lo,hi in EXTERIOR_THRESHOLDS}.get(target_exterior, 0.07)
-        N_aux = 10 - k_anchor
-        fa_max_bound = _series_upper_bound_for_anchor_float(
-            N_aux=N_aux, thr_hi=thr_hi, meta_df=meta_df,
-            aux_groups=groups_aux, eps=2e-4, k_anchor=k_anchor, other_anchor_sum=0.0
-        )
-        f_hi = min(fmax_i, max(fmin_i, fa_max_bound))
-        if f_hi <= fmin_i: 
-            continue
-
-        # 自适应 coarse 栅格
-        coarse_grid = adaptive_float_grid(fmin_i, f_hi, n_points=coarse_points)
-        coarse_grid = _prune_anchor_grid_by_marginal(str(aname), coarse_grid, prices_df, aux_unit_best, margin=0.02)
-        for fa in coarse_grid:
-            cost_a = price_from_float(aname, fa, prices_df)
-            if cost_a is None:
-                continue
-            anchor_items = [{"name": str(aname), "float": float(fa), "price": float(cost_a),
-                             "series": tgt_series, "tier": source_tier}] * k_anchor
-            res = optimize_card_wear_mip(
-                anchor_items=anchor_items, df_all=df_all, prices_df=prices_df, meta_df=meta_df,
-                target_series=tgt_series, source_tier=source_tier, target_exterior=target_exterior,
-                forbid_target_series_in_aux=True, aux_f_levels=aux_f_levels, 
-                max_time_s= max(12.0, 0.002*len(groups_aux)*len(aux_f_levels))  # 动态时间
-            )
-            if not res.get("feasible", False): 
-                continue
-            rec = {
-                "anchor_name": str(aname), "anchor_float": float(fa), "anchor_cost": float(cost_a),
-                "avgF": float(res["avgF"]), "objective": float(res["objective"]),
-                "total_cost": float(res["total_cost"]), "total_ev": float(res["total_benefit"]),
-                "chosen_aux": res["chosen_aux"]
+    for _, row in pool.iterrows():
+        name = str(row["name"])
+        price = float(row["price"])
+        
+        # 获取该物品的最低可达磨损
+        fmin = 0.0
+        if meta_df is not None:
+            rowm = meta_df[meta_df["name"].str.casefold() == name.casefold()]
+            if not rowm.empty:
+                fmin = float(rowm.iloc[0]["float_min"])
+        
+        # 获取最低价格
+        min_price = price_from_float(name, fmin, prices_df)
+        if min_price is None:
+            min_price = price
+        
+        if best is None or min_price < best["anchor_price"]:
+            best = {
+                "anchor_name": name,
+                "anchor_price": float(min_price),
+                "anchor_float": float(fmin),
+                "source_tier": source_tier
             }
-            cand_records.append(rec)
-            if (best is None) or (rec["objective"] < best["objective"]):
-                best = rec
-
-    if best is None:
-        return None
-
-    # —— fine（围绕 top‑K 细化）——
-    K = min(3, len(cand_records))
-    top = sorted(cand_records, key=lambda r: r["objective"])[:K]
-    for rec in top:
-        aname = rec["anchor_name"]
-        fa0   = rec["anchor_float"]
-        # 在 [fa0-δ, fa0+δ] 开一个细化窗口
-        rowm = meta_df[meta_df["name"].str.casefold()==str(aname).casefold()]
-        fmin_i, fmax_i = (float(rowm.iloc[0]["float_min"]), float(rowm.iloc[0]["float_max"])) if not rowm.empty else (0.0, 1.0)
-        delta = max(0.003, 0.5*(rec["avgF"]))  # 简单自适应；你也可以固定 0.01
-        lo = max(fmin_i, fa0 - delta)
-        hi = min(fmax_i, fa0 + delta)
-        # 再限一次可行上界
-        thr_hi = {lab:hi_ for lab,lo_,hi_ in EXTERIOR_THRESHOLDS}.get(target_exterior, 0.07)
-        N_aux  = 10 - k_anchor
-        fa_max_bound = _series_upper_bound_for_anchor_float(N_aux, thr_hi, meta_df, groups_aux)
-        hi = min(hi, fa_max_bound)
-        if hi <= lo: 
-            continue
-
-        fine_grid = adaptive_float_grid(lo, hi, n_points=fine_points)
-        fine_grid = _prune_anchor_grid_by_marginal(str(aname), fine_grid, prices_df, aux_unit_best, margin=0.02)
-        for fa in fine_grid:
-            cost_a = price_from_float(aname, fa, prices_df)
-            if cost_a is None: continue
-            anchor_items = [{"name": str(aname), "float": float(fa), "price": float(cost_a),
-                             "series": tgt_series, "tier": source_tier}] * k_anchor
-            res = optimize_card_wear_mip(
-                anchor_items=anchor_items, df_all=df_all, prices_df=prices_df, meta_df=meta_df,
-                target_series=tgt_series, source_tier=source_tier, target_exterior=target_exterior,
-                forbid_target_series_in_aux=True, aux_f_levels=aux_f_levels,
-                max_time_s= max(12.0, 0.002*len(groups_aux)*len(aux_f_levels))
-            )
-            if not res.get("feasible", False): 
-                continue
-            rec2 = {
-                "anchor_name": str(aname), "anchor_float": float(fa), "anchor_cost": float(cost_a),
-                "avgF": float(res["avgF"]), "objective": float(res["objective"]),
-                "total_cost": float(res["total_cost"]), "total_ev": float(res["total_benefit"]),
-                "chosen_aux": res["chosen_aux"]
-            }
-            if rec2["objective"] < best["objective"]:
-                best = rec2
-
+    
     return best
 
-# 补丁D
-# === 自适应主料栅格（低漂密、高漂疏） ===
-def adaptive_float_grid_for_anchor(name: str, target_exterior: str,
-                                   meta_df: Optional[pd.DataFrame],
-                                   n_points: int = 12) -> List[float]:
-    fmin_item, fmax_item = 0.0, 1.0
-    if meta_df is not None:
-        row = meta_df[meta_df["name"].str.casefold()==str(name).casefold()]
-        if not row.empty:
-            fmin_item, fmax_item = float(row.iloc[0]["float_min"]), float(row.iloc[0]["float_max"])
-    lo_ext, hi_ext = _ext_bounds(target_exterior)
-    lo = max(fmin_item, lo_ext); hi = min(fmax_item, hi_ext)
-    if hi <= lo + 1e-6: return [round(lo, 5)]
-    dense_hi = min(lo + 0.03, hi)
-    dense = np.linspace(lo, dense_hi, n_points // 2, endpoint=True)
-    sparse = np.linspace(dense_hi, hi, n_points - n_points // 2, endpoint=True)
-    return sorted(set([float(round(x, 5)) for x in np.concatenate([dense, sparse])]))
 
-# === 辅料“最小总浮漂”下界（用于裁剪主料最大可行磨损） ===
-def aux_min_total_float_lower_bound(df_all: pd.DataFrame, meta_df: Optional[pd.DataFrame],
-                                    source_tier: str, target_series: str,
-                                    forbid_target_series_in_aux: bool,
-                                    aux_f_levels: Tuple[float,...], N: int) -> float:
-    pool = df_all[df_all["tier"]==source_tier].copy()
-    if forbid_target_series_in_aux:
-        pool = pool[pool["series"].str.casefold()!=str(target_series).casefold()]
-    if pool.empty or N <= 0: return float('inf')
-    fmin_by_name = []
-    for nm, g in pool.groupby("name"):
-        fmin_item = 0.0
-        if meta_df is not None:
-            row = meta_df[meta_df["name"].str.casefold()==str(nm).casefold()]
-            if not row.empty: fmin_item = float(row.iloc[0]["float_min"])
-        f_min_feasible = max(fmin_item, min(aux_f_levels))
-        fmin_by_name.append(float(f_min_feasible))
-    fmin_by_name.sort()
-    if len(fmin_by_name) < N: return float('inf')
-    return float(sum(fmin_by_name[:N]))
-
-# 补丁E：
-def prune_anchor_grid_by_marginal(aname: str, grid: List[float], k_anchor: int,
-                                  prices_df: pd.DataFrame,
-                                  best_aux_unit_cost: float,
-                                  tol: float = 0.01) -> List[float]:
-    """
-    若 anchor 在区间 [f_i, f_{i+1}] 的“单位容量回收成本” ΔC / (k_anchor * Δf) 
-    > best_aux_unit_cost*(1+tol)，则剪掉该细化（把右端点保留用于上界）。
-    """
-    if len(grid) <= 2: return grid
-    costs = [price_from_float(aname, f, prices_df) for f in grid]
-    keep = [grid[0]]
-    for i in range(len(grid)-1):
-        f1, f2 = grid[i], grid[i+1]
-        c1, c2 = costs[i], costs[i+1]
-        if c1 is None or c2 is None or f2 <= f1: 
-            keep.append(f2); continue
-        # 降低主料磨损（f1→f2，若 f2<f1 则改用相邻对），这里我们假设 grid 递增
-        delta_f = f2 - f1
-        # anchor 降低浮漂会变贵（c2 >= c1）；单位容量回收成本：
-        marginal = max(0.0, (c2 - c1)) / max(k_anchor*delta_f, 1e-9)
-        if marginal <= best_aux_unit_cost*(1.0 + tol):
-            keep.append(f2)       # 值得保留
-        else:
-            # 这段对比“买更好辅料”的性价比太差，剪枝
-            pass
-    # 至少保留两端
-    keep = sorted(set(keep))
-    if keep[-1] != grid[-1]:
-        keep.append(grid[-1])
-    return keep
+# =========================================
+# 为"每个目标物品"生成"最优主料清单"（按箱/系列分组）
+# =========================================
+def build_best_lower_map_for_targets(
+    df_all: pd.DataFrame, prices_df: pd.DataFrame, meta_df: pd.DataFrame,
+    target_tier: str, target_exterior: str = "FN"
+) -> pd.DataFrame:
+    """生成所有目标物品的最佳主料推荐表"""
+    rows = []
+    targets = df_all[df_all["tier"] == target_tier].copy()
+    
+    for _, t in targets.iterrows():
+        tgt_name = str(t["name"])
+        tgt_series = str(t["series"])
+        tgt_tier = str(t["tier"])
+        
+        best = find_best_anchor_for_target(
+            target_name=tgt_name,
+            target_series=tgt_series,
+            target_tier=tgt_tier,
+            target_exterior=target_exterior,
+            df_all=df_all,
+            prices_df=prices_df,
+            meta_df=meta_df
+        )
+        
+        if best:
+            rows.append({
+                "target_name": tgt_name,
+                "target_series": tgt_series,
+                "target_tier": tgt_tier,
+                "target_exterior": target_exterior,
+                "best_anchor_name": best["anchor_name"],
+                "best_anchor_price": best["anchor_price"],
+                "best_anchor_float": best["anchor_float"],
+                "source_tier": best["source_tier"]
+            })
+    
+    return pd.DataFrame(rows)
 
 # 主流程
 def main():
@@ -1498,34 +941,15 @@ def _theta_for_item_and_ex(name: str, target_exterior: str, meta_df: Optional[pd
     theta = (thr - fmin_out) / max(1e-9, (fmax_out - fmin_out))
     return float(np.clip(theta, 0.0, 1.0))
 
-def _estimate_price_at_allow(name: str, f_allow: float, prices_df: Optional[pd.DataFrame],
-                             local_price_map: Dict[str, float]) -> Optional[float]:
+def _estimate_price_at_allow(name: str, f_allow: float, prices_df: Optional[pd.DataFrame]) -> Optional[float]:
     """
     估算在 f_allow 处的最低可成交价：优先价格–磨损曲线；失败则“本地均价×智能溢价”兜底。
     """
     p = price_from_float(name, float(f_allow), prices_df)  # 可单调、贴近更好外观的曲线估价
     if p is not None:
         return float(p)
-    base = local_price_map.get(str(name).strip().casefold())
-    if base is None:
-        return None
-    markup = _smart_markup_for_f_allow(float(f_allow), prices_df, name)
-    return float(base) * float(markup)
+    return None
 
-def _build_local_price_map(df_any: pd.DataFrame, prices_df: Optional[pd.DataFrame]) -> Dict[str, float]:
-    """
-    为兜底准备一个 name->中位价 的本地映射：优先外观价表；否则主表 price。
-    """
-    mp = {}
-    if prices_df is not None and len(prices_df) > 0:
-        tmp = prices_df.groupby("name")["price"].median().reset_index()
-        for _, r in tmp.iterrows():
-            mp[str(r["name"]).strip().casefold()] = float(r["price"])
-    else:
-        tmp = df_any.groupby("name")["price"].median().reset_index()
-        for _, r in tmp.iterrows():
-            mp[str(r["name"]).strip().casefold()] = float(r["price"])
-    return mp
 
 def emit_fixed_reports_for_dataset(
     df_work: pd.DataFrame,        # 已规范化 & 含 value_per_item/margin/profit_ratio 的数据表
@@ -1543,7 +967,6 @@ def emit_fixed_reports_for_dataset(
       5) 炼金期望 负收益 TOP100 - 按 ROI 排序（含绝对利润）
     """
     out_dir.mkdir(parents=True, exist_ok=True)
-    local_price_map = _build_local_price_map(df_work, prices_df)
 
     # ---------- (1) 每箱/每物品/各外观 的最优下级 ----------
     lines = []
@@ -1589,7 +1012,7 @@ def emit_fixed_reports_for_dataset(
                 in_name = str(r["name"])
                 fmin_in, fmax_in = _get_fminmax(meta_df, in_name)
                 f_allow = np.clip(fmin_in + theta * (fmax_in - fmin_in), fmin_in, fmax_in)
-                est = _estimate_price_at_allow(in_name, f_allow, prices_df, local_price_map)
+                est = _estimate_price_at_allow(in_name, f_allow, prices_df)
                 if est is None:
                     continue
                 cand = (float(est), in_name, float(f_allow))
